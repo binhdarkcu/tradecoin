@@ -2,10 +2,23 @@
 var SiteMain = (function() {
 	function init(){
 		//createRadio();
+		createSlickSlider()
 	}
 
 	function createRadio(){
 		$('input.iCheckRadio').iCheck();
+	}
+
+	function createSlickSlider(){
+		$('.slickSlider').slick({
+		  dots: true,
+		  infinite: true,
+		  fade: true,
+		  speed: 300,
+		  slidesToShow: 1,
+		  adaptiveHeight: true,
+		  arrows: false
+		});
 	}
 
 	function openPopup(idDiv){

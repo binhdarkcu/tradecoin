@@ -1,0 +1,114 @@
+.homeSlider {
+
+    .slick-slide {
+        width: 100%; // or maybe 100vw
+          height: 100vh; // make sure whole of window is covered
+          background-position: 50% 50%; // center the image
+          background-size: cover; // cover, not contain!
+          &:focus{
+              outline: none;
+          }
+        img {
+            max-width: 100%;
+            max-height: 100%;
+            display: block;
+            position: relative;
+            top: 50%;
+            transform: translateY(-50%);
+            margin: 0 auto;
+        }
+        .slide-box {
+            position: absolute;
+            width: 100%;
+            text-align: center;
+            top: 40vh;
+            font-size: 44px;
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 400;
+            color: #fff;
+        }
+    }
+    .slick-dots{
+        position: absolute;
+        bottom: 77px;
+        width: 100%;
+        text-align: center;
+        li {
+            margin: 0 10px;
+            display: inline-block;
+            &.slick-active {
+                button {
+                    background: #bc8621;
+                }
+            }
+            button {
+                background: #fff;
+                border-radius: 50%;
+                width: 12px;
+                padding: 0;
+                text-indent: -99999px;
+                height: 12px;
+                outline: none;
+                border: none;
+            }
+        }
+    }
+}
+
+.btn {
+    float: left;
+    color: #171920;
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    background: url(../images/bg-button.png) no-repeat;
+    background-size: cover;
+    width: 140px;
+    height: 38px;
+    line-height: 38px;
+    text-align: center;
+}
+
+header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+    a.logo {
+        background: url(../images/logo.png) no-repeat;
+        width: 228px;
+        height: 60px;
+        display: inline-block;
+        margin-top: 24px;
+    }
+    nav {
+        float: right;
+        margin-top: 25px;
+        ul {
+            li {
+                float: left;
+                margin: 0 13px;
+                a.news {
+                    font-size: 18px;
+                    font-family: 'Montserrat', sans-serif;
+                    font-weight: 400;
+                    color: #fff;
+                    position: relative;
+                    top: 10px;
+                    margin-right: 4px;
+                }
+            }
+        }
+    }
+    a.language{
+        float: right;
+        width: 26px;
+        height: 26px;
+        margin-top: 31px;
+        margin-left: 12px;
+        &.en {
+            background: url(../images/icon-english.png) no-repeat;
+        }
+    }
+}

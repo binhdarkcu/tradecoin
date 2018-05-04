@@ -14,7 +14,23 @@ a{text-decoration: none;}
 .content940{width:940px;}
 
 .wrapper{
-  width: 640px;
+  width: 100%;
   margin: 0 auto;
   position: relative;
+}
+.container {
+	width: 1200px;
+	margin: 0 auto;
+}
+
+.homeTask {
+	background: url(../images/bg-1.png) no-repeat;
+	background-size: cover;
+	min-height: 635px;
+	width: 100%;
+	position: relative;
+	margin-top: -125px;
+	.navigation {
+		padding-top: 125px;
+	}
 }
