@@ -5,6 +5,7 @@ var SiteMain = (function() {
 		createSlickSlider()
 		createRatingDefault('.rating', '#rating-', '#7fcd45')
 		createRatingDefault('.rating', '#present-rating-', '#07a72d')
+		createParterSlider()
 	}
 
 	function createRadio(){
@@ -18,6 +19,16 @@ var SiteMain = (function() {
 				rgbOn:colorDefault
 			});
 		})
+	}
+	function createParterSlider(){
+		$('.partnerSlider').slick({
+		  dots: false,
+		  infinite: true,
+		  speed: 300,
+		  slidesToShow: 4,
+		  slidesToScroll: 4,
+		  arrows: true
+		});
 	}
 	function createSlickSlider(){
 		$('.slickSlider').slick({

@@ -11,7 +11,7 @@
         margin-top: 40px;
     }
     .tradeTable {
-        padding-top: 27px;
+        padding-top: 22px;
         .col {
             float: left;
             &.col1 {
@@ -184,6 +184,9 @@
             a.btn {
                 font-size: 16px;
                 font-weight: 700;
+                &:hover {
+                    opacity: 0.7;
+                }
             }
         }
         .presentBox {
@@ -229,5 +232,369 @@
             }
         }
 
+    }
+}
+
+.memberBox{
+    margin-top: 124px;
+    padding-bottom: 147px;
+    &:after {
+
+    }
+    .memberCol {
+        width: 50%;
+        float: left;
+
+        h3 {
+            font-size: 36px;
+            margin-bottom: 48px;
+        }
+    }
+    .newMember{
+        width: 47%;
+        margin-left: 3%;
+        .memRow {
+            border-bottom: 1px solid #d1d1d1;
+            padding-bottom: 10px;
+            margin-bottom: 10px;
+            .avatar {
+                width: 193px;
+                margin-right: 0;
+                padding-left: 28px;
+                img {
+                    width: 36px;
+                    float: left;
+                    margin-right: 15px;
+                }
+                span {
+                    display: inline-block;
+                    margin-top: 10px;
+                }
+            }
+            .memberType {
+                float: left;
+                span {
+                    background-size: 25px;
+                    margin-top: 2px;
+                    display: inline-block;
+                    padding-left: 38px;
+                    padding-top: 5px;
+                    padding-bottom: 5px;
+                    &.free {
+        				background:url(../images/member-free.png) no-repeat left center;
+        			}
+        			&.normal {
+        				background:url(../images/member-normal.png) no-repeat left center;
+        			}
+        			&.vip {
+        				background:url(../images/member-vip.png) no-repeat left center;
+        			}
+                }
+            }
+            .date {
+                float: right;
+                margin-top: 5px;
+            }
+        }
+    }
+    .topMod {
+        .topModWidth {
+            width: 562px;
+            margin-left: 0;
+        }
+
+    }
+    .memRow {
+        float: left;
+        width: 100%;
+        margin-bottom: 28px;
+        .middle {
+            display: table-cell;
+            vertical-align: middle;
+            height: 98px;
+        }
+        .avatar{
+            float: left;
+            width: 94px;
+            margin-right: 29px;
+        }
+        .info {
+            float: left;
+            width: 145px;
+            .name {
+                font-size: 18px;
+                padding-bottom: 7px;
+            }
+        }
+        .medal {
+            float: left;
+            width: 58px;
+        }
+        .amount {
+            float: left;
+            .middle {
+                width: 152px;
+                text-align: right;
+            }
+
+            b {
+                font-weight: 700;
+                display: block;
+            }
+        }
+        .point {
+            float: right;
+            font-size: 18px;
+            font-weight: 700;
+            span{
+                background: #7fcd45;
+                color: #fff;
+                border-radius: 4px;
+                padding: 10px 13px;
+            }
+        }
+    }
+}
+.gradientText {
+    text-align: center;
+    background: linear-gradient(330deg, #b47a1a 0%, #ffe55a 30%, #ffec88 52%, #ffe55a 66%, #b47a1a 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 36px;
+    margin-bottom: 110px;
+}
+.roadMap {
+    background: url(../images/bg-doitac.png) no-repeat bottom center;
+    background-size: cover;
+    min-height: 1950px;
+    margin-top: -12%;
+    padding-top: 12%;
+    color: #fff;
+    h3 {
+        padding-top: 100px;
+        text-align: center;
+        background: linear-gradient(330deg, #b47a1a 0%, #ffe55a 30%, #ffec88 52%, #ffe55a 66%, #b47a1a 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-size: 36px;
+        margin-bottom: 110px;
+    }
+    .roadBox {
+        position: relative;
+        padding-top: 122px;
+        .lineProcess {
+            width: 100%;
+            height: 7px;
+            background: url(../images/lineGradient.png) no-repeat;
+        }
+        .road {
+            float: left;
+            position: relative;
+            width: 240px;
+            img {
+                float: left;
+                margin-right: 18px;
+            }
+            .roadInfo{
+                float: left;
+                width: 173px;
+                b {
+                    font-size: 18px;
+                    font-weight: 600;
+                    font-style: italic;
+                }
+            }
+            .arr {
+                background: url(../images/arrow-white.png) no-repeat;
+                width: 18px;
+                height: 18px;
+                position: absolute;
+            }
+            &.r01{
+                padding-top: 27px;
+
+                .arr {
+                    top: -13px;
+                }
+                .roadInfo {
+                    width: 155px;
+                }
+            }
+            &.r02{
+                margin-top: -111px;
+                margin-left: -80px;
+                width: 287px;
+                .roadInfo {
+                    width: 200px;
+                }
+                .arr {
+                    bottom: -47px;
+                    left: 53px;
+                }
+            }
+            &.r03{
+                padding-top: 27px;
+                margin-left: 97px;
+                .roadInfo{
+                    width: 168px;
+                }
+                .arr {
+                    top: -13px;
+                    left: 75px;
+                }
+            }
+            &.r04{
+                margin-top: -111px;
+                margin-left: -60px;
+                .roadInfo{
+                    width: 168px;
+                }
+                .arr {
+                    bottom: -47px;
+                    left: 75px;
+                }
+            }
+            &.r05{
+                padding-top: 27px;
+                margin-left: 130px;
+                .roadInfo{
+                    width: 168px;
+                }
+                .arr {
+                    top: -13px;
+                    left: 75px;
+                }
+            }
+            &.r06{
+                margin-top: -111px;
+                margin-left: -10px;
+                .arr {
+                    bottom: -47px;
+                    left: 65px;
+                }
+            }
+        }
+    }
+}
+
+.teamMembers {
+    .gradientText {
+        margin-bottom: 60px;
+    }
+    .col {
+        float: left;
+        text-align: center;
+        width: 25%;
+        margin-bottom: 25px;
+        .bgAvatar {
+            background: url(../images/bg-teammember.png) no-repeat 12px center;
+            min-height: 276px;
+            .avatar {
+                margin-top: 70px;
+                display: inline-block;
+            }
+        }
+        .memberName {
+            font-size: 18px;
+            text-transform: uppercase;
+        }
+    }
+}
+.partnerSlider  {
+    width: 1024px;
+    margin: 0 auto;
+    .slick-arrow {
+        position: absolute;
+        top: 25px;
+        &.slick-prev {
+            background: url(../images/partner-arrow-left.png) no-repeat;
+            border: none;
+            text-indent: -99999px;
+            left: -50px;
+        }
+        &.slick-next {
+            right: 0;
+            background: url(../images/partner-arrow-right.png) no-repeat;
+            border: none;
+            text-indent: -99999px;
+            right: -50px;
+        }
+    }
+
+}
+
+.newsList {
+    padding-bottom: 150px;
+    h3 {
+        color: #212121;
+        font-size: 36px;
+        text-align: center;
+        padding-top: 45px;
+        padding-bottom: 75px;
+    }
+    .publicActions{
+        padding-top: 95px;
+    }
+    a.btn {
+        display: table;
+        margin: 0 auto;
+            float: none;
+    }
+    .threeBlock {
+        margin-bottom: 35px;
+        .blockCol {
+            float: left;
+            width: 26%;
+            padding: 18px;
+            -webkit-box-shadow: 0px 0px 5px 0px rgba(0, 1, 1, 0.2);
+            -moz-box-shadow: 0px 0px 5px 0px rgba(0, 1, 1, 0.2);
+            box-shadow: 0px 0px 5px 0px rgba(0, 1, 1, 0.2);
+            border-radius: 8px;
+            &.col2 {
+                margin: 0 6.5%;
+            }
+            .desc {
+                padding-top: 20px;
+                p {
+                    color: #212121;
+                    font-size: 14px;
+                    padding-bottom: 20px;
+                    &:last-child {
+                        padding-bottom: 0;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.commingSoon {
+    background: url(../images/bg-commingsoon.png) no-repeat ;
+    background-size: cover;
+    min-height: 761px;
+    margin-top: -10%;
+    position: relative;
+    z-index: 1;
+    .commingBox {
+        padding-top: 17%;
+        margin: 0 auto;
+        width: auto;
+        display: table;
+    }
+    .googlePlay {
+        display: table;
+        margin: 30px auto 0;
+        a {
+            background: url(../images/googleplay.png) no-repeat left center;
+            width: 210px;
+            height: 62px;
+            float: left;
+            &.gp {
+
+            }
+            &.ap{
+                background-position: right 0;
+            }
+        }
     }
 }

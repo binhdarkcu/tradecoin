@@ -4,6 +4,9 @@ html, body{width:100%; min-width:640px; }
 body {
 	font: $fontArial12; color:#303030;
 	background: #fff;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+
 }
 a{text-decoration: none;}
 .clear{clear:both;}
@@ -143,8 +146,7 @@ a{text-decoration: none;}
 	color:#303030;
 	padding-bottom: 28px;
 }
-
-.advantage {
+.progressBg {
 	position: relative;
 	&:after {
 		background:url(../images/bg-quitrinh.png) no-repeat bottom center;
@@ -157,6 +159,9 @@ a{text-decoration: none;}
 		width: 100%;
 		z-index: -1;
 	}
+}
+.advantage {
+	position: relative;
 	.threeBlock {
 		margin-top: 77px;
 		&:after{
@@ -296,5 +301,8 @@ a{text-decoration: none;}
 		width: auto;
 		min-width: 242px;
 		line-height: 49px;
+		&:hover {
+			opacity: 0.7;
+		}
 	}
 }

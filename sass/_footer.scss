@@ -1,0 +1,69 @@
+footer{
+    background: url(../images/bg-footer.png) no-repeat bottom center #171920;
+    min-height: 875px;
+    margin-top: -10%;
+    padding-top: 10%;
+    .subscribeBox {
+        margin-top: 197px;
+        text-align: center;
+    }
+    .subscribeForm {
+        display: table;
+        width: auto;
+        margin: 49px auto 0;
+        input[type="text"] {
+            background: #292a30;
+            border: none;
+            outline: none;
+            height: 49px;
+            width: 470px;
+            padding-left: 38px;
+            border-radius: 22px;
+            float: left;
+            margin-right: 22px;
+            color: #fff;
+            font-size: 15px;
+            font-family: 'Open Sans', sans-serif;
+            font-weight: 400;
+        }
+        .btn {
+            font-family: 'Open Sans', sans-serif;
+            font-weight: 700;
+                height: 49px;
+        }
+    }
+    .social {
+        display: table;
+        width: auto;
+        margin: 70px auto 0;
+        text-align: center;
+        .socialBox {
+            margin-top: 45px;
+            a {
+                width: 57px;
+                height: 57px;
+                display: inline-block;
+                background: url(../images/fb.png) no-repeat;
+                margin: 0 25px;
+                &.tw {
+                    background: url(../images/tw.png) no-repeat;
+                }
+                &.fly {
+                    background: url(../images/fly.png) no-repeat;
+                }
+                &.cat {
+                    background: url(../images/cat.png) no-repeat;
+                }
+                &.message {
+                    background: url(../images/message.png) no-repeat;
+                }
+            }
+        }
+    }
+    .copyright {
+        color: #fff;
+        font-size: 16px;
+        text-align: center;
+        margin-top: 60px;
+    }
+}

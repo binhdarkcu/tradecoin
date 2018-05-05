@@ -14,7 +14,8 @@
 <meta name="viewport" content="width=640">
 
 <link rel="stylesheet" href="css/all.css">
-<link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,700" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" integrity="sha256-3dkvEK0WLHRJ7/Csr0BZjAWxERc5WH7bdeUya2aXxdU= sha512-+L4yy6FRcDGbXJ9mPG8MT/3UCDzwR9gPeyFNMCtInsol++5m3bk2bXWKdZjvybmohrAsn3Ua5x8gfLnbE1YkOg==" crossorigin="anonymous">
 <style>
   @font-face {
@@ -80,7 +81,7 @@
 			</div>
 		</div>
 		<!--LOI TICH THAM GIA-->
-		<div class="advantage">
+		<div class="advantage progressBg">
 			<div class="container">
 				<h3 class="commonTitle align-center">Lợi ích tham gia</h3>
 				<div class="shortDesc align-center">Dignissim augue, augue, habitasse dis velit magna habitasse magna ultrices tristique </div>
@@ -309,12 +310,446 @@
 						</div>
 						<a href="#" class="btn">ĐĂNG KÝ</a>
 					</div>
+                    <div class="clear"></div>
 				</div>
 			</div>
 		</div>
 		<!--Top mode-->
+        <div class="memberBox progressBg">
+            <div class="container">
+                <div class="memberCol topMod">
+                    <div class="topModWidth">
+                        <h3>Top Mod</h3>
+                        <div class="memRow">
+                            <div class="avatar">
+                                <img src="images/diengia.png"/>
+                            </div>
+                            <div class="info">
+                                <div class="middle">
+                                    <span class="name">Bib B</span>
+                                    <div class="numPost">25 bài viết</div>
+                                </div>
+                            </div>
+                            <div class="medal"><div class="middle"><img src="images/top1.png"/></div></div>
+                            <div class="amount">
+                                <div class="middle">
+                                    <b>Xuất sắc</b>
+                                    <span>147 đánh giá</span>
+                                </div>
+                            </div>
+                            <div class="point"><div class="middle"><span>4.5</span></div></div>
+                        </div>
+                        <div class="memRow">
+                            <div class="avatar">
+                                <img src="images/diengia.png"/>
+                            </div>
+                            <div class="info">
+                                <div class="middle">
+                                    <span class="name">Bib B</span>
+                                    <div class="numPost">25 bài viết</div>
+                                </div>
+                            </div>
+                            <div class="medal"><div class="middle"><img src="images/top1.png"/></div></div>
+                            <div class="amount">
+                                <div class="middle">
+                                    <b>Xuất sắc</b>
+                                    <span>147 đánh giá</span>
+                                </div>
+                            </div>
+                            <div class="point"><div class="middle"><span>4.5</span></div></div>
+                        </div>
+                        <div class="memRow">
+                            <div class="avatar">
+                                <img src="images/diengia.png"/>
+                            </div>
+                            <div class="info">
+                                <div class="middle">
+                                    <span class="name">Bib B</span>
+                                    <div class="numPost">25 bài viết</div>
+                                </div>
+                            </div>
+                            <div class="medal"><div class="middle"><img src="images/top1.png"/></div></div>
+                            <div class="amount">
+                                <div class="middle">
+                                    <b>Xuất sắc</b>
+                                    <span>147 đánh giá</span>
+                                </div>
+                            </div>
+                            <div class="point"><div class="middle"><span>4.5</span></div></div>
+                        </div>
+                        <div class="memRow">
+                            <div class="avatar">
+                                <img src="images/diengia.png"/>
+                            </div>
+                            <div class="info">
+                                <div class="middle">
+                                    <span class="name">Bib B</span>
+                                    <div class="numPost">25 bài viết</div>
+                                </div>
+                            </div>
+                            <div class="medal"><div class="middle"><img src="images/top1.png"/></div></div>
+                            <div class="amount">
+                                <div class="middle">
+                                    <b>Xuất sắc</b>
+                                    <span>147 đánh giá</span>
+                                </div>
+                            </div>
+                            <div class="point"><div class="middle"><span>4.5</span></div></div>
+                        </div>
+                    </div>
+                    <div class="clear"></div>
+                </div>
+                <div class="memberCol newMember">
+                    <h3>Thành viên mới</h3>
+                    <div class="memRow">
+                        <div class="avatar">
+                            <img src="images/diengia.png"/>
+                            <span class="name">Bib B</span>
+                        </div>
+                        <div class="memberType"><span class="free">Free member</span></div>
+                        <div class="date">14.04.2018</div>
+                    </div>
+                    <div class="memRow">
+                        <div class="avatar">
+                            <img src="images/diengia.png"/>
+                            <span class="name">Bib B</span>
+                        </div>
+                        <div class="memberType"><span class="normal">Normal</span></div>
+                        <div class="date">14.04.2018</div>
+                    </div>
+                    <div class="memRow">
+                        <div class="avatar">
+                            <img src="images/diengia.png"/>
+                            <span class="name">Bib B</span>
+                        </div>
+                        <div class="memberType"><span class="vip">VIP</span></div>
+                        <div class="date">14.04.2018</div>
+                    </div>
+                    <div class="memRow">
+                        <div class="avatar">
+                            <img src="images/diengia.png"/>
+                            <span class="name">Bib B</span>
+                        </div>
+                        <div class="memberType"><span class="free">Free member</span></div>
+                        <div class="date">14.04.2018</div>
+                    </div>
+                    <div class="memRow">
+                        <div class="avatar">
+                            <img src="images/diengia.png"/>
+                            <span class="name">Bib B</span>
+                        </div>
+                        <div class="memberType"><span class="free">Free member</span></div>
+                        <div class="date">14.04.2018</div>
+                    </div>
+                    <div class="memRow">
+                        <div class="avatar">
+                            <img src="images/diengia.png"/>
+                            <span class="name">Bib B</span>
+                        </div>
+                        <div class="memberType"><span class="free">Free member</span></div>
+                        <div class="date">14.04.2018</div>
+                    </div>
+                    <div class="memRow">
+                        <div class="avatar">
+                            <img src="images/diengia.png"/>
+                            <span class="name">Bib B</span>
+                        </div>
+                        <div class="memberType"><span class="free">Free member</span></div>
+                        <div class="date">14.04.2018</div>
+                    </div>
+                    <div class="memRow">
+                        <div class="avatar">
+                            <img src="images/diengia.png"/>
+                            <span class="name">Bib B</span>
+                        </div>
+                        <div class="memberType"><span class="free">Free member</span></div>
+                        <div class="date">14.04.2018</div>
+                    </div>
+                    <div class="clear"></div>
+                </div>
+                <div class="clear"></div>
+            </div>
+        </div>
+        <div class="roadMap">
+            <div class="container">
+                <h3 class="gradientText">Roadmap</h3>
+                <div class="roadBox">
+                    <div class="lineProcess"></div>
+                    <div class="road r01">
+                        <div class="arr"></div>
+                        <img src="images/roadmap-1.png"/>
+                        <div class="roadInfo">
+                            <b>Tháng 5/2018</b>
+                            <p>Ra mắt hệ thống Webite
+                            phiên bản Desktop
+                            hệ thống Tradecoinclub
+                            Version 1.0</p>
+                        </div>
+                    </div>
+                    <div class="road r02">
+                        <img src="images/roadmap-2.png"/>
+                        <div class="roadInfo">
+                            <b>Tháng 6/2018</b>
+                            <p>Ra mắt App Tradecoinclub
+                            Ra mắt VP tại Hà Nội,
+                            Đà Nẵng, Hồ Chí Minh.</p>
+                        </div>
+                        <div class="arr"></div>
+                    </div>
+                    <div class="road r03">
+                        <div class="arr"></div>
+                        <img src="images/roadmap-3.png"/>
+                        <div class="roadInfo">
+                            <b>Tháng 8/2018</b>
+                            <p>Ra mắt Cafe Crypto
+                            kết hợp thẻ Vip member
+                            tại Hà Nội</p>
+                        </div>
+                    </div>
+                    <div class="road r04">
+                        <img src="images/roadmap-3.png"/>
+                        <div class="roadInfo">
+                            <b>Tháng 9/2018</b>
+                            <p>Ra mắt Cafe Crypto
+                            kết hợp thẻ Vip member
+                            tại Đà Nẵng</p>
+                        </div>
+                        <div class="arr"></div>
+                    </div>
+                    <div class="road r05">
+                        <div class="arr"></div>
+                        <img src="images/roadmap-3.png"/>
+                        <div class="roadInfo">
+                            <b>Tháng 10/2018</b>
+                            <p>Ra mắt Cafe Crypto
+                            kết hợp thẻ Vip member
+                            tại HCM</p>
+                        </div>
+                    </div>
+                    <div class="road r06">
+                        <img src="images/roadmap-4.png"/>
+                        <div class="roadInfo">
+                            <b>Tháng 11/2018</b>
+                            <p>Nâng cấp hệ thống
+                            Version 2.0 chạy trên
+                            IOS, Android</p>
+                        </div>
+                        <div class="arr"></div>
+                    </div>
+                    <div class="clear"></div>
+                </div>
+            </div>
 
+            <!--TEAM MEMBER-->
+            <div class="teamMembers">
+                <div class="container">
+                    <h3 class="gradientText">Team Member</h3>
+                    <div class="memberLists">
+                        <div class="col">
+                            <div class="bgAvatar">
+                                <div class="avatar"><img src="images/team-member.png"/></div>
+                            </div>
+                            <div class="memberName">
+                                Sergei Chmel<br/>
+                                Mod
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="bgAvatar">
+                                <div class="avatar"><img src="images/team-member.png"/></div>
+                            </div>
+                            <div class="memberName">
+                                Sergei Chmel<br/>
+                                Mod
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="bgAvatar">
+                                <div class="avatar"><img src="images/team-member.png"/></div>
+                            </div>
+                            <div class="memberName">
+                                Sergei Chmel<br/>
+                                Mod
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="bgAvatar">
+                                <div class="avatar"><img src="images/team-member.png"/></div>
+                            </div>
+                            <div class="memberName">
+                                Sergei Chmel<br/>
+                                Mod
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="bgAvatar">
+                                <div class="avatar"><img src="images/team-member.png"/></div>
+                            </div>
+                            <div class="memberName">
+                                Sergei Chmel<br/>
+                                Mod
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="bgAvatar">
+                                <div class="avatar"><img src="images/team-member.png"/></div>
+                            </div>
+                            <div class="memberName">
+                                Sergei Chmel<br/>
+                                Mod
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="bgAvatar">
+                                <div class="avatar"><img src="images/team-member.png"/></div>
+                            </div>
+                            <div class="memberName">
+                                Sergei Chmel<br/>
+                                Mod
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="bgAvatar">
+                                <div class="avatar"><img src="images/team-member.png"/></div>
+                            </div>
+                            <div class="memberName">
+                                Sergei Chmel<br/>
+                                Mod
+                            </div>
+                        </div>
+                        <div class="clear"></div>
+                    </div>
+                </div>
+            </div>
+            <!--PARTNER-->
+            <div class="partners">
+                <div class="container">
+                    <h3 class="gradientText">Đối tác</h3>
+                    <div class="partnerSlider">
+                        <div class="slick-slide"><img src="images/slick-1.png"/></div>
+                        <div class="slick-slide"><img src="images/slick-2.png"/></div>
+                        <div class="slick-slide"><img src="images/slick-3.png"/></div>
+                        <div class="slick-slide"><img src="images/slick-4.png"/></div>
+                        <div class="slick-slide"><img src="images/slick-1.png"/></div>
+                        <div class="slick-slide"><img src="images/slick-2.png"/></div>
+                        <div class="slick-slide"><img src="images/slick-3.png"/></div>
+                        <div class="slick-slide"><img src="images/slick-4.png"/></div>
+                    </div>
+                </div>
+            </div>
+        </div>
 
+        <!--NEWS-->
+        <div class="newsList progressBg">
+            <div class="container">
+                <h3>Tin tức mới</h3>
+                <div class="threeBlock">
+					<div class="col1 blockCol">
+						<a href="#">
+                            <img src="images/new-1.jpg" />
+                            <div class="desc">
+                                <p>Dignissim augue, augue, habitasse dis velit magna habitasse magna ultrices tristique scelerisque, aliquet aliquet!</p>
+                                <p>Pellentesque hac augue proin etiam enim adipiscing magna est pulvinar eros, magnis augue nec scelerisque porta! </p>
+                            </div>
+                        </a>
+					</div>
+                    <div class="col2 blockCol">
+						<a href="#">
+                            <img src="images/new-1.jpg" />
+                            <div class="desc">
+                                <p>Dignissim augue, augue, habitasse dis velit magna habitasse magna ultrices tristique scelerisque, aliquet aliquet!</p>
+                                <p>Pellentesque hac augue proin etiam enim adipiscing magna est pulvinar eros, magnis augue nec scelerisque porta! </p>
+                            </div>
+                        </a>
+					</div>
+                    <div class="col3 blockCol">
+						<a href="#">
+                            <img src="images/new-1.jpg" />
+                            <div class="desc">
+                                <p>Dignissim augue, augue, habitasse dis velit magna habitasse magna ultrices tristique scelerisque, aliquet aliquet!</p>
+                                <p>Pellentesque hac augue proin etiam enim adipiscing magna est pulvinar eros, magnis augue nec scelerisque porta! </p>
+                            </div>
+                        </a>
+					</div>
+					<div class="clear"></div>
+				</div>
+                <a href="#" class="btn">Xem thêm</a>
+
+                <h3 class="publicActions">Hoạt động cộng đồng</h3>
+                <div class="threeBlock">
+					<div class="col1 blockCol">
+						<a href="#">
+                            <img src="images/new-1.jpg" />
+                            <div class="desc">
+                                <p>Dignissim augue, augue, habitasse dis velit magna habitasse magna ultrices tristique scelerisque, aliquet aliquet!</p>
+                                <p>Pellentesque hac augue proin etiam enim adipiscing magna est pulvinar eros, magnis augue nec scelerisque porta! </p>
+                            </div>
+                        </a>
+					</div>
+                    <div class="col2 blockCol">
+						<a href="#">
+                            <img src="images/new-1.jpg" />
+                            <div class="desc">
+                                <p>Dignissim augue, augue, habitasse dis velit magna habitasse magna ultrices tristique scelerisque, aliquet aliquet!</p>
+                                <p>Pellentesque hac augue proin etiam enim adipiscing magna est pulvinar eros, magnis augue nec scelerisque porta! </p>
+                            </div>
+                        </a>
+					</div>
+                    <div class="col3 blockCol">
+						<a href="#">
+                            <img src="images/new-1.jpg" />
+                            <div class="desc">
+                                <p>Dignissim augue, augue, habitasse dis velit magna habitasse magna ultrices tristique scelerisque, aliquet aliquet!</p>
+                                <p>Pellentesque hac augue proin etiam enim adipiscing magna est pulvinar eros, magnis augue nec scelerisque porta! </p>
+                            </div>
+                        </a>
+					</div>
+					<div class="clear"></div>
+				</div>
+                <a href="#" class="btn">Xem thêm</a>
+            </div>
+        </div>
+
+        <!--COMMING SOON-->
+        <div class="commingSoon">
+            <div class="container">
+                <div class="commingBox">
+                    <img src="images/commingsoon.png"/>
+                    <div class="googlePlay">
+                        <a href="#" class="gp"></a>
+                        <a href="#" class="ap"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--FOOTER-->
+        <footer>
+            <div class="container">
+                <div class="subscribeBox">
+                    <img src="images/subscribe-title.png"/>
+                    <div class="subscribeForm">
+                        <form action="" method="">
+                            <input type="text" value="" placeholder="Your Email"/>
+                            <input type="submit" value="Submit" class="btn"/>
+                        </form>
+                    </div>
+                </div>
+                <div class="social">
+                    <img src="images/joinus.png"/>
+                    <div class="socialBox">
+                        <a href="#" class="fb"></a>
+                        <a href="#" class="tw"></a>
+                        <a href="#" class="fly"></a>
+                        <a href="#" class="cat"></a>
+                        <a href="#" class="message"></a>
+                    </div>
+                </div>
+                <div class="copyright">
+                    Copyright © 2017 . All rights reserved. Power by FAR EAST COMMERCIAL TRANSACTIONS COMPANY LTD
+                </div>
+            </div>
+        </footer>
 	</div>
 </body>
 </html>

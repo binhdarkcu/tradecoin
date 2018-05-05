@@ -85,7 +85,9 @@ html, body {
 body {
   font: normal 14px/1.2 "Montserrat", sans-serif;
   color: #303030;
-  background: #fff; }
+  background: #fff;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
 
 a {
   text-decoration: none; }
@@ -211,9 +213,9 @@ a {
   color: #303030;
   padding-bottom: 28px; }
 
-.advantage {
+.progressBg {
   position: relative; }
-  .advantage:after {
+  .progressBg:after {
     background: url(../images/bg-quitrinh.png) no-repeat bottom center;
     position: absolute;
     left: 0;
@@ -223,6 +225,9 @@ a {
     background-size: cover;
     width: 100%;
     z-index: -1; }
+
+.advantage {
+  position: relative; }
   .advantage .threeBlock {
     margin-top: 77px; }
     .advantage .threeBlock:after {
@@ -317,6 +322,8 @@ a {
     width: auto;
     min-width: 242px;
     line-height: 49px; }
+    .registerButton a.btn:hover {
+      opacity: 0.7; }
 
 .tradeLists {
   background: url(../images/bg-danhsachkeo.png) no-repeat;
@@ -330,7 +337,7 @@ a {
     padding-top: 15px;
     margin-top: 40px; }
   .tradeLists .tradeTable {
-    padding-top: 27px; }
+    padding-top: 22px; }
     .tradeLists .tradeTable .col {
       float: left; }
       .tradeLists .tradeTable .col.col1 {
@@ -454,6 +461,8 @@ a {
     .tradeCoin .tradeCoinContent .rightTrade a.btn {
       font-size: 16px;
       font-weight: 700; }
+      .tradeCoin .tradeCoinContent .rightTrade a.btn:hover {
+        opacity: 0.7; }
   .tradeCoin .tradeCoinContent .presentBox {
     margin-top: 17px;
     padding-bottom: 8px; }
@@ -485,6 +494,281 @@ a {
       padding: 5px 0;
       padding-left: 32px;
       background: url(../images/icon-map.png) no-repeat left center; }
+
+.memberBox {
+  margin-top: 124px;
+  padding-bottom: 147px; }
+  .memberBox .memberCol {
+    width: 50%;
+    float: left; }
+    .memberBox .memberCol h3 {
+      font-size: 36px;
+      margin-bottom: 48px; }
+  .memberBox .newMember {
+    width: 47%;
+    margin-left: 3%; }
+    .memberBox .newMember .memRow {
+      border-bottom: 1px solid #d1d1d1;
+      padding-bottom: 10px;
+      margin-bottom: 10px; }
+      .memberBox .newMember .memRow .avatar {
+        width: 193px;
+        margin-right: 0;
+        padding-left: 28px; }
+        .memberBox .newMember .memRow .avatar img {
+          width: 36px;
+          float: left;
+          margin-right: 15px; }
+        .memberBox .newMember .memRow .avatar span {
+          display: inline-block;
+          margin-top: 10px; }
+      .memberBox .newMember .memRow .memberType {
+        float: left; }
+        .memberBox .newMember .memRow .memberType span {
+          background-size: 25px;
+          margin-top: 2px;
+          display: inline-block;
+          padding-left: 38px;
+          padding-top: 5px;
+          padding-bottom: 5px; }
+          .memberBox .newMember .memRow .memberType span.free {
+            background: url(../images/member-free.png) no-repeat left center; }
+          .memberBox .newMember .memRow .memberType span.normal {
+            background: url(../images/member-normal.png) no-repeat left center; }
+          .memberBox .newMember .memRow .memberType span.vip {
+            background: url(../images/member-vip.png) no-repeat left center; }
+      .memberBox .newMember .memRow .date {
+        float: right;
+        margin-top: 5px; }
+  .memberBox .topMod .topModWidth {
+    width: 562px;
+    margin-left: 0; }
+  .memberBox .memRow {
+    float: left;
+    width: 100%;
+    margin-bottom: 28px; }
+    .memberBox .memRow .middle {
+      display: table-cell;
+      vertical-align: middle;
+      height: 98px; }
+    .memberBox .memRow .avatar {
+      float: left;
+      width: 94px;
+      margin-right: 29px; }
+    .memberBox .memRow .info {
+      float: left;
+      width: 145px; }
+      .memberBox .memRow .info .name {
+        font-size: 18px;
+        padding-bottom: 7px; }
+    .memberBox .memRow .medal {
+      float: left;
+      width: 58px; }
+    .memberBox .memRow .amount {
+      float: left; }
+      .memberBox .memRow .amount .middle {
+        width: 152px;
+        text-align: right; }
+      .memberBox .memRow .amount b {
+        font-weight: 700;
+        display: block; }
+    .memberBox .memRow .point {
+      float: right;
+      font-size: 18px;
+      font-weight: 700; }
+      .memberBox .memRow .point span {
+        background: #7fcd45;
+        color: #fff;
+        border-radius: 4px;
+        padding: 10px 13px; }
+
+.gradientText {
+  text-align: center;
+  background: linear-gradient(330deg, #b47a1a 0%, #ffe55a 30%, #ffec88 52%, #ffe55a 66%, #b47a1a 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 36px;
+  margin-bottom: 110px; }
+
+.roadMap {
+  background: url(../images/bg-doitac.png) no-repeat bottom center;
+  background-size: cover;
+  min-height: 1950px;
+  margin-top: -12%;
+  padding-top: 12%;
+  color: #fff; }
+  .roadMap h3 {
+    padding-top: 100px;
+    text-align: center;
+    background: linear-gradient(330deg, #b47a1a 0%, #ffe55a 30%, #ffec88 52%, #ffe55a 66%, #b47a1a 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 36px;
+    margin-bottom: 110px; }
+  .roadMap .roadBox {
+    position: relative;
+    padding-top: 122px; }
+    .roadMap .roadBox .lineProcess {
+      width: 100%;
+      height: 7px;
+      background: url(../images/lineGradient.png) no-repeat; }
+    .roadMap .roadBox .road {
+      float: left;
+      position: relative;
+      width: 240px; }
+      .roadMap .roadBox .road img {
+        float: left;
+        margin-right: 18px; }
+      .roadMap .roadBox .road .roadInfo {
+        float: left;
+        width: 173px; }
+        .roadMap .roadBox .road .roadInfo b {
+          font-size: 18px;
+          font-weight: 600;
+          font-style: italic; }
+      .roadMap .roadBox .road .arr {
+        background: url(../images/arrow-white.png) no-repeat;
+        width: 18px;
+        height: 18px;
+        position: absolute; }
+      .roadMap .roadBox .road.r01 {
+        padding-top: 27px; }
+        .roadMap .roadBox .road.r01 .arr {
+          top: -13px; }
+        .roadMap .roadBox .road.r01 .roadInfo {
+          width: 155px; }
+      .roadMap .roadBox .road.r02 {
+        margin-top: -111px;
+        margin-left: -80px;
+        width: 287px; }
+        .roadMap .roadBox .road.r02 .roadInfo {
+          width: 200px; }
+        .roadMap .roadBox .road.r02 .arr {
+          bottom: -47px;
+          left: 53px; }
+      .roadMap .roadBox .road.r03 {
+        padding-top: 27px;
+        margin-left: 97px; }
+        .roadMap .roadBox .road.r03 .roadInfo {
+          width: 168px; }
+        .roadMap .roadBox .road.r03 .arr {
+          top: -13px;
+          left: 75px; }
+      .roadMap .roadBox .road.r04 {
+        margin-top: -111px;
+        margin-left: -60px; }
+        .roadMap .roadBox .road.r04 .roadInfo {
+          width: 168px; }
+        .roadMap .roadBox .road.r04 .arr {
+          bottom: -47px;
+          left: 75px; }
+      .roadMap .roadBox .road.r05 {
+        padding-top: 27px;
+        margin-left: 130px; }
+        .roadMap .roadBox .road.r05 .roadInfo {
+          width: 168px; }
+        .roadMap .roadBox .road.r05 .arr {
+          top: -13px;
+          left: 75px; }
+      .roadMap .roadBox .road.r06 {
+        margin-top: -111px;
+        margin-left: -10px; }
+        .roadMap .roadBox .road.r06 .arr {
+          bottom: -47px;
+          left: 65px; }
+
+.teamMembers .gradientText {
+  margin-bottom: 60px; }
+.teamMembers .col {
+  float: left;
+  text-align: center;
+  width: 25%;
+  margin-bottom: 25px; }
+  .teamMembers .col .bgAvatar {
+    background: url(../images/bg-teammember.png) no-repeat 12px center;
+    min-height: 276px; }
+    .teamMembers .col .bgAvatar .avatar {
+      margin-top: 70px;
+      display: inline-block; }
+  .teamMembers .col .memberName {
+    font-size: 18px;
+    text-transform: uppercase; }
+
+.partnerSlider {
+  width: 1024px;
+  margin: 0 auto; }
+  .partnerSlider .slick-arrow {
+    position: absolute;
+    top: 25px; }
+    .partnerSlider .slick-arrow.slick-prev {
+      background: url(../images/partner-arrow-left.png) no-repeat;
+      border: none;
+      text-indent: -99999px;
+      left: -50px; }
+    .partnerSlider .slick-arrow.slick-next {
+      right: 0;
+      background: url(../images/partner-arrow-right.png) no-repeat;
+      border: none;
+      text-indent: -99999px;
+      right: -50px; }
+
+.newsList {
+  padding-bottom: 150px; }
+  .newsList h3 {
+    color: #212121;
+    font-size: 36px;
+    text-align: center;
+    padding-top: 45px;
+    padding-bottom: 75px; }
+  .newsList .publicActions {
+    padding-top: 95px; }
+  .newsList a.btn {
+    display: table;
+    margin: 0 auto;
+    float: none; }
+  .newsList .threeBlock {
+    margin-bottom: 35px; }
+    .newsList .threeBlock .blockCol {
+      float: left;
+      width: 26%;
+      padding: 18px;
+      -webkit-box-shadow: 0px 0px 5px 0px rgba(0, 1, 1, 0.2);
+      -moz-box-shadow: 0px 0px 5px 0px rgba(0, 1, 1, 0.2);
+      box-shadow: 0px 0px 5px 0px rgba(0, 1, 1, 0.2);
+      border-radius: 8px; }
+      .newsList .threeBlock .blockCol.col2 {
+        margin: 0 6.5%; }
+      .newsList .threeBlock .blockCol .desc {
+        padding-top: 20px; }
+        .newsList .threeBlock .blockCol .desc p {
+          color: #212121;
+          font-size: 14px;
+          padding-bottom: 20px; }
+          .newsList .threeBlock .blockCol .desc p:last-child {
+            padding-bottom: 0; }
+
+.commingSoon {
+  background: url(../images/bg-commingsoon.png) no-repeat;
+  background-size: cover;
+  min-height: 761px;
+  margin-top: -10%;
+  position: relative;
+  z-index: 1; }
+  .commingSoon .commingBox {
+    padding-top: 17%;
+    margin: 0 auto;
+    width: auto;
+    display: table; }
+  .commingSoon .googlePlay {
+    display: table;
+    margin: 30px auto 0; }
+    .commingSoon .googlePlay a {
+      background: url(../images/googleplay.png) no-repeat left center;
+      width: 210px;
+      height: 62px;
+      float: left; }
+      .commingSoon .googlePlay a.ap {
+        background-position: right 0; }
 
 .homeSlider .slick-slide {
   width: 100%;
@@ -558,6 +842,11 @@ header {
         position: relative;
         top: 10px;
         margin-right: 4px; }
+        header nav ul li a.news:hover {
+          background: transparent;
+          color: #efcf75; }
+      header nav ul li a:hover {
+        background: #fff; }
   header a.language {
     float: right;
     width: 26px;
@@ -566,6 +855,63 @@ header {
     margin-left: 12px; }
     header a.language.en {
       background: url(../images/icon-english.png) no-repeat; }
+
+footer {
+  background: url(../images/bg-footer.png) no-repeat bottom center #171920;
+  min-height: 875px;
+  margin-top: -10%;
+  padding-top: 10%; }
+  footer .subscribeBox {
+    margin-top: 197px;
+    text-align: center; }
+  footer .subscribeForm {
+    display: table;
+    width: auto;
+    margin: 49px auto 0; }
+    footer .subscribeForm input[type="text"] {
+      background: #292a30;
+      border: none;
+      outline: none;
+      height: 49px;
+      width: 470px;
+      padding-left: 38px;
+      border-radius: 22px;
+      float: left;
+      margin-right: 22px;
+      color: #fff;
+      font-size: 15px;
+      font-family: 'Open Sans', sans-serif;
+      font-weight: 400; }
+    footer .subscribeForm .btn {
+      font-family: 'Open Sans', sans-serif;
+      font-weight: 700;
+      height: 49px; }
+  footer .social {
+    display: table;
+    width: auto;
+    margin: 70px auto 0;
+    text-align: center; }
+    footer .social .socialBox {
+      margin-top: 45px; }
+      footer .social .socialBox a {
+        width: 57px;
+        height: 57px;
+        display: inline-block;
+        background: url(../images/fb.png) no-repeat;
+        margin: 0 25px; }
+        footer .social .socialBox a.tw {
+          background: url(../images/tw.png) no-repeat; }
+        footer .social .socialBox a.fly {
+          background: url(../images/fly.png) no-repeat; }
+        footer .social .socialBox a.cat {
+          background: url(../images/cat.png) no-repeat; }
+        footer .social .socialBox a.message {
+          background: url(../images/message.png) no-repeat; }
+  footer .copyright {
+    color: #fff;
+    font-size: 16px;
+    text-align: center;
+    margin-top: 60px; }
 
 /* Slider */
 .slick-slider {

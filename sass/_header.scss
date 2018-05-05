@@ -85,7 +85,17 @@ header{
                     position: relative;
                     top: 10px;
                     margin-right: 4px;
+                    &:hover{
+                        background: transparent;
+                        color: #efcf75;
+                    }
                 }
+                a {
+                    &:hover {
+                        background: #fff;
+                    }
+                }
+
             }
         }
     }
