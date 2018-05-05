@@ -2,7 +2,7 @@
 /* ! PRIMARY STYLES */
 html, body{width:100%; min-width:640px; }
 body {
-	font: $fontArial12; color:#fff;
+	font: $fontArial12; color:#303030;
 	background: #fff;
 }
 a{text-decoration: none;}
@@ -22,7 +22,36 @@ a{text-decoration: none;}
 	width: 1200px;
 	margin: 0 auto;
 }
-
+.align-center{
+	text-align: center;
+}
+.btn {
+    float: left;
+    color: #171920;
+    font-size: 18px;
+    border-radius: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    //background: url(../images/bg-button.png) no-repeat;
+    background: rgba(180,121,26,1);
+    background: -moz-linear-gradient(left, rgba(180,121,26,1) 0%, rgba(255,230,90,1) 32%, rgba(255,235,136,1) 51%, rgba(255,235,133,1) 52%, rgba(255,230,90,1) 65%, rgba(180,121,26,1) 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(180,121,26,1)), color-stop(32%, rgba(255,230,90,1)), color-stop(51%, rgba(255,235,136,1)), color-stop(52%, rgba(255,235,133,1)), color-stop(65%, rgba(255,230,90,1)), color-stop(100%, rgba(180,121,26,1)));
+    background: -webkit-linear-gradient(left, rgba(180,121,26,1) 0%, rgba(255,230,90,1) 32%, rgba(255,235,136,1) 51%, rgba(255,235,133,1) 52%, rgba(255,230,90,1) 65%, rgba(180,121,26,1) 100%);
+    background: -o-linear-gradient(left, rgba(180,121,26,1) 0%, rgba(255,230,90,1) 32%, rgba(255,235,136,1) 51%, rgba(255,235,133,1) 52%, rgba(255,230,90,1) 65%, rgba(180,121,26,1) 100%);
+    background: -ms-linear-gradient(left, rgba(180,121,26,1) 0%, rgba(255,230,90,1) 32%, rgba(255,235,136,1) 51%, rgba(255,235,133,1) 52%, rgba(255,230,90,1) 65%, rgba(180,121,26,1) 100%);
+    background: linear-gradient(to right, rgba(180,121,26,1) 0%, rgba(255,230,90,1) 32%, rgba(255,235,136,1) 51%, rgba(255,235,133,1) 52%, rgba(255,230,90,1) 65%, rgba(180,121,26,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b4791a', endColorstr='#b4791a', GradientType=1 );
+    background-size: cover;
+    width: 140px;
+    height: 38px;
+    line-height: 38px;
+    text-align: center;
+	-webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    transition: all 0.3s;
+}
 .homeTask {
 	background: url(../images/bg-1.png) no-repeat;
 	background-size: cover;
@@ -31,6 +60,241 @@ a{text-decoration: none;}
 	position: relative;
 	margin-top: -125px;
 	.navigation {
-		padding-top: 125px;
+		padding-top: 163px;
+		.btn {
+			background: #fff;
+			margin-right: 16px;
+			font-size: 16px;
+			height: 45px;
+			line-height: 47px;
+			min-width: 224px;
+			span {
+				width: 29px;
+				height: 31px;
+				padding-left: 45px;
+				padding-top: 5px;
+				padding-bottom: 5px;
+			}
+			&:hover{
+				background: rgba(180,121,26,1);
+			    background: -moz-linear-gradient(left, rgba(180,121,26,1) 0%, rgba(255,230,90,1) 32%, rgba(255,235,136,1) 51%, rgba(255,235,133,1) 52%, rgba(255,230,90,1) 65%, rgba(180,121,26,1) 100%);
+			    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(180,121,26,1)), color-stop(32%, rgba(255,230,90,1)), color-stop(51%, rgba(255,235,136,1)), color-stop(52%, rgba(255,235,133,1)), color-stop(65%, rgba(255,230,90,1)), color-stop(100%, rgba(180,121,26,1)));
+			    background: -webkit-linear-gradient(left, rgba(180,121,26,1) 0%, rgba(255,230,90,1) 32%, rgba(255,235,136,1) 51%, rgba(255,235,133,1) 52%, rgba(255,230,90,1) 65%, rgba(180,121,26,1) 100%);
+			    background: -o-linear-gradient(left, rgba(180,121,26,1) 0%, rgba(255,230,90,1) 32%, rgba(255,235,136,1) 51%, rgba(255,235,133,1) 52%, rgba(255,230,90,1) 65%, rgba(180,121,26,1) 100%);
+			    background: -ms-linear-gradient(left, rgba(180,121,26,1) 0%, rgba(255,230,90,1) 32%, rgba(255,235,136,1) 51%, rgba(255,235,133,1) 52%, rgba(255,230,90,1) 65%, rgba(180,121,26,1) 100%);
+			    background: linear-gradient(to right, rgba(180,121,26,1) 0%, rgba(255,230,90,1) 32%, rgba(255,235,136,1) 51%, rgba(255,235,133,1) 52%, rgba(255,230,90,1) 65%, rgba(180,121,26,1) 100%);
+			    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b4791a', endColorstr='#b4791a', GradientType=1 );
+			}
+			&.item1 {
+				span{
+					background: url(../images/icon-luotsong.png) no-repeat left center;
+				}
+			}
+			&.item2 {
+				span{
+					background: url(../images/icon-tradecoin.png) no-repeat left center;
+				}
+			}
+			&.item3 {
+				span{
+					background: url(../images/icon-holdcoin.png) no-repeat left center;
+				}
+			}
+			&.item4 {
+				span{
+					background: url(../images/icon-ico.png) no-repeat left center;
+				}
+			}
+			&.item5 {
+				span{
+					background: url(../images/icon-muacoin.png) no-repeat left center;
+				}
+			}
+		}
+		&:after{
+			content:"";
+			clear: both;
+		}
+	}
+	.taskContent {
+		font-size: 18px;
+		font-family: 'Montserrat', sans-serif;
+	    font-weight: 400;
+		color: #fff;
+		text-align: center;
+		width: 72%;
+		display: table;
+		padding-top: 60px;
+		margin: 0 auto;
+		p {
+			font-size: 18px;
+			font-family: 'Montserrat', sans-serif;
+		    font-weight: 400;
+			color: #fff;
+			padding-bottom: 25px;
+		}
+	}
+}
+
+.commonTitle {
+	font-size: 48px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 400;
+	color:#303030;
+	padding-bottom: 28px;
+}
+
+.advantage {
+	position: relative;
+	&:after {
+		background:url(../images/bg-quitrinh.png) no-repeat bottom center;
+		position: absolute;
+		left: 0;
+		bottom: 0;
+		content:"";
+		height: 552px;
+		background-size: cover;
+		width: 100%;
+		z-index: -1;
+	}
+	.threeBlock {
+		margin-top: 77px;
+		&:after{
+			content: "";
+			clear: both;
+		}
+		.blockheader {
+			border-bottom: 1px solid #d1d1d1;
+			padding-bottom: 15px;
+			margin-bottom: 3px;
+			h4 {
+				font-size: 18px;
+				font-family: 'Montserrat', sans-serif;
+				font-weight: 700;
+				text-transform: uppercase;
+				padding: 28px 0;
+				padding-left: 94px;
+			}
+			&.free {
+				h4 {
+					background:url(../images/thanhvien-1.png) no-repeat left center;
+				}
+			}
+			&.normal {
+				h4 {
+					background:url(../images/thanhvien-2.png) no-repeat left center;
+				}
+			}
+			&.vip {
+				h4 {
+					background:url(../images/thanhvien-3.png) no-repeat left center;
+				}
+			}
+		}
+		.options {
+			ul {
+				li {
+					background:url(../images/icon-check.png) no-repeat left top;
+					padding-left: 33px;
+					margin-top: 25px;
+					line-height: 1.4;
+				}
+			}
+		}
+		.blockCol{
+			float: left;
+			width: 26%;
+			padding: 18px;
+			min-height: 514px;
+			-webkit-box-shadow: 0px 0px 5px 0px rgba(0,1,1,0.2);
+			-moz-box-shadow: 0px 0px 5px 0px rgba(0,1,1,0.2);
+			box-shadow: 0px 0px 5px 0px rgba(0,1,1,0.2);
+			border-radius: 8px;
+			&.col1 {
+				background:url(../images/bg-thanhvien-1.png) no-repeat left bottom;
+			}
+			&.col2 {
+				margin: 0 6.5%;
+				background:url(../images/bg-thanhvien-2.png) no-repeat left bottom;
+			}
+			&.col3 {
+				background:url(../images/bg-thanhvien-3.png) no-repeat left bottom;
+			}
+		}
+	}
+}
+.clear{
+	clear: both;
+}
+.registerProcess {
+	margin-top: 125px;
+	.fiveBlock{
+		.blockCol {
+			text-align: center;
+			&:after {
+				content: "";
+				background: url(../images/icon-arrow.png) no-repeat;
+				width: 17px;
+				height: 32px;
+				float: left;
+				margin: 70px 30px;
+			}
+			.blockheader {
+				-webkit-box-shadow: 0px 0px 5px 0px rgba(0,1,1,0.2);
+				-moz-box-shadow: 0px 0px 5px 0px rgba(0,1,1,0.2);
+				box-shadow: 0px 0px 5px 0px rgba(0,1,1,0.2);
+				border-radius: 8px;
+				float:left;
+				width: 177px;
+				min-height: 177px;
+			}
+			h4 {
+				padding-top: 117px;
+				font-size: 18px;
+				margin-top: 23px;
+			}
+			&.col1 {
+				h4 {
+					background:url(../images/icon-dangky.png) no-repeat top center;
+				}
+			}
+			&.col2 {
+				h4 {
+					background:url(../images/icon-nhankeo.png) no-repeat top center;
+				}
+			}
+			&.col3 {
+				h4 {
+					background:url(../images/icon-daotao.png) no-repeat top center;
+				}
+			}
+			&.col4 {
+				h4 {
+					background:url(../images/icon-nhankeo.png) no-repeat top center;
+				}
+			}
+			&.col5 {
+				h4 {
+					background:url(../images/icon-giaoluu.png) no-repeat top center;
+					    padding-top: 100px;
+				}
+				&:after{
+					display: none;
+				}
+			}
+		}
+	}
+}
+
+.registerButton {
+	text-align: center;
+	margin: 88px auto 239px;
+	display: table;
+	a.btn {
+		font-size: 18px;
+		height: 49px;
+		width: auto;
+		min-width: 242px;
+		line-height: 49px;
 	}
 }

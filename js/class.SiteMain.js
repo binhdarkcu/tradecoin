@@ -3,12 +3,22 @@ var SiteMain = (function() {
 	function init(){
 		//createRadio();
 		createSlickSlider()
+		createRatingDefault('.rating', '#rating-', '#7fcd45')
+		createRatingDefault('.rating', '#present-rating-', '#07a72d')
 	}
 
 	function createRadio(){
 		$('input.iCheckRadio').iCheck();
 	}
 
+	function createRatingDefault(ratingCls, ratingId, colorDefault){
+		$(ratingCls).each(function(index){
+			var ratingIndex = index + 1
+			$.ratePicker(ratingId + ratingIndex, {
+				rgbOn:colorDefault
+			});
+		})
+	}
 	function createSlickSlider(){
 		$('.slickSlider').slick({
 		  dots: true,

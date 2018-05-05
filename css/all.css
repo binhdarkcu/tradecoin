@@ -83,8 +83,8 @@ html, body {
   min-width: 640px; }
 
 body {
-  font: normal 11px/1.2 Arial, Helvetica, sans-serif;
-  color: #fff;
+  font: normal 14px/1.2 "Montserrat", sans-serif;
+  color: #303030;
   background: #fff; }
 
 a {
@@ -114,6 +114,35 @@ a {
   width: 1200px;
   margin: 0 auto; }
 
+.align-center {
+  text-align: center; }
+
+.btn {
+  float: left;
+  color: #171920;
+  font-size: 18px;
+  border-radius: 20px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  background: #b4791a;
+  background: -moz-linear-gradient(left, #b4791a 0%, #ffe65a 32%, #ffeb88 51%, #ffeb85 52%, #ffe65a 65%, #b4791a 100%);
+  background: -webkit-gradient(left top, right top, color-stop(0%, #b4791a), color-stop(32%, #ffe65a), color-stop(51%, #ffeb88), color-stop(52%, #ffeb85), color-stop(65%, #ffe65a), color-stop(100%, #b4791a));
+  background: -webkit-linear-gradient(left, #b4791a 0%, #ffe65a 32%, #ffeb88 51%, #ffeb85 52%, #ffe65a 65%, #b4791a 100%);
+  background: -o-linear-gradient(left, #b4791a 0%, #ffe65a 32%, #ffeb88 51%, #ffeb85 52%, #ffe65a 65%, #b4791a 100%);
+  background: -ms-linear-gradient(left, #b4791a 0%, #ffe65a 32%, #ffeb88 51%, #ffeb85 52%, #ffe65a 65%, #b4791a 100%);
+  background: linear-gradient(to right, #b4791a 0%, #ffe65a 32%, #ffeb88 51%, #ffeb85 52%, #ffe65a 65%, #b4791a 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b4791a', endColorstr='#b4791a', GradientType=1 );
+  background-size: cover;
+  width: 140px;
+  height: 38px;
+  line-height: 38px;
+  text-align: center;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  -ms-transition: all 0.3s;
+  transition: all 0.3s; }
+
 .homeTask {
   background: url(../images/bg-1.png) no-repeat;
   background-size: cover;
@@ -122,13 +151,347 @@ a {
   position: relative;
   margin-top: -125px; }
   .homeTask .navigation {
-    padding-top: 125px; }
+    padding-top: 163px; }
+    .homeTask .navigation .btn {
+      background: #fff;
+      margin-right: 16px;
+      font-size: 16px;
+      height: 45px;
+      line-height: 47px;
+      min-width: 224px; }
+      .homeTask .navigation .btn span {
+        width: 29px;
+        height: 31px;
+        padding-left: 45px;
+        padding-top: 5px;
+        padding-bottom: 5px; }
+      .homeTask .navigation .btn:hover {
+        background: #b4791a;
+        background: -moz-linear-gradient(left, #b4791a 0%, #ffe65a 32%, #ffeb88 51%, #ffeb85 52%, #ffe65a 65%, #b4791a 100%);
+        background: -webkit-gradient(left top, right top, color-stop(0%, #b4791a), color-stop(32%, #ffe65a), color-stop(51%, #ffeb88), color-stop(52%, #ffeb85), color-stop(65%, #ffe65a), color-stop(100%, #b4791a));
+        background: -webkit-linear-gradient(left, #b4791a 0%, #ffe65a 32%, #ffeb88 51%, #ffeb85 52%, #ffe65a 65%, #b4791a 100%);
+        background: -o-linear-gradient(left, #b4791a 0%, #ffe65a 32%, #ffeb88 51%, #ffeb85 52%, #ffe65a 65%, #b4791a 100%);
+        background: -ms-linear-gradient(left, #b4791a 0%, #ffe65a 32%, #ffeb88 51%, #ffeb85 52%, #ffe65a 65%, #b4791a 100%);
+        background: linear-gradient(to right, #b4791a 0%, #ffe65a 32%, #ffeb88 51%, #ffeb85 52%, #ffe65a 65%, #b4791a 100%);
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b4791a', endColorstr='#b4791a', GradientType=1 ); }
+      .homeTask .navigation .btn.item1 span {
+        background: url(../images/icon-luotsong.png) no-repeat left center; }
+      .homeTask .navigation .btn.item2 span {
+        background: url(../images/icon-tradecoin.png) no-repeat left center; }
+      .homeTask .navigation .btn.item3 span {
+        background: url(../images/icon-holdcoin.png) no-repeat left center; }
+      .homeTask .navigation .btn.item4 span {
+        background: url(../images/icon-ico.png) no-repeat left center; }
+      .homeTask .navigation .btn.item5 span {
+        background: url(../images/icon-muacoin.png) no-repeat left center; }
+    .homeTask .navigation:after {
+      content: "";
+      clear: both; }
+  .homeTask .taskContent {
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    color: #fff;
+    text-align: center;
+    width: 72%;
+    display: table;
+    padding-top: 60px;
+    margin: 0 auto; }
+    .homeTask .taskContent p {
+      font-size: 18px;
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 400;
+      color: #fff;
+      padding-bottom: 25px; }
+
+.commonTitle {
+  font-size: 48px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  color: #303030;
+  padding-bottom: 28px; }
+
+.advantage {
+  position: relative; }
+  .advantage:after {
+    background: url(../images/bg-quitrinh.png) no-repeat bottom center;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    content: "";
+    height: 552px;
+    background-size: cover;
+    width: 100%;
+    z-index: -1; }
+  .advantage .threeBlock {
+    margin-top: 77px; }
+    .advantage .threeBlock:after {
+      content: "";
+      clear: both; }
+    .advantage .threeBlock .blockheader {
+      border-bottom: 1px solid #d1d1d1;
+      padding-bottom: 15px;
+      margin-bottom: 3px; }
+      .advantage .threeBlock .blockheader h4 {
+        font-size: 18px;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 700;
+        text-transform: uppercase;
+        padding: 28px 0;
+        padding-left: 94px; }
+      .advantage .threeBlock .blockheader.free h4 {
+        background: url(../images/thanhvien-1.png) no-repeat left center; }
+      .advantage .threeBlock .blockheader.normal h4 {
+        background: url(../images/thanhvien-2.png) no-repeat left center; }
+      .advantage .threeBlock .blockheader.vip h4 {
+        background: url(../images/thanhvien-3.png) no-repeat left center; }
+    .advantage .threeBlock .options ul li {
+      background: url(../images/icon-check.png) no-repeat left top;
+      padding-left: 33px;
+      margin-top: 25px;
+      line-height: 1.4; }
+    .advantage .threeBlock .blockCol {
+      float: left;
+      width: 26%;
+      padding: 18px;
+      min-height: 514px;
+      -webkit-box-shadow: 0px 0px 5px 0px rgba(0, 1, 1, 0.2);
+      -moz-box-shadow: 0px 0px 5px 0px rgba(0, 1, 1, 0.2);
+      box-shadow: 0px 0px 5px 0px rgba(0, 1, 1, 0.2);
+      border-radius: 8px; }
+      .advantage .threeBlock .blockCol.col1 {
+        background: url(../images/bg-thanhvien-1.png) no-repeat left bottom; }
+      .advantage .threeBlock .blockCol.col2 {
+        margin: 0 6.5%;
+        background: url(../images/bg-thanhvien-2.png) no-repeat left bottom; }
+      .advantage .threeBlock .blockCol.col3 {
+        background: url(../images/bg-thanhvien-3.png) no-repeat left bottom; }
+
+.clear {
+  clear: both; }
+
+.registerProcess {
+  margin-top: 125px; }
+  .registerProcess .fiveBlock .blockCol {
+    text-align: center; }
+    .registerProcess .fiveBlock .blockCol:after {
+      content: "";
+      background: url(../images/icon-arrow.png) no-repeat;
+      width: 17px;
+      height: 32px;
+      float: left;
+      margin: 70px 30px; }
+    .registerProcess .fiveBlock .blockCol .blockheader {
+      -webkit-box-shadow: 0px 0px 5px 0px rgba(0, 1, 1, 0.2);
+      -moz-box-shadow: 0px 0px 5px 0px rgba(0, 1, 1, 0.2);
+      box-shadow: 0px 0px 5px 0px rgba(0, 1, 1, 0.2);
+      border-radius: 8px;
+      float: left;
+      width: 177px;
+      min-height: 177px; }
+    .registerProcess .fiveBlock .blockCol h4 {
+      padding-top: 117px;
+      font-size: 18px;
+      margin-top: 23px; }
+    .registerProcess .fiveBlock .blockCol.col1 h4 {
+      background: url(../images/icon-dangky.png) no-repeat top center; }
+    .registerProcess .fiveBlock .blockCol.col2 h4 {
+      background: url(../images/icon-nhankeo.png) no-repeat top center; }
+    .registerProcess .fiveBlock .blockCol.col3 h4 {
+      background: url(../images/icon-daotao.png) no-repeat top center; }
+    .registerProcess .fiveBlock .blockCol.col4 h4 {
+      background: url(../images/icon-nhankeo.png) no-repeat top center; }
+    .registerProcess .fiveBlock .blockCol.col5 h4 {
+      background: url(../images/icon-giaoluu.png) no-repeat top center;
+      padding-top: 100px; }
+    .registerProcess .fiveBlock .blockCol.col5:after {
+      display: none; }
+
+.registerButton {
+  text-align: center;
+  margin: 88px auto 239px;
+  display: table; }
+  .registerButton a.btn {
+    font-size: 18px;
+    height: 49px;
+    width: auto;
+    min-width: 242px;
+    line-height: 49px; }
+
+.tradeLists {
+  background: url(../images/bg-danhsachkeo.png) no-repeat;
+  background-size: cover;
+  margin-top: -8%;
+  padding-top: 90px;
+  color: #fff;
+  min-height: 1000px; }
+  .tradeLists .commonTitle {
+    color: #fff;
+    padding-top: 15px;
+    margin-top: 40px; }
+  .tradeLists .tradeTable {
+    padding-top: 27px; }
+    .tradeLists .tradeTable .col {
+      float: left; }
+      .tradeLists .tradeTable .col.col1 {
+        width: 150px;
+        padding-left: 20px; }
+      .tradeLists .tradeTable .col.col2 {
+        width: 385px; }
+      .tradeLists .tradeTable .col.col3 {
+        width: 210px; }
+      .tradeLists .tradeTable .col.col4 {
+        width: 160px; }
+      .tradeLists .tradeTable .col.col5 {
+        width: 140px; }
+      .tradeLists .tradeTable .col.col6 {
+        width: 125px; }
+    .tradeLists .tradeTable .tradeTitle {
+      float: left;
+      width: 100%;
+      padding-bottom: 17px; }
+      .tradeLists .tradeTable .tradeTitle .col {
+        font-size: 18px;
+        font-weight: 700; }
+  .tradeLists .tradeContent .tradeRow {
+    border-top: 1px solid #d1d1d1;
+    float: left;
+    width: 100%;
+    padding-top: 17px;
+    padding-bottom: 17px; }
+    .tradeLists .tradeContent .tradeRow .col1 {
+      padding-top: 7px; }
+      .tradeLists .tradeContent .tradeRow .col1 span {
+        padding: 5px 0 5px 38px; }
+      .tradeLists .tradeContent .tradeRow .col1 span.active {
+        background: url(../images/icon-active.png) no-repeat left center; }
+      .tradeLists .tradeContent .tradeRow .col1 span.done {
+        background: url(../images/icon-check.png) no-repeat left center; }
+    .tradeLists .tradeContent .tradeRow .col2 {
+      padding-top: 7px; }
+    .tradeLists .tradeContent .tradeRow .col3, .tradeLists .tradeContent .tradeRow .col4 {
+      font-weight: 700; }
+    .tradeLists .tradeContent .tradeRow .col3 span {
+      padding-left: 10px;
+      width: 68px;
+      height: 25px;
+      line-height: 25px;
+      display: inline-block;
+      text-align: left;
+      border-radius: 4px;
+      margin-left: 0; }
+    .tradeLists .tradeContent .tradeRow .col3 .green {
+      text-align: center;
+      background: #12d112;
+      color: #fff; }
+    .tradeLists .tradeContent .tradeRow .col3 .red {
+      text-align: center;
+      background: #ff0000;
+      color: #fff; }
+    .tradeLists .tradeContent .tradeRow .col4 span {
+      font-weight: 700;
+      line-height: 25px; }
+      .tradeLists .tradeContent .tradeRow .col4 span.green {
+        color: #12d112;
+        background: url(../images/blue-arrow.png) no-repeat right center;
+        padding-right: 28px; }
+      .tradeLists .tradeContent .tradeRow .col4 span.red {
+        color: #ff0000;
+        background: url(../images/red-arrow.png) no-repeat right center;
+        padding-right: 28px; }
+    .tradeLists .tradeContent .tradeRow .col5 {
+      padding-top: 7px; }
+    .tradeLists .tradeContent .tradeRow .col6 {
+      font-size: 12px;
+      text-align: right; }
+      .tradeLists .tradeContent .tradeRow .col6 .fa-star {
+        font-size: 13px;
+        margin-left: 5px; }
+
+.rating {
+  margin-top: 3px; }
+  .rating.default {
+    pointer-events: none;
+    margin-right: -17px; }
+
+.tradeCoin {
+  position: relative;
+  padding-top: 76px; }
+  .tradeCoin .commonTitle {
+    font-size: 36px; }
+  .tradeCoin:before {
+    content: "";
+    position: absolute;
+    background: url(../images/bg-luoi.png) no-repeat top center;
+    background-size: cover;
+    top: -155px;
+    left: 0;
+    width: 100%;
+    height: 365px;
+    z-index: -1; }
+  .tradeCoin .tradeCoinContent .bigThumb {
+    width: 50%;
+    float: left; }
+  .tradeCoin .tradeCoinContent .rightTrade {
+    width: 47%;
+    float: left;
+    margin-left: 3%; }
+    .tradeCoin .tradeCoinContent .rightTrade h3 {
+      font-size: 24px;
+      font-weight: 700;
+      text-transform: uppercase;
+      padding-top: 8px; }
+    .tradeCoin .tradeCoinContent .rightTrade h4 {
+      font-size: 18px;
+      font-weight: 700;
+      padding-top: 20px; }
+    .tradeCoin .tradeCoinContent .rightTrade ul li {
+      background: url(../images/icon-black-check.png) no-repeat left top;
+      padding-left: 35px;
+      padding-top: 5px;
+      padding-bottom: 5px;
+      margin-top: 10px; }
+    .tradeCoin .tradeCoinContent .rightTrade a.btn {
+      font-size: 16px;
+      font-weight: 700; }
+  .tradeCoin .tradeCoinContent .presentBox {
+    margin-top: 17px;
+    padding-bottom: 8px; }
+    .tradeCoin .tradeCoinContent .presentBox .person {
+      float: left;
+      width: 40%; }
+      .tradeCoin .tradeCoinContent .presentBox .person .avatar {
+        float: left;
+        width: 94px; }
+      .tradeCoin .tradeCoinContent .presentBox .person .info {
+        float: left;
+        margin-left: 23px;
+        padding-top: 28px; }
+        .tradeCoin .tradeCoinContent .presentBox .person .info .name {
+          font-size: 18px; }
+        .tradeCoin .tradeCoinContent .presentBox .person .info .rating {
+          margin: 0; }
+          .tradeCoin .tradeCoinContent .presentBox .person .info .rating .fa-star.first {
+            display: none; }
+  .tradeCoin .tradeCoinContent .timeRange {
+    margin-bottom: 22px; }
+    .tradeCoin .tradeCoinContent .timeRange .time {
+      margin-top: 11px;
+      margin-bottom: 5px;
+      padding: 5px 0;
+      padding-left: 32px;
+      background: url(../images/icon-calendar.png) no-repeat left center; }
+    .tradeCoin .tradeCoinContent .timeRange .location {
+      padding: 5px 0;
+      padding-left: 32px;
+      background: url(../images/icon-map.png) no-repeat left center; }
 
 .homeSlider .slick-slide {
   width: 100%;
   height: 100vh;
   background-position: 50% 50%;
-  background-size: cover; }
+  background-size: cover;
+  min-height: 550px; }
   .homeSlider .slick-slide:focus {
     outline: none; }
   .homeSlider .slick-slide img {
@@ -150,9 +513,10 @@ a {
     color: #fff; }
 .homeSlider .slick-dots {
   position: absolute;
-  bottom: 77px;
+  bottom: 13vh;
   width: 100%;
-  text-align: center; }
+  text-align: center;
+  z-index: 10; }
   .homeSlider .slick-dots li {
     margin: 0 10px;
     display: inline-block; }
@@ -167,19 +531,6 @@ a {
       height: 12px;
       outline: none;
       border: none; }
-
-.btn {
-  float: left;
-  color: #171920;
-  font-size: 18px;
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 400;
-  background: url(../images/bg-button.png) no-repeat;
-  background-size: cover;
-  width: 140px;
-  height: 38px;
-  line-height: 38px;
-  text-align: center; }
 
 header {
   position: absolute;

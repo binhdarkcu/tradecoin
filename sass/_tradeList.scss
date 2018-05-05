@@ -1,0 +1,233 @@
+.tradeLists {
+    background: url(../images/bg-danhsachkeo.png) no-repeat;
+    background-size: cover;
+    margin-top: -8%;
+    padding-top: 90px;
+    color: #fff;
+    min-height: 1000px;
+    .commonTitle  {
+        color:#fff;
+        padding-top: 15px;
+        margin-top: 40px;
+    }
+    .tradeTable {
+        padding-top: 27px;
+        .col {
+            float: left;
+            &.col1 {
+                width: 150px;
+                padding-left: 20px;
+            }
+            &.col2 {
+                width: 385px;
+            }
+            &.col3 {
+                width: 210px;
+            }
+            &.col4 {
+                width: 160px;
+            }
+            &.col5 {
+                width: 140px;
+            }
+            &.col6 {
+                width: 125px;
+            }
+        }
+        .tradeTitle {
+            float: left;
+            width: 100%;
+            padding-bottom: 17px;
+            .col {
+                font-size: 18px;
+                font-weight: 700;
+            }
+        }
+    }
+    .tradeContent {
+        .tradeRow {
+            border-top: 1px solid #d1d1d1;
+            float: left;
+            width: 100%;
+            padding-top: 17px;
+            padding-bottom: 17px;
+            .col {
+
+            }
+            .col1 {
+                padding-top: 7px;
+                span {
+
+                    padding: 5px 0 5px 38px;
+                }
+                span.active {
+                    background: url(../images/icon-active.png) no-repeat left center;
+                }
+                span.done {
+                    background: url(../images/icon-check.png) no-repeat left center;
+                }
+            }
+            .col2 {
+                padding-top: 7px;
+            }
+            .col3, .col4 {
+                font-weight: 700;
+            }
+            .col3 {
+
+                span {
+                    padding-left: 10px;
+                    width: 68px;
+                    height: 25px;
+                    line-height: 25px;
+                    display: inline-block;
+                    text-align: left;
+                    border-radius: 4px;
+                    margin-left: 0;
+                }
+                .green {
+                    text-align: center;
+                    background: #12d112;
+                    color: #fff;
+                }
+                .red {
+                    text-align: center;
+                    background: #ff0000;
+                    color: #fff;
+                }
+            }
+            .col4 {
+                span {
+                    font-weight: 700;
+                    line-height: 25px;
+                    &.green {
+                        color: #12d112;
+                        background: url(../images/blue-arrow.png) no-repeat right center;
+                        padding-right: 28px;
+                    }
+                    &.red {
+                        color: #ff0000;
+                        background: url(../images/red-arrow.png) no-repeat right center;
+                        padding-right: 28px;
+                    }
+                }
+            }
+            .col5 {
+                padding-top: 7px;
+            }
+            .col6 {
+                font-size: 12px;
+                text-align: right;
+                .fa-star {
+                    font-size: 13px;
+                    margin-left: 5px;
+                }
+            }
+        }
+
+    }
+}
+.rating {
+    margin-top: 3px;
+    &.default {
+        pointer-events: none;
+            margin-right: -17px;
+    }
+}
+
+.tradeCoin {
+    position: relative;
+    padding-top: 76px;
+    .commonTitle {
+        font-size: 36px;
+    }
+    &:before {
+        content: "";
+        position: absolute;
+        background: url(../images/bg-luoi.png) no-repeat top center;
+        background-size: cover;
+        top: -155px;
+        left: 0;
+        width: 100%;
+        height: 365px;
+        z-index: -1;
+    }
+    .tradeCoinContent {
+        .bigThumb{
+            width: 50%;
+            float: left;
+        }
+        .rightTrade {
+            width: 47%;
+            float: left;
+            margin-left: 3%;
+            h3 {
+                font-size: 24px;
+                font-weight: 700;
+                text-transform: uppercase;
+                padding-top: 8px;
+            }
+            h4 {
+                font-size: 18px;
+                font-weight: 700;
+                padding-top: 20px;
+            }
+            ul {
+                li {
+                    background: url(../images/icon-black-check.png) no-repeat left top;
+                    padding-left: 35px;
+                    padding-top: 5px;
+                    padding-bottom: 5px;
+                    margin-top: 10px;
+                }
+            }
+            a.btn {
+                font-size: 16px;
+                font-weight: 700;
+            }
+        }
+        .presentBox {
+            margin-top: 17px;
+            padding-bottom: 8px;
+            .person{
+                float: left;
+                width: 40%;
+                .avatar{
+                    float: left;
+                    width: 94px;
+                }
+                .info {
+                    float: left;
+                    margin-left: 23px;
+                    padding-top: 28px;
+                    .name {
+                        font-size: 18px;
+                    }
+                    .rating {
+                        margin: 0;
+                        .fa-star.first{
+                            display: none;
+                        }
+                    }
+                }
+            }
+        }
+        .timeRange {
+            margin-bottom: 22px;
+            .time {
+                margin-top: 11px;
+                margin-bottom: 5px;
+                padding: 5px 0;
+                padding-left: 32px;
+                background: url(../images/icon-calendar.png) no-repeat left center;
+            }
+            .location {
+
+                padding: 5px 0;
+                padding-left: 32px;
+                background: url(../images/icon-map.png) no-repeat left center;
+            }
+        }
+
+    }
+}
