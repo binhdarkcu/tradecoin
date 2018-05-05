@@ -1,11 +1,12 @@
 
 /* ! PRIMARY STYLES */
-html, body{width:100%; min-width:640px; }
+html, body{width:100%; }
 body {
 	font: $fontArial12; color:#303030;
 	background: #fff;
-	-webkit-font-smoothing: antialiased;
-	-moz-osx-font-smoothing: grayscale;
+	font-smooth: always;
+  -webkit-font-smoothing: antialiased;
+  overflow-x: hidden;
 
 }
 a{text-decoration: none;}

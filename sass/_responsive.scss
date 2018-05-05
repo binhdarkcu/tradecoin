@@ -1,0 +1,239 @@
+@media (min-width: 992px) and (max-width: 1199px) {
+    .container {
+        width: 992px;
+    }
+    .homeTask {
+        .navigation {
+            .btn {
+                min-width: 180px;
+            }
+        }
+    }
+    .advantage {
+        .threeBlock {
+            .blockCol{
+                min-height: 538px;
+                width: 28%;
+                background-size: 100%!important;
+                &.col2 {
+                    margin: 0 1.5%;
+                }
+            }
+        }
+    }
+    .registerProcess {
+        .fiveBlock {
+            .blockCol {
+                &:after {
+                    margin: 70px 15px;
+                }
+                .blockheader {
+                    width: 160px;
+                }
+            }
+        }
+    }
+    .tradeLists {
+        margin-top: -19%;
+    }
+}
+
+
+@media (min-width: 0) and (max-width: 767px) {
+    .container {
+        width: auto;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .homeTask {
+        margin-top: -26%;
+        min-height: 1057px;
+        background-position: top center;
+        .navigation {
+            .btn {
+                margin-bottom: 2%;
+                width: 47%;
+                margin-left: 1%;
+                margin-right: 1%;
+            }
+        }
+    }
+    header {
+        nav{
+            float: none;
+            display: table;
+            margin: 15px auto 0;
+            ul {
+                li{
+                    margin: 0 8px;
+                }
+            }
+        }
+        .language  {
+
+        }
+    }
+    .memberBox {
+        .memberCol  {
+            width: 100%;
+            position: relative;
+            overflow-x: auto;
+            &.newMember {
+                margin-left: 0;
+                margin-top: 25px;
+            }
+        }
+    }
+    .advantage {
+        .threeBlock {
+            .blockCol {
+                width: 100%;
+                margin-bottom: 25px!important;
+                &.col2 {
+                    margin-left: 0;
+                    margin-right: 0;
+                }
+            }
+        }
+    }
+    .registerProcess {
+        .fiveBlock {
+            .blockCol {
+                &:after{
+                    background: url(../images/icon-arrow-down.png) no-repeat center;
+                    width: 100%;
+                    height: 17px;
+                    float: none;
+                    display: table;
+                    margin: 25px auto;
+                }
+                .blockheader {
+                    display: table;
+                    margin: 0 auto;
+                    float: none;
+                }
+
+            }
+        }
+    }
+    .tradeLists {
+        margin-top: -80%;
+        padding-top: 80%;
+        min-height: 1200px;
+        .tradeTable{
+            float: left;
+            width: 100%;
+            position: relative;
+            overflow-x: auto;
+            .tradeTitle, .tradeContent{
+                width: 1200px;
+            }
+        }
+    }
+    .tradeCoin {
+        .tradeCoinContent {
+            .bigThumb {
+                width: 100%;
+                img {
+                    width: 100%;
+                }
+            }
+            .rightTrade{
+                margin-left: 0;
+                width: 100%;
+            }
+        }
+    }
+
+    .memberBox {
+         .newMember {
+             .memRow {
+                 width: 560px;
+             }
+         }
+        .newMemberScroll {
+            float: left;
+            width: 100%;
+            overflow-x: auto;
+        }
+    }
+    .roadMap {
+        margin-top: -36%;
+        min-height: 4400px;
+        .roadBox {
+            padding-top: 0;
+            .lineProcess{
+                display: none;
+            }
+            .road {
+
+                width: 100%!important;
+                padding-top: 0!important;
+                margin-bottom: 27px!important;
+                .arr{
+                    display: none;
+                }
+                &.r02, &.r03, &.r04, &.r05,&.r06 {
+                    margin: 0;
+                }
+                img {
+                    min-width: 49px;
+                }
+                .roadInfo{
+                    width: 80%!important;
+                }
+            }
+        }
+    }
+    .teamMembers {
+        .col {
+            width: 100%;
+            .bgAvatar{
+                background-position: center;
+            }
+        }
+    }
+    .partnerSlider{
+        width: 87%;
+        .slick-slide {
+            img{
+                display: table;
+                margin: 0 auto;
+            }
+        }
+        .slick-arrow{
+            &.slick-prev {
+                left: -10px;
+            }
+            &.slick-next {
+                right: -10px;
+            }
+        }
+    }
+    .newsList {
+        .threeBlock {
+            .blockCol {
+                width: 100%;
+                img {
+                    width: 100%;
+                }
+            }
+        }
+    }
+}
+
+@media (min-width: 0) and (max-width: 540px) {
+    .homeTask {
+        margin-top: -38%;
+        .navigation {
+            width: auto;
+
+            .btn {
+                display: table;
+                margin: 0 auto 2%;
+                float: none;
+                width: 90%;
+            }
+        }
+    }
+}
