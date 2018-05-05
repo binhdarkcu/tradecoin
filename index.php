@@ -54,11 +54,15 @@
 		<!--SLIDER-->
 		<div class="homeSlider">
 			<div class="slickSlider">
-				<div class="slick-slide" style="background: url('images/slider-1.jpg') no-repeat top center; background-size: cover;">
+				<div class="slick-slide">
+                    <div class="overlay"></div>
+                    <div id="video-1"></div>
 					<div class="slide-box">Mạng xã hội cộng đồng CRYPTO <br/>
 						lần đầu tiên xuất hiện tại VIỆT NAM</div>
 				</div>
-				<div class="slick-slide" style="background: url('images/slider-1.jpg') no-repeat top center; background-size: cover;">
+				<div class="slick-slide">
+                    <div class="overlay"></div>
+                    <div id="video-2"></div>
 					<div class="slide-box">Mạng xã hội cộng đồng CRYPTO <br/>
 						lần đầu tiên xuất hiện tại VIỆT NAM</div>
 				</div>
@@ -472,7 +476,7 @@
         </div>
         <div class="roadMap">
             <div class="container">
-                <h3 class="gradientText">Roadmap</h3>
+                <h3 class="gradientText"><img src="images/roadmap.png"/></h3>
                 <div class="roadBox">
                     <div class="lineProcess"></div>
                     <div class="road r01">
@@ -543,7 +547,7 @@
             <!--TEAM MEMBER-->
             <div class="teamMembers">
                 <div class="container">
-                    <h3 class="gradientText">Team Member</h3>
+                    <h3 class="gradientText"><img src="images/team-member-title.png"/></h3>
                     <div class="memberLists">
                         <div class="col">
                             <div class="bgAvatar">
@@ -624,7 +628,7 @@
             <!--PARTNER-->
             <div class="partners">
                 <div class="container">
-                    <h3 class="gradientText">Đối tác</h3>
+                    <h3 class="gradientText"><img src="images/partner.png"/></h3>
                     <div class="partnerSlider">
                         <div class="slick-slide"><img src="images/slick-1.png"/></div>
                         <div class="slick-slide"><img src="images/slick-2.png"/></div>
@@ -752,4 +756,27 @@
         </footer>
 	</div>
 </body>
+<style>
+#video{
+  position: relative;
+  background: transparent;
+}
+
+.ytplayer-container{
+  position: absolute;
+  top: 0;
+  z-index: -1;
+}
+</style>
+<script src="js/jquery.youtubebackground.js"></script>
+<script>
+$('#video-1').YTPlayer({
+    fitToBackground: true,
+    videoId: 'bAIs6DMQ4Jc'
+    });
+    $('#video-2').YTPlayer({
+        fitToBackground: true,
+        videoId: 'dVFEblLw26s'
+        });
+</script>
 </html>
