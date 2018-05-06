@@ -1,5 +1,44 @@
 
 @media (min-width: 0) and (max-width: 767px) {
+    .tradeListPage {
+        .paging {
+            float: left;
+        }
+    }
+    .tradeCoinHeader {
+        .bgNavigation {
+            float: left;
+            width: 100%;
+        }
+        .bgHeader {
+            position: relative;
+            padding-bottom: 20px;
+        }
+        .tradeSearch {
+            width: 100%;
+            margin-left: 0;
+            margin-top: 25px;
+        }
+        .userLogin {
+            position: absolute;
+            top: 0px;
+            right: 10px;
+        }
+        .navigationBar {
+            padding-top: 17px;
+            padding-bottom: 17px;
+            float: left;
+            width: 100%;
+            &:after{
+                content: "";
+                clear: both;
+            }
+            li {
+                margin-top: 20px;
+                margin-bottom: 20px;
+            }
+        }
+    }
     .homeSlider {
         .slick-slide {
             .slide-box {

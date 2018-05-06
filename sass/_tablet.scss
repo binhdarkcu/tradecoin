@@ -141,6 +141,11 @@
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
+    .tradeCoinHeader {
+        .tradeSearch {
+            width: 45%;
+        }
+    }
     .container {
         width: 740px;
     }
@@ -188,6 +193,9 @@
     }
     .tradeLists {
         min-height: 1200px;
+        &.tradeListPage{
+            margin-top: 0;
+        }
         .tradeTable{
             float: left;
             width: 100%;

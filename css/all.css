@@ -888,7 +888,9 @@ header {
       border-radius: 4px;
       padding-left: 15px;
       margin-left: 17px;
-      width: 80%; }
+      width: 80%;
+      color: #fff;
+      outline: none; }
   .tradeCoinHeader .infoTooltip {
     background: url(../images/icon-info.png) no-repeat;
     width: 31px;
@@ -2616,6 +2618,9 @@ video::-webkit-media-text-track-display {
   .commingSoon {
     margin-top: -17%; } }
 @media (min-width: 768px) and (max-width: 991px) {
+  .tradeCoinHeader .tradeSearch {
+    width: 45%; }
+
   .container {
     width: 740px; }
 
@@ -2650,6 +2655,8 @@ video::-webkit-media-text-track-display {
 
   .tradeLists {
     min-height: 1200px; }
+    .tradeLists.tradeListPage {
+      margin-top: 0; }
     .tradeLists .tradeTable {
       float: left;
       width: 100%;
@@ -2749,6 +2756,35 @@ video::-webkit-media-text-track-display {
   .commingSoon {
     margin-top: -17%; } }
 @media (min-width: 0) and (max-width: 767px) {
+  .tradeListPage .paging {
+    float: left; }
+
+  .tradeCoinHeader .bgNavigation {
+    float: left;
+    width: 100%; }
+  .tradeCoinHeader .bgHeader {
+    position: relative;
+    padding-bottom: 20px; }
+  .tradeCoinHeader .tradeSearch {
+    width: 100%;
+    margin-left: 0;
+    margin-top: 25px; }
+  .tradeCoinHeader .userLogin {
+    position: absolute;
+    top: 0px;
+    right: 10px; }
+  .tradeCoinHeader .navigationBar {
+    padding-top: 17px;
+    padding-bottom: 17px;
+    float: left;
+    width: 100%; }
+    .tradeCoinHeader .navigationBar:after {
+      content: "";
+      clear: both; }
+    .tradeCoinHeader .navigationBar li {
+      margin-top: 20px;
+      margin-bottom: 20px; }
+
   .homeSlider .slick-slide .slide-box {
     font-size: 37px; }
 
