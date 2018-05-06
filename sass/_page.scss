@@ -1,0 +1,100 @@
+.greyBg{
+    background: #f8f8f8!important;
+}
+.paging {
+    margin-top:37px;
+    margin-bottom: 35px;
+    a {
+        color: #000;
+        padding: 6px 11px;
+        border-radius: 4px;
+
+        &:hover, &.current {
+            color: #fff;
+            background: #7fcd45;
+
+        }
+    }
+}
+.floatRight {
+    float: right;
+}
+.tradeListPage {
+    margin-top: 0;
+    padding-top: 10px;
+    color: #000;
+    padding-bottom: 190px;
+    .paging {
+        margin-right: 15px;
+    }
+    .commonTitle {
+        color:#000;
+    }
+    .tradeContent {
+        float: left;
+        width: 100%;
+        background: #fff;
+    }
+    h3 {
+        background: url(../images/luotsong36px.png) no-repeat left center;
+        padding-left: 58px;
+        font-size: 48px;
+        display: table;
+        margin: 0 auto;
+        padding-bottom: 13px;
+    }
+    .tradeTable {
+        .tradeTitle {
+            background: #1d2131;
+            padding: 14px 0;
+            color: #fff;
+            .col6 {
+                text-align: center;
+            }
+        }
+        .tradeContent {
+            .tradeRow {
+                border-top: none;
+                border-bottom: 1px solid #d1d1d1;
+                &.pink {
+                    background: #fffbec;
+                }
+                .col6{
+                    text-align: center;
+                }
+                &:last-child {
+
+                }
+            }
+            .col {
+                .comment {
+                    background: #fdd342;
+                    height: 28px;
+                    line-height: 28px;
+                    min-width: 43px;
+                    display: inline-block;
+                    border-radius: 4px;
+                    span {
+                        color: #fff;
+                        background: url(../images/icon-comment.png) no-repeat left center;
+                        padding-left: 14px;
+                        font-weight: 700;
+                    }
+                }
+                .point {
+                    background: #7fcd45;
+                    margin-right: 10px;
+                    font-weight: 700;
+                    color: #fff;
+                    text-align: center;
+                    min-width: 43px;
+                    height: 28px;
+                    display: inline-block;
+                    border-radius: 4px;
+                    line-height: 28px;
+
+                }
+            }
+        }
+    }
+}

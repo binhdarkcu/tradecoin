@@ -120,3 +120,107 @@ header{
         }
     }
 }
+
+.tradeCoinHeader {
+    position: relative;
+    .tradeSearch {
+        float: left;
+        width: 790px;
+        margin-top: 15px;
+        margin-left: 45px;
+        input[type="text"] {
+            background: #4a5264;
+            height: 35px;
+            border-radius: 4px;
+            padding-left: 15px;
+            margin-left: 17px;
+            width: 80%;
+        }
+    }
+    .infoTooltip {
+        background: url(../images/icon-info.png) no-repeat;
+        width: 31px;
+        height: 31px;
+        float: left;
+    }
+    .tradeLogo{
+        float: left;
+        margin-top: 25px;
+    }
+    .bgHeader {
+        background: #272b3f;
+        min-height: 66px;
+    }
+    .bgNavigation {
+        background: #1d2131;
+        min-height: 65px;
+    }
+    .userLogin {
+        margin-top: 15px;
+        width: 165px;
+            float: right;
+        text-align: right;
+        .avatar {
+            position: relative;
+            overflow: hidden;
+            background: #4a5264;
+            width: 36px;
+            height: 36px;
+            border-radius: 50%;
+            float: right;
+        }
+        .userBox {
+            float: right;
+            margin-left: 10px;
+            margin-top: 10px;
+            a{
+                color: #fff;
+            }
+            &>a {
+                background: url(../images/arrow-down16.png) no-repeat right center;
+                padding-right: 30px;
+            }
+        }
+    }
+    .navigationBar {
+        padding-top: 27px;
+        li {
+            display: inline-block;
+            margin-right: 42px;
+            a {
+                color: #fff;
+                padding-left: 30px;
+                padding-top: 3px;
+                padding-bottom: 3px;
+                position: relative;
+                padding-bottom: 21px;
+                &.icon1{
+                    background: url(../images/white-luotsong.png) no-repeat left top;
+                }
+                &.icon2{
+                    background: url(../images/white-tradecoin.png) no-repeat left top;
+                }
+                &.icon3{
+                    background: url(../images/white-holdcoin.png) no-repeat left top;
+                }
+                &.icon4{
+                    background: url(../images/white-ico.png) no-repeat left top;
+                }
+            }
+            &.current-menu-item, &:hover {
+                a{
+                    &:after {
+                        content: "";
+                        position: absolute;
+                        bottom: 0;
+                        left: 50%;
+                        margin-left: -23px;
+                        background: url(../images/nav-active.png) no-repeat bottom center;
+                        width: 46px;
+                        height: 4px;
+                    }
+                }
+            }
+        }
+    }
+}
