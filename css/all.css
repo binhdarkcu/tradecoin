@@ -2402,6 +2402,9 @@ video::-webkit-media-text-track-display {
   .tradeLists {
     margin-top: -19%; } }
 @media (min-width: 0) and (max-width: 767px) {
+  .homeSlider .slick-slide .slide-box {
+    font-size: 37px; }
+
   .container {
     width: auto;
     padding-left: 15px;
@@ -2423,6 +2426,8 @@ video::-webkit-media-text-track-display {
     margin: 15px auto 0; }
     header nav ul li {
       margin: 0 8px; }
+      header nav ul li a.btn {
+        width: 115px; }
 
   .memberBox .memberCol {
     width: 100%;
@@ -2433,7 +2438,7 @@ video::-webkit-media-text-track-display {
       margin-top: 25px; }
 
   .advantage .threeBlock .blockCol {
-    width: 100%;
+    width: 90%;
     margin-bottom: 25px !important; }
     .advantage .threeBlock .blockCol.col2 {
       margin-left: 0;
@@ -2479,8 +2484,10 @@ video::-webkit-media-text-track-display {
     overflow-x: auto; }
 
   .roadMap {
-    margin-top: -36%;
-    min-height: 4400px; }
+    margin-top: -65%;
+    min-height: 4600px; }
+    .roadMap h3 {
+      padding-top: 63%; }
     .roadMap .roadBox {
       padding-top: 0; }
       .roadMap .roadBox .lineProcess {
@@ -2496,8 +2503,10 @@ video::-webkit-media-text-track-display {
         .roadMap .roadBox .road img {
           min-width: 49px; }
         .roadMap .roadBox .road .roadInfo {
-          width: 80% !important; }
+          width: 74% !important; }
 
+  .teamMembers h3 {
+    padding-top: 100px; }
   .teamMembers .col {
     width: 100%; }
     .teamMembers .col .bgAvatar {
@@ -2514,9 +2523,30 @@ video::-webkit-media-text-track-display {
       right: -10px; }
 
   .newsList .threeBlock .blockCol {
-    width: 100%; }
+    width: 90%;
+    margin-bottom: 20px !important; }
+    .newsList .threeBlock .blockCol.col2 {
+      margin: 0; }
     .newsList .threeBlock .blockCol img {
-      width: 100%; } }
+      width: 100%; }
+
+  .commingSoon {
+    margin-top: -50%; }
+    .commingSoon .commingBox {
+      padding-top: 50%; }
+      .commingSoon .commingBox img {
+        width: 100%; }
+      .commingSoon .commingBox .googlePlay a {
+        margin-bottom: 10px;
+        display: table;
+        float: none; }
+
+  footer .subscribeBox img {
+    width: 100%; }
+  footer .subscribeForm input[type="text"] {
+    width: 90%;
+    margin-right: 0;
+    margin-bottom: 15px; } }
 @media (min-width: 0) and (max-width: 540px) {
   .homeTask {
     margin-top: -38%; }
