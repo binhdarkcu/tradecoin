@@ -35,16 +35,26 @@
 <body>
 	<div class="wrapper">
 		<!--HEADER-->
-		<header class="tradeCoinHeader loggedIn">
+		<header class="tradeCoinHeader memberHeader loggedIn">
 			<div class="bgHeader">
                 <div class="container">
-    				<a href="#" class="tradeLogo"><img src="images/tradeLogo.png"/></a>
-    				<div class="tradeSearch">
-                        <a href="#" class="infoTooltip"></a>
-                        <form action="" method="">
-                            <input type="text" value="" placeholder="" />
-                        </form>
+    				<a href="#" class="tradeLogo"><img src="images/logo.png"/></a>
+    				<div class="buyBox">
+                        <div class="buyCol sale">
+                            <span class="title">GIÁ BÁN:</span>
+                            <span class="price">208,655,575 VND</span>
+                            <a href="#" class="btnBuy">MUA NGAY</a>
+                        </div>
+                        <div class="buyCol buyNow">
+                            <span class="title">GIÁ MUA:</span>
+                            <span class="price">208,655,575 VND</span>
+                            <a href="#" class="btnBuy">BÁN NGAY</a>
+                        </div>
                     </div>
+                    <ul class="languagepicker language">
+                    	<a href="#nl"><li><img src="images/icon-english.png"/>English</li></a>
+                        <a href="#en"><li><img src="images/icon-vietnam.png"/>Viet Nam</li></a>
+                    </ul>
                     <div class="userLogin">
                         <div class="userBox">
                             <a href="#">Username</a>
@@ -54,8 +64,9 @@
                                 </ul>
                             </div>
                         </div>
-                        <a href="#" class="avatar"></a>
+                        <a href="#" class="avatar"><img src="images/small-avatar.png"/></a>
                     </div>
+
                     <div class="clear"></div>
     			</div>
             </div>

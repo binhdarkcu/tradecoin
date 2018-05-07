@@ -2897,14 +2897,14 @@ header {
 .videoBg {
   height: 100%; }
 
-.tradeCoinHeader {
+.tradeCoinHeader, .memberHeader {
   position: relative; }
-  .tradeCoinHeader .tradeSearch {
+  .tradeCoinHeader .tradeSearch, .memberHeader .tradeSearch {
     float: left;
     width: 790px;
     margin-top: 15px;
     margin-left: 45px; }
-    .tradeCoinHeader .tradeSearch input[type="text"] {
+    .tradeCoinHeader .tradeSearch input[type="text"], .memberHeader .tradeSearch input[type="text"] {
       background: #4a5264;
       height: 35px;
       border-radius: 4px;
@@ -2913,26 +2913,26 @@ header {
       width: 80%;
       color: #fff;
       outline: none; }
-  .tradeCoinHeader .infoTooltip {
+  .tradeCoinHeader .infoTooltip, .memberHeader .infoTooltip {
     background: url(../images/icon-info.png) no-repeat;
     width: 31px;
     height: 31px;
     float: left; }
-  .tradeCoinHeader .tradeLogo {
+  .tradeCoinHeader .tradeLogo, .memberHeader .tradeLogo {
     float: left;
     margin-top: 25px; }
-  .tradeCoinHeader .bgHeader {
+  .tradeCoinHeader .bgHeader, .memberHeader .bgHeader {
     background: #272b3f;
     min-height: 66px; }
-  .tradeCoinHeader .bgNavigation {
+  .tradeCoinHeader .bgNavigation, .memberHeader .bgNavigation {
     background: #1d2131;
     min-height: 65px; }
-  .tradeCoinHeader .userLogin {
+  .tradeCoinHeader .userLogin, .memberHeader .userLogin {
     margin-top: 15px;
     width: 165px;
     float: right;
     text-align: right; }
-    .tradeCoinHeader .userLogin .avatar {
+    .tradeCoinHeader .userLogin .avatar, .memberHeader .userLogin .avatar {
       position: relative;
       overflow: hidden;
       background: #4a5264;
@@ -2940,38 +2940,38 @@ header {
       height: 36px;
       border-radius: 50%;
       float: right; }
-    .tradeCoinHeader .userLogin .userBox {
+    .tradeCoinHeader .userLogin .userBox, .memberHeader .userLogin .userBox {
       float: right;
       margin-left: 10px;
       margin-top: 10px; }
-      .tradeCoinHeader .userLogin .userBox a {
+      .tradeCoinHeader .userLogin .userBox a, .memberHeader .userLogin .userBox a {
         color: #fff; }
-      .tradeCoinHeader .userLogin .userBox > a {
+      .tradeCoinHeader .userLogin .userBox > a, .memberHeader .userLogin .userBox > a {
         background: url(../images/arrow-down16.png) no-repeat right center;
         padding-right: 30px; }
-  .tradeCoinHeader .navigationBar {
+  .tradeCoinHeader .navigationBar, .memberHeader .navigationBar {
     padding-top: 27px; }
-    .tradeCoinHeader .navigationBar li {
+    .tradeCoinHeader .navigationBar li, .memberHeader .navigationBar li {
       display: inline-block;
       margin-right: 42px; }
-      .tradeCoinHeader .navigationBar li a {
+      .tradeCoinHeader .navigationBar li a, .memberHeader .navigationBar li a {
         color: #fff;
         padding-left: 30px;
         padding-top: 3px;
         padding-bottom: 3px;
         position: relative;
         padding-bottom: 21px; }
-        .tradeCoinHeader .navigationBar li a.icon1 {
+        .tradeCoinHeader .navigationBar li a.icon1, .memberHeader .navigationBar li a.icon1 {
           background: url(../images/white-luotsong.png) no-repeat left top; }
-        .tradeCoinHeader .navigationBar li a.icon2 {
+        .tradeCoinHeader .navigationBar li a.icon2, .memberHeader .navigationBar li a.icon2 {
           background: url(../images/white-tradecoin.png) no-repeat left top; }
-        .tradeCoinHeader .navigationBar li a.icon3 {
+        .tradeCoinHeader .navigationBar li a.icon3, .memberHeader .navigationBar li a.icon3 {
           background: url(../images/white-holdcoin.png) no-repeat left top; }
-        .tradeCoinHeader .navigationBar li a.icon4 {
+        .tradeCoinHeader .navigationBar li a.icon4, .memberHeader .navigationBar li a.icon4 {
           background: url(../images/white-ico.png) no-repeat left top; }
-        .tradeCoinHeader .navigationBar li a.icon5 {
+        .tradeCoinHeader .navigationBar li a.icon5, .memberHeader .navigationBar li a.icon5 {
           background: url(../images/white-buycoin.png) no-repeat left top; }
-      .tradeCoinHeader .navigationBar li.current-menu-item a:after, .tradeCoinHeader .navigationBar li:hover a:after {
+      .tradeCoinHeader .navigationBar li.current-menu-item a:after, .tradeCoinHeader .navigationBar li:hover a:after, .memberHeader .navigationBar li.current-menu-item a:after, .memberHeader .navigationBar li:hover a:after {
         content: "";
         position: absolute;
         bottom: 0;
@@ -2980,6 +2980,9 @@ header {
         background: url(../images/nav-active.png) no-repeat bottom center;
         width: 46px;
         height: 4px; }
+
+.memberHeader .tradeLogo {
+  margin-top: 3px; }
 
 footer {
   background: url(../images/bg-footer.png) no-repeat bottom center #171920;

@@ -160,7 +160,7 @@ header{
 .videoBg {
     height: 100%;
 }
-.tradeCoinHeader {
+.tradeCoinHeader, .memberHeader {
     position: relative;
     .tradeSearch {
         float: left;
@@ -266,5 +266,11 @@ header{
                 }
             }
         }
+    }
+}
+
+.memberHeader {
+    .tradeLogo{
+        margin-top: 3px;
     }
 }
