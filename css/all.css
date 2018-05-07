@@ -2214,7 +2214,10 @@ a {
     z-index: -1; }
 
 video {
-  width: 100% !important; }
+  width: 103% !important;
+  height: 103% !important;
+  min-width: 125%;
+  min-height: 125%; }
 
 .advantage {
   position: relative; }
@@ -2966,6 +2969,8 @@ header {
           background: url(../images/white-holdcoin.png) no-repeat left top; }
         .tradeCoinHeader .navigationBar li a.icon4 {
           background: url(../images/white-ico.png) no-repeat left top; }
+        .tradeCoinHeader .navigationBar li a.icon5 {
+          background: url(../images/white-buycoin.png) no-repeat left top; }
       .tradeCoinHeader .navigationBar li.current-menu-item a:after, .tradeCoinHeader .navigationBar li:hover a:after {
         content: "";
         position: absolute;

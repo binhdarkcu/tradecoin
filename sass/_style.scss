@@ -162,7 +162,10 @@ a{text-decoration: none;}
 	}
 }
 video {
-	width: 100%!important;
+	width: 103%!important;
+	height: 103%!important;
+	min-width: 125%;
+	min-height: 125%;
 }
 .advantage {
 	position: relative;

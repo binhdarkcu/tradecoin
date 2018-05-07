@@ -15,15 +15,14 @@
 
 <link rel="stylesheet" href="css/all.css">
 <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" integrity="sha256-3dkvEK0WLHRJ7/Csr0BZjAWxERc5WH7bdeUya2aXxdU= sha512-+L4yy6FRcDGbXJ9mPG8MT/3UCDzwR9gPeyFNMCtInsol++5m3bk2bXWKdZjvybmohrAsn3Ua5x8gfLnbE1YkOg==" crossorigin="anonymous">
 <style>
   @font-face {
 	font-family: 'Glyphicons Halflings';
-	src:url('https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.5/fonts/glyphicons-halflings-regular.eot');
-	src:url('https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.5/fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'),
-	  url('https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.5/fonts/glyphicons-halflings-regular.woff') format('woff'),
-	  url('https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.5/fonts/glyphicons-halflings-regular.ttf') format('truetype'),
-	  url('https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.5/fonts/glyphicons-halflings-regular.svg#glyphicons-halflingsregular') format('svg');
+	src:url('fonts/glyphicons-halflings-regular.eot');
+	src:url('fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'),
+	  url('fonts/glyphicons-halflings-regular.woff') format('woff'),
+	  url('fonts/glyphicons-halflings-regular.ttf') format('truetype'),
+	  url('fonts/glyphicons-halflings-regular.svg#glyphicons-halflingsregular') format('svg');
   }
 </style>
 <script src="js/jquery-1.9.1.min.js"></script>
