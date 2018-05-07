@@ -494,6 +494,11 @@
             min-height: 276px;
             .avatar {
                 margin-top: 70px;
+                width: 149px;
+                height: 149px;
+                overflow: hidden;
+                position: relative;
+                border-radius: 50%;
                 display: inline-block;
             }
         }

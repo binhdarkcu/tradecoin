@@ -109,18 +109,57 @@ header{
             }
         }
     }
-    a.language{
+        .language{
         float: right;
-        width: 26px;
-        height: 26px;
-        margin-top: 31px;
+        margin-top: 22px;
         margin-left: 12px;
         &.en {
             background: url(../images/icon-english.png) no-repeat;
         }
     }
 }
+.languagepicker {
+	display: inline-block;
+	padding: 0;
+	height: 40px;
+	overflow: hidden;
+	transition: all .3s ease;
+	margin: 0 0 10px 0;
+	vertical-align: top;
+}
 
+.languagepicker:hover {
+	/* don't forget the 1px border */
+	height: 81px;
+}
+
+.languagepicker a{
+	color: #fff;
+	text-decoration: none;
+}
+
+.languagepicker li {
+	display: block;
+	padding: 0px;
+	line-height: 40px;
+	border-top: 1px solid #EEE;
+}
+
+.languagepicker li:hover{
+}
+
+.languagepicker a:first-child li {
+	border: none;
+}
+
+.languagepicker li img {
+	margin-right: 5px;
+    position: relative;
+    top: 7px;
+}
+.videoBg {
+    height: 100%;
+}
 .tradeCoinHeader {
     position: relative;
     .tradeSearch {

@@ -15,15 +15,14 @@
 
 <link rel="stylesheet" href="css/all.css">
 <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" integrity="sha256-3dkvEK0WLHRJ7/Csr0BZjAWxERc5WH7bdeUya2aXxdU= sha512-+L4yy6FRcDGbXJ9mPG8MT/3UCDzwR9gPeyFNMCtInsol++5m3bk2bXWKdZjvybmohrAsn3Ua5x8gfLnbE1YkOg==" crossorigin="anonymous">
 <style>
   @font-face {
 	font-family: 'Glyphicons Halflings';
-	src:url('https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.5/fonts/glyphicons-halflings-regular.eot');
-	src:url('https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.5/fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'),
-	  url('https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.5/fonts/glyphicons-halflings-regular.woff') format('woff'),
-	  url('https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.5/fonts/glyphicons-halflings-regular.ttf') format('truetype'),
-	  url('https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.5/fonts/glyphicons-halflings-regular.svg#glyphicons-halflingsregular') format('svg');
+	src:url('fonts/glyphicons-halflings-regular.eot');
+	src:url('fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'),
+	  url('fonts/glyphicons-halflings-regular.woff') format('woff'),
+	  url('fonts/glyphicons-halflings-regular.ttf') format('truetype'),
+	  url('fonts/glyphicons-halflings-regular.svg#glyphicons-halflingsregular') format('svg');
   }
 </style>
 <script src="js/jquery-1.9.1.min.js"></script>
@@ -39,7 +38,10 @@
 		<header class="transparent">
 			<div class="container">
 				<a href="#" class="logo"></a>
-				<a href="#" class="language en"></a><!--<a href="#" class="language vi"></a> -->
+                <ul class="languagepicker language">
+                	<a href="#nl"><li><img src="images/icon-english.png"/>English</li></a>
+                    <a href="#en"><li><img src="images/icon-vietnam.png"/>Viet Nam</li></a>
+                </ul>
 				<nav>
 					<ul>
 						<li><a href="#" class="news">Tin tức</a></li>
@@ -55,13 +57,14 @@
 			<div class="slickSlider">
 				<div class="slick-slide">
                     <div class="overlay"></div>
-                    <div id="video-1" class="ytVideo" data-videoid="bAIs6DMQ4Jc"></div>
+                    <div class="videoBg" data-vide-bg="videos/Floating-Blue-Plexus-Background"></div>
 					<div class="slide-box">Mạng xã hội cộng đồng CRYPTO <br/>
 						lần đầu tiên xuất hiện tại VIỆT NAM</div>
 				</div>
 				<div class="slick-slide">
                     <div class="overlay"></div>
-                    <div id="video-2" class="ytVideo" data-videoid="dVFEblLw26s"></div>
+                    <div class="videoBg" data-vide-bg="videos/Floating-Green-Plexus-Background"></div>
+                    <!-- <div id="video-2" class="ytVideo" data-videoid="dVFEblLw26s"></div> -->
 					<div class="slide-box">Mạng xã hội cộng đồng CRYPTO <br/>
 						lần đầu tiên xuất hiện tại VIỆT NAM</div>
 				</div>
@@ -757,28 +760,23 @@
         </footer>
 	</div>
 </body>
-<style>
-#video{
-  position: relative;
-  background: transparent;
-}
-
-.ytplayer-container{
-  position: absolute;
-  top: 0;
-  z-index: -1;
-}
-</style>
-<script src="js/jquery.youtubebackground.js"></script>
+<!-- <script src="js/video.min.js"></script>
+<script src="js/videojs-background.js"></script> -->
+<script src="js/jquery.vide.js"></script>
+<!-- <script src="js/jquery.youtubebackground.js"></script> -->
 <script>
 
     $(document).ready(function(){
-        $('.ytVideo').each(function(){
-            $(this).YTPlayer({
-            fitToBackground: true,
-            videoId: $(this).attr('data-videoid')
-            });
-        })
+        // $('.bg-video').each(function(){
+        //     var videoId = $(this).attr('data-id')
+        //     console.log(videoId)
+        // })
+        // $('.ytVideo').each(function(){
+        //     $(this).YTPlayer({
+        //     fitToBackground: true,
+        //     videoId: $(this).attr('data-videoid')
+        //     });
+        // })
     })
 </script>
 </html>

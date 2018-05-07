@@ -1,5 +1,10 @@
 
 @media (min-width: 0) and (max-width: 767px) {
+    header .language{
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
     .tradeListPage {
         .paging {
             float: left;
