@@ -2216,8 +2216,8 @@ a {
 video {
   width: 103% !important;
   height: 103% !important;
-  min-width: 125%;
-  min-height: 125%; }
+  min-width: 150%;
+  min-height: 150%; }
 
 .advantage {
   position: relative; }
