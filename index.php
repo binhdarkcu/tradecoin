@@ -764,19 +764,4 @@
 <script src="js/videojs-background.js"></script> -->
 <script src="js/jquery.vide.js"></script>
 <!-- <script src="js/jquery.youtubebackground.js"></script> -->
-<script>
-
-    $(document).ready(function(){
-        // $('.bg-video').each(function(){
-        //     var videoId = $(this).attr('data-id')
-        //     console.log(videoId)
-        // })
-        // $('.ytVideo').each(function(){
-        //     $(this).YTPlayer({
-        //     fitToBackground: true,
-        //     videoId: $(this).attr('data-videoid')
-        //     });
-        // })
-    })
-</script>
 </html>

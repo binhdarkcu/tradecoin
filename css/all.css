@@ -2213,6 +2213,9 @@ a {
     width: 100%;
     z-index: -1; }
 
+video {
+  width: 100% !important; }
+
 .advantage {
   position: relative; }
   .advantage .threeBlock {
@@ -4634,6 +4637,9 @@ video::-webkit-media-text-track-display {
   .commingSoon {
     margin-top: -17%; } }
 @media (min-width: 768px) and (max-width: 991px) {
+  header nav {
+    margin-top: 5px; }
+
   .tradeCoinHeader .tradeSearch {
     width: 45%; }
 
