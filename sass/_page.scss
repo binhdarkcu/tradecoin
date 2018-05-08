@@ -102,8 +102,14 @@
     float: left;
 }
 .memberList {
+    min-height: 65vh;
+    padding-bottom: 220px;
+    .memberHeaderGray {
+        background: #f8f8f8;
+    }
     .headerInformation {
         padding-top: 48px;
+        padding-bottom: 48px;
         .memberAvatar {
             width: 141px;
             float: left;
@@ -210,6 +216,300 @@
                         border-bottom-right-radius: 4px;
                     }
                 }
+            }
+        }
+
+        .memberMiddle {
+            margin-top: 24px;
+            span {
+                color: #9f9f9f;
+                padding-left: 22px;
+            }
+            .visited {
+                margin-right: 28px;
+                span {
+                    background: url(../images/last-visit.png) no-repeat left center;
+                }
+            }
+            .joined {
+                margin-right: 28px;
+                span {
+                    background: url(../images/joined.png) no-repeat left center;
+                }
+            }
+            .location {
+                span {
+                    background: url(../images/map.png) no-repeat left center;
+                }
+            }
+            .smallSocials {
+
+                a {
+                    color:#139bd0;
+                    padding-left: 32px;
+                    margin-left: 32px;
+                    display: inline-block;
+                    padding-top: 3px;
+                    padding-bottom: 3px;
+                    background: url(../images/blue-tw.png) no-repeat left center;
+                    &.fb {
+                        background: url(../images/blue-fb.png) no-repeat left center;
+                    }
+                }
+            }
+        }
+
+        .memberBottom {
+            margin-top: 20px;
+            .morderate {
+                &.floatLeft {
+                    margin-right: 40px;
+                }
+                span {
+                    background: url(../images/top1.png) no-repeat;
+                    width: 58px;
+                    height: 44px;
+                    display: inline-block;
+                }
+            }
+            span {
+                color: #2d2d2d;
+            }
+            b {
+                color: #2d2d2d;
+                font-family: "Montserrat-Bold";
+                font-size: 24px;
+                font-weight: 700;
+                display: block;
+            }
+            .floatLeft {
+                padding-right: 26px;
+                margin-right: 55px;
+            }
+            .iconkeo {
+                background: url(../images/icon-keo.png) no-repeat right top;
+            }
+            .iconview {
+                padding-right: 32px;
+                background: url(../images/icon-view.png) no-repeat right top;
+            }
+            .iconmment {
+                background: url(../images/icon-comment-gray.png) no-repeat right top;
+            }
+            .iconlike {
+                background: url(../images/icon-like.png) no-repeat right top;
+            }
+            .icondislike {
+                background: url(../images/icon-dislike.png) no-repeat right top;
+            }
+            .iconfollowers {
+                padding-right: 32px;
+                background: url(../images/icon-followers.png) no-repeat right top;
+            }
+        }
+    }
+    .threeBlock {
+		margin-top: 48px;
+        margin-left: -28px;
+        margin-right: -28px;
+		&:after{
+			content: "";
+			clear: both;
+		}
+		.blockCol{
+			float: left;
+			width: 26%;
+			padding: 18px;
+			min-height: 384px;
+			-webkit-box-shadow: 0px 0px 5px 0px rgba(0,1,1,0.2);
+			-moz-box-shadow: 0px 0px 5px 0px rgba(0,1,1,0.2);
+			box-shadow: 0px 0px 5px 0px rgba(0,1,1,0.2);
+			border-radius: 8px;
+			&.col1 {
+			}
+			&.col2 {
+				margin: 0 6.5%;
+			}
+			&.col3 {
+			}
+		}
+	}
+    .memberColumns {
+        .blockCol {
+            margin-left: 28px;
+            margin-right: 28px;
+            margin-bottom: 32px;
+            .thumbnail {
+                width: 100%;
+            }
+            .avatarCol{
+                padding-bottom: 18px;
+                .small {
+                    width: 35px;
+                    float: left;
+
+                }
+                .info {
+                    float: left;
+                    margin-left: 14px;
+                    b {
+                        font-size: 18px;
+                        color: #2d2d2d;
+                        font-family: "Montserrat-Bold";
+                        display: block;
+                    }
+                    span {
+                        color: #9f9f9f;
+                    }
+                }
+            }
+            .statusCol {
+                float: right;
+                margin-top: 6px;
+                .icon {
+                    padding-left: 31px;
+                    float: left;
+                    padding-top: 5px;
+                    padding-bottom: 5px;
+
+                }
+                .green {
+                    background: #7fcd45;
+                    padding: 4px 7px;
+                    border-radius: 4px;
+                    color: #fff;
+                    font-family: "Montserrat-Bold";
+                    margin-right: 5px;
+                    display: inline-block;
+                    margin-top: 2px;
+                }
+                .yellow {
+                    margin-top: 2px;
+                    display: inline-block;
+                    border-radius: 4px;
+                    padding: 4px 7px 4px 19px;
+                    color: #fff;
+                    font-family: "Montserrat-Bold";
+                    background: url(../images/icon-comment.png) no-repeat 4px center #fdd342;
+                }
+                &.active {
+                    font-size: 12px;
+                    .icon {
+                        background: url(../images/icon-active.png) no-repeat left center;
+                        font-size: 12px;
+                        margin-right: 10px;
+                    }
+                }
+                &.new {
+                    font-size: 12px;
+                    .icon {
+                        background: url(../images/icon-new.png) no-repeat left center;
+                        font-size: 12px;
+                        margin-right: 10px;
+                    }
+                }
+                &.done {
+                    font-size: 12px;
+                    .icon {
+                        background: url(../images/icon-check.png) no-repeat left center;
+                        font-size: 12px;
+                        margin-right: 10px;
+                        padding-left: 28px;
+                    }
+                    .green {
+                        background: #12d112;
+                    }
+                    .yellow {
+                        color: #12d112;
+                        padding-right: 14px;
+                        padding-left: 0;
+                        background: url(../images/blue-arrow.png) no-repeat right center transparent;
+                        background-size: 11px;
+                    }
+                }
+                &.loss {
+                    font-size: 12px;
+                    .icon {
+                        background: url(../images/icon-check.png) no-repeat left center;
+                        font-size: 12px;
+                        margin-right: 10px;
+                        padding-left: 28px;
+                    }
+                    .green {
+                        background: #ff0000;
+                    }
+                    .yellow {
+                        color: #ff0000;
+                        padding-right: 14px;
+                        padding-left: 0;
+                        background: url(../images/red-arrow.png) no-repeat right center transparent;
+                        background-size: 11px;
+                    }
+                }
+            }
+            .socialColumn {
+                margin-top: 8px;
+                margin-bottom: 18px;
+                a{
+                    color: #9f9f9f;
+                    font-size: 12px;
+                    background: url(../images/icon-view.png) no-repeat 4px center;
+                    background-size: 17px;
+                    padding-left: 22px;
+                    padding: 4px 5px 4px 25px;
+                    margin-right: 14px;
+                    &.view {
+                        pointer-events: none;
+                    }
+                    &.comment {
+                        background: url(../images/icon-comment-gray.png) no-repeat 4px center;
+                        background-size: 10px;
+                        pointer-events: none;
+                        padding-left: 20px;
+                    }
+                    &.like {
+                        background: url(../images/icon-like.png) no-repeat 6px center #f2f5f8;
+                        background-size: 14px;
+                        border-radius: 4px;
+                        &:hover {
+                            background: url(../images/icon-like-white.png) no-repeat 6px center #139bd0;
+                            color: #fff;
+                            background-size: 14px;
+                        }
+                    }
+                    &.dislike {
+                        background: url(../images/icon-dislike.png) no-repeat 6px center #f2f5f8;
+                        background-size: 14px;
+                        border-radius: 4px;
+                        &:hover {
+                            background: url(../images/icon-dislike-white.png) no-repeat 6px center #139bd0;
+                            color: #fff;
+                            background-size: 14px;
+                        }
+                    }
+                    &.heart {
+                        background: url(../images/icon-heart.png) no-repeat 6px center #f2f5f8;
+                        background-size: 14px;
+                        border-radius: 4px;
+                        &:hover {
+                            background: url(../images/icon-heart-white.png) no-repeat 6px center #139bd0;
+                            color: #fff;
+                            background-size: 14px;
+                        }
+                        margin-right: 0;
+                    }
+                }
+            }
+            h3 {
+                color: #2d2d2d;
+                font-size: 18px;
+                font-weight: 500;
+                font-family: "Montserrat-Medium";
+                padding-bottom: 12px;
+            }
+            p{
+                color: #2e2e2e;
+                line-height: 1.3;
             }
         }
     }
