@@ -1,4 +1,53 @@
 @media (min-width: 992px) and (max-width: 1199px) {
+    .memberList {
+        .memberRight {
+            width: 80%;
+            .memberTop {
+                .pointPercent {
+                    margin-top: 36px;
+                    margin-left: 0;
+                }
+            }
+            .memberMiddle {
+                .smallSocials {
+                    a {
+                        margin-left: 22px;
+                    }
+                }
+            }
+            .memberBottom {
+                .floatLeft {
+                    margin-right: 25px;
+                    margin-bottom: 25px;
+                }
+                .morderate{
+                    &.floatLeft{
+                        margin-right: 0;
+                    }
+                }
+            }
+        }
+        .headerInformation{
+             .memberAvatar{
+                 margin-right: 20px;
+             }
+        }
+        .memberColumns {
+            .threeBlock {
+                margin-left: -18px;
+                margin-right: -18px;
+            }
+
+            .blockCol{
+                margin-left: 18px;
+                margin-right: 18px;
+            }
+        }
+    }
+    .blockLanguage {
+        position: relative;
+        top: 2px;
+    }
     .tradeCoinHeader {
         .userLogin {
 
@@ -141,6 +190,76 @@
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
+    .blockLanguage {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+    .memberList {
+        .memberRight {
+            width: 75%;
+            .memberTop {
+                .pointPercent {
+                    margin-top: 36px;
+                    margin-left: 0;
+                }
+            }
+            .memberMiddle {
+                .floatLeft {
+                    margin-bottom: 25px;
+                }
+                .smallSocials {
+                    a {
+                        margin-left: 0;
+                        margin-right: 22px;
+                    }
+                }
+            }
+            .memberBottom {
+                .floatLeft {
+                    margin-right: 25px;
+                    margin-bottom: 25px;
+                }
+                .morderate{
+                    &.floatLeft{
+                        margin-right: 0;
+                    }
+                }
+                .iconfollowers {
+                    float:left;
+                }
+            }
+        }
+        .headerInformation{
+             .memberAvatar{
+                 margin-right: 20px;
+             }
+        }
+        .memberColumns {
+            .threeBlock {
+                margin-left: -3%;
+                margin-right: -3%;
+            }
+
+            .blockCol{
+                margin-left: 3%;
+                margin-right: 3%;
+                width: 39%;
+            }
+        }
+    }
+    .memberHeader {
+        .bgHeader {
+                padding-bottom: 20px;
+        }
+    }
+    .memberHeader {
+        .navigationBar  {
+            li {
+                margin-right: 20px;
+            }
+        }
+    }
     header {
         nav {
             margin-top: 5px;

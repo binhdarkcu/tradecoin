@@ -51,22 +51,23 @@
                             <a href="#" class="btnBuy">BÁN NGAY</a>
                         </div>
                     </div>
-                    <ul class="languagepicker language">
-                    	<a href="#nl"><li><img src="images/icon-english.png"/>English</li></a>
-                        <a href="#en"><li><img src="images/icon-vietnam.png"/>Viet Nam</li></a>
-                    </ul>
-                    <div class="userLogin">
-                        <div class="userBox">
-                            <a href="#">Username</a>
-                            <div class="userDropDown" style="display: none;">
-                                <ul>
-                                    <li><a href="#">Profile</a></li>
-                                </ul>
+                    <div class="blockLanguage">
+                        <ul class="languagepicker language">
+                        	<a href="#nl"><li><img src="images/icon-english.png"/>English</li></a>
+                            <a href="#en"><li><img src="images/icon-vietnam.png"/>Viet Nam</li></a>
+                        </ul>
+                        <div class="userLogin">
+                            <div class="userBox">
+                                <a href="#">Username</a>
+                                <div class="userDropDown" style="display: none;">
+                                    <ul>
+                                        <li><a href="#">Profile</a></li>
+                                    </ul>
+                                </div>
                             </div>
+                            <a href="#" class="avatar"><img src="images/small-avatar.png"/></a>
                         </div>
-                        <a href="#" class="avatar"><img src="images/small-avatar.png"/></a>
                     </div>
-
                     <div class="clear"></div>
     			</div>
             </div>

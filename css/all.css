@@ -4954,6 +4954,31 @@ video::-webkit-media-text-track-display {
   .vjs-has-started.vjs-user-inactive.vjs-playing .vjs-control-bar {
     visibility: hidden; } }
 @media (min-width: 992px) and (max-width: 1199px) {
+  .memberList .memberRight {
+    width: 80%; }
+    .memberList .memberRight .memberTop .pointPercent {
+      margin-top: 36px;
+      margin-left: 0; }
+    .memberList .memberRight .memberMiddle .smallSocials a {
+      margin-left: 22px; }
+    .memberList .memberRight .memberBottom .floatLeft {
+      margin-right: 25px;
+      margin-bottom: 25px; }
+    .memberList .memberRight .memberBottom .morderate.floatLeft {
+      margin-right: 0; }
+  .memberList .headerInformation .memberAvatar {
+    margin-right: 20px; }
+  .memberList .memberColumns .threeBlock {
+    margin-left: -18px;
+    margin-right: -18px; }
+  .memberList .memberColumns .blockCol {
+    margin-left: 18px;
+    margin-right: 18px; }
+
+  .blockLanguage {
+    position: relative;
+    top: 2px; }
+
   .tradeCoinHeader .tradeSearch {
     width: 55%; }
 
@@ -5025,6 +5050,44 @@ video::-webkit-media-text-track-display {
   .commingSoon {
     margin-top: -17%; } }
 @media (min-width: 768px) and (max-width: 991px) {
+  .blockLanguage {
+    position: absolute;
+    right: 0;
+    top: 0; }
+
+  .memberList .memberRight {
+    width: 75%; }
+    .memberList .memberRight .memberTop .pointPercent {
+      margin-top: 36px;
+      margin-left: 0; }
+    .memberList .memberRight .memberMiddle .floatLeft {
+      margin-bottom: 25px; }
+    .memberList .memberRight .memberMiddle .smallSocials a {
+      margin-left: 0;
+      margin-right: 22px; }
+    .memberList .memberRight .memberBottom .floatLeft {
+      margin-right: 25px;
+      margin-bottom: 25px; }
+    .memberList .memberRight .memberBottom .morderate.floatLeft {
+      margin-right: 0; }
+    .memberList .memberRight .memberBottom .iconfollowers {
+      float: left; }
+  .memberList .headerInformation .memberAvatar {
+    margin-right: 20px; }
+  .memberList .memberColumns .threeBlock {
+    margin-left: -3%;
+    margin-right: -3%; }
+  .memberList .memberColumns .blockCol {
+    margin-left: 3%;
+    margin-right: 3%;
+    width: 39%; }
+
+  .memberHeader .bgHeader {
+    padding-bottom: 20px; }
+
+  .memberHeader .navigationBar li {
+    margin-right: 20px; }
+
   header nav {
     margin-top: 5px; }
 
