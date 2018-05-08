@@ -79,12 +79,45 @@
                         <li><a href="#" class="icon4">ICO</a></li>
                         <li><a href="#" class="icon5">Mua bán Coin</a></li>
                     </ul>
+                    <div class="topSocials">
+                        <a href="#"></a>
+                        <a href="#" class="tw"></a>
+                    </div>
                 </div>
             </div>
 		</header>
         <div class="memberList greyBg">
 			<div class="container">
-
+                <div class="headerInformation">
+                    <div class="memberAvatar">
+                        <a href="#"><img src="images/avatar-thanhvien.png"/></a>
+                    </div>
+                    <div class="memberRight">
+                        <div class="memberTop">
+                            <span>Henry</span>
+                            <a href="#" class="editProfile">Chỉnh sửa</a>
+                            <a href="#" class="upgradeProfile">Nâng cấp</a>
+                            <div class="pointBox">
+                                <div class="pointNumber">
+                                    <b>Xuất sắc</b>
+                                    147 đánh giá
+                                </div>
+                                <div class="point">
+                                    4.5
+                                </div>
+                            </div>
+                            <div class="pointPercent">
+                                <span>Tỷ lệ :</span>
+                                <div class="progressBar">
+                                    <div class="mainProcess">
+                                        <div class="green"><span>70%</span></div>
+                                        <div class="red"><span>30%</span></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
 			</div>
 			<div class="clear"></div>
 		</div>

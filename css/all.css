@@ -2064,6 +2064,12 @@ or wrap each row of columns in a <div class="row"> */
   src: local("Γÿ║"), url("../fonts/Montserrat-Regular.woff") format("woff"), url("../fonts/Montserrat-Regular.ttf") format("truetype"), url("../fonts/Montserrat-Regular.svg") format("svg");
   font-weight: 400;
   font-style: normal; }
+@font-face {
+  font-family: 'Montserrat-Bold';
+  src: url("../fonts/Montserrat-Bold.eot");
+  src: local("Γÿ║"), url("../fonts/Montserrat-Bold.woff") format("woff"), url("../fonts/Montserrat-Bold.ttf") format("truetype"), url("../fonts/Montserrat-Bold.svg") format("svg");
+  font-weight: normal;
+  font-style: normal; }
 /* ! PRIMARY STYLES */
 html, body {
   width: 100%; }
@@ -2867,14 +2873,16 @@ header {
   display: inline-block;
   padding: 0;
   height: 40px;
-  overflow: hidden;
   transition: all .3s ease;
   margin: 0 0 10px 0;
-  vertical-align: top; }
+  vertical-align: top;
+  position: relative;
+  width: 100px; }
 
 .languagepicker:hover {
-  /* don't forget the 1px border */
-  height: 81px; }
+  /* don't forget the 1px border */ }
+  .languagepicker:hover li {
+    display: block; }
 
 .languagepicker a {
   color: #fff;
@@ -2884,10 +2892,16 @@ header {
   display: block;
   padding: 0px;
   line-height: 40px;
-  border-top: 1px solid #EEE; }
+  border-top: 1px solid #EEE;
+  position: absolute;
+  top: 40px;
+  display: none; }
 
 .languagepicker a:first-child li {
-  border: none; }
+  border: none;
+  position: relative;
+  display: block;
+  top: 0; }
 
 .languagepicker li img {
   margin-right: 5px;
@@ -2950,6 +2964,7 @@ header {
         background: url(../images/arrow-down16.png) no-repeat right center;
         padding-right: 30px; }
   .tradeCoinHeader .navigationBar, .memberHeader .navigationBar {
+    display: inline-block;
     padding-top: 27px; }
     .tradeCoinHeader .navigationBar li, .memberHeader .navigationBar li {
       display: inline-block;
@@ -2981,8 +2996,53 @@ header {
         width: 46px;
         height: 4px; }
 
+.memberHeader .language {
+  margin-top: 12px; }
 .memberHeader .tradeLogo {
   margin-top: 3px; }
+  .memberHeader .tradeLogo img {
+    width: 218px; }
+.memberHeader .buyBox {
+  float: left;
+  width: 680px;
+  margin-left: 25px; }
+  .memberHeader .buyBox .buyCol {
+    float: left;
+    width: 50%;
+    padding-top: 24px; }
+    .memberHeader .buyBox .buyCol .title {
+      font-size: 14px;
+      color: #fff;
+      padding-right: 8px; }
+    .memberHeader .buyBox .buyCol .price {
+      font-family: "Montserrat-Bold";
+      padding-right: 8px; }
+    .memberHeader .buyBox .buyCol a.btnBuy {
+      font-size: 14px;
+      color: #fff;
+      background: #07bc36;
+      border: 4px;
+      padding: 8px 16px;
+      text-transform: uppercase; }
+    .memberHeader .buyBox .buyCol.sale .price {
+      color: #07bc36; }
+    .memberHeader .buyBox .buyCol.buyNow .price {
+      color: #f84c4c; }
+    .memberHeader .buyBox .buyCol.buyNow a.btnBuy {
+      background: #c10505; }
+
+.topSocials {
+  margin-top: 17px;
+  float: right; }
+  .topSocials a {
+    background: url(../images/fb.png) no-repeat;
+    width: 32px;
+    height: 32px;
+    background-size: 32px !important;
+    display: inline-block;
+    margin-left: 10px; }
+    .topSocials a.tw {
+      background: url(../images/tw.png) no-repeat; }
 
 footer {
   background: url(../images/bg-footer.png) no-repeat bottom center #171920;

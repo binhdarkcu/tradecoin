@@ -122,15 +122,18 @@ header{
 	display: inline-block;
 	padding: 0;
 	height: 40px;
-	overflow: hidden;
 	transition: all .3s ease;
 	margin: 0 0 10px 0;
 	vertical-align: top;
+    position: relative;
+    width: 100px;
 }
 
 .languagepicker:hover {
 	/* don't forget the 1px border */
-	height: 81px;
+    li {
+        display: block;
+    }
 }
 
 .languagepicker a{
@@ -143,6 +146,10 @@ header{
 	padding: 0px;
 	line-height: 40px;
 	border-top: 1px solid #EEE;
+    position: absolute;
+    top: 40px;
+    display: none;
+
 }
 
 .languagepicker li:hover{
@@ -150,6 +157,9 @@ header{
 
 .languagepicker a:first-child li {
 	border: none;
+    position: relative;
+    display: block;
+    top: 0;
 }
 
 .languagepicker li img {
@@ -224,6 +234,7 @@ header{
         }
     }
     .navigationBar {
+        display: inline-block;
         padding-top: 27px;
         li {
             display: inline-block;
@@ -270,7 +281,70 @@ header{
 }
 
 .memberHeader {
+    .language {
+        margin-top: 12px;
+    }
     .tradeLogo{
         margin-top: 3px;
+        img {
+            width: 218px;
+        }
+    }
+    .buyBox {
+        float: left;
+        width: 680px;
+        margin-left: 25px;
+        .buyCol {
+            float: left;
+            width: 50%;
+            padding-top: 24px;
+            .title {
+                font-size: 14px;
+                color: #fff;
+                padding-right: 8px;
+            }
+            .price {
+                font-family: "Montserrat-Bold";
+                padding-right: 8px;
+            }
+            a.btnBuy {
+                font-size: 14px;
+                color: #fff;
+                background: #07bc36;
+                border: 4px;
+                padding: 8px 16px;
+                text-transform: uppercase;
+
+            }
+            &.sale {
+                .price {
+                    color: #07bc36;
+                }
+            }
+            &.buyNow {
+                .price {
+                    color: #f84c4c;
+                }
+                a.btnBuy {
+                    background: #c10505;
+                }
+            }
+        }
+    }
+}
+
+.topSocials {
+    margin-top: 17px;
+    float: right;
+    a {
+        background: url(../images/fb.png) no-repeat;
+        width: 32px;
+        height: 32px;
+        background-size: 32px!important;
+        display: inline-block;
+        margin-left: 10px;
+        &.tw {
+            background: url(../images/tw.png) no-repeat;
+        }
     }
 }
