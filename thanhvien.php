@@ -94,9 +94,11 @@
                     </div>
                     <div class="memberRight">
                         <div class="memberTop">
-                            <span>Henry</span>
-                            <a href="#" class="editProfile">Chỉnh sửa</a>
-                            <a href="#" class="upgradeProfile">Nâng cấp</a>
+                            <div class="nameBox">
+                                <span>Henry</span>
+                                <a href="#" class="editProfile">Chỉnh sửa</a>
+                                <a href="#" class="upgradeProfile">Nâng cấp</a>
+                            </div>
                             <div class="pointBox">
                                 <div class="pointNumber">
                                     <b>Xuất sắc</b>
@@ -110,10 +112,56 @@
                                 <span>Tỷ lệ :</span>
                                 <div class="progressBar">
                                     <div class="mainProcess">
-                                        <div class="green"><span>70%</span></div>
-                                        <div class="red"><span>30%</span></div>
+                                        <div class="green" style="width: 70%"><span>70%</span></div>
+                                        <div class="red" style="width: 30%"><span>30%</span></div>
                                     </div>
                                 </div>
+                            </div>
+                            <div class="clear"></div>
+                        </div>
+                        <div class="memberMiddle">
+                            <div class="floatLeft visited">
+                                <span>Last visit 28 minutes ago</span>
+                            </div>
+                            <div class="floatLeft joined">
+                                <span>Joined 4 months ago</span>
+                            </div>
+                            <div class="floatLeft location">
+                                <span>Da Nang</span>
+                            </div>
+                            <div class="floatLeft smallSocials">
+                                <a href="#">D4rkEnergY<a/>
+                                <a href="#" class="fb">D4rkEnergY<a/>
+                            </div>
+                            <div class="clear"></div>
+                        </div>
+                        <div class="memberBottom">
+                            <div class="floatLeft morderate">
+                                <span></span>
+                            </div>
+                            <div class="floatLeft iconkeo">
+                                <b>452</b>
+                                <span>KÈO</span>
+                            </div>
+                            <div class="floatLeft iconview">
+                                <b>45213</b>
+                                <span>VIEW</span>
+                            </div>
+                            <div class="floatLeft iconmment">
+                                <b>45213</b>
+                                <span>COMMENT</span>
+                            </div>
+                            <div class="floatLeft iconlike">
+                                <b>45213</b>
+                                <span>LIKE</span>
+                            </div>
+                            <div class="floatLeft icondislike">
+                                <b>45213</b>
+                                <span>DISLIKE</span>
+                            </div>
+                            <div class="floatRight iconfollowers">
+                                <b>45213</b>
+                                <span>FOLLOWERS</span>
                             </div>
                         </div>
                     </div>
