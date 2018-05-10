@@ -8150,7 +8150,7 @@ video {
   margin-top: -8%;
   padding-top: 90px;
   color: #fff;
-  min-height: 1000px; }
+  min-height: 1150px; }
   .tradeLists .commonTitle {
     color: #fff;
     padding-top: 15px;
@@ -10837,7 +10837,7 @@ video::-webkit-media-text-track-display {
   .memberBox .topMod .topModWidth {
     width: 100%; }
   .memberBox .memRow .info {
-    width: 115px; }
+    width: 105px; }
   .memberBox .memRow .amount {
     width: 120px; }
 
@@ -10863,6 +10863,9 @@ video::-webkit-media-text-track-display {
   .commingSoon {
     margin-top: -17%; } }
 @media (min-width: 768px) and (max-width: 991px) {
+  .memberBox .memRow .avatar {
+    margin-right: 15px; }
+
   .blockLanguage {
     position: absolute;
     right: 0;
@@ -10991,10 +10994,10 @@ video::-webkit-media-text-track-display {
     width: 120px; }
 
   .roadMap {
-    margin-top: -65%;
+    margin-top: -20%;
     min-height: 2900px; }
     .roadMap h3 {
-      padding-top: 63%; }
+      padding-top: 20%; }
     .roadMap .roadBox {
       padding-top: 0; }
       .roadMap .roadBox .lineProcess {
@@ -11132,8 +11135,8 @@ video::-webkit-media-text-track-display {
 
   .tradeLists {
     margin-top: -80%;
-    padding-top: 80%;
-    min-height: 1200px; }
+    padding-top: 65%;
+    min-height: 1400px; }
     .tradeLists .tradeTable {
       float: left;
       width: 100%;
@@ -11197,7 +11200,7 @@ video::-webkit-media-text-track-display {
       right: -10px; }
 
   .newsList .threeBlock .blockCol {
-    width: 90%;
+    width: 100%;
     margin-bottom: 20px !important; }
     .newsList .threeBlock .blockCol.col2 {
       margin: 0; }

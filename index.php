@@ -29,6 +29,7 @@
 <script src="js/jquery.easing.1.3.js"></script>
 <script src="js/slick.min.js"></script>
 <script type="text/javascript" src="js/jquery-rate-picker.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
 <script src="js/class.SiteMain.js"></script>
 <!--[if lt IE 9]><script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
 </head>
@@ -332,325 +333,333 @@
 		<!--Top mode-->
         <div class="memberBox progressBg">
             <div class="container">
-                <div class="memberCol topMod">
-                    <div class="topModWidth">
-                        <h3>Top Mod</h3>
-                        <div class="memRow">
-                            <div class="avatar">
-                                <img src="images/diengia.png"/>
-                            </div>
-                            <div class="info">
-                                <div class="middle">
-                                    <span class="name">Bib B</span>
-                                    <div class="numPost">25 bài viết</div>
+                <div class="row">
+                    <div class="memberCol topMod col-md-6 col-sm-12">
+                        <div class="topModWidth">
+                            <h3>Top Mod</h3>
+                            <div class="memRow">
+                                <div class="avatar">
+                                    <img src="images/diengia.png"/>
                                 </div>
-                            </div>
-                            <div class="medal"><div class="middle"><img src="images/top1.png"/></div></div>
-                            <div class="amount">
-                                <div class="middle">
-                                    <b>Xuất sắc</b>
-                                    <span>147 đánh giá</span>
+                                <div class="info">
+                                    <div class="middle">
+                                        <span class="name">Bib B</span>
+                                        <div class="numPost">25 bài viết</div>
+                                    </div>
                                 </div>
+                                <div class="medal"><div class="middle"><img src="images/top1.png"/></div></div>
+                                <div class="amount">
+                                    <div class="middle">
+                                        <b>Xuất sắc</b>
+                                        <span>147 đánh giá</span>
+                                    </div>
+                                </div>
+                                <div class="point"><div class="middle"><span>4.5</span></div></div>
                             </div>
-                            <div class="point"><div class="middle"><span>4.5</span></div></div>
+                            <div class="memRow">
+                                <div class="avatar">
+                                    <img src="images/diengia.png"/>
+                                </div>
+                                <div class="info">
+                                    <div class="middle">
+                                        <span class="name">Bib B</span>
+                                        <div class="numPost">25 bài viết</div>
+                                    </div>
+                                </div>
+                                <div class="medal"><div class="middle"><img src="images/top1.png"/></div></div>
+                                <div class="amount">
+                                    <div class="middle">
+                                        <b>Xuất sắc</b>
+                                        <span>147 đánh giá</span>
+                                    </div>
+                                </div>
+                                <div class="point"><div class="middle"><span>4.5</span></div></div>
+                            </div>
+                            <div class="memRow">
+                                <div class="avatar">
+                                    <img src="images/diengia.png"/>
+                                </div>
+                                <div class="info">
+                                    <div class="middle">
+                                        <span class="name">Bib B</span>
+                                        <div class="numPost">25 bài viết</div>
+                                    </div>
+                                </div>
+                                <div class="medal"><div class="middle"><img src="images/top1.png"/></div></div>
+                                <div class="amount">
+                                    <div class="middle">
+                                        <b>Xuất sắc</b>
+                                        <span>147 đánh giá</span>
+                                    </div>
+                                </div>
+                                <div class="point"><div class="middle"><span>4.5</span></div></div>
+                            </div>
+                            <div class="memRow">
+                                <div class="avatar">
+                                    <img src="images/diengia.png"/>
+                                </div>
+                                <div class="info">
+                                    <div class="middle">
+                                        <span class="name">Bib B</span>
+                                        <div class="numPost">25 bài viết</div>
+                                    </div>
+                                </div>
+                                <div class="medal"><div class="middle"><img src="images/top1.png"/></div></div>
+                                <div class="amount">
+                                    <div class="middle">
+                                        <b>Xuất sắc</b>
+                                        <span>147 đánh giá</span>
+                                    </div>
+                                </div>
+                                <div class="point"><div class="middle"><span>4.5</span></div></div>
+                            </div>
                         </div>
-                        <div class="memRow">
-                            <div class="avatar">
-                                <img src="images/diengia.png"/>
-                            </div>
-                            <div class="info">
-                                <div class="middle">
-                                    <span class="name">Bib B</span>
-                                    <div class="numPost">25 bài viết</div>
-                                </div>
-                            </div>
-                            <div class="medal"><div class="middle"><img src="images/top1.png"/></div></div>
-                            <div class="amount">
-                                <div class="middle">
-                                    <b>Xuất sắc</b>
-                                    <span>147 đánh giá</span>
-                                </div>
-                            </div>
-                            <div class="point"><div class="middle"><span>4.5</span></div></div>
-                        </div>
-                        <div class="memRow">
-                            <div class="avatar">
-                                <img src="images/diengia.png"/>
-                            </div>
-                            <div class="info">
-                                <div class="middle">
-                                    <span class="name">Bib B</span>
-                                    <div class="numPost">25 bài viết</div>
-                                </div>
-                            </div>
-                            <div class="medal"><div class="middle"><img src="images/top1.png"/></div></div>
-                            <div class="amount">
-                                <div class="middle">
-                                    <b>Xuất sắc</b>
-                                    <span>147 đánh giá</span>
-                                </div>
-                            </div>
-                            <div class="point"><div class="middle"><span>4.5</span></div></div>
-                        </div>
-                        <div class="memRow">
-                            <div class="avatar">
-                                <img src="images/diengia.png"/>
-                            </div>
-                            <div class="info">
-                                <div class="middle">
-                                    <span class="name">Bib B</span>
-                                    <div class="numPost">25 bài viết</div>
-                                </div>
-                            </div>
-                            <div class="medal"><div class="middle"><img src="images/top1.png"/></div></div>
-                            <div class="amount">
-                                <div class="middle">
-                                    <b>Xuất sắc</b>
-                                    <span>147 đánh giá</span>
-                                </div>
-                            </div>
-                            <div class="point"><div class="middle"><span>4.5</span></div></div>
-                        </div>
+                        <div class="clear"></div>
                     </div>
-                    <div class="clear"></div>
-                </div>
-                <div class="memberCol newMember">
-                    <h3>Thành viên mới</h3>
-                    <div class="newMemberScroll">
-                        <div class="memRow">
-                            <div class="avatar">
-                                <img src="images/diengia.png"/>
-                                <span class="name">Bib B</span>
+                    <div class="memberCol newMember">
+                        <h3>Thành viên mới</h3>
+                        <div class="newMemberScroll">
+                            <div class="memRow">
+                                <div class="avatar">
+                                    <img src="images/diengia.png"/>
+                                    <span class="name">Bib B</span>
+                                </div>
+                                <div class="memberType"><span class="free">Free member</span></div>
+                                <div class="date">14.04.2018</div>
                             </div>
-                            <div class="memberType"><span class="free">Free member</span></div>
-                            <div class="date">14.04.2018</div>
-                        </div>
-                        <div class="memRow">
-                            <div class="avatar">
-                                <img src="images/diengia.png"/>
-                                <span class="name">Bib B</span>
+                            <div class="memRow">
+                                <div class="avatar">
+                                    <img src="images/diengia.png"/>
+                                    <span class="name">Bib B</span>
+                                </div>
+                                <div class="memberType"><span class="normal">Normal</span></div>
+                                <div class="date">14.04.2018</div>
                             </div>
-                            <div class="memberType"><span class="normal">Normal</span></div>
-                            <div class="date">14.04.2018</div>
-                        </div>
-                        <div class="memRow">
-                            <div class="avatar">
-                                <img src="images/diengia.png"/>
-                                <span class="name">Bib B</span>
+                            <div class="memRow">
+                                <div class="avatar">
+                                    <img src="images/diengia.png"/>
+                                    <span class="name">Bib B</span>
+                                </div>
+                                <div class="memberType"><span class="vip">VIP</span></div>
+                                <div class="date">14.04.2018</div>
                             </div>
-                            <div class="memberType"><span class="vip">VIP</span></div>
-                            <div class="date">14.04.2018</div>
-                        </div>
-                        <div class="memRow">
-                            <div class="avatar">
-                                <img src="images/diengia.png"/>
-                                <span class="name">Bib B</span>
+                            <div class="memRow">
+                                <div class="avatar">
+                                    <img src="images/diengia.png"/>
+                                    <span class="name">Bib B</span>
+                                </div>
+                                <div class="memberType"><span class="free">Free member</span></div>
+                                <div class="date">14.04.2018</div>
                             </div>
-                            <div class="memberType"><span class="free">Free member</span></div>
-                            <div class="date">14.04.2018</div>
-                        </div>
-                        <div class="memRow">
-                            <div class="avatar">
-                                <img src="images/diengia.png"/>
-                                <span class="name">Bib B</span>
+                            <div class="memRow">
+                                <div class="avatar">
+                                    <img src="images/diengia.png"/>
+                                    <span class="name">Bib B</span>
+                                </div>
+                                <div class="memberType"><span class="free">Free member</span></div>
+                                <div class="date">14.04.2018</div>
                             </div>
-                            <div class="memberType"><span class="free">Free member</span></div>
-                            <div class="date">14.04.2018</div>
-                        </div>
-                        <div class="memRow">
-                            <div class="avatar">
-                                <img src="images/diengia.png"/>
-                                <span class="name">Bib B</span>
+                            <div class="memRow">
+                                <div class="avatar">
+                                    <img src="images/diengia.png"/>
+                                    <span class="name">Bib B</span>
+                                </div>
+                                <div class="memberType"><span class="free">Free member</span></div>
+                                <div class="date">14.04.2018</div>
                             </div>
-                            <div class="memberType"><span class="free">Free member</span></div>
-                            <div class="date">14.04.2018</div>
-                        </div>
-                        <div class="memRow">
-                            <div class="avatar">
-                                <img src="images/diengia.png"/>
-                                <span class="name">Bib B</span>
+                            <div class="memRow">
+                                <div class="avatar">
+                                    <img src="images/diengia.png"/>
+                                    <span class="name">Bib B</span>
+                                </div>
+                                <div class="memberType"><span class="free">Free member</span></div>
+                                <div class="date">14.04.2018</div>
                             </div>
-                            <div class="memberType"><span class="free">Free member</span></div>
-                            <div class="date">14.04.2018</div>
-                        </div>
-                        <div class="memRow">
-                            <div class="avatar">
-                                <img src="images/diengia.png"/>
-                                <span class="name">Bib B</span>
+                            <div class="memRow">
+                                <div class="avatar">
+                                    <img src="images/diengia.png"/>
+                                    <span class="name">Bib B</span>
+                                </div>
+                                <div class="memberType"><span class="free">Free member</span></div>
+                                <div class="date">14.04.2018</div>
                             </div>
-                            <div class="memberType"><span class="free">Free member</span></div>
-                            <div class="date">14.04.2018</div>
                         </div>
+                        <div class="clear"></div>
                     </div>
-                    <div class="clear"></div>
                 </div>
                 <div class="clear"></div>
             </div>
         </div>
         <div class="roadMap">
             <div class="container">
-                <h3 class="gradientText"><img src="images/roadmap.png"/></h3>
-                <div class="roadBox">
-                    <div class="lineProcess"></div>
-                    <div class="road r01">
-                        <div class="arr"></div>
-                        <img src="images/roadmap-1.png"/>
-                        <div class="roadInfo">
-                            <b>Tháng 5/2018</b>
-                            <p>Ra mắt hệ thống Webite
-                            phiên bản Desktop
-                            hệ thống Tradecoinclub
-                            Version 1.0</p>
+                <div class="row">
+                    <h3 class="gradientText"><img src="images/roadmap.png"/></h3>
+                    <div class="roadBox">
+                        <div class="lineProcess"></div>
+                        <div class="road r01">
+                            <div class="arr"></div>
+                            <img src="images/roadmap-1.png"/>
+                            <div class="roadInfo">
+                                <b>Tháng 5/2018</b>
+                                <p>Ra mắt hệ thống Webite
+                                phiên bản Desktop
+                                hệ thống Tradecoinclub
+                                Version 1.0</p>
+                            </div>
                         </div>
-                    </div>
-                    <div class="road r02">
-                        <img src="images/roadmap-2.png"/>
-                        <div class="roadInfo">
-                            <b>Tháng 6/2018</b>
-                            <p>Ra mắt App Tradecoinclub
-                            Ra mắt VP tại Hà Nội,
-                            Đà Nẵng, Hồ Chí Minh.</p>
+                        <div class="road r02">
+                            <img src="images/roadmap-2.png"/>
+                            <div class="roadInfo">
+                                <b>Tháng 6/2018</b>
+                                <p>Ra mắt App Tradecoinclub
+                                Ra mắt VP tại Hà Nội,
+                                Đà Nẵng, Hồ Chí Minh.</p>
+                            </div>
+                            <div class="arr"></div>
                         </div>
-                        <div class="arr"></div>
-                    </div>
-                    <div class="road r03">
-                        <div class="arr"></div>
-                        <img src="images/roadmap-3.png"/>
-                        <div class="roadInfo">
-                            <b>Tháng 8/2018</b>
-                            <p>Ra mắt Cafe Crypto
-                            kết hợp thẻ Vip member
-                            tại Hà Nội</p>
+                        <div class="road r03">
+                            <div class="arr"></div>
+                            <img src="images/roadmap-3.png"/>
+                            <div class="roadInfo">
+                                <b>Tháng 8/2018</b>
+                                <p>Ra mắt Cafe Crypto
+                                kết hợp thẻ Vip member
+                                tại Hà Nội</p>
+                            </div>
                         </div>
-                    </div>
-                    <div class="road r04">
-                        <img src="images/roadmap-3.png"/>
-                        <div class="roadInfo">
-                            <b>Tháng 9/2018</b>
-                            <p>Ra mắt Cafe Crypto
-                            kết hợp thẻ Vip member
-                            tại Đà Nẵng</p>
+                        <div class="road r04">
+                            <img src="images/roadmap-3.png"/>
+                            <div class="roadInfo">
+                                <b>Tháng 9/2018</b>
+                                <p>Ra mắt Cafe Crypto
+                                kết hợp thẻ Vip member
+                                tại Đà Nẵng</p>
+                            </div>
+                            <div class="arr"></div>
                         </div>
-                        <div class="arr"></div>
-                    </div>
-                    <div class="road r05">
-                        <div class="arr"></div>
-                        <img src="images/roadmap-3.png"/>
-                        <div class="roadInfo">
-                            <b>Tháng 10/2018</b>
-                            <p>Ra mắt Cafe Crypto
-                            kết hợp thẻ Vip member
-                            tại HCM</p>
+                        <div class="road r05">
+                            <div class="arr"></div>
+                            <img src="images/roadmap-3.png"/>
+                            <div class="roadInfo">
+                                <b>Tháng 10/2018</b>
+                                <p>Ra mắt Cafe Crypto
+                                kết hợp thẻ Vip member
+                                tại HCM</p>
+                            </div>
                         </div>
-                    </div>
-                    <div class="road r06">
-                        <img src="images/roadmap-4.png"/>
-                        <div class="roadInfo">
-                            <b>Tháng 11/2018</b>
-                            <p>Nâng cấp hệ thống
-                            Version 2.0 chạy trên
-                            IOS, Android</p>
+                        <div class="road r06">
+                            <img src="images/roadmap-4.png"/>
+                            <div class="roadInfo">
+                                <b>Tháng 11/2018</b>
+                                <p>Nâng cấp hệ thống
+                                Version 2.0 chạy trên
+                                IOS, Android</p>
+                            </div>
+                            <div class="arr"></div>
                         </div>
-                        <div class="arr"></div>
+                        <div class="clear"></div>
                     </div>
-                    <div class="clear"></div>
                 </div>
             </div>
 
             <!--TEAM MEMBER-->
             <div class="teamMembers">
                 <div class="container">
-                    <h3 class="gradientText"><img src="images/team-member-title.png"/></h3>
-                    <div class="memberLists">
-                        <div class="col">
-                            <div class="bgAvatar">
-                                <div class="avatar"><img src="images/team-member.png"/></div>
+                    <div class="row">
+                        <h3 class="gradientText"><img src="images/team-member-title.png"/></h3>
+                        <div class="memberLists">
+                            <div class="col">
+                                <div class="bgAvatar">
+                                    <div class="avatar"><img src="images/team-member.png"/></div>
+                                </div>
+                                <div class="memberName">
+                                    Sergei Chmel<br/>
+                                    Mod
+                                </div>
                             </div>
-                            <div class="memberName">
-                                Sergei Chmel<br/>
-                                Mod
+                            <div class="col">
+                                <div class="bgAvatar">
+                                    <div class="avatar"><img src="images/team-member.png"/></div>
+                                </div>
+                                <div class="memberName">
+                                    Sergei Chmel<br/>
+                                    Mod
+                                </div>
                             </div>
+                            <div class="col">
+                                <div class="bgAvatar">
+                                    <div class="avatar"><img src="images/team-member.png"/></div>
+                                </div>
+                                <div class="memberName">
+                                    Sergei Chmel<br/>
+                                    Mod
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="bgAvatar">
+                                    <div class="avatar"><img src="images/team-member.png"/></div>
+                                </div>
+                                <div class="memberName">
+                                    Sergei Chmel<br/>
+                                    Mod
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="bgAvatar">
+                                    <div class="avatar"><img src="images/team-member.png"/></div>
+                                </div>
+                                <div class="memberName">
+                                    Sergei Chmel<br/>
+                                    Mod
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="bgAvatar">
+                                    <div class="avatar"><img src="images/team-member.png"/></div>
+                                </div>
+                                <div class="memberName">
+                                    Sergei Chmel<br/>
+                                    Mod
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="bgAvatar">
+                                    <div class="avatar"><img src="images/team-member.png"/></div>
+                                </div>
+                                <div class="memberName">
+                                    Sergei Chmel<br/>
+                                    Mod
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="bgAvatar">
+                                    <div class="avatar"><img src="images/team-member.png"/></div>
+                                </div>
+                                <div class="memberName">
+                                    Sergei Chmel<br/>
+                                    Mod
+                                </div>
+                            </div>
+                            <div class="clear"></div>
                         </div>
-                        <div class="col">
-                            <div class="bgAvatar">
-                                <div class="avatar"><img src="images/team-member.png"/></div>
-                            </div>
-                            <div class="memberName">
-                                Sergei Chmel<br/>
-                                Mod
-                            </div>
-                        </div>
-                        <div class="col">
-                            <div class="bgAvatar">
-                                <div class="avatar"><img src="images/team-member.png"/></div>
-                            </div>
-                            <div class="memberName">
-                                Sergei Chmel<br/>
-                                Mod
-                            </div>
-                        </div>
-                        <div class="col">
-                            <div class="bgAvatar">
-                                <div class="avatar"><img src="images/team-member.png"/></div>
-                            </div>
-                            <div class="memberName">
-                                Sergei Chmel<br/>
-                                Mod
-                            </div>
-                        </div>
-                        <div class="col">
-                            <div class="bgAvatar">
-                                <div class="avatar"><img src="images/team-member.png"/></div>
-                            </div>
-                            <div class="memberName">
-                                Sergei Chmel<br/>
-                                Mod
-                            </div>
-                        </div>
-                        <div class="col">
-                            <div class="bgAvatar">
-                                <div class="avatar"><img src="images/team-member.png"/></div>
-                            </div>
-                            <div class="memberName">
-                                Sergei Chmel<br/>
-                                Mod
-                            </div>
-                        </div>
-                        <div class="col">
-                            <div class="bgAvatar">
-                                <div class="avatar"><img src="images/team-member.png"/></div>
-                            </div>
-                            <div class="memberName">
-                                Sergei Chmel<br/>
-                                Mod
-                            </div>
-                        </div>
-                        <div class="col">
-                            <div class="bgAvatar">
-                                <div class="avatar"><img src="images/team-member.png"/></div>
-                            </div>
-                            <div class="memberName">
-                                Sergei Chmel<br/>
-                                Mod
-                            </div>
-                        </div>
-                        <div class="clear"></div>
                     </div>
                 </div>
             </div>
             <!--PARTNER-->
             <div class="partners">
                 <div class="container">
-                    <h3 class="gradientText"><img src="images/partner.png"/></h3>
-                    <div class="partnerSlider">
-                        <div class="slick-slide"><img src="images/slick-1.png"/></div>
-                        <div class="slick-slide"><img src="images/slick-2.png"/></div>
-                        <div class="slick-slide"><img src="images/slick-3.png"/></div>
-                        <div class="slick-slide"><img src="images/slick-4.png"/></div>
-                        <div class="slick-slide"><img src="images/slick-1.png"/></div>
-                        <div class="slick-slide"><img src="images/slick-2.png"/></div>
-                        <div class="slick-slide"><img src="images/slick-3.png"/></div>
-                        <div class="slick-slide"><img src="images/slick-4.png"/></div>
+                    <div class="row">
+                        <h3 class="gradientText"><img src="images/partner.png"/></h3>
+                        <div class="partnerSlider">
+                            <div class="slick-slide"><img src="images/slick-1.png"/></div>
+                            <div class="slick-slide"><img src="images/slick-2.png"/></div>
+                            <div class="slick-slide"><img src="images/slick-3.png"/></div>
+                            <div class="slick-slide"><img src="images/slick-4.png"/></div>
+                            <div class="slick-slide"><img src="images/slick-1.png"/></div>
+                            <div class="slick-slide"><img src="images/slick-2.png"/></div>
+                            <div class="slick-slide"><img src="images/slick-3.png"/></div>
+                            <div class="slick-slide"><img src="images/slick-4.png"/></div>
+                        </div>
                     </div>
                 </div>
             </div>

@@ -138,7 +138,7 @@
          }
         .memRow {
             .info {
-                width: 115px;
+                width: 105px;
             }
             .amount {
                 width: 120px;
@@ -190,6 +190,13 @@
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
+    .memberBox {
+        .memRow {
+            .avatar {
+                margin-right: 15px;
+            }
+        }
+    }
     .blockLanguage {
         position: absolute;
         right: 0;
@@ -399,10 +406,10 @@
         }
     }
     .roadMap {
-        margin-top: -65%;
+        margin-top: -20%;
         min-height: 2900px;
         h3 {
-            padding-top: 63%;
+            padding-top: 20%;
         }
         .roadBox {
             padding-top: 0;
