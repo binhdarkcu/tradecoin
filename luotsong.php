@@ -29,6 +29,7 @@
 <script src="js/jquery.easing.1.3.js"></script>
 <script src="js/slick.min.js"></script>
 <script type="text/javascript" src="js/jquery-rate-picker.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
 <script src="js/class.SiteMain.js"></script>
 <!--[if lt IE 9]><script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
 </head>
@@ -38,196 +39,202 @@
 		<header class="tradeCoinHeader loggedIn">
 			<div class="bgHeader">
                 <div class="container">
-    				<a href="#" class="tradeLogo"><img src="images/tradeLogo.png"/></a>
-    				<div class="tradeSearch">
-                        <a href="#" class="infoTooltip"></a>
-                        <form action="" method="">
-                            <input type="text" value="" placeholder="" />
-                        </form>
-                    </div>
-                    <div class="userLogin">
-                        <div class="userBox">
-                            <a href="#">Username</a>
-                            <div class="userDropDown" style="display: none;">
-                                <ul>
-                                    <li><a href="#">Profile</a></li>
-                                </ul>
-                            </div>
+                    <div class="row">
+                        <a href="#" class="tradeLogo"><img src="images/tradeLogo.png"/></a>
+        				<div class="tradeSearch">
+                            <a href="#" class="infoTooltip"></a>
+                            <form action="" method="">
+                                <input type="text" value="" placeholder="" />
+                            </form>
                         </div>
-                        <a href="#" class="avatar"></a>
+                        <div class="userLogin">
+                            <div class="userBox">
+                                <a href="#">Username</a>
+                                <div class="userDropDown" style="display: none;">
+                                    <ul>
+                                        <li><a href="#">Profile</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <a href="#" class="avatar"></a>
+                        </div>
+                        <div class="clear"></div>
                     </div>
-                    <div class="clear"></div>
     			</div>
             </div>
             <div class="bgNavigation">
                 <div class="container">
-                    <ul class="navigationBar">
-                        <li class="current-menu-item"><a href="#" class="icon1">Lướt sóng</a></li>
-                        <li><a href="#" class="icon2">Trade Coin</a></li>
-                        <li><a href="#" class="icon3">Hold Coin</a></li>
-                        <li><a href="#" class="icon4">ICO</a></li>
-                    </ul>
+                    <div class="row">
+                        <ul class="navigationBar">
+                            <li class="current-menu-item"><a href="#" class="icon1">Lướt sóng</a></li>
+                            <li><a href="#" class="icon2">Trade Coin</a></li>
+                            <li><a href="#" class="icon3">Hold Coin</a></li>
+                            <li><a href="#" class="icon4">ICO</a></li>
+                        </ul>
+                    </div>
                 </div>
             </div>
 		</header>
         <div class="tradeLists greyBg tradeListPage">
 			<div class="container">
-				<h3 class="commonTitle align-center">Lướt sóng</h3>
-				<div class="tradeTable">
-					<div class="tradeTitle">
-						<div class="col col1">Trạng thái</div>
-						<div class="col col2">Kèo</div>
-						<div class="col col3">Win/Loss</div>
-						<div class="col col4">Tỷ lệ</div>
-						<div class="col col5">Mod</div>
-						<div class="col col6">Đánh giá</div>
-					</div>
-					<div class="tradeContent">
-						<div class="tradeRow pink">
-							<div class="col col1"><span class="new">New</span></div>
-							<div class="col col2">Lướt sóng nhanh ETH khung M5</div>
-							<div class="col col3"><span>...........</span></div>
-							<div class="col col4"><span>...........</span></div>
-							<div class="col col5">John Nguyen</div>
-							<div class="col col6"><div class="point">4.5</div> <div class="comment"><span class="icon">12</span></div></div>
-						</div>
-						<div class="tradeRow pink">
-							<div class="col col1"><span class="active">Active</span></div>
-							<div class="col col2">Lướt sóng nhanh ETH khung M5</div>
-							<div class="col col3"><span>...........</span></div>
-							<div class="col col4"><span>...........</span></div>
-							<div class="col col5">John Nguyen</div>
-							<div class="col col6"><div class="point">4.5</div> <div class="comment"><span class="icon">12</span></div></div>
-						</div>
-                        <div class="tradeRow pink">
-							<div class="col col1"><span class="active">Active</span></div>
-							<div class="col col2">Lướt sóng nhanh ETH khung M5</div>
-							<div class="col col3"><span>...........</span></div>
-							<div class="col col4"><span>...........</span></div>
-							<div class="col col5">John Nguyen</div>
-							<div class="col col6"><div class="point">4.5</div> <div class="comment"><span class="icon">12</span></div></div>
-						</div>
-                        <div class="tradeRow pink">
-							<div class="col col1"><span class="active">Active</span></div>
-							<div class="col col2">Lướt sóng nhanh ETH khung M5</div>
-							<div class="col col3"><span>...........</span></div>
-							<div class="col col4"><span>...........</span></div>
-							<div class="col col5">John Nguyen</div>
-							<div class="col col6"><div class="point">4.5</div> <div class="comment"><span class="icon">12</span></div></div>
-						</div>
-                        <div class="tradeRow pink">
-							<div class="col col1"><span class="active">Active</span></div>
-							<div class="col col2">Lướt sóng nhanh ETH khung M5</div>
-							<div class="col col3"><span>...........</span></div>
-							<div class="col col4"><span>...........</span></div>
-							<div class="col col5">John Nguyen</div>
-							<div class="col col6"><div class="point">4.5</div> <div class="comment"><span class="icon">12</span></div></div>
-						</div>
-						<div class="tradeRow pink">
-							<div class="col col1"><span class="done">Done</span></div>
-							<div class="col col2">Lướt sóng nhanh ETH khung M5</div>
-							<div class="col col3"><span class="green">Win</span></div>
-							<div class="col col4"><span class="green">10%</span></div>
-							<div class="col col5">John Nguyen</div>
-							<div class="col col6"><div class="point">4.5</div> <div class="comment"><span class="icon">12</span></div></div>
-						</div>
-						<div class="tradeRow pink">
-							<div class="col col1"><span class="done">Done</span></div>
-							<div class="col col2">Lướt sóng nhanh ETH khung M5</div>
-							<div class="col col3"><span class="green">Win</span></div>
-							<div class="col col4"><span class="green">10%</span></div>
-							<div class="col col5">John Nguyen</div>
-							<div class="col col6"><div class="point">4.5</div> <div class="comment"><span class="icon">12</span></div></div>
-						</div>
-						<div class="tradeRow">
-							<div class="col col1"><span class="done">Done</span></div>
-							<div class="col col2">Lướt sóng nhanh ETH khung M5</div>
-							<div class="col col3"><span class="green">Win</span></div>
-							<div class="col col4"><span class="green">10%</span></div>
-							<div class="col col5">John Nguyen</div>
-							<div class="col col6"><div class="point">4.5</div> <div class="comment"><span class="icon">12</span></div></div>
-						</div>
-						<div class="tradeRow">
-							<div class="col col1"><span class="done">Done</span></div>
-							<div class="col col2">Lướt sóng nhanh ETH khung M5</div>
-							<div class="col col3"><span class="red">Loss</span></div>
-							<div class="col col4"><span class="red">10%</span></div>
-							<div class="col col5">John Nguyen</div>
-							<div class="col col6"><div class="point">4.5</div> <div class="comment"><span class="icon">12</span></div></div>
-						</div>
-						<div class="tradeRow">
-							<div class="col col1"><span class="done">Done</span></div>
-							<div class="col col2">Lướt sóng nhanh ETH khung M5</div>
-							<div class="col col3"><span class="green">Win</span></div>
-							<div class="col col4"><span class="green">10%</span></div>
-							<div class="col col5">John Nguyen</div>
-							<div class="col col6"><div class="point">4.5</div> <div class="comment"><span class="icon">12</span></div></div>
-						</div>
-                        <div class="tradeRow">
-							<div class="col col1"><span class="done">Done</span></div>
-							<div class="col col2">Lướt sóng nhanh ETH khung M5</div>
-							<div class="col col3"><span class="green">Win</span></div>
-							<div class="col col4"><span class="green">10%</span></div>
-							<div class="col col5">John Nguyen</div>
-							<div class="col col6"><div class="point">4.5</div> <div class="comment"><span class="icon">12</span></div></div>
-						</div>
-                        <div class="tradeRow">
-							<div class="col col1"><span class="done">Done</span></div>
-							<div class="col col2">Lướt sóng nhanh ETH khung M5</div>
-							<div class="col col3"><span class="green">Win</span></div>
-							<div class="col col4"><span class="green">10%</span></div>
-							<div class="col col5">John Nguyen</div>
-							<div class="col col6"><div class="point">4.5</div> <div class="comment"><span class="icon">12</span></div></div>
-						</div>
-                        <div class="tradeRow">
-							<div class="col col1"><span class="done">Done</span></div>
-							<div class="col col2">Lướt sóng nhanh ETH khung M5</div>
-							<div class="col col3"><span class="green">Win</span></div>
-							<div class="col col4"><span class="green">10%</span></div>
-							<div class="col col5">John Nguyen</div>
-							<div class="col col6"><div class="point">4.5</div> <div class="comment"><span class="icon">12</span></div></div>
-						</div>
-                        <div class="tradeRow">
-							<div class="col col1"><span class="done">Done</span></div>
-							<div class="col col2">Lướt sóng nhanh ETH khung M5</div>
-							<div class="col col3"><span class="green">Win</span></div>
-							<div class="col col4"><span class="green">10%</span></div>
-							<div class="col col5">John Nguyen</div>
-							<div class="col col6"><div class="point">4.5</div> <div class="comment"><span class="icon">12</span></div></div>
-						</div>
-                        <div class="tradeRow">
-							<div class="col col1"><span class="done">Done</span></div>
-							<div class="col col2">Lướt sóng nhanh ETH khung M5</div>
-							<div class="col col3"><span class="green">Win</span></div>
-							<div class="col col4"><span class="green">10%</span></div>
-							<div class="col col5">John Nguyen</div>
-							<div class="col col6"><div class="point">4.5</div> <div class="comment"><span class="icon">12</span></div></div>
-						</div>
-						<div class="tradeRow">
-							<div class="col col1"><span class="done">Done</span></div>
-							<div class="col col2">Lướt sóng nhanh ETH khung M5</div>
-							<div class="col col3"><span class="green">Win</span></div>
-							<div class="col col4"><span class="green">10%</span></div>
-							<div class="col col5">John Nguyen</div>
-							<div class="col col6"><div class="point">4.5</div> <div class="comment"><span class="icon">12</span></div></div>
-						</div>
-						<div class="tradeRow">
-							<div class="col col1"><span class="done">Done</span></div>
-							<div class="col col2">Lướt sóng nhanh ETH khung M5</div>
-							<div class="col col3"><span class="green">Win</span></div>
-							<div class="col col4"><span class="green">10%</span></div>
-							<div class="col col5">John Nguyen</div>
-							<div class="col col6"><div class="point">4.5</div> <div class="comment"><span class="icon">12</span></div></div>
-						</div>
-						<div class="tradeRow">
-							<div class="col col1"><span class="done">Done</span></div>
-							<div class="col col2">Lướt sóng nhanh ETH khung M5</div>
-							<div class="col col3"><span class="green">Win</span></div>
-							<div class="col col4"><span class="green">10%</span></div>
-							<div class="col col5">John Nguyen</div>
-							<div class="col col6"><div class="point">4.5</div> <div class="comment"><span class="icon">12</span></div></div>
-						</div>
-                        <div class="clear"></div>
+				<div class="row">
+                    <h3 class="commonTitle align-center">Lướt sóng</h3>
+    				<div class="tradeTable">
+    					<div class="tradeTitle">
+    						<div class="col col1">Trạng thái</div>
+    						<div class="col col2">Kèo</div>
+    						<div class="col col3">Win/Loss</div>
+    						<div class="col col4">Tỷ lệ</div>
+    						<div class="col col5">Mod</div>
+    						<div class="col col6">Đánh giá</div>
+    					</div>
+    					<div class="tradeContent">
+    						<div class="tradeRow pink">
+    							<div class="col col1"><span class="new">New</span></div>
+    							<div class="col col2">Lướt sóng nhanh ETH khung M5</div>
+    							<div class="col col3"><span>...........</span></div>
+    							<div class="col col4"><span>...........</span></div>
+    							<div class="col col5">John Nguyen</div>
+    							<div class="col col6"><div class="point">4.5</div> <div class="comment"><span class="icon">12</span></div></div>
+    						</div>
+    						<div class="tradeRow pink">
+    							<div class="col col1"><span class="active">Active</span></div>
+    							<div class="col col2">Lướt sóng nhanh ETH khung M5</div>
+    							<div class="col col3"><span>...........</span></div>
+    							<div class="col col4"><span>...........</span></div>
+    							<div class="col col5">John Nguyen</div>
+    							<div class="col col6"><div class="point">4.5</div> <div class="comment"><span class="icon">12</span></div></div>
+    						</div>
+                            <div class="tradeRow pink">
+    							<div class="col col1"><span class="active">Active</span></div>
+    							<div class="col col2">Lướt sóng nhanh ETH khung M5</div>
+    							<div class="col col3"><span>...........</span></div>
+    							<div class="col col4"><span>...........</span></div>
+    							<div class="col col5">John Nguyen</div>
+    							<div class="col col6"><div class="point">4.5</div> <div class="comment"><span class="icon">12</span></div></div>
+    						</div>
+                            <div class="tradeRow pink">
+    							<div class="col col1"><span class="active">Active</span></div>
+    							<div class="col col2">Lướt sóng nhanh ETH khung M5</div>
+    							<div class="col col3"><span>...........</span></div>
+    							<div class="col col4"><span>...........</span></div>
+    							<div class="col col5">John Nguyen</div>
+    							<div class="col col6"><div class="point">4.5</div> <div class="comment"><span class="icon">12</span></div></div>
+    						</div>
+                            <div class="tradeRow pink">
+    							<div class="col col1"><span class="active">Active</span></div>
+    							<div class="col col2">Lướt sóng nhanh ETH khung M5</div>
+    							<div class="col col3"><span>...........</span></div>
+    							<div class="col col4"><span>...........</span></div>
+    							<div class="col col5">John Nguyen</div>
+    							<div class="col col6"><div class="point">4.5</div> <div class="comment"><span class="icon">12</span></div></div>
+    						</div>
+    						<div class="tradeRow pink">
+    							<div class="col col1"><span class="done">Done</span></div>
+    							<div class="col col2">Lướt sóng nhanh ETH khung M5</div>
+    							<div class="col col3"><span class="green">Win</span></div>
+    							<div class="col col4"><span class="green">10%</span></div>
+    							<div class="col col5">John Nguyen</div>
+    							<div class="col col6"><div class="point">4.5</div> <div class="comment"><span class="icon">12</span></div></div>
+    						</div>
+    						<div class="tradeRow pink">
+    							<div class="col col1"><span class="done">Done</span></div>
+    							<div class="col col2">Lướt sóng nhanh ETH khung M5</div>
+    							<div class="col col3"><span class="green">Win</span></div>
+    							<div class="col col4"><span class="green">10%</span></div>
+    							<div class="col col5">John Nguyen</div>
+    							<div class="col col6"><div class="point">4.5</div> <div class="comment"><span class="icon">12</span></div></div>
+    						</div>
+    						<div class="tradeRow">
+    							<div class="col col1"><span class="done">Done</span></div>
+    							<div class="col col2">Lướt sóng nhanh ETH khung M5</div>
+    							<div class="col col3"><span class="green">Win</span></div>
+    							<div class="col col4"><span class="green">10%</span></div>
+    							<div class="col col5">John Nguyen</div>
+    							<div class="col col6"><div class="point">4.5</div> <div class="comment"><span class="icon">12</span></div></div>
+    						</div>
+    						<div class="tradeRow">
+    							<div class="col col1"><span class="done">Done</span></div>
+    							<div class="col col2">Lướt sóng nhanh ETH khung M5</div>
+    							<div class="col col3"><span class="red">Loss</span></div>
+    							<div class="col col4"><span class="red">10%</span></div>
+    							<div class="col col5">John Nguyen</div>
+    							<div class="col col6"><div class="point">4.5</div> <div class="comment"><span class="icon">12</span></div></div>
+    						</div>
+    						<div class="tradeRow">
+    							<div class="col col1"><span class="done">Done</span></div>
+    							<div class="col col2">Lướt sóng nhanh ETH khung M5</div>
+    							<div class="col col3"><span class="green">Win</span></div>
+    							<div class="col col4"><span class="green">10%</span></div>
+    							<div class="col col5">John Nguyen</div>
+    							<div class="col col6"><div class="point">4.5</div> <div class="comment"><span class="icon">12</span></div></div>
+    						</div>
+                            <div class="tradeRow">
+    							<div class="col col1"><span class="done">Done</span></div>
+    							<div class="col col2">Lướt sóng nhanh ETH khung M5</div>
+    							<div class="col col3"><span class="green">Win</span></div>
+    							<div class="col col4"><span class="green">10%</span></div>
+    							<div class="col col5">John Nguyen</div>
+    							<div class="col col6"><div class="point">4.5</div> <div class="comment"><span class="icon">12</span></div></div>
+    						</div>
+                            <div class="tradeRow">
+    							<div class="col col1"><span class="done">Done</span></div>
+    							<div class="col col2">Lướt sóng nhanh ETH khung M5</div>
+    							<div class="col col3"><span class="green">Win</span></div>
+    							<div class="col col4"><span class="green">10%</span></div>
+    							<div class="col col5">John Nguyen</div>
+    							<div class="col col6"><div class="point">4.5</div> <div class="comment"><span class="icon">12</span></div></div>
+    						</div>
+                            <div class="tradeRow">
+    							<div class="col col1"><span class="done">Done</span></div>
+    							<div class="col col2">Lướt sóng nhanh ETH khung M5</div>
+    							<div class="col col3"><span class="green">Win</span></div>
+    							<div class="col col4"><span class="green">10%</span></div>
+    							<div class="col col5">John Nguyen</div>
+    							<div class="col col6"><div class="point">4.5</div> <div class="comment"><span class="icon">12</span></div></div>
+    						</div>
+                            <div class="tradeRow">
+    							<div class="col col1"><span class="done">Done</span></div>
+    							<div class="col col2">Lướt sóng nhanh ETH khung M5</div>
+    							<div class="col col3"><span class="green">Win</span></div>
+    							<div class="col col4"><span class="green">10%</span></div>
+    							<div class="col col5">John Nguyen</div>
+    							<div class="col col6"><div class="point">4.5</div> <div class="comment"><span class="icon">12</span></div></div>
+    						</div>
+                            <div class="tradeRow">
+    							<div class="col col1"><span class="done">Done</span></div>
+    							<div class="col col2">Lướt sóng nhanh ETH khung M5</div>
+    							<div class="col col3"><span class="green">Win</span></div>
+    							<div class="col col4"><span class="green">10%</span></div>
+    							<div class="col col5">John Nguyen</div>
+    							<div class="col col6"><div class="point">4.5</div> <div class="comment"><span class="icon">12</span></div></div>
+    						</div>
+    						<div class="tradeRow">
+    							<div class="col col1"><span class="done">Done</span></div>
+    							<div class="col col2">Lướt sóng nhanh ETH khung M5</div>
+    							<div class="col col3"><span class="green">Win</span></div>
+    							<div class="col col4"><span class="green">10%</span></div>
+    							<div class="col col5">John Nguyen</div>
+    							<div class="col col6"><div class="point">4.5</div> <div class="comment"><span class="icon">12</span></div></div>
+    						</div>
+    						<div class="tradeRow">
+    							<div class="col col1"><span class="done">Done</span></div>
+    							<div class="col col2">Lướt sóng nhanh ETH khung M5</div>
+    							<div class="col col3"><span class="green">Win</span></div>
+    							<div class="col col4"><span class="green">10%</span></div>
+    							<div class="col col5">John Nguyen</div>
+    							<div class="col col6"><div class="point">4.5</div> <div class="comment"><span class="icon">12</span></div></div>
+    						</div>
+    						<div class="tradeRow">
+    							<div class="col col1"><span class="done">Done</span></div>
+    							<div class="col col2">Lướt sóng nhanh ETH khung M5</div>
+    							<div class="col col3"><span class="green">Win</span></div>
+    							<div class="col col4"><span class="green">10%</span></div>
+    							<div class="col col5">John Nguyen</div>
+    							<div class="col col6"><div class="point">4.5</div> <div class="comment"><span class="icon">12</span></div></div>
+    						</div>
+                            <div class="clear"></div>
+    					</div>
                         <div class="paging floatRight">
                           <a class="prev page-numbers" href="#">&laquo; Back</a>
                           <a class='page-numbers current' href='#1'>1</a>
@@ -241,9 +248,9 @@
                           <a class='page-numbers' href='#4'>9</a>
                           <a class="next page-numbers" href="#">Next &raquo;</a>
                         </div>
-					</div>
-
-				</div>
+                        <div class="clear"></div>
+    				</div>
+                </div>
 			</div>
 			<div class="clear"></div>
 		</div>

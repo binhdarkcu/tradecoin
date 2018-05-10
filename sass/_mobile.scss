@@ -6,6 +6,13 @@
         right: 0;
     }
     .tradeListPage {
+        padding-bottom: 80%;
+        &.tradeLists {
+            margin-top: -30%;
+        }
+        .tradeTable{
+            margin-bottom: 100px;
+        }
         .paging {
             float: left;
         }
