@@ -1,5 +1,125 @@
 
 @media (min-width: 0) and (max-width: 767px) {
+    video {
+        width: auto!important;
+    }
+    .topSocials {
+        float: left;
+        margin-top: 0;
+        margin-bottom: 20px;
+    }
+    .memberList {
+        .headerInformation {
+            .memberAvatar {
+                width: 100%;
+                margin-right: 0;
+                img {
+                    display: table;
+                    margin: 0 auto;
+                }
+            }
+        }
+        .memberRight {
+            margin-top: 20px;
+            .memberTop {
+                .nameBox{
+                    width: 100%;
+                    margin-bottom: 25px;
+                }
+                .pointBox {
+                    padding-left: 0;
+                    width: auto;
+                    display: table;
+                    margin: 0 auto 25px;
+                    float: none;
+                }
+                .pointPercent {
+                    width: 100%;
+                    padding-left: 0;
+                    margin-left: 0;
+                    .progressBar {
+                        width: 100%;
+                    }
+                }
+            }
+            .memberMiddle {
+                .floatLeft {
+                    width: 100%;
+                    margin-bottom: 15px;
+                }
+                .smallSocials {
+                    a {
+                        margin-left: 0;
+                        margin-right: 15px;
+                    }
+                }
+            }
+            .memberBottom {
+                .floatLeft {
+                    width: 30%;
+                    margin-right: 15px;
+                    min-height: 50px;
+                    margin-bottom: 20px;
+                    &.morderate{
+                        margin-right: 0;
+                    }
+                }
+                .iconfollowers{
+                    float: left;
+                }
+            }
+        }
+
+    }
+    .memberList {
+        .memberColumns {
+            .threeBlock {
+                margin-left: 0;
+                margin-right: 0;
+            }
+            .blockCol {
+                width: 100%;
+                margin-left: 0;
+                margin-right: 0;
+            }
+        }
+    }
+
+    .memberHeader {
+
+        .blockLanguage {
+            margin-top: 10px;
+            float: left;
+            width: 100%;
+            position: relative;
+            .userLogin, .language {
+                position: relative;
+            }
+            .userLogin {
+                float: left;
+            }
+        }
+        .tradeLogo {
+            display: table;
+            float: none;
+            margin: 20px auto;
+            img {
+                width: 175px;
+            }
+        }
+    }
+    .row {
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .memberHeader {
+        .buyBox {
+            width: 100%;
+            .buyCol{
+                width: 100%;
+            }
+        }
+    }
     header .language{
         position: absolute;
         top: 0;
@@ -269,7 +389,6 @@
         }
     }
     footer {
-        margin-top: -48%;
         .subscribeBox {
             img {
                 width: 100%;

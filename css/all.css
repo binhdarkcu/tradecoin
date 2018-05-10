@@ -9237,14 +9237,15 @@ footer {
         background: url(../images/icon-followers.png) no-repeat right top; }
   .memberList .threeBlock {
     margin-top: 48px;
-    margin-left: -28px;
-    margin-right: -28px; }
+    margin-left: -2%;
+    margin-right: -2%; }
     .memberList .threeBlock:after {
       content: "";
       clear: both; }
     .memberList .threeBlock .blockCol {
-      float: left;
-      width: 26%;
+      display: inline-block;
+      float: none;
+      width: 29%;
       padding: 18px;
       min-height: 384px;
       -webkit-box-shadow: 0px 0px 5px 0px rgba(0, 1, 1, 0.2);
@@ -9254,8 +9255,8 @@ footer {
       .memberList .threeBlock .blockCol.col2 {
         margin: 0 6.5%; }
   .memberList .memberColumns .blockCol {
-    margin-left: 28px;
-    margin-right: 28px;
+    margin-left: 2%;
+    margin-right: 2%;
     margin-bottom: 32px; }
     .memberList .memberColumns .blockCol .thumbnail {
       width: 100%; }
@@ -10895,13 +10896,8 @@ video::-webkit-media-text-track-display {
       float: left; }
   .memberList .headerInformation .memberAvatar {
     margin-right: 20px; }
-  .memberList .memberColumns .threeBlock {
-    margin-left: -3%;
-    margin-right: -3%; }
   .memberList .memberColumns .blockCol {
-    margin-left: 3%;
-    margin-right: 3%;
-    width: 39%; }
+    width: 45%; }
 
   .memberHeader .bgHeader {
     padding-bottom: 20px; }
@@ -11050,6 +11046,86 @@ video::-webkit-media-text-track-display {
   .commingSoon {
     margin-top: -17%; } }
 @media (min-width: 0) and (max-width: 767px) {
+  video {
+    width: auto !important; }
+
+  .topSocials {
+    float: left;
+    margin-top: 0;
+    margin-bottom: 20px; }
+
+  .memberList .headerInformation .memberAvatar {
+    width: 100%;
+    margin-right: 0; }
+    .memberList .headerInformation .memberAvatar img {
+      display: table;
+      margin: 0 auto; }
+  .memberList .memberRight {
+    margin-top: 20px; }
+    .memberList .memberRight .memberTop .nameBox {
+      width: 100%;
+      margin-bottom: 25px; }
+    .memberList .memberRight .memberTop .pointBox {
+      padding-left: 0;
+      width: auto;
+      display: table;
+      margin: 0 auto 25px;
+      float: none; }
+    .memberList .memberRight .memberTop .pointPercent {
+      width: 100%;
+      padding-left: 0;
+      margin-left: 0; }
+      .memberList .memberRight .memberTop .pointPercent .progressBar {
+        width: 100%; }
+    .memberList .memberRight .memberMiddle .floatLeft {
+      width: 100%;
+      margin-bottom: 15px; }
+    .memberList .memberRight .memberMiddle .smallSocials a {
+      margin-left: 0;
+      margin-right: 15px; }
+    .memberList .memberRight .memberBottom .floatLeft {
+      width: 30%;
+      margin-right: 15px;
+      min-height: 50px;
+      margin-bottom: 20px; }
+      .memberList .memberRight .memberBottom .floatLeft.morderate {
+        margin-right: 0; }
+    .memberList .memberRight .memberBottom .iconfollowers {
+      float: left; }
+
+  .memberList .memberColumns .threeBlock {
+    margin-left: 0;
+    margin-right: 0; }
+  .memberList .memberColumns .blockCol {
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0; }
+
+  .memberHeader .blockLanguage {
+    margin-top: 10px;
+    float: left;
+    width: 100%;
+    position: relative; }
+    .memberHeader .blockLanguage .userLogin, .memberHeader .blockLanguage .language {
+      position: relative; }
+    .memberHeader .blockLanguage .userLogin {
+      float: left; }
+  .memberHeader .tradeLogo {
+    display: table;
+    float: none;
+    margin: 20px auto; }
+    .memberHeader .tradeLogo img {
+      width: 175px; }
+
+  .row {
+    margin-left: 0;
+    margin-right: 0; }
+
+  .memberHeader .buyBox {
+    width: 100%; }
+    .memberHeader .buyBox .buyCol {
+      width: 100%; }
+
   header .language {
     position: absolute;
     top: 0;
@@ -11229,14 +11305,12 @@ video::-webkit-media-text-track-display {
         display: table;
         float: none; }
 
-  footer {
-    margin-top: -48%; }
-    footer .subscribeBox img {
-      width: 100%; }
-    footer .subscribeForm input[type="text"] {
-      width: 90%;
-      margin-right: 0;
-      margin-bottom: 15px; } }
+  footer .subscribeBox img {
+    width: 100%; }
+  footer .subscribeForm input[type="text"] {
+    width: 90%;
+    margin-right: 0;
+    margin-bottom: 15px; } }
 @media (min-width: 0) and (max-width: 540px) {
   .homeTask {
     margin-top: -38%; }
