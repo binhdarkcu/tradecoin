@@ -154,7 +154,7 @@
             }
             .pointBox {
                 display: inline-block;
-                padding-left: 45px;
+                padding-left: 25px;
                 float: left;
                 .pointNumber {
                     text-align: right;
@@ -520,4 +520,15 @@
             }
         }
     }
+}
+
+/*page members*/
+.members {
+  footer {
+    min-height: 837px;
+    .subscribeBox {
+      margin-top: 0;
+      padding-top: 0;
+    }
+  }
 }

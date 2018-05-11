@@ -1,7 +1,7 @@
 @media (min-width: 992px) and (max-width: 1199px) {
     .memberList {
         .memberRight {
-            width: 80%;
+            width: 83%;
             .memberTop {
                 .pointPercent {
                     margin-top: 36px;
@@ -190,6 +190,10 @@
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
+  video {
+    width: auto !important;
+    height: auto !important;
+  }
     .memberBox {
         .memRow {
             .avatar {
@@ -294,6 +298,7 @@
             .blockCol{
                 width: 50%;
                 background-size: 100% !important;
+                background-position: bottom center;
                 float: none;
                 display: table;
                 margin: 0 auto 25px;
@@ -460,15 +465,17 @@
     .newsList {
         .threeBlock {
             .blockCol {
-                width: 50%;
-                float: none;
-                margin: 0 auto 25px!important;
+                width: 46%;
+                margin: 0 auto 25px !important;
                 img{
                     width: 100%;
                 }
                 &.col2{
                     margin:0;
                 }
+            }
+            .blockCol:nth-child(2n+1) {
+              margin: 0 53px 25px 0 !important;
             }
         }
     }

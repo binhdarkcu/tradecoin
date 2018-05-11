@@ -431,7 +431,7 @@
                     width: 200px;
                 }
                 .arr {
-                    bottom: -47px;
+                    bottom: -38px;
                     left: 53px;
                 }
             }
@@ -453,7 +453,7 @@
                     width: 168px;
                 }
                 .arr {
-                    bottom: -47px;
+                    bottom: -38px;
                     left: 75px;
                 }
             }
@@ -472,7 +472,7 @@
                 margin-top: -111px;
                 margin-left: -10px;
                 .arr {
-                    bottom: -47px;
+                    bottom: -38px;
                     left: 65px;
                 }
             }
@@ -526,6 +526,9 @@
             border: none;
             text-indent: -99999px;
             right: -50px;
+        }
+        &:focus {
+          outline: none;
         }
     }
 

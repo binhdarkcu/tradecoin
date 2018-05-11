@@ -32,7 +32,7 @@
 <script src="js/class.SiteMain.js"></script>
 <!--[if lt IE 9]><script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
 </head>
-<body>
+<body class="members">
 	<div class="wrapper">
 		<!--HEADER-->
 		<header class="tradeCoinHeader memberHeader loggedIn">
