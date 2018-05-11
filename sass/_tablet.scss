@@ -338,6 +338,10 @@
         min-height: 1200px;
         &.tradeListPage{
             margin-top: 0;
+            .paging {
+                width: 1024px;
+                text-align: left;
+            }
         }
         .tradeTable{
             float: left;

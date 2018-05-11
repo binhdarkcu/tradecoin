@@ -10960,6 +10960,9 @@ video::-webkit-media-text-track-display {
     min-height: 1200px; }
     .tradeLists.tradeListPage {
       margin-top: 0; }
+      .tradeLists.tradeListPage .paging {
+        width: 1024px;
+        text-align: left; }
     .tradeLists .tradeTable {
       float: left;
       width: 100%;
