@@ -9238,16 +9238,13 @@ footer {
         padding-right: 32px;
         background: url(../images/icon-followers.png) no-repeat right top; }
   .memberList .threeBlock {
-    margin-top: 48px;
-    margin-left: -2%;
-    margin-right: -2%; }
+    margin-top: 48px; }
     .memberList .threeBlock:after {
       content: "";
       clear: both; }
     .memberList .threeBlock .blockCol {
       display: inline-block;
       float: none;
-      width: 29%;
       padding: 18px;
       min-height: 384px;
       -webkit-box-shadow: 0px 0px 5px 0px rgba(0, 1, 1, 0.2);
@@ -10799,9 +10796,6 @@ video::-webkit-media-text-track-display {
   .memberList .memberColumns .threeBlock {
     margin-left: -18px;
     margin-right: -18px; }
-  .memberList .memberColumns .blockCol {
-    margin-left: 18px;
-    margin-right: 18px; }
 
   .blockLanguage {
     position: relative;
@@ -10914,7 +10908,8 @@ video::-webkit-media-text-track-display {
   .memberList .headerInformation .memberAvatar {
     margin-right: 20px; }
   .memberList .memberColumns .blockCol {
-    width: 45%; }
+    width: 46%;
+    float: left; }
 
   .memberHeader .bgHeader {
     padding-bottom: 20px; }
@@ -11177,7 +11172,9 @@ video::-webkit-media-text-track-display {
     .tradeListPage .tradeTable {
       margin-bottom: 100px; }
     .tradeListPage .paging {
-      float: left; }
+      float: left;
+      width: 1200px;
+      text-align: left; }
 
   .tradeCoinHeader .bgNavigation {
     float: left;

@@ -92,7 +92,7 @@
             </div>
             <div class="clear"></div>
 		</header>
-        <div class="memberList greyBg">
+        <div class="memberList">
             <div class="memberHeaderGray">
                 <div class="container">
                     <div class="row">
@@ -182,248 +182,266 @@
                 <div class="container">
                     <div class="row">
                         <div class="threeBlock">
-                            <div class="col blockCol col-md-4">
-                                <div class="avatarCol">
-                                    <a href="#">
-                                        <img class="small" src="images/avatar-thanhvien.png"/>
-                                        <div class="info">
-                                            <b>Henry</b>
-                                            <span>25/04/2018</span>
+                            <div class="col-md-4">
+                                <div class="col blockCol ">
+                                    <div class="avatarCol">
+                                        <a href="#">
+                                            <img class="small" src="images/avatar-thanhvien.png"/>
+                                            <div class="info">
+                                                <b>Henry</b>
+                                                <span>25/04/2018</span>
+                                            </div>
+                                        </a>
+                                        <div class="statusCol active">
+                                            <div class="icon">Active</div>
+                                            <span class="green">4.5</span>
+                                            <span class="yellow">12</span>
                                         </div>
-                                    </a>
-                                    <div class="statusCol active">
-                                        <div class="icon">Active</div>
-                                        <span class="green">4.5</span>
-                                        <span class="yellow">12</span>
+                                        <div class="clear"></div>
                                     </div>
-                                    <div class="clear"></div>
+                                    <img class="thumbnail" src="images/thanhvien-image.jpg" />
+                                    <div class="socialColumn">
+                                        <a href="#" class="view">150</a>
+                                        <a href="#" class="comment">150</a>
+                                        <a href="#" class="like">150</a>
+                                        <a href="#" class="dislike">150</a>
+                                        <a href="#" class="heart">150</a>
+                                    </div>
+                                    <a href="#"><h3>Lướt sóng nhanh ETH khung M5</h3></a>
+                                    <p>Bắt đầu tư nay mỗi tuần mình sẽ gửi đến anh em 2 -3 KÈO thơm: Waves (WAVES) một con coin thuộc TOP không phải dạng vừa đâu. Cả nhà ai theo kèo này chú ý điểm mua không cần vội vàng</p>
                                 </div>
-                                <img class="thumbnail" src="images/thanhvien-image.jpg" />
-                                <div class="socialColumn">
-                                    <a href="#" class="view">150</a>
-                                    <a href="#" class="comment">150</a>
-                                    <a href="#" class="like">150</a>
-                                    <a href="#" class="dislike">150</a>
-                                    <a href="#" class="heart">150</a>
-                                </div>
-                                <a href="#"><h3>Lướt sóng nhanh ETH khung M5</h3></a>
-                                <p>Bắt đầu tư nay mỗi tuần mình sẽ gửi đến anh em 2 -3 KÈO thơm: Waves (WAVES) một con coin thuộc TOP không phải dạng vừa đâu. Cả nhà ai theo kèo này chú ý điểm mua không cần vội vàng</p>
                             </div>
-                            <div class="col blockCol col-md-4">
-                                <div class="avatarCol">
-                                    <a href="#">
-                                        <img class="small" src="images/avatar-thanhvien.png"/>
-                                        <div class="info">
-                                            <b>Henry</b>
-                                            <span>25/04/2018</span>
+                            <div class="col-md-4">
+                                <div class="col blockCol">
+                                    <div class="avatarCol">
+                                        <a href="#">
+                                            <img class="small" src="images/avatar-thanhvien.png"/>
+                                            <div class="info">
+                                                <b>Henry</b>
+                                                <span>25/04/2018</span>
+                                            </div>
+                                        </a>
+                                        <div class="statusCol new">
+                                            <div class="icon">New</div>
+                                            <span class="green">4.5</span>
+                                            <span class="yellow">12</span>
                                         </div>
-                                    </a>
-                                    <div class="statusCol new">
-                                        <div class="icon">New</div>
-                                        <span class="green">4.5</span>
-                                        <span class="yellow">12</span>
+                                        <div class="clear"></div>
                                     </div>
-                                    <div class="clear"></div>
+                                    <img class="thumbnail" src="images/thanhvien-image.jpg" />
+                                    <div class="socialColumn">
+                                        <a href="#" class="view">150</a>
+                                        <a href="#" class="comment">150</a>
+                                        <a href="#" class="like">150</a>
+                                        <a href="#" class="dislike">150</a>
+                                        <a href="#" class="heart">150</a>
+                                    </div>
+                                    <a href="#"><h3>Lướt sóng nhanh ETH khung M5</h3></a>
+                                    <p>Bắt đầu tư nay mỗi tuần mình sẽ gửi đến anh em 2 -3 KÈO thơm: Waves (WAVES) một con coin thuộc TOP không phải dạng vừa đâu. Cả nhà ai theo kèo này chú ý điểm mua không cần vội vàng</p>
                                 </div>
-                                <img class="thumbnail" src="images/thanhvien-image.jpg" />
-                                <div class="socialColumn">
-                                    <a href="#" class="view">150</a>
-                                    <a href="#" class="comment">150</a>
-                                    <a href="#" class="like">150</a>
-                                    <a href="#" class="dislike">150</a>
-                                    <a href="#" class="heart">150</a>
-                                </div>
-                                <a href="#"><h3>Lướt sóng nhanh ETH khung M5</h3></a>
-                                <p>Bắt đầu tư nay mỗi tuần mình sẽ gửi đến anh em 2 -3 KÈO thơm: Waves (WAVES) một con coin thuộc TOP không phải dạng vừa đâu. Cả nhà ai theo kèo này chú ý điểm mua không cần vội vàng</p>
                             </div>
-                            <div class="col blockCol col-md-4">
-                                <div class="avatarCol">
-                                    <a href="#">
-                                        <img class="small" src="images/avatar-thanhvien.png"/>
-                                        <div class="info">
-                                            <b>Henry</b>
-                                            <span>25/04/2018</span>
+                            <div class="col-md-4">
+                                <div class="col blockCol">
+                                    <div class="avatarCol">
+                                        <a href="#">
+                                            <img class="small" src="images/avatar-thanhvien.png"/>
+                                            <div class="info">
+                                                <b>Henry</b>
+                                                <span>25/04/2018</span>
+                                            </div>
+                                        </a>
+                                        <div class="statusCol done">
+                                            <div class="icon">Done</div>
+                                            <span class="green">win</span>
+                                            <span class="yellow">10%</span>
                                         </div>
-                                    </a>
-                                    <div class="statusCol done">
-                                        <div class="icon">Done</div>
-                                        <span class="green">win</span>
-                                        <span class="yellow">10%</span>
+                                        <div class="clear"></div>
                                     </div>
-                                    <div class="clear"></div>
+                                    <img class="thumbnail" src="images/thanhvien-image.jpg" />
+                                    <div class="socialColumn">
+                                        <a href="#" class="view">150</a>
+                                        <a href="#" class="comment">150</a>
+                                        <a href="#" class="like">150</a>
+                                        <a href="#" class="dislike">150</a>
+                                        <a href="#" class="heart">150</a>
+                                    </div>
+                                    <a href="#"><h3>Lướt sóng nhanh ETH khung M5</h3></a>
+                                    <p>Bắt đầu tư nay mỗi tuần mình sẽ gửi đến anh em 2 -3 KÈO thơm: Waves (WAVES) một con coin thuộc TOP không phải dạng vừa đâu. Cả nhà ai theo kèo này chú ý điểm mua không cần vội vàng</p>
                                 </div>
-                                <img class="thumbnail" src="images/thanhvien-image.jpg" />
-                                <div class="socialColumn">
-                                    <a href="#" class="view">150</a>
-                                    <a href="#" class="comment">150</a>
-                                    <a href="#" class="like">150</a>
-                                    <a href="#" class="dislike">150</a>
-                                    <a href="#" class="heart">150</a>
-                                </div>
-                                <a href="#"><h3>Lướt sóng nhanh ETH khung M5</h3></a>
-                                <p>Bắt đầu tư nay mỗi tuần mình sẽ gửi đến anh em 2 -3 KÈO thơm: Waves (WAVES) một con coin thuộc TOP không phải dạng vừa đâu. Cả nhà ai theo kèo này chú ý điểm mua không cần vội vàng</p>
                             </div>
-                            <div class="col blockCol col-md-4">
-                                <div class="avatarCol">
-                                    <a href="#">
-                                        <img class="small" src="images/avatar-thanhvien.png"/>
-                                        <div class="info">
-                                            <b>Henry</b>
-                                            <span>25/04/2018</span>
+                            <div class="col-md-4">
+                                <div class="col blockCol">
+                                    <div class="avatarCol">
+                                        <a href="#">
+                                            <img class="small" src="images/avatar-thanhvien.png"/>
+                                            <div class="info">
+                                                <b>Henry</b>
+                                                <span>25/04/2018</span>
+                                            </div>
+                                        </a>
+                                        <div class="statusCol active">
+                                            <div class="icon">Active</div>
+                                            <span class="green">4.5</span>
+                                            <span class="yellow">12</span>
                                         </div>
-                                    </a>
-                                    <div class="statusCol active">
-                                        <div class="icon">Active</div>
-                                        <span class="green">4.5</span>
-                                        <span class="yellow">12</span>
+                                        <div class="clear"></div>
                                     </div>
-                                    <div class="clear"></div>
+                                    <img class="thumbnail" src="images/thanhvien-image.jpg" />
+                                    <div class="socialColumn">
+                                        <a href="#" class="view">150</a>
+                                        <a href="#" class="comment">150</a>
+                                        <a href="#" class="like">150</a>
+                                        <a href="#" class="dislike">150</a>
+                                        <a href="#" class="heart">150</a>
+                                    </div>
+                                    <a href="#"><h3>Lướt sóng nhanh ETH khung M5</h3></a>
+                                    <p>Bắt đầu tư nay mỗi tuần mình sẽ gửi đến anh em 2 -3 KÈO thơm: Waves (WAVES) một con coin thuộc TOP không phải dạng vừa đâu. Cả nhà ai theo kèo này chú ý điểm mua không cần vội vàng</p>
                                 </div>
-                                <img class="thumbnail" src="images/thanhvien-image.jpg" />
-                                <div class="socialColumn">
-                                    <a href="#" class="view">150</a>
-                                    <a href="#" class="comment">150</a>
-                                    <a href="#" class="like">150</a>
-                                    <a href="#" class="dislike">150</a>
-                                    <a href="#" class="heart">150</a>
-                                </div>
-                                <a href="#"><h3>Lướt sóng nhanh ETH khung M5</h3></a>
-                                <p>Bắt đầu tư nay mỗi tuần mình sẽ gửi đến anh em 2 -3 KÈO thơm: Waves (WAVES) một con coin thuộc TOP không phải dạng vừa đâu. Cả nhà ai theo kèo này chú ý điểm mua không cần vội vàng</p>
                             </div>
-                            <div class="col blockCol col-md-4">
-                                <div class="avatarCol">
-                                    <a href="#">
-                                        <img class="small" src="images/avatar-thanhvien.png"/>
-                                        <div class="info">
-                                            <b>Henry</b>
-                                            <span>25/04/2018</span>
+                            <div class="col-md-4">
+                                <div class="col blockCol">
+                                    <div class="avatarCol">
+                                        <a href="#">
+                                            <img class="small" src="images/avatar-thanhvien.png"/>
+                                            <div class="info">
+                                                <b>Henry</b>
+                                                <span>25/04/2018</span>
+                                            </div>
+                                        </a>
+                                        <div class="statusCol new">
+                                            <div class="icon">New</div>
+                                            <span class="green">4.5</span>
+                                            <span class="yellow">12</span>
                                         </div>
-                                    </a>
-                                    <div class="statusCol new">
-                                        <div class="icon">New</div>
-                                        <span class="green">4.5</span>
-                                        <span class="yellow">12</span>
+                                        <div class="clear"></div>
                                     </div>
-                                    <div class="clear"></div>
+                                    <img class="thumbnail" src="images/thanhvien-image.jpg" />
+                                    <div class="socialColumn">
+                                        <a href="#" class="view">150</a>
+                                        <a href="#" class="comment">150</a>
+                                        <a href="#" class="like">150</a>
+                                        <a href="#" class="dislike">150</a>
+                                        <a href="#" class="heart">150</a>
+                                    </div>
+                                    <a href="#"><h3>Lướt sóng nhanh ETH khung M5</h3></a>
+                                    <p>Bắt đầu tư nay mỗi tuần mình sẽ gửi đến anh em 2 -3 KÈO thơm: Waves (WAVES) một con coin thuộc TOP không phải dạng vừa đâu. Cả nhà ai theo kèo này chú ý điểm mua không cần vội vàng</p>
                                 </div>
-                                <img class="thumbnail" src="images/thanhvien-image.jpg" />
-                                <div class="socialColumn">
-                                    <a href="#" class="view">150</a>
-                                    <a href="#" class="comment">150</a>
-                                    <a href="#" class="like">150</a>
-                                    <a href="#" class="dislike">150</a>
-                                    <a href="#" class="heart">150</a>
-                                </div>
-                                <a href="#"><h3>Lướt sóng nhanh ETH khung M5</h3></a>
-                                <p>Bắt đầu tư nay mỗi tuần mình sẽ gửi đến anh em 2 -3 KÈO thơm: Waves (WAVES) một con coin thuộc TOP không phải dạng vừa đâu. Cả nhà ai theo kèo này chú ý điểm mua không cần vội vàng</p>
                             </div>
-                            <div class="col blockCol col-md-4">
-                                <div class="avatarCol">
-                                    <a href="#">
-                                        <img class="small" src="images/avatar-thanhvien.png"/>
-                                        <div class="info">
-                                            <b>Henry</b>
-                                            <span>25/04/2018</span>
+                            <div class="col-md-4">
+                                <div class="col blockCol">
+                                    <div class="avatarCol">
+                                        <a href="#">
+                                            <img class="small" src="images/avatar-thanhvien.png"/>
+                                            <div class="info">
+                                                <b>Henry</b>
+                                                <span>25/04/2018</span>
+                                            </div>
+                                        </a>
+                                        <div class="statusCol loss">
+                                            <div class="icon">Done</div>
+                                            <span class="green">Loss</span>
+                                            <span class="yellow">10%</span>
                                         </div>
-                                    </a>
-                                    <div class="statusCol loss">
-                                        <div class="icon">Done</div>
-                                        <span class="green">Loss</span>
-                                        <span class="yellow">10%</span>
+                                        <div class="clear"></div>
                                     </div>
-                                    <div class="clear"></div>
+                                    <img class="thumbnail" src="images/thanhvien-image.jpg" />
+                                    <div class="socialColumn">
+                                        <a href="#" class="view">150</a>
+                                        <a href="#" class="comment">150</a>
+                                        <a href="#" class="like">150</a>
+                                        <a href="#" class="dislike">150</a>
+                                        <a href="#" class="heart">150</a>
+                                    </div>
+                                    <a href="#"><h3>Lướt sóng nhanh ETH khung M5</h3></a>
+                                    <p>Bắt đầu tư nay mỗi tuần mình sẽ gửi đến anh em 2 -3 KÈO thơm: Waves (WAVES) một con coin thuộc TOP không phải dạng vừa đâu. Cả nhà ai theo kèo này chú ý điểm mua không cần vội vàng</p>
                                 </div>
-                                <img class="thumbnail" src="images/thanhvien-image.jpg" />
-                                <div class="socialColumn">
-                                    <a href="#" class="view">150</a>
-                                    <a href="#" class="comment">150</a>
-                                    <a href="#" class="like">150</a>
-                                    <a href="#" class="dislike">150</a>
-                                    <a href="#" class="heart">150</a>
-                                </div>
-                                <a href="#"><h3>Lướt sóng nhanh ETH khung M5</h3></a>
-                                <p>Bắt đầu tư nay mỗi tuần mình sẽ gửi đến anh em 2 -3 KÈO thơm: Waves (WAVES) một con coin thuộc TOP không phải dạng vừa đâu. Cả nhà ai theo kèo này chú ý điểm mua không cần vội vàng</p>
                             </div>
-                            <div class="col blockCol col-md-4">
-                                <div class="avatarCol">
-                                    <a href="#">
-                                        <img class="small" src="images/avatar-thanhvien.png"/>
-                                        <div class="info">
-                                            <b>Henry</b>
-                                            <span>25/04/2018</span>
+                            <div class="col-md-4">
+                                <div class="col blockCol ">
+                                    <div class="avatarCol">
+                                        <a href="#">
+                                            <img class="small" src="images/avatar-thanhvien.png"/>
+                                            <div class="info">
+                                                <b>Henry</b>
+                                                <span>25/04/2018</span>
+                                            </div>
+                                        </a>
+                                        <div class="statusCol active">
+                                            <div class="icon">Active</div>
+                                            <span class="green">4.5</span>
+                                            <span class="yellow">12</span>
                                         </div>
-                                    </a>
-                                    <div class="statusCol active">
-                                        <div class="icon">Active</div>
-                                        <span class="green">4.5</span>
-                                        <span class="yellow">12</span>
+                                        <div class="clear"></div>
                                     </div>
-                                    <div class="clear"></div>
+                                    <img class="thumbnail" src="images/thanhvien-image.jpg" />
+                                    <div class="socialColumn">
+                                        <a href="#" class="view">150</a>
+                                        <a href="#" class="comment">150</a>
+                                        <a href="#" class="like">150</a>
+                                        <a href="#" class="dislike">150</a>
+                                        <a href="#" class="heart">150</a>
+                                    </div>
+                                    <a href="#"><h3>Lướt sóng nhanh ETH khung M5</h3></a>
+                                    <p>Bắt đầu tư nay mỗi tuần mình sẽ gửi đến anh em 2 -3 KÈO thơm: Waves (WAVES) một con coin thuộc TOP không phải dạng vừa đâu. Cả nhà ai theo kèo này chú ý điểm mua không cần vội vàng</p>
                                 </div>
-                                <img class="thumbnail" src="images/thanhvien-image.jpg" />
-                                <div class="socialColumn">
-                                    <a href="#" class="view">150</a>
-                                    <a href="#" class="comment">150</a>
-                                    <a href="#" class="like">150</a>
-                                    <a href="#" class="dislike">150</a>
-                                    <a href="#" class="heart">150</a>
-                                </div>
-                                <a href="#"><h3>Lướt sóng nhanh ETH khung M5</h3></a>
-                                <p>Bắt đầu tư nay mỗi tuần mình sẽ gửi đến anh em 2 -3 KÈO thơm: Waves (WAVES) một con coin thuộc TOP không phải dạng vừa đâu. Cả nhà ai theo kèo này chú ý điểm mua không cần vội vàng</p>
                             </div>
-                            <div class="col blockCol col-md-4">
-                                <div class="avatarCol">
-                                    <a href="#">
-                                        <img class="small" src="images/avatar-thanhvien.png"/>
-                                        <div class="info">
-                                            <b>Henry</b>
-                                            <span>25/04/2018</span>
+                            <div class="col-md-4">
+                                <div class="col blockCol">
+                                    <div class="avatarCol">
+                                        <a href="#">
+                                            <img class="small" src="images/avatar-thanhvien.png"/>
+                                            <div class="info">
+                                                <b>Henry</b>
+                                                <span>25/04/2018</span>
+                                            </div>
+                                        </a>
+                                        <div class="statusCol new">
+                                            <div class="icon">New</div>
+                                            <span class="green">4.5</span>
+                                            <span class="yellow">12</span>
                                         </div>
-                                    </a>
-                                    <div class="statusCol new">
-                                        <div class="icon">New</div>
-                                        <span class="green">4.5</span>
-                                        <span class="yellow">12</span>
+                                        <div class="clear"></div>
                                     </div>
-                                    <div class="clear"></div>
+                                    <img class="thumbnail" src="images/thanhvien-image.jpg" />
+                                    <div class="socialColumn">
+                                        <a href="#" class="view">150</a>
+                                        <a href="#" class="comment">150</a>
+                                        <a href="#" class="like">150</a>
+                                        <a href="#" class="dislike">150</a>
+                                        <a href="#" class="heart">150</a>
+                                    </div>
+                                    <a href="#"><h3>Lướt sóng nhanh ETH khung M5</h3></a>
+                                    <p>Bắt đầu tư nay mỗi tuần mình sẽ gửi đến anh em 2 -3 KÈO thơm: Waves (WAVES) một con coin thuộc TOP không phải dạng vừa đâu. Cả nhà ai theo kèo này chú ý điểm mua không cần vội vàng</p>
                                 </div>
-                                <img class="thumbnail" src="images/thanhvien-image.jpg" />
-                                <div class="socialColumn">
-                                    <a href="#" class="view">150</a>
-                                    <a href="#" class="comment">150</a>
-                                    <a href="#" class="like">150</a>
-                                    <a href="#" class="dislike">150</a>
-                                    <a href="#" class="heart">150</a>
-                                </div>
-                                <a href="#"><h3>Lướt sóng nhanh ETH khung M5</h3></a>
-                                <p>Bắt đầu tư nay mỗi tuần mình sẽ gửi đến anh em 2 -3 KÈO thơm: Waves (WAVES) một con coin thuộc TOP không phải dạng vừa đâu. Cả nhà ai theo kèo này chú ý điểm mua không cần vội vàng</p>
                             </div>
-                            <div class="col blockCol col-md-4">
-                                <div class="avatarCol">
-                                    <a href="#">
-                                        <img class="small" src="images/avatar-thanhvien.png"/>
-                                        <div class="info">
-                                            <b>Henry</b>
-                                            <span>25/04/2018</span>
+                            <div class="col-md-4">
+                                <div class="col blockCol">
+                                    <div class="avatarCol">
+                                        <a href="#">
+                                            <img class="small" src="images/avatar-thanhvien.png"/>
+                                            <div class="info">
+                                                <b>Henry</b>
+                                                <span>25/04/2018</span>
+                                            </div>
+                                        </a>
+                                        <div class="statusCol loss">
+                                            <div class="icon">Done</div>
+                                            <span class="green">Loss</span>
+                                            <span class="yellow">10%</span>
                                         </div>
-                                    </a>
-                                    <div class="statusCol loss">
-                                        <div class="icon">Done</div>
-                                        <span class="green">Loss</span>
-                                        <span class="yellow">10%</span>
+                                        <div class="clear"></div>
                                     </div>
-                                    <div class="clear"></div>
+                                    <img class="thumbnail" src="images/thanhvien-image.jpg" />
+                                    <div class="socialColumn">
+                                        <a href="#" class="view">150</a>
+                                        <a href="#" class="comment">150</a>
+                                        <a href="#" class="like">150</a>
+                                        <a href="#" class="dislike">150</a>
+                                        <a href="#" class="heart">150</a>
+                                    </div>
+                                    <a href="#"><h3>Lướt sóng nhanh ETH khung M5</h3></a>
+                                    <p>Bắt đầu tư nay mỗi tuần mình sẽ gửi đến anh em 2 -3 KÈO thơm: Waves (WAVES) một con coin thuộc TOP không phải dạng vừa đâu. Cả nhà ai theo kèo này chú ý điểm mua không cần vội vàng</p>
                                 </div>
-                                <img class="thumbnail" src="images/thanhvien-image.jpg" />
-                                <div class="socialColumn">
-                                    <a href="#" class="view">150</a>
-                                    <a href="#" class="comment">150</a>
-                                    <a href="#" class="like">150</a>
-                                    <a href="#" class="dislike">150</a>
-                                    <a href="#" class="heart">150</a>
-                                </div>
-                                <a href="#"><h3>Lướt sóng nhanh ETH khung M5</h3></a>
-                                <p>Bắt đầu tư nay mỗi tuần mình sẽ gửi đến anh em 2 -3 KÈO thơm: Waves (WAVES) một con coin thuộc TOP không phải dạng vừa đâu. Cả nhà ai theo kèo này chú ý điểm mua không cần vội vàng</p>
                             </div>
                             <div class="clear"></div>
                         </div>

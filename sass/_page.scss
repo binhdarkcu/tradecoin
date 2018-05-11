@@ -316,8 +316,6 @@
     }
     .threeBlock {
 		margin-top: 48px;
-        margin-left: -2%;
-        margin-right: -2%;
 		&:after{
 			content: "";
 			clear: both;
@@ -325,7 +323,6 @@
 		.blockCol{
 			display: inline-block;
             float: none;
-			width: 29%;
 			padding: 18px;
 			min-height: 384px;
 			-webkit-box-shadow: 0px 0px 5px 0px rgba(0,1,1,0.2);
