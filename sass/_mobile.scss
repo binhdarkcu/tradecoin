@@ -20,6 +20,9 @@
 
 
 @media (min-width: 0) and (max-width: 767px) {
+    .videoBg {
+        height: 120%;
+    }
     .roadMap{
         .partners {
             h3 {
@@ -299,8 +302,8 @@
         }
     }
     .tradeLists {
-        margin-top: -80%;
-        padding-top: 65%;
+        margin-top: -220px;
+        padding-top: 230px;
         min-height: 1400px;
         .tradeTable{
             float: left;
@@ -340,7 +343,7 @@
         }
     }
     .roadMap {
-        margin-top: -65%;
+        margin-top: -230px;
         min-height: 4600px;
         h3 {
             padding-top: 250px;

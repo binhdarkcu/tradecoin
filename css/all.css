@@ -8146,10 +8146,10 @@ video {
 .tradeLists {
   background: url(../images/bg-danhsachkeo.png) no-repeat;
   background-size: cover;
-  margin-top: -8%;
+  margin-top: -210px;
   padding-top: 90px;
   color: #fff;
-  min-height: 177vh; }
+  min-height: 1250px; }
   .tradeLists .commonTitle {
     color: #fff;
     padding-top: 15px;
@@ -10971,19 +10971,16 @@ video::-webkit-media-text-track-display {
       .tradeLists .tradeTable .tradeTitle, .tradeLists .tradeTable .tradeContent {
         width: 1024px; }
 
-  .tradeLists {
-    margin-top: -19%;
-    min-height: 1100px; }
-    .tradeLists .tradeTable .col.col1 {
-      width: 120px; }
-    .tradeLists .tradeTable .col.col2 {
-      width: 300px; }
-    .tradeLists .tradeTable .col.col3 {
-      width: 130px; }
-    .tradeLists .tradeTable .col.col4 {
-      width: 120px; }
-    .tradeLists .tradeTable .col.col6 {
-      text-align: right; }
+  .tradeLists .tradeTable .col.col1 {
+    width: 120px; }
+  .tradeLists .tradeTable .col.col2 {
+    width: 300px; }
+  .tradeLists .tradeTable .col.col3 {
+    width: 130px; }
+  .tradeLists .tradeTable .col.col4 {
+    width: 120px; }
+  .tradeLists .tradeTable .col.col6 {
+    text-align: right; }
 
   .tradeCoin .tradeCoinContent .bigThumb {
     width: 100%; }
@@ -11073,6 +11070,9 @@ video::-webkit-media-text-track-display {
   .memberList {
     margin-bottom: 17%; } }
 @media (min-width: 0) and (max-width: 767px) {
+  .videoBg {
+    height: 120%; }
+
   .roadMap .partners h3 {
     padding-top: 80px; }
 
@@ -11261,8 +11261,8 @@ video::-webkit-media-text-track-display {
     float: none; }
 
   .tradeLists {
-    margin-top: -80%;
-    padding-top: 65%;
+    margin-top: -220px;
+    padding-top: 230px;
     min-height: 1400px; }
     .tradeLists .tradeTable {
       float: left;
@@ -11288,7 +11288,7 @@ video::-webkit-media-text-track-display {
     overflow-x: auto; }
 
   .roadMap {
-    margin-top: -65%;
+    margin-top: -230px;
     min-height: 4600px; }
     .roadMap h3 {
       padding-top: 250px; }
