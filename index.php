@@ -677,66 +677,78 @@
             <div class="container">
                 <h3>Tin tức mới</h3>
                 <div class="threeBlock">
-					<div class="col1 blockCol">
-						<a href="#">
-                            <img src="images/new-1.jpg" />
-                            <div class="desc">
-                                <p>Dignissim augue, augue, habitasse dis velit magna habitasse magna ultrices tristique scelerisque, aliquet aliquet!</p>
-                                <p>Pellentesque hac augue proin etiam enim adipiscing magna est pulvinar eros, magnis augue nec scelerisque porta! </p>
-                            </div>
-                        </a>
-					</div>
-                    <div class="col2 blockCol">
-						<a href="#">
-                            <img src="images/new-1.jpg" />
-                            <div class="desc">
-                                <p>Dignissim augue, augue, habitasse dis velit magna habitasse magna ultrices tristique scelerisque, aliquet aliquet!</p>
-                                <p>Pellentesque hac augue proin etiam enim adipiscing magna est pulvinar eros, magnis augue nec scelerisque porta! </p>
-                            </div>
-                        </a>
-					</div>
-                    <div class="col3 blockCol">
-						<a href="#">
-                            <img src="images/new-1.jpg" />
-                            <div class="desc">
-                                <p>Dignissim augue, augue, habitasse dis velit magna habitasse magna ultrices tristique scelerisque, aliquet aliquet!</p>
-                                <p>Pellentesque hac augue proin etiam enim adipiscing magna est pulvinar eros, magnis augue nec scelerisque porta! </p>
-                            </div>
-                        </a>
-					</div>
+					<div class="col-md-4">
+                        <div class="col1 blockCol">
+    						<a href="#">
+                                <img src="images/new-1.jpg" />
+                                <div class="desc">
+                                    <p>Dignissim augue, augue, habitasse dis velit magna habitasse magna ultrices tristique scelerisque, aliquet aliquet!</p>
+                                    <p>Pellentesque hac augue proin etiam enim adipiscing magna est pulvinar eros, magnis augue nec scelerisque porta! </p>
+                                </div>
+                            </a>
+    					</div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="col2 blockCol">
+    						<a href="#">
+                                <img src="images/new-1.jpg" />
+                                <div class="desc">
+                                    <p>Dignissim augue, augue, habitasse dis velit magna habitasse magna ultrices tristique scelerisque, aliquet aliquet!</p>
+                                    <p>Pellentesque hac augue proin etiam enim adipiscing magna est pulvinar eros, magnis augue nec scelerisque porta! </p>
+                                </div>
+                            </a>
+    					</div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="col3 blockCol">
+    						<a href="#">
+                                <img src="images/new-1.jpg" />
+                                <div class="desc">
+                                    <p>Dignissim augue, augue, habitasse dis velit magna habitasse magna ultrices tristique scelerisque, aliquet aliquet!</p>
+                                    <p>Pellentesque hac augue proin etiam enim adipiscing magna est pulvinar eros, magnis augue nec scelerisque porta! </p>
+                                </div>
+                            </a>
+    					</div>
+                    </div>
 					<div class="clear"></div>
 				</div>
                 <a href="#" class="btn">Xem thêm</a>
 
                 <h3 class="publicActions">Hoạt động cộng đồng</h3>
                 <div class="threeBlock">
-					<div class="col1 blockCol">
-						<a href="#">
-                            <img src="images/new-1.jpg" />
-                            <div class="desc">
-                                <p>Dignissim augue, augue, habitasse dis velit magna habitasse magna ultrices tristique scelerisque, aliquet aliquet!</p>
-                                <p>Pellentesque hac augue proin etiam enim adipiscing magna est pulvinar eros, magnis augue nec scelerisque porta! </p>
-                            </div>
-                        </a>
-					</div>
-                    <div class="col2 blockCol">
-						<a href="#">
-                            <img src="images/new-1.jpg" />
-                            <div class="desc">
-                                <p>Dignissim augue, augue, habitasse dis velit magna habitasse magna ultrices tristique scelerisque, aliquet aliquet!</p>
-                                <p>Pellentesque hac augue proin etiam enim adipiscing magna est pulvinar eros, magnis augue nec scelerisque porta! </p>
-                            </div>
-                        </a>
-					</div>
-                    <div class="col3 blockCol">
-						<a href="#">
-                            <img src="images/new-1.jpg" />
-                            <div class="desc">
-                                <p>Dignissim augue, augue, habitasse dis velit magna habitasse magna ultrices tristique scelerisque, aliquet aliquet!</p>
-                                <p>Pellentesque hac augue proin etiam enim adipiscing magna est pulvinar eros, magnis augue nec scelerisque porta! </p>
-                            </div>
-                        </a>
-					</div>
+                    <div class="col-md-4">
+    					<div class="col1 blockCol">
+    						<a href="#">
+                                <img src="images/new-1.jpg" />
+                                <div class="desc">
+                                    <p>Dignissim augue, augue, habitasse dis velit magna habitasse magna ultrices tristique scelerisque, aliquet aliquet!</p>
+                                    <p>Pellentesque hac augue proin etiam enim adipiscing magna est pulvinar eros, magnis augue nec scelerisque porta! </p>
+                                </div>
+                            </a>
+    					</div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="col2 blockCol">
+    						<a href="#">
+                                <img src="images/new-1.jpg" />
+                                <div class="desc">
+                                    <p>Dignissim augue, augue, habitasse dis velit magna habitasse magna ultrices tristique scelerisque, aliquet aliquet!</p>
+                                    <p>Pellentesque hac augue proin etiam enim adipiscing magna est pulvinar eros, magnis augue nec scelerisque porta! </p>
+                                </div>
+                            </a>
+    					</div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="col3 blockCol">
+    						<a href="#">
+                                <img src="images/new-1.jpg" />
+                                <div class="desc">
+                                    <p>Dignissim augue, augue, habitasse dis velit magna habitasse magna ultrices tristique scelerisque, aliquet aliquet!</p>
+                                    <p>Pellentesque hac augue proin etiam enim adipiscing magna est pulvinar eros, magnis augue nec scelerisque porta! </p>
+                                </div>
+                            </a>
+    					</div>
+                    </div>
 					<div class="clear"></div>
 				</div>
                 <a href="#" class="btn">Xem thêm</a>

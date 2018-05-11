@@ -186,6 +186,21 @@
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
+  .tradeDetail {
+    .memberDescription {
+      .memberDescription__left {
+        width: 100%
+      }
+      .memberDescription__right {
+        margin-left: 104px;
+        float: left;
+        width: 90%;
+        margin-top: 15px;
+        text-align: left;
+      }
+    }
+
+  }
   video {
     width: auto !important;
     height: auto !important;
@@ -462,7 +477,7 @@
         .threeBlock {
             .blockCol {
                 width: 46%;
-                margin: 0 auto 25px !important;
+                margin: 0 2% 4% 2% !important;
                 img{
                     width: 100%;
                 }
@@ -470,8 +485,8 @@
                     margin:0;
                 }
             }
-            .blockCol:nth-child(2n+1) {
-              margin: 0 53px 25px 0 !important;
+            .blockCol {
+
             }
         }
     }

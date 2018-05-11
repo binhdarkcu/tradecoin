@@ -476,6 +476,16 @@
     }
 }
 
+
+@media (min-width: 0) and (max-width: 548px) {
+  .tradeDetail .memberComment .showComment .showCommentItem {
+    height: 148px !important;
+    .showCommentItem-content {
+      margin-top: 6px;
+    }
+  }
+}
+
 @media (min-width: 0) and (max-width: 432px) {
   footer .social .socialBox a {
     width: 35px;

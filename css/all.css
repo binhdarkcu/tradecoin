@@ -8149,11 +8149,11 @@ video {
   margin-top: -8%;
   padding-top: 90px;
   color: #fff;
-  min-height: 145vh; }
+  min-height: 177vh; }
   .tradeLists .commonTitle {
     color: #fff;
     padding-top: 15px;
-    margin-top: 40px; }
+    margin-top: 70px; }
   .tradeLists .tradeTable {
     padding-top: 22px; }
     .tradeLists .tradeTable .col {
@@ -8413,7 +8413,7 @@ video {
 .roadMap {
   background: url(../images/bg-doitac.png) no-repeat top center;
   background-size: cover;
-  min-height: 1950px;
+  min-height: 2050px;
   margin-top: -12%;
   padding-top: 12%;
   color: #fff; }
@@ -8557,14 +8557,11 @@ video {
     margin-bottom: 35px; }
     .newsList .threeBlock .blockCol {
       float: left;
-      width: 26%;
       padding: 18px;
       -webkit-box-shadow: 0px 0px 5px 0px rgba(0, 1, 1, 0.2);
       -moz-box-shadow: 0px 0px 5px 0px rgba(0, 1, 1, 0.2);
       box-shadow: 0px 0px 5px 0px rgba(0, 1, 1, 0.2);
       border-radius: 8px; }
-      .newsList .threeBlock .blockCol.col2 {
-        margin: 0 6.5%; }
       .newsList .threeBlock .blockCol .desc {
         padding-top: 20px; }
         .newsList .threeBlock .blockCol .desc p {
@@ -10876,6 +10873,15 @@ video::-webkit-media-text-track-display {
   .commingSoon {
     margin-top: -17%; } }
 @media (min-width: 768px) and (max-width: 991px) {
+  .tradeDetail .memberDescription .memberDescription__left {
+    width: 100%; }
+  .tradeDetail .memberDescription .memberDescription__right {
+    margin-left: 104px;
+    float: left;
+    width: 90%;
+    margin-top: 15px;
+    text-align: left; }
+
   video {
     width: auto !important;
     height: auto !important; }
@@ -11048,13 +11054,11 @@ video::-webkit-media-text-track-display {
 
   .newsList .threeBlock .blockCol {
     width: 46%;
-    margin: 0 auto 25px !important; }
+    margin: 0 2% 4% 2% !important; }
     .newsList .threeBlock .blockCol img {
       width: 100%; }
     .newsList .threeBlock .blockCol.col2 {
       margin: 0; }
-  .newsList .threeBlock .blockCol:nth-child(2n+1) {
-    margin: 0 53px 25px 0 !important; }
 
   .commingSoon {
     margin-top: -17%; } }
@@ -11369,10 +11373,177 @@ video::-webkit-media-text-track-display {
     height: 100% !important;
     background-size: 100%;
     background-position: bottom center; } }
+@media (min-width: 0) and (max-width: 548px) {
+  .tradeDetail .memberComment .showComment .showCommentItem {
+    height: 148px !important; }
+    .tradeDetail .memberComment .showComment .showCommentItem .showCommentItem-content {
+      margin-top: 6px; } }
 @media (min-width: 0) and (max-width: 432px) {
   footer .social .socialBox a {
     width: 35px;
     height: 35px;
     background-size: cover !important; } }
+.tradeDetail {
+  margin-bottom: 26%; }
+  .tradeDetail .memberDescription {
+    padding-top: 46px;
+    padding-bottom: 38px;
+    display: table;
+    width: 100%; }
+    .tradeDetail .memberDescription__left {
+      float: left;
+      width: 59%; }
+      .tradeDetail .memberDescription__left img {
+        margin-right: 27px;
+        float: left; }
+      .tradeDetail .memberDescription__left--content {
+        float: left;
+        width: 80%; }
+        .tradeDetail .memberDescription__left--content h4 {
+          font-family: 'Montserrat-Medium';
+          font-size: 24px;
+          margin-bottom: 10px;
+          line-height: 1.3; }
+        .tradeDetail .memberDescription__left--content .content-wrapper .name {
+          font-family: 'Montserrat-Bold';
+          margin-bottom: 10px;
+          line-height: 1.3;
+          display: inline-block; }
+        .tradeDetail .memberDescription__left--content .content-wrapper .desc span, .tradeDetail .memberDescription__left--content .content-wrapper .desc a {
+          color: #9f9f9f;
+          font-family: 'Montserrat-Regular';
+          font-size: 12px;
+          display: inline-block;
+          margin-right: 15px; }
+        .tradeDetail .memberDescription__left--content .content-wrapper .desc a {
+          background: url(../images/icon-view.png) no-repeat 4px center;
+          background-size: 17px;
+          padding-left: 22px;
+          padding: 4px 5px 4px 25px;
+          background-size: 14px;
+          border-radius: 4px; }
+          .tradeDetail .memberDescription__left--content .content-wrapper .desc a.heart {
+            background: url(../images/icon-heart.png) no-repeat 6px center #f2f5f8;
+            background-size: 14px;
+            border-radius: 4px;
+            margin-right: 0; }
+            .tradeDetail .memberDescription__left--content .content-wrapper .desc a.heart:hover {
+              background: url(../images/icon-heart-white.png) no-repeat 6px center #139bd0;
+              color: #fff;
+              background-size: 14px; }
+          .tradeDetail .memberDescription__left--content .content-wrapper .desc a.like {
+            background: url(../images/icon-like.png) no-repeat 6px center #f2f5f8;
+            background-size: 14px;
+            border-radius: 4px; }
+            .tradeDetail .memberDescription__left--content .content-wrapper .desc a.like:hover {
+              background: url(../images/icon-like-white.png) no-repeat 6px center #139bd0;
+              color: #fff;
+              background-size: 14px; }
+          .tradeDetail .memberDescription__left--content .content-wrapper .desc a.comment {
+            background: url(../images/icon-comment-gray.png) no-repeat 4px center;
+            background-size: 10px;
+            pointer-events: none;
+            padding-left: 20px; }
+    .tradeDetail .memberDescription__right {
+      float: right;
+      width: 41%;
+      margin-top: 65px;
+      text-align: right; }
+      .tradeDetail .memberDescription__right span {
+        display: inline-block;
+        margin-right: 20px; }
+        .tradeDetail .memberDescription__right span:last-child {
+          margin-right: 0; }
+      .tradeDetail .memberDescription__right .status {
+        padding: 5px 0 5px 38px;
+        background: url(../images/icon-check.png) no-repeat left center; }
+      .tradeDetail .memberDescription__right .win {
+        text-align: center;
+        background: #12d112;
+        color: #fff;
+        padding-left: 10px;
+        width: 68px;
+        height: 27px;
+        line-height: 27px;
+        display: inline-block;
+        border-radius: 4px;
+        margin-left: 0; }
+      .tradeDetail .memberDescription__right .percent {
+        color: #12d112;
+        background: url(../images/blue-arrow.png) no-repeat right center;
+        padding-right: 28px;
+        font-weight: 900;
+        line-height: 25px; }
+      .tradeDetail .memberDescription__right--btn {
+        color: #fff;
+        height: 28px;
+        line-height: 28px;
+        font-weight: bold;
+        padding: 0 10px;
+        border-radius: 2px; }
+        .tradeDetail .memberDescription__right--btn.btn-green {
+          background: #7fcd45; }
+        .tradeDetail .memberDescription__right--btn.btn-yellow {
+          background: url("../images/icon-comment.png") no-repeat 7px center #fdd342;
+          padding-left: 22px; }
+  .tradeDetail .memberContent {
+    margin-top: 35px;
+    margin-bottom: 50px; }
+    .tradeDetail .memberContent p {
+      margin-bottom: 23px; }
+      .tradeDetail .memberContent p.hasicon {
+        padding: 5px 0 5px 30px; }
+        .tradeDetail .memberContent p.hasicon.canhmua {
+          background: url("../images/icon-canhmua.png") left center no-repeat; }
+        .tradeDetail .memberContent p.hasicon.choitu {
+          background: url("../images/icon-choitu.png") left center no-repeat; }
+        .tradeDetail .memberContent p.hasicon.stoplos {
+          background: url("../images/icon-stoplos.png") left center no-repeat; }
+    .tradeDetail .memberContent .btn {
+      display: table;
+      margin: 90px auto 0;
+      background: #cccccc;
+      float: none;
+      text-transform: uppercase;
+      padding: 0 77px; }
+  .tradeDetail .memberComment textarea {
+    border: 1px solid #d9d9d9;
+    border-radius: 4px;
+    width: 100%;
+    height: 150px;
+    padding: 20px; }
+  .tradeDetail .memberComment .btn {
+    font-weight: bold;
+    font-size: 14px;
+    float: right;
+    border-radius: 4px;
+    margin-top: 20px;
+    margin-bottom: 35px; }
+  .tradeDetail .memberComment .showComment {
+    clear: both; }
+    .tradeDetail .memberComment .showComment .showCommentItem {
+      clear: both;
+      height: 78px;
+      margin-bottom: 50px; }
+      .tradeDetail .memberComment .showComment .showCommentItem img {
+        float: left;
+        margin-right: 19px; }
+      .tradeDetail .memberComment .showComment .showCommentItem-content {
+        float: left; }
+        .tradeDetail .memberComment .showComment .showCommentItem-content p.name {
+          margin-bottom: 12px; }
+          .tradeDetail .memberComment .showComment .showCommentItem-content p.name b {
+            margin-right: 11px;
+            display: inline-block; }
+          .tradeDetail .memberComment .showComment .showCommentItem-content p.name span {
+            font-size: 12px;
+            color: #747474; }
+        .tradeDetail .memberComment .showComment .showCommentItem-content p.content {
+          margin-bottom: 10px; }
+        .tradeDetail .memberComment .showComment .showCommentItem-content a.reply {
+          cursor: pointer;
+          padding-left: 25px;
+          background: url("../images/icon-reply.png") left center no-repeat;
+          color: #0392ed; }
 
 /*# sourceMappingURL=all.css.map */
