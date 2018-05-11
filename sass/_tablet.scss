@@ -190,6 +190,21 @@
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
+  .tradeDetail {
+    .memberDescription {
+      .memberDescription__left {
+        width: 100%
+      }
+      .memberDescription__right {
+        margin-left: 104px;
+        float: left;
+        width: 90%;
+        margin-top: 15px;
+        text-align: left;
+      }
+    }
+
+  }
   video {
     width: auto !important;
     height: auto !important;

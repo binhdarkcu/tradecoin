@@ -20,6 +20,28 @@
 
 
 @media (min-width: 0) and (max-width: 767px) {
+  .tradeDetail {
+    .memberDescription {
+      .memberDescription__left {
+        width: 100%;
+        .memberDescription__left--content {
+          width: 100%;
+          float: none;
+        }
+        img.avatar {
+          float: none;
+          display: table;
+          margin: 0 auto 20px;
+        }
+      }
+      .memberDescription__right {
+        float: left;
+        width: 100%;
+        margin-top: 15px;
+        text-align: left;
+      }
+    }
+  }
     footer {
       .social .socialBox a {
         margin: 0 10px;
@@ -466,6 +488,15 @@
       background-size: 100%;
       background-position: bottom center;
     }
+}
+
+@media (min-width: 0) and (max-width: 548px) {
+  .tradeDetail .memberComment .showComment .showCommentItem {
+    height: 148px !important;
+    .showCommentItem-content {
+      margin-top: 6px;
+    }
+  }
 }
 
 @media (min-width: 0) and (max-width: 432px) {
