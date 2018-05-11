@@ -69,11 +69,8 @@
     .advantage {
         .threeBlock {
             .blockCol{
-                min-height: 538px;
-                width: 28%;
                 background-size: 100%!important;
                 &.col2 {
-                    margin: 0 1.5%;
                 }
             }
         }
@@ -92,7 +89,6 @@
     }
     .tradeLists {
         margin-top: -19%;
-        min-height: 1100px;
         &.tradeListPage{
             margin-top: 0;
         }

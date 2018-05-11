@@ -31,7 +31,7 @@
     loop: true,
     autoplay: true,
     position: '50% 50%',
-    posterType: 'none',
+    posterType: 'detect',
     resizing: true,
     bgColor: 'transparent',
     className: ''
@@ -228,10 +228,9 @@
     var $element = vide.$element;
     var settings = vide.settings;
     var position = parsePosition(settings.position);
-    var posterType = settings.posterType;
+    var posterType = 'jpg';
     var $video;
     var $wrapper;
-
     // Set styles of a video wrapper
     $wrapper = vide.$wrapper = $('<div>')
       .addClass(settings.className)
@@ -270,9 +269,11 @@
     // Set a video poster
     if (posterType === 'detect') {
       findPoster(poster, function(url) {
+
         $wrapper.css('background-image', 'url(' + url + ')');
       });
     } else if (posterType !== 'none') {
+         console.log(poster+'.'+posterType)
       $wrapper.css('background-image', 'url(' + poster + '.' + posterType + ')');
     }
 
