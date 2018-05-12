@@ -174,40 +174,40 @@ https://t.me/hoithanhtradecoin</p>
             <div class="form-group row">
               <label for="example-text-input" class="col-3 col-form-label">Canh mua:</label>
               <div class="col-9">
-                <input class="form-control" type="text" value="648" id="example-text-input">
+                <input class="form-control" type="text" value="648" >
               </div>
             </div>
             <div class="form-group row">
               <label for="example-search-input" class="col-3 col-form-label">Số tiền đầu tư:</label>
               <div class="col-9">
-                <input class="form-control" type="search" value="2" id="example-search-input">
+                <input class="form-control" type="search" value="2" >
               </div>
             </div>
             <div class="form-group row">
               <label for="example-search-input" class="col-3 col-form-label">Chốt lời 1:</label>
               <div class="col-9 col-6">
-                <input class="form-control" type="search" value="2" id="example-search-input">
-              </div>
-              <a href="#" class="col-3 subtract">-</a>
-            </div>
-            <div class="form-group row">
-              <label for="example-search-input" class="col-3 col-form-label">Chốt lời 1:</label>
-              <div class="col-9 col-6">
-                <input class="form-control" type="search" value="2" id="example-search-input">
+                <input class="form-control" type="search" value="2" >
               </div>
               <a href="#" class="col-3 subtract">-</a>
             </div>
             <div class="form-group row">
               <label for="example-search-input" class="col-3 col-form-label">Chốt lời 1:</label>
               <div class="col-9 col-6">
-                <input class="form-control" type="search" value="2" id="example-search-input">
+                <input class="form-control" type="search" value="2">
+              </div>
+              <a href="#" class="col-3 subtract">-</a>
+            </div>
+            <div class="form-group row">
+              <label for="example-search-input" class="col-3 col-form-label">Chốt lời 1:</label>
+              <div class="col-9 col-6">
+                <input class="form-control" type="search" value="2" >
               </div>
               <a href="#" class="col-3 add">+</a>
             </div>
             <div class="form-group row">
               <label for="example-search-input" class="col-3 col-form-label">Cắt lỗ:</label>
               <div class="col-9">
-                <input class="form-control" type="search" value="2" id="example-search-input">
+                <input class="form-control" type="search" value="2">
               </div>
             </div>
             <a href="#" class="btn">Xác nhận</a>
