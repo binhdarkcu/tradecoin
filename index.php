@@ -34,7 +34,7 @@
 <script src="js/class.SiteMain.js"></script>
 <!--[if lt IE 9]><script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
 </head>
-<body class="home popup-opening">
+<body class="home">
   <?php include_once('popup.php')?>
 	<div class="wrapper">
 		<!--HEADER-->
