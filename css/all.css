@@ -8850,7 +8850,8 @@ header {
 
 .topSocials {
   margin-top: 17px;
-  float: right; }
+  float: right;
+  margin-right: 15px; }
   .topSocials a {
     background: url(../images/fb.png) no-repeat;
     width: 32px;
@@ -9455,7 +9456,8 @@ footer {
   .memberList .memberRight {
     float: left; }
     .memberList .memberRight .memberTop .nameBox {
-      float: left; }
+      float: left;
+      min-width: 345px; }
     .memberList .memberRight .memberTop span {
       font-family: "Montserrat-Bold";
       color: #2d2d2d;
@@ -9496,9 +9498,9 @@ footer {
         padding: 7px 12px;
         border-radius: 4px; }
     .memberList .memberRight .memberTop .pointPercent {
-      float: left;
+      float: right;
       width: 443px;
-      margin-left: 50px; }
+      margin-left: 60px; }
       .memberList .memberRight .memberTop .pointPercent span {
         font-family: "Montserrat-Bold";
         font-size: 18px;
@@ -9563,10 +9565,18 @@ footer {
       .memberList .memberRight .memberBottom .morderate.floatLeft {
         margin-right: 40px; }
       .memberList .memberRight .memberBottom .morderate span {
-        background: url(../images/top1.png) no-repeat;
-        width: 58px;
-        height: 44px;
+        text-align: center;
         display: inline-block; }
+        .memberList .memberRight .memberBottom .morderate span b {
+          font-size: 15px;
+          display: block;
+          text-transform: uppercase; }
+      .memberList .memberRight .memberBottom .morderate.free span b {
+        color: #f47b50; }
+      .memberList .memberRight .memberBottom .morderate.normal span b {
+        color: #f7bd5c; }
+      .memberList .memberRight .memberBottom .morderate.vip span b {
+        color: #3d965f; }
       .memberList .memberRight .memberBottom span {
         color: #2d2d2d; }
       .memberList .memberRight .memberBottom b {
@@ -11136,6 +11146,8 @@ video::-webkit-media-text-track-display {
 @media (min-width: 992px) and (max-width: 1199px) {
   .memberList .memberRight {
     width: 83%; }
+    .memberList .memberRight .memberTop .nameBox {
+      min-width: auto; }
     .memberList .memberRight .memberTop .pointPercent {
       margin-top: 36px;
       margin-left: 0; }
@@ -11258,6 +11270,8 @@ video::-webkit-media-text-track-display {
 
   .memberList .memberRight {
     width: 75%; }
+    .memberList .memberRight .memberTop .nameBox {
+      min-width: auto; }
     .memberList .memberRight .memberTop .pointPercent {
       margin-top: 36px;
       margin-left: 0; }
@@ -11529,6 +11543,7 @@ video::-webkit-media-text-track-display {
   .memberList .memberRight {
     margin-top: 20px; }
     .memberList .memberRight .memberTop .nameBox {
+      min-width: auto;
       width: 100%;
       margin-bottom: 25px; }
     .memberList .memberRight .memberTop .pointBox {

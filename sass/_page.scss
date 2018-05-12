@@ -127,6 +127,7 @@
         .memberTop {
             .nameBox {
                 float: left;
+                min-width: 345px;
             }
             span {
                 font-family: "Montserrat-Bold";
@@ -179,9 +180,9 @@
                 }
             }
             .pointPercent {
-                float: left;
+                float: right;
                 width: 443px;
-                margin-left: 50px;
+                margin-left: 60px;
                 span {
                     font-family: "Montserrat-Bold";
                     font-size: 18px;
@@ -272,10 +273,35 @@
                     margin-right: 40px;
                 }
                 span {
-                    background: url(../images/top1.png) no-repeat;
-                    width: 58px;
-                    height: 44px;
+                    text-align: center;
                     display: inline-block;
+                    b {
+                        font-size: 15px;
+                        display: block;
+                        text-transform: uppercase;
+                    }
+                }
+
+                &.free {
+                    span {
+                        b {
+                            color: #f47b50;
+                        }
+                    }
+                }
+                &.normal {
+                    span {
+                        b {
+                            color: #f7bd5c;
+                        }
+                    }
+                }
+                &.vip {
+                    span {
+                        b {
+                            color: #3d965f;
+                        }
+                    }
                 }
             }
             span {
