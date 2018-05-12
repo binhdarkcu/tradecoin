@@ -91,11 +91,20 @@ var SiteMain = (function() {
 		});
 	}
 
-	function openPopup(idDiv){
-		$('.result_question').css('display','none')
-		$('.popup-for-login').css('display','block')
-		$('body').addClass('popup-opening')
-		$(idDiv).css('display','block');
+	function openPopup(idDiv, clsActive){
+		console.log(clsActive)
+		$('.popup').css('display','none')
+		$(idDiv).css('display','block')
+		$('.commonContent').css('display','none')
+		$('#' + clsActive).css('display','block')
+		$('.popup .navLink').removeClass('active')
+		if(clsActive == 'signInContent') {
+			$('.navLink.signInLink').addClass('active')
+		} else {
+			$('.navLink.signUpLink').addClass('active')
+		}
+
+		$('body').addClass('popup-opening ' + clsActive)
 	}
 	function closePopup(idDiv){
 		$('body').removeClass('popup-opening')

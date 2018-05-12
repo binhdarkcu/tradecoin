@@ -196,10 +196,15 @@
         display: block;
         width: 100%;
         text-align: center;
-        li:hover, li.active {
+        li:hover {
           a:after {
-            bottom: -20px;
+            bottom: -21px;
           }
+        }
+        a.active {
+            &:after {
+              bottom: -21px;
+            }
         }
       }
     }
