@@ -93,10 +93,14 @@ var SiteMain = (function() {
 
 	function openPopup(idDiv){
 		$('.result_question').css('display','none')
+		$('.popup-for-login').css('display','block')
+		$('body').addClass('popup-opening')
 		$(idDiv).css('display','block');
 	}
 	function closePopup(idDiv){
+		$('body').removeClass('popup-opening')
 		$(idDiv).css('display','none');
+		$('.signin,.signup').css('display','none');
 	}
 	return {
 		init:init,

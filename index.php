@@ -49,8 +49,8 @@
     				<nav>
     					<ul>
     						<li><a href="#" class="news">Tin tức</a></li>
-    						<li><a href="#" class="btn"><span>Đăng ký</span></a></li>
-    						<li><a href="#" class="btn"><span>Đăng nhập</span></a></li>
+    						<li><a href="#" class="btn" onClick="SiteMain.openPopup('.signup')"><span>Đăng ký</span></a></li>
+    						<li><a href="#" class="btn" onClick="SiteMain.openPopup('.signin')"><span>Đăng nhập</span></a></li>
     					</ul>
     				</nav>
                 </div>
