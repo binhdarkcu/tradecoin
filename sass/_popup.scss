@@ -1,0 +1,108 @@
+.popup {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  background: #fff;
+  padding: 28px 28px 38px 32px;
+  z-index: 99;
+  max-width: 730px;
+  width: 90%;
+  display: none;
+  h5 {
+    font-family: 'Montserrat-Medium';
+    font-size: 24px;
+    border-bottom: 1px solid #cccccc;
+    padding-bottom: 18px;
+    margin-bottom: 35px;
+  }
+  .close {
+    opacity: 1;
+    text-shadow: none;
+    position: relative;
+    top: 10px;
+  }
+  .inner-content {
+    max-width: 530px;
+    width: 85%;
+    margin: auto;
+    a.btn {
+      font-weight: bold;
+      font-size: 14px;
+      float: none;
+      border-radius: 4px;
+      margin-top: 20px;
+      display: table;
+      margin: auto;
+    }
+    label {
+      padding: 0;
+      width: 25%;
+      float: left;
+      height: 100%;
+      vertical-align: middle;
+      padding: 11px 15px 11px 0;
+      margin: 0;
+      text-align: right;
+      font-family: 'Montserrat-Regular';
+      font-weight: normal;
+    }
+    .col-9 {
+      padding: 0;
+      float: left;
+      width: 75%;
+      position: relative;
+      &.col-6 {
+        width: 65%;
+        margin-right: 7px;
+      }
+      &:after {
+        content: '';
+        top: 13px;
+        right: 10px;
+        background: url('../images/icon-checked.png') no-repeat;
+        width: 16px;
+        height: 14px;
+        position: absolute;
+      }
+      input {
+        height: 39px;
+      }
+    }
+    a.col-3 {
+      display: inline-block;
+      float: right;
+      height: 39px;
+      line-height: 39px;
+      width: 39px;
+      text-align: center;
+      color: #fff;
+      border-radius: 2px;
+      background: #579ed4;
+      font-family: 'Montserrat-Regular';
+      font-size: 24px;
+      &.subtract {
+        background: #ff0000;
+        line-height: 37px;
+      }
+      &:focus {
+        outline: none;
+      }
+    }
+  }
+}
+.popup-opening {
+  position: relative;
+
+  &:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #000;
+    opacity: 0.5;
+    z-index: 9;
+  }
+}

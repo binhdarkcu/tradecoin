@@ -164,6 +164,57 @@ https://t.me/hoithanhtradecoin</p>
         </div>
       </div>
     </div>
+    <!-- popup vao keo -->
+    <div class="popup popup-vaokeo">
+      <img src="images/icon-close.png" class="close" alt="">
+      <div class="inner">
+        <h5>Lướt sóng nhanh ETH khung M5</h5>
+        <div class="inner-content">
+          <form class="" method="post">
+            <div class="form-group row">
+              <label for="example-text-input" class="col-3 col-form-label">Canh mua:</label>
+              <div class="col-9">
+                <input class="form-control" type="text" value="648" id="example-text-input">
+              </div>
+            </div>
+            <div class="form-group row">
+              <label for="example-search-input" class="col-3 col-form-label">Số tiền đầu tư:</label>
+              <div class="col-9">
+                <input class="form-control" type="search" value="2" id="example-search-input">
+              </div>
+            </div>
+            <div class="form-group row">
+              <label for="example-search-input" class="col-3 col-form-label">Chốt lời 1:</label>
+              <div class="col-9 col-6">
+                <input class="form-control" type="search" value="2" id="example-search-input">
+              </div>
+              <a href="#" class="col-3 subtract">-</a>
+            </div>
+            <div class="form-group row">
+              <label for="example-search-input" class="col-3 col-form-label">Chốt lời 1:</label>
+              <div class="col-9 col-6">
+                <input class="form-control" type="search" value="2" id="example-search-input">
+              </div>
+              <a href="#" class="col-3 subtract">-</a>
+            </div>
+            <div class="form-group row">
+              <label for="example-search-input" class="col-3 col-form-label">Chốt lời 1:</label>
+              <div class="col-9 col-6">
+                <input class="form-control" type="search" value="2" id="example-search-input">
+              </div>
+              <a href="#" class="col-3 add">+</a>
+            </div>
+            <div class="form-group row">
+              <label for="example-search-input" class="col-3 col-form-label">Cắt lỗ:</label>
+              <div class="col-9">
+                <input class="form-control" type="search" value="2" id="example-search-input">
+              </div>
+            </div>
+            <a href="#" class="btn">Xác nhận</a>
+          </form>
+        </div>
+      </div>
+    </div>
       <!--FOOTER-->
       <footer>
           <div class="container">
