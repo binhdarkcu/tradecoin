@@ -29,6 +29,8 @@
 <script src="js/jquery.easing.1.3.js"></script>
 <script src="js/slick.min.js"></script>
 <script type="text/javascript" src="js/jquery-rate-picker.js"></script>
+<script src="js/moment.js"></script>
+<script type="text/javascript" src="js/bootstrap-datetimepicker.js"></script>
 <script src="js/class.SiteMain.js"></script>
 <!--[if lt IE 9]><script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
 </head>
@@ -174,6 +176,39 @@
                                 </div>
                             </div>
                             <div class="clear"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="memberSearch">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <h3>Danh sách kèo đã tham gia</h3>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="memberSearchForm">
+                                <div class="col ">
+                                    <span>Từ ngày:</span>
+                                    <div class='input-group date' id='fromDatePicker'>
+                                       <input type='text' class="form-control" />
+                                       <span class="input-group-addon">
+                                           <span class="glyphicon glyphicon-calendar"></span>
+                                       </span>
+                                   </div>
+                                </div>
+                                <div class="col ">
+                                    <span>Đến ngày:</span>
+                                    <div class='input-group date' id='toDatePicker'>
+                                        <input type='text' class="form-control" />
+                                        <span class="input-group-addon">
+                                            <span class="glyphicon glyphicon-calendar"></span>
+                                        </span>
+                                    </div>
+                                </div>
+                                <input type="submit" class="btnSearch" value="TÌM KIẾM"/>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -492,4 +527,21 @@
         </footer>
     </div>
 </body>
+
+<script type="text/javascript">
+    $(function () {
+        $('#fromDatePicker').datetimepicker({format: 'DD/MM/YYYY', allowInputToggle: true});
+        $('#toDatePicker').datetimepicker({
+            useCurrent: false,
+            allowInputToggle: true,
+            format: 'DD/MM/YYYY'
+        });
+        $("#fromDatePicker").on("dp.change", function (e) {
+            $('#toDatePicker').data("DateTimePicker").minDate(e.date);
+        });
+        $("#toDatePicker").on("dp.change", function (e) {
+            $('#toDatePicker').data("DateTimePicker").maxDate(e.date);
+        });
+    });
+</script>
 </html>
