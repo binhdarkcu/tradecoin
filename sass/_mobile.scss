@@ -20,6 +20,74 @@
 
 
 @media (min-width: 0) and (max-width: 767px) {
+  .popup-for-login.popup {
+    position: relative;
+    .close {
+      top: 25px;
+      right: 22px;
+    }
+    .inner {
+      position: relative;
+      top: 0;
+      left: 0;
+      width: 80%;
+      margin: auto;
+      padding: 80px 0;
+      transform: translate(0,0);
+    }
+    .inner-header {
+      img {
+        float: none;
+        margin: 0 auto 10px;
+        display: table;
+        max-width: 200px;
+      }
+      .fRight {
+        display: block;
+        width: 100%;
+        text-align: center;
+        li:hover, li.active {
+          a:after {
+            bottom: -20px;
+          }
+        }
+      }
+    }
+    .inner-content {
+      .signup, .signin {
+        .socials {
+          max-width: 320px;
+          width: 90%;
+          a {
+            margin: 0;
+            width: 100%;
+            &:first-child {
+              margin-bottom: 15px;
+            }
+          }
+        }
+        form .inputIcon {
+          float: none;
+          width: 80%;
+          margin: 0 auto 10px;
+        }
+      }
+      .signin {
+        form {
+          max-width: 320px;
+          .inputIcon {
+            width: 100%;
+          }
+        }
+      }
+    }
+  }
+  .home.popup-opening {
+    overflow: auto;
+    .wrapper {
+      display: none;
+    }
+  }
   .tradeDetail {
     .memberDescription {
       .memberDescription__left {

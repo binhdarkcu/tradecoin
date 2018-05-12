@@ -185,6 +185,25 @@
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
+  .popup-for-login.popup {
+    .inner-header {
+      img {
+        float: none;
+        margin: 0 auto 10px;
+        display: table;
+      }
+      .fRight {
+        display: block;
+        width: 100%;
+        text-align: center;
+        li:hover, li.active {
+          a:after {
+            bottom: -20px;
+          }
+        }
+      }
+    }
+  }
   .tradeDetail {
     .memberDescription {
       .memberDescription__left {
