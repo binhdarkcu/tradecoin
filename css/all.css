@@ -9013,7 +9013,8 @@ footer {
 .popup-for-login {
   display: none;
   width: 100%;
-  height: 100%;
+  height: 100vh;
+  overflow-y: auto;
   position: fixed;
   z-index: 99;
   background: url("../images/bg-dangky.png") no-repeat center center;
@@ -11437,48 +11438,46 @@ video::-webkit-media-text-track-display {
   .memberList {
     margin-bottom: 17%; } }
 @media (min-width: 0) and (max-width: 767px) {
-  .popup-for-login.popup {
-    position: relative; }
-    .popup-for-login.popup .close {
-      top: 25px;
-      right: 22px; }
-    .popup-for-login.popup .inner {
-      position: relative;
-      top: 0;
-      left: 0;
-      width: 80%;
-      margin: auto;
-      padding: 80px 0;
-      transform: translate(0, 0); }
-    .popup-for-login.popup .inner-header img {
-      float: none;
-      margin: 0 auto 10px;
-      display: table;
-      max-width: 200px; }
-    .popup-for-login.popup .inner-header .fRight {
-      display: block;
-      width: 100%;
-      text-align: center; }
-      .popup-for-login.popup .inner-header .fRight li:hover a:after, .popup-for-login.popup .inner-header .fRight a.active a:after {
-        bottom: -21px; }
-      .popup-for-login.popup .inner-header .fRight a.active:after {
-        bottom: -21px; }
-    .popup-for-login.popup .inner-content .signup .socials, .popup-for-login.popup .inner-content .signin .socials {
-      max-width: 320px;
-      width: 90%; }
-      .popup-for-login.popup .inner-content .signup .socials a, .popup-for-login.popup .inner-content .signin .socials a {
-        margin: 0;
-        width: 100%; }
-        .popup-for-login.popup .inner-content .signup .socials a:first-child, .popup-for-login.popup .inner-content .signin .socials a:first-child {
-          margin-bottom: 15px; }
-    .popup-for-login.popup .inner-content .signup form .inputIcon, .popup-for-login.popup .inner-content .signin form .inputIcon {
-      float: none;
-      width: 80%;
-      margin: 0 auto 10px; }
-    .popup-for-login.popup .inner-content .signin form {
-      max-width: 320px; }
-      .popup-for-login.popup .inner-content .signin form .inputIcon {
-        width: 100%; }
+  .popup-for-login.popup .close {
+    top: 25px;
+    right: 22px; }
+  .popup-for-login.popup .inner {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 80%;
+    margin: auto;
+    padding: 80px 0;
+    transform: translate(0, 0); }
+  .popup-for-login.popup .inner-header img {
+    float: none;
+    margin: 0 auto 10px;
+    display: table;
+    max-width: 200px; }
+  .popup-for-login.popup .inner-header .fRight {
+    display: block;
+    width: 100%;
+    text-align: center; }
+    .popup-for-login.popup .inner-header .fRight li:hover a:after, .popup-for-login.popup .inner-header .fRight a.active a:after {
+      bottom: -21px; }
+    .popup-for-login.popup .inner-header .fRight a.active:after {
+      bottom: -21px; }
+  .popup-for-login.popup .inner-content .signup .socials, .popup-for-login.popup .inner-content .signin .socials {
+    max-width: 320px;
+    width: 90%; }
+    .popup-for-login.popup .inner-content .signup .socials a, .popup-for-login.popup .inner-content .signin .socials a {
+      margin: 0;
+      width: 100%; }
+      .popup-for-login.popup .inner-content .signup .socials a:first-child, .popup-for-login.popup .inner-content .signin .socials a:first-child {
+        margin-bottom: 15px; }
+  .popup-for-login.popup .inner-content .signup form .inputIcon, .popup-for-login.popup .inner-content .signin form .inputIcon {
+    float: none;
+    width: 80%;
+    margin: 0 auto 10px; }
+  .popup-for-login.popup .inner-content .signin form {
+    max-width: 320px; }
+    .popup-for-login.popup .inner-content .signin form .inputIcon {
+      width: 100%; }
 
   .home.popup-opening {
     overflow: auto; }
