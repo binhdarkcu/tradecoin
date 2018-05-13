@@ -112,6 +112,13 @@
                     text-align: right;
                 }
             }
+            &.tableType2 {
+                position: relative;
+                overflow-x: auto;
+                .tradeTitle, .tradeContent {
+                    width: 1200px;
+                }
+            }
         }
     }
     .tradeCoin {
@@ -243,6 +250,21 @@
         right: 0;
         top: 0;
     }
+    .memberSearch {
+        h3 {
+            margin-bottom: 15px;
+        }
+        .memberSearchForm {
+            .col-md-5 {
+                margin-bottom: 15px;
+                float: left;
+                width: 100%;
+                &.noPaddingLeft {
+                    padding-right: 0;
+                }
+            }
+        }
+    }
     .memberList {
         .memberRight {
             width: 75%;
@@ -253,6 +275,7 @@
                 .pointPercent {
                     margin-top: 36px;
                     margin-left: 0;
+                    float: left;
                 }
             }
             .memberMiddle {
@@ -400,6 +423,13 @@
                 }
                 &.col6 {
                     text-align: right;
+                }
+            }
+            &.tableType2 {
+                position: relative;
+                overflow-x: auto;
+                .tradeTitle, .tradeContent {
+                    width: 1200px;
                 }
             }
         }

@@ -8545,6 +8545,31 @@ video {
       .tradeLists .tradeTable .tradeTitle .col {
         font-size: 18px;
         font-weight: 700; }
+    .tradeLists .tradeTable.tableType2 .col.col1 {
+      width: 150px;
+      padding-left: 20px; }
+    .tradeLists .tradeTable.tableType2 .col.col2 {
+      width: 295px; }
+    .tradeLists .tradeTable.tableType2 .col.col3 {
+      width: 95px;
+      padding-top: 7px; }
+    .tradeLists .tradeTable.tableType2 .col.col4 {
+      width: 95px; }
+    .tradeLists .tradeTable.tableType2 .col.col5 {
+      width: 100px;
+      padding-top: 0; }
+    .tradeLists .tradeTable.tableType2 .col.col6 {
+      width: 95px; }
+    .tradeLists .tradeTable.tableType2 .col.col7 {
+      width: 95px; }
+    .tradeLists .tradeTable.tableType2 .col.col8 {
+      width: 155px; }
+    .tradeLists .tradeTable.tableType2 .col.col9 {
+      width: 120px; }
+    .tradeLists .tradeTable.tableType2 .col.col4, .tradeLists .tradeTable.tableType2 .col.col5, .tradeLists .tradeTable.tableType2 .col.col6, .tradeLists .tradeTable.tableType2 .col.col7 {
+      text-align: center;
+      font-weight: 700;
+      line-height: 25px; }
   .tradeLists .tradeContent .tradeRow {
     border-top: 1px solid #d1d1d1;
     float: left;
@@ -10136,6 +10161,48 @@ footer {
     margin-top: 0;
     padding-top: 0; }
 
+.memberSearch {
+  padding: 73px 0 58px; }
+  .memberSearch .noPaddingLeft {
+    padding-left: 0; }
+  .memberSearch h3 {
+    background: url(../images/medal.png) no-repeat left center;
+    padding-left: 40px;
+    font-size: 30px; }
+  .memberSearch .memberSearchForm > div.col-md-5 span.dateTitle {
+    left: 8px; }
+  .memberSearch .memberSearchForm span.dateTitle {
+    margin-top: 5px;
+    color: #2d2d2d;
+    font-size: 14px;
+    width: 35%;
+    float: left;
+    margin-top: 12px; }
+  .memberSearch .memberSearchForm .input-group {
+    float: left;
+    width: 65%;
+    position: relative; }
+    .memberSearch .memberSearchForm .input-group .form-control {
+      height: 41px;
+      padding-right: 35px; }
+    .memberSearch .memberSearchForm .input-group.date .input-group-addon {
+      position: absolute;
+      right: 8px;
+      background: url(../images/calendar.png) no-repeat;
+      width: 22px;
+      height: 22px;
+      z-index: 2;
+      top: 9px;
+      border: none; }
+  .memberSearch .btnSearch {
+    background: #139bd0;
+    font-size: 14px;
+    font-family: "Montserrat-Bold";
+    color: #fff;
+    text-transform: uppercase;
+    height: 41px;
+    width: 100%; }
+
 .video-js .vjs-big-play-button .vjs-icon-placeholder:before, .video-js .vjs-modal-dialog, .vjs-button > .vjs-icon-placeholder:before, .vjs-modal-dialog .vjs-modal-dialog-content {
   position: absolute;
   top: 0;
@@ -11569,6 +11636,11 @@ video::-webkit-media-text-track-display {
       width: 120px; }
     .tradeLists .tradeTable .col.col6 {
       text-align: right; }
+    .tradeLists .tradeTable.tableType2 {
+      position: relative;
+      overflow-x: auto; }
+      .tradeLists .tradeTable.tableType2 .tradeTitle, .tradeLists .tradeTable.tableType2 .tradeContent {
+        width: 1200px; }
 
   .tradeCoin .tradeCoinContent .bigThumb img {
     width: 100%; }
@@ -11638,13 +11710,23 @@ video::-webkit-media-text-track-display {
     right: 0;
     top: 0; }
 
+  .memberSearch h3 {
+    margin-bottom: 15px; }
+  .memberSearch .memberSearchForm .col-md-5 {
+    margin-bottom: 15px;
+    float: left;
+    width: 100%; }
+    .memberSearch .memberSearchForm .col-md-5.noPaddingLeft {
+      padding-right: 0; }
+
   .memberList .memberRight {
     width: 75%; }
     .memberList .memberRight .memberTop .nameBox {
       min-width: auto; }
     .memberList .memberRight .memberTop .pointPercent {
       margin-top: 36px;
-      margin-left: 0; }
+      margin-left: 0;
+      float: left; }
     .memberList .memberRight .memberMiddle .floatLeft {
       margin-bottom: 25px; }
     .memberList .memberRight .memberMiddle .smallSocials a {
@@ -11733,6 +11815,11 @@ video::-webkit-media-text-track-display {
     width: 120px; }
   .tradeLists .tradeTable .col.col6 {
     text-align: right; }
+  .tradeLists .tradeTable.tableType2 {
+    position: relative;
+    overflow-x: auto; }
+    .tradeLists .tradeTable.tableType2 .tradeTitle, .tradeLists .tradeTable.tableType2 .tradeContent {
+      width: 1200px; }
 
   .tradeCoin .tradeCoinContent .bigThumb {
     width: 100%; }
@@ -11993,6 +12080,18 @@ video::-webkit-media-text-track-display {
       width: 1200px;
       text-align: left; }
 
+  .memberSearch h3 {
+    margin-bottom: 15px; }
+  .memberSearch .memberSearchForm .col-md-5 {
+    margin-bottom: 15px;
+    float: left;
+    width: 100%; }
+    .memberSearch .memberSearchForm .col-md-5.noPaddingLeft {
+      padding-right: 0; }
+  .memberSearch .memberSearchForm .col-md-2 {
+    padding-left: 0;
+    padding-right: 0; }
+
   .tradeCoinHeader .bgNavigation {
     float: left;
     width: 100%; }
@@ -12085,6 +12184,11 @@ video::-webkit-media-text-track-display {
       overflow-x: auto; }
       .tradeLists .tradeTable .tradeTitle, .tradeLists .tradeTable .tradeContent {
         width: 1200px; }
+      .tradeLists .tradeTable.tableType2 {
+        position: relative;
+        overflow-x: auto; }
+        .tradeLists .tradeTable.tableType2 .tradeTitle, .tradeLists .tradeTable.tableType2 .tradeContent {
+          width: 1200px; }
 
   .tradeCoin .tradeCoinContent .bigThumb {
     width: 100%; }

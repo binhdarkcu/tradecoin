@@ -43,6 +43,46 @@
                 font-weight: 700;
             }
         }
+
+        &.tableType2 {
+            .col {
+                &.col1 {
+                    width: 150px;
+                    padding-left: 20px;
+                }
+                &.col2 {
+                    width: 295px;
+                }
+                &.col3 {
+                    width: 95px;
+                    padding-top: 7px;
+                }
+                &.col4 {
+                    width: 95px;
+                }
+                &.col5 {
+                    width: 100px;
+                    padding-top: 0;
+                }
+                &.col6 {
+                    width: 95px;
+                }
+                &.col7 {
+                    width: 95px;
+                }
+                &.col8 {
+                    width: 155px;
+                }
+                &.col9 {
+                    width: 120px;
+                }
+                &.col4, &.col5, &.col6, &.col7 {
+                    text-align: center;
+                    font-weight: 700;
+                    line-height: 25px;
+                }
+            }
+        }
     }
     .tradeContent {
         .tradeRow {
