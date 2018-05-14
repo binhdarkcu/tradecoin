@@ -111,10 +111,20 @@ var SiteMain = (function() {
 		$(idDiv).css('display','none');
 		$('.signin,.signup').css('display','none');
 	}
+	function tabPayment(tabname,id) {
+		$(tabname).click(function() {
+			console.log(tabname,id)
+			$('.blockContent_inner').hide();
+			$('#'+id).show()
+			$('.blockContent_title a').removeClass('active')
+			$(tabname).addClass('active')
+		})
+	}
 	return {
 		init:init,
 		openPopup:openPopup,
-		closePopup:closePopup
+		closePopup:closePopup,
+		tabPayment:tabPayment
 	}
 
 })();

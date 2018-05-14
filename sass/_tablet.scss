@@ -1,4 +1,12 @@
 @media (min-width: 992px) and (max-width: 1199px) {
+    .upgradeAcc {
+      .rowTable .container .col-md-12 .colTable {
+        margin-bottom: 50px;
+        &:nth-child(2n),&:last-child {
+          margin-right: 0;
+        }
+      }
+    }
     .memberList {
         .memberRight {
             width: 83%;
@@ -188,6 +196,29 @@
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
+  .upgradeAcc.payMents {
+    .rowTable {
+      .col-md-12 {
+        text-align: left;
+        .blockPayments {
+          display: block;
+          .blockLeft {
+            width: 100%;
+            padding: 42px 30px 42px 30px;
+          }
+          .blockRight {
+            width: 100%;
+          }
+        }
+      }
+    }
+  }
+  .upgradeAcc {
+    .rowTable .container .col-md-12 .colTable {
+      margin-right: 0;
+      margin-bottom: 50px;
+    }
+  }
   .popup-for-login.popup {
     .inner-header {
       img {

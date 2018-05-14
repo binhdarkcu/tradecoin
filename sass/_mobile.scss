@@ -20,6 +20,46 @@
 
 
 @media (min-width: 0) and (max-width: 767px) {
+  .upgradeAcc.payMents {
+    .rowTable {
+      .col-md-12 {
+        text-align: left;
+        .blockPayments {
+          display: block;
+          .blockLeft {
+            width: 100%;
+            padding: 42px 30px 42px 30px;
+          }
+          .blockRight {
+            width: 100%;
+            .card_number {
+              width: 100%;
+            }
+            .blockContent {
+              &_inner {
+                .item {
+                  display: block !important;
+                  span.fLeft {
+                    width: 100% !important;
+                    margin-right: 0 !important;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  .upgradeAcc {
+    .rowTable .container .col-md-12 .colTable {
+      margin-right: 0;
+      margin-bottom: 50px;
+    }
+    .rowTable .col-md-12 {
+      padding: 0;
+    }
+  }
   .popup-for-login.popup {
     .close {
       top: 25px;
@@ -591,5 +631,52 @@
     width: 35px;
     height: 35px;
     background-size: cover !important;
+  }
+}
+@media screen and (max-width: 500px) {
+  .upgradeAcc .rowTable .container .col-md-12 .colTable {
+    width: 95%;
+    &.active {
+      width: 100%;
+    }
+  }
+}
+@media screen and (max-width: 530px) {
+  .upgradeAcc.payMents .rowTable .col-md-12 .blockPayments .blockLeft .level {
+    span {
+      display: block;
+      float: none !important;
+      &:first-child {
+        margin-bottom: 15px;
+      }
+    }
+    &.total {
+      display: block;
+    }
+  }
+  .upgradeAcc.payMents .rowTable .col-md-12 .blockPayments .blockRight__title h5, .upgradeAcc.payMents .rowTable .col-md-12 .blockPayments .blockRight__title span {
+    display: block;
+    float: none;
+  }
+  .upgradeAcc.payMents .rowTable .blockPayments .blockRight .blockContent_title a {
+    display: table !important;
+    margin-bottom: 10px;
+  }
+}
+@media screen and (max-width: 540px) {
+  body .upgradeAcc.payMents .rowTable .col-md-12 .blockPayments.chooseMethod .blockRight__upgradeLevel {
+    span {
+      display: block;
+      float: none;
+      &:first-child {
+        margin-bottom: 10px;
+      }
+    }
+  }
+  .upgradeAcc.payMents .rowTable .blockPayments.chooseMethod .blockRight__method .method2 .blockItem {
+    padding: 17px 16px 46px 27px !important;
+  }
+  .upgradeAcc.payMents .rowTable .blockPayments.chooseMethod .blockRight__method .blockItem input[type=radio].css-checkbox+label.css-label img {
+    margin-bottom: 10px;
   }
 }
