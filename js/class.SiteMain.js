@@ -6,6 +6,7 @@ var SiteMain = (function() {
 		createRatingDefault('.rating', '#rating-', '#7fcd45')
 		createRatingDefault('.rating', '#present-rating-', '#07a72d')
 		createParterSlider()
+		switchPay()
 
 		//$('.homeSlider .video-js').width($(window).width())
 	}
@@ -118,6 +119,12 @@ var SiteMain = (function() {
 			$('#'+id).show()
 			$('.blockContent_title a').removeClass('active')
 			$(tabname).addClass('active')
+		})
+	}
+	function switchPay() {
+		$('#btn_choose').click(function() {
+			$('#chosen').hide()
+			$('#chooseMethod').show()
 		})
 	}
 	return {
