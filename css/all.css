@@ -10380,12 +10380,12 @@ footer {
     width: 16px;
     height: 16px;
     display: inline-block; }
-.profileBox .accountInformation .displayAccount .uploadCMND .pictureUpload {
+.profileBox .accountInformation .displayAccount .uploadCMND .pictureUpload .fileUpload {
   margin-bottom: 15px; }
-  .profileBox .accountInformation .displayAccount .uploadCMND .pictureUpload:after {
-    content: '';
-    display: block;
-    clear: both; }
+.profileBox .accountInformation .displayAccount .uploadCMND .pictureUpload:after {
+  content: '';
+  display: block;
+  clear: both; }
 .profileBox .accountInformation .displayAccount .uploadCMND .floatLeft {
   width: 100%; }
 .profileBox .accountInformation .displayAccount .uploadCMND b {
@@ -11795,6 +11795,11 @@ video::-webkit-media-text-track-display {
   .vjs-has-started.vjs-user-inactive.vjs-playing .vjs-control-bar {
     visibility: hidden; } }
 @media (min-width: 992px) and (max-width: 1199px) {
+  .upgradeAcc .rowTable .container .col-md-12 .colTable {
+    margin-bottom: 50px; }
+    .upgradeAcc .rowTable .container .col-md-12 .colTable:nth-child(2n), .upgradeAcc .rowTable .container .col-md-12 .colTable:last-child {
+      margin-right: 0; }
+
   .memberList .memberRight {
     width: 83%; }
     .memberList .memberRight .memberTop .nameBox {
@@ -11890,6 +11895,20 @@ video::-webkit-media-text-track-display {
   .commingSoon {
     margin-top: -17%; } }
 @media (min-width: 768px) and (max-width: 991px) {
+  .upgradeAcc.payMents .rowTable .col-md-12 {
+    text-align: left; }
+    .upgradeAcc.payMents .rowTable .col-md-12 .blockPayments {
+      display: block; }
+      .upgradeAcc.payMents .rowTable .col-md-12 .blockPayments .blockLeft {
+        width: 100%;
+        padding: 42px 30px 42px 30px; }
+      .upgradeAcc.payMents .rowTable .col-md-12 .blockPayments .blockRight {
+        width: 100%; }
+
+  .upgradeAcc .rowTable .container .col-md-12 .colTable {
+    margin-right: 0;
+    margin-bottom: 50px; }
+
   .popup-for-login.popup .inner-header img {
     float: none;
     margin: 0 auto 10px;
@@ -12123,6 +12142,29 @@ video::-webkit-media-text-track-display {
   .memberList {
     margin-bottom: 17%; } }
 @media (min-width: 0) and (max-width: 767px) {
+  .upgradeAcc.payMents .rowTable .col-md-12 {
+    text-align: left; }
+    .upgradeAcc.payMents .rowTable .col-md-12 .blockPayments {
+      display: block; }
+      .upgradeAcc.payMents .rowTable .col-md-12 .blockPayments .blockLeft {
+        width: 100%;
+        padding: 42px 30px 42px 30px; }
+      .upgradeAcc.payMents .rowTable .col-md-12 .blockPayments .blockRight {
+        width: 100%; }
+        .upgradeAcc.payMents .rowTable .col-md-12 .blockPayments .blockRight .card_number {
+          width: 100%; }
+        .upgradeAcc.payMents .rowTable .col-md-12 .blockPayments .blockRight .blockContent_inner .item {
+          display: block !important; }
+          .upgradeAcc.payMents .rowTable .col-md-12 .blockPayments .blockRight .blockContent_inner .item span.fLeft {
+            width: 100% !important;
+            margin-right: 0 !important; }
+
+  .upgradeAcc .rowTable .container .col-md-12 .colTable {
+    margin-right: 0;
+    margin-bottom: 50px; }
+  .upgradeAcc .rowTable .col-md-12 {
+    padding: 0; }
+
   .popup-for-login.popup .close {
     top: 25px;
     right: 22px; }
@@ -12515,6 +12557,39 @@ video::-webkit-media-text-track-display {
     width: 35px;
     height: 35px;
     background-size: cover !important; } }
+@media screen and (max-width: 500px) {
+  .upgradeAcc .rowTable .container .col-md-12 .colTable {
+    width: 95%; }
+    .upgradeAcc .rowTable .container .col-md-12 .colTable.active {
+      width: 100%; } }
+@media screen and (max-width: 530px) {
+  .upgradeAcc.payMents .rowTable .col-md-12 .blockPayments .blockLeft .level span {
+    display: block;
+    float: none !important; }
+    .upgradeAcc.payMents .rowTable .col-md-12 .blockPayments .blockLeft .level span:first-child {
+      margin-bottom: 15px; }
+  .upgradeAcc.payMents .rowTable .col-md-12 .blockPayments .blockLeft .level.total {
+    display: block; }
+
+  .upgradeAcc.payMents .rowTable .col-md-12 .blockPayments .blockRight__title h5, .upgradeAcc.payMents .rowTable .col-md-12 .blockPayments .blockRight__title span {
+    display: block;
+    float: none; }
+
+  .upgradeAcc.payMents .rowTable .blockPayments .blockRight .blockContent_title a {
+    display: table !important;
+    margin-bottom: 10px; } }
+@media screen and (max-width: 540px) {
+  body .upgradeAcc.payMents .rowTable .col-md-12 .blockPayments.chooseMethod .blockRight__upgradeLevel span {
+    display: block;
+    float: none; }
+    body .upgradeAcc.payMents .rowTable .col-md-12 .blockPayments.chooseMethod .blockRight__upgradeLevel span:first-child {
+      margin-bottom: 10px; }
+
+  .upgradeAcc.payMents .rowTable .blockPayments.chooseMethod .blockRight__method .method2 .blockItem {
+    padding: 17px 16px 46px 27px !important; }
+
+  .upgradeAcc.payMents .rowTable .blockPayments.chooseMethod .blockRight__method .blockItem input[type=radio].css-checkbox + label.css-label img {
+    margin-bottom: 10px; } }
 .tradeDetail {
   margin-bottom: 26%; }
   .tradeDetail .memberDescription {
@@ -12677,5 +12752,489 @@ video::-webkit-media-text-track-display {
           padding-left: 25px;
           background: url("../images/icon-reply.png") left center no-repeat;
           color: #0392ed; }
+
+/* N├óng cß║Ñp th├ánh vi├¬n */
+.upgradeAcc {
+  margin-bottom: 17%; }
+  .upgradeAcc .rowTitle {
+    background: #2b2c3a;
+    padding: 55px 15px;
+    text-align: center; }
+    .upgradeAcc .rowTitle h5 {
+      font-family: 'Montserrat-Bold';
+      font-size: 36px;
+      color: #fff;
+      margin-bottom: 23px; }
+    .upgradeAcc .rowTitle p {
+      font-family: 'Montserrat-Regular';
+      font-size: 18px;
+      color: #5d6878;
+      margin-bottom: 28px; }
+  .upgradeAcc .rowTable {
+    width: 100%;
+    height: 100%;
+    background: url("../images/bg-nangcap.png") center center no-repeat #eecc73;
+    background-size: cover;
+    padding: 83px 0 65px; }
+    .upgradeAcc .rowTable .col-md-12 {
+      text-align: center; }
+      .upgradeAcc .rowTable .col-md-12 .colTable {
+        background: #fff;
+        min-height: 516px;
+        display: inline-flex;
+        align-items: center;
+        flex-flow: column wrap;
+        justify-content: center;
+        -webkit-box-shadow: 0px 0px 22px -2px rgba(0, 0, 0, 0.75);
+        -moz-box-shadow: 0px 0px 22px -2px rgba(0, 0, 0, 0.75);
+        box-shadow: 0px 0px 22px -2px rgba(0, 0, 0, 0.75);
+        border-radius: 3px;
+        max-width: 350px;
+        width: 100%;
+        margin-right: 31px; }
+        .upgradeAcc .rowTable .col-md-12 .colTable img {
+          margin-bottom: 29px; }
+        .upgradeAcc .rowTable .col-md-12 .colTable h5 {
+          font-family: 'Montserrat-Bold';
+          text-transform: uppercase;
+          color: #000;
+          margin-bottom: 59px;
+          font-size: 30px; }
+        .upgradeAcc .rowTable .col-md-12 .colTable p {
+          font-family: 'Montserrat-Regular';
+          font-size: 14px;
+          color: #2d2d2d;
+          text-align: center;
+          padding: 0 45px;
+          margin-bottom: 45px; }
+        .upgradeAcc .rowTable .col-md-12 .colTable a {
+          text-transform: uppercase;
+          color: #f8b096;
+          border: 2px solid #f47b50;
+          border-radius: 2px;
+          padding: 13px 60px; }
+          .upgradeAcc .rowTable .col-md-12 .colTable a:hover {
+            background: #f47b50;
+            color: #fff; }
+        .upgradeAcc .rowTable .col-md-12 .colTable:last-child {
+          margin-right: 0; }
+        .upgradeAcc .rowTable .col-md-12 .colTable.normal h5, .upgradeAcc .rowTable .col-md-12 .colTable.vip h5 {
+          margin-bottom: 20px; }
+        .upgradeAcc .rowTable .col-md-12 .colTable.normal .price, .upgradeAcc .rowTable .col-md-12 .colTable.vip .price {
+          color: #5ab881;
+          text-transform: uppercase;
+          font-family: 'Montserrat-Bold';
+          font-size: 14px;
+          margin-bottom: 25px; }
+          .upgradeAcc .rowTable .col-md-12 .colTable.normal .price span, .upgradeAcc .rowTable .col-md-12 .colTable.vip .price span {
+            font-size: 48px; }
+        .upgradeAcc .rowTable .col-md-12 .colTable.normal .price {
+          color: #f7bd5c; }
+        .upgradeAcc .rowTable .col-md-12 .colTable.normal a {
+          color: #f7bd5c;
+          border: 2px solid #f7bd5c; }
+          .upgradeAcc .rowTable .col-md-12 .colTable.normal a:hover {
+            background: #f7bd5c;
+            color: #fff; }
+        .upgradeAcc .rowTable .col-md-12 .colTable.vip .price {
+          color: #65bd89; }
+        .upgradeAcc .rowTable .col-md-12 .colTable.vip a {
+          color: #65bd89;
+          border: 2px solid #65bd89; }
+          .upgradeAcc .rowTable .col-md-12 .colTable.vip a:hover {
+            background: #65bd89;
+            color: #fff; }
+        .upgradeAcc .rowTable .col-md-12 .colTable.active {
+          max-width: 400px;
+          min-height: 582px; }
+          .upgradeAcc .rowTable .col-md-12 .colTable.active.normal a {
+            background: #f7bd5c;
+            color: #fff; }
+          .upgradeAcc .rowTable .col-md-12 .colTable.active.free a {
+            background: #f47b50;
+            color: #fff; }
+          .upgradeAcc .rowTable .col-md-12 .colTable.active.vip a {
+            background: #65bd89;
+            color: #fff; }
+    .upgradeAcc .rowTable .benefitWhenJoined {
+      margin-top: 35px; }
+      .upgradeAcc .rowTable .benefitWhenJoined p {
+        font-family: 'Montserrat-Bold';
+        font-size: 14px;
+        text-align: center;
+        margin-bottom: 15px; }
+  .upgradeAcc .rowListBenefit {
+    padding: 25px 0 160px; }
+    .upgradeAcc .rowListBenefit .col-md-12 {
+      overflow-y: hidden;
+      overflow-x: auto; }
+      .upgradeAcc .rowListBenefit .col-md-12 .colBenefitContent {
+        width: 1200px; }
+    .upgradeAcc .rowListBenefit .ListBenefit {
+      border-bottom: 1px solid #dddee0;
+      display: table; }
+      .upgradeAcc .rowListBenefit .ListBenefit:first-child, .upgradeAcc .rowListBenefit .ListBenefit.noBorder {
+        border: 0; }
+      .upgradeAcc .rowListBenefit .ListBenefit.noBorder .col2 h5 {
+        color: #f47b50; }
+      .upgradeAcc .rowListBenefit .ListBenefit.noBorder .col3 h5 {
+        color: #f7bd5c;
+        font-size: 12px; }
+        .upgradeAcc .rowListBenefit .ListBenefit.noBorder .col3 h5 span {
+          font-size: 24px; }
+      .upgradeAcc .rowListBenefit .ListBenefit.noBorder .col4 h5 {
+        color: #65bd89;
+        font-size: 12px; }
+        .upgradeAcc .rowListBenefit .ListBenefit.noBorder .col4 h5 span {
+          font-size: 24px; }
+      .upgradeAcc .rowListBenefit .ListBenefit.ListBtn [class*="col"] {
+        padding-top: 0;
+        text-align: center; }
+      .upgradeAcc .rowListBenefit .ListBenefit.ListBtn a {
+        text-transform: uppercase;
+        color: #f8b096;
+        border: 2px solid #f47b50;
+        border-radius: 2px;
+        padding: 13px 57px;
+        font-size: 14px;
+        font-family: 'Montserrat-Bold'; }
+        .upgradeAcc .rowListBenefit .ListBenefit.ListBtn a:hover {
+          background: #f47b50;
+          color: #fff; }
+        .upgradeAcc .rowListBenefit .ListBenefit.ListBtn a.btn-normal {
+          border: 2px solid #f7bd5c;
+          color: #f7bd5c; }
+          .upgradeAcc .rowListBenefit .ListBenefit.ListBtn a.btn-normal:hover {
+            background: #f7bd5c;
+            color: #fff; }
+        .upgradeAcc .rowListBenefit .ListBenefit.ListBtn a.btn-vip {
+          border: 2px solid #65bd89;
+          color: #65bd89; }
+          .upgradeAcc .rowListBenefit .ListBenefit.ListBtn a.btn-vip:hover {
+            background: #65bd89;
+            color: #fff; }
+      .upgradeAcc .rowListBenefit .ListBenefit .colBenefit {
+        float: left;
+        padding: 25px 0; }
+        .upgradeAcc .rowListBenefit .ListBenefit .colBenefit h5 {
+          font-family: 'Montserrat-Bold';
+          font-size: 18px;
+          color: #000;
+          text-align: center;
+          text-transform: uppercase; }
+        .upgradeAcc .rowListBenefit .ListBenefit .colBenefit p {
+          font-family: 'Montserrat-Regular';
+          margin: 0;
+          font-size: 14px; }
+        .upgradeAcc .rowListBenefit .ListBenefit .colBenefit img {
+          display: table;
+          margin: auto; }
+        .upgradeAcc .rowListBenefit .ListBenefit .colBenefit:first-child h5 {
+          text-align: left; }
+      .upgradeAcc .rowListBenefit .ListBenefit .col1 {
+        width: 528px; }
+      .upgradeAcc .rowListBenefit .ListBenefit .col2 {
+        width: 237px; }
+      .upgradeAcc .rowListBenefit .ListBenefit .col3 {
+        width: 237px; }
+      .upgradeAcc .rowListBenefit .ListBenefit .col4 {
+        width: 187px; }
+  .upgradeAcc .acceptPayment {
+    background: #f1f3f6;
+    padding: 80px 15px 220px; }
+    .upgradeAcc .acceptPayment h5 {
+      font-size: 36px;
+      font-family: 'Montserrat-Regular';
+      text-align: center;
+      margin-bottom: 20px; }
+    .upgradeAcc .acceptPayment p {
+      font-size: 14px;
+      text-align: center;
+      margin-bottom: 50px; }
+    .upgradeAcc .acceptPayment .payments-imgs {
+      display: table;
+      margin: auto;
+      text-align: center; }
+      .upgradeAcc .acceptPayment .payments-imgs img {
+        margin-right: 35px;
+        margin-bottom: 25px; }
+        .upgradeAcc .acceptPayment .payments-imgs img:last-child {
+          margin-right: 0; }
+
+/* Thanh to├ín */
+.upgradeAcc.payMents .rowTitle h5 {
+  display: table;
+  margin: auto;
+  padding-right: 27px;
+  background: url("../images/arrow-down16.png") right center no-repeat; }
+.upgradeAcc.payMents .rowTable .blockPayments {
+  background: #fff;
+  border-radius: 3px;
+  -webkit-box-shadow: 0px 0px 22px -2px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 0px 22px -2px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 22px -2px rgba(0, 0, 0, 0.75);
+  display: flex;
+  overflow: hidden;
+  text-align: left;
+  width: 100%; }
+  .upgradeAcc.payMents .rowTable .blockPayments .blockLeft {
+    padding: 42px 30px 0 30px;
+    background: #f4f4f4;
+    width: 438px; }
+    .upgradeAcc.payMents .rowTable .blockPayments .blockLeft h5 {
+      font-family: 'Montserrat-Bold';
+      font-size: 24px;
+      padding-left: 22px;
+      position: relative;
+      cursor: pointer;
+      display: inline-block;
+      margin-bottom: 37px; }
+      .upgradeAcc.payMents .rowTable .blockPayments .blockLeft h5:before {
+        content: '';
+        position: absolute;
+        left: 0;
+        top: 5px;
+        background: url("../images/arr-left.png") no-repeat;
+        width: 8px;
+        height: 14px; }
+    .upgradeAcc.payMents .rowTable .blockPayments .blockLeft .level {
+      display: table;
+      width: 100%;
+      padding-bottom: 27px;
+      border-bottom: 1px solid #c3c3c3;
+      margin-bottom: 20px; }
+      .upgradeAcc.payMents .rowTable .blockPayments .blockLeft .level span {
+        font-size: 14px; }
+        .upgradeAcc.payMents .rowTable .blockPayments .blockLeft .level span:first-child {
+          float: left;
+          padding-left: 26px;
+          position: relative; }
+          .upgradeAcc.payMents .rowTable .blockPayments .blockLeft .level span:first-child:before {
+            content: '';
+            position: absolute;
+            left: 0;
+            top: 2px;
+            width: 16px;
+            height: 14px;
+            background: url("../images/icon-checked.png") no-repeat; }
+        .upgradeAcc.payMents .rowTable .blockPayments .blockLeft .level span:last-child {
+          float: right; }
+          .upgradeAcc.payMents .rowTable .blockPayments .blockLeft .level span:last-child b {
+            font-family: 'Montserrat-Bold';
+            font-size: 18px; }
+      .upgradeAcc.payMents .rowTable .blockPayments .blockLeft .level.total {
+        padding-bottom: 0;
+        margin-bottom: 0;
+        border-bottom: 0;
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        align-items: flex-end; }
+        .upgradeAcc.payMents .rowTable .blockPayments .blockLeft .level.total span {
+          font-size: 18px; }
+          .upgradeAcc.payMents .rowTable .blockPayments .blockLeft .level.total span:first-child {
+            padding: 0;
+            font-weight: bold; }
+            .upgradeAcc.payMents .rowTable .blockPayments .blockLeft .level.total span:first-child:before {
+              width: 0; }
+          .upgradeAcc.payMents .rowTable .blockPayments .blockLeft .level.total span:last-child b {
+            font-size: 30px; }
+  .upgradeAcc.payMents .rowTable .blockPayments .blockRight {
+    background: #fff;
+    padding: 0 0 53px 0;
+    width: 762px; }
+    .upgradeAcc.payMents .rowTable .blockPayments .blockRight__title {
+      display: table;
+      width: 100%;
+      margin-bottom: 28px;
+      padding: 42px 46px 0 38px; }
+      .upgradeAcc.payMents .rowTable .blockPayments .blockRight__title h5 {
+        float: left;
+        font-family: 'Montserrat-Bold';
+        font-size: 24px; }
+      .upgradeAcc.payMents .rowTable .blockPayments .blockRight__title span {
+        float: right;
+        font-size: 14px;
+        color: #ff0000;
+        margin-top: 8px;
+        cursor: pointer; }
+    .upgradeAcc.payMents .rowTable .blockPayments .blockRight .blockContent {
+      text-align: left; }
+      .upgradeAcc.payMents .rowTable .blockPayments .blockRight .blockContent_title {
+        padding: 0 38px;
+        border-bottom: 1px solid #f4f4f4;
+        z-index: 9999;
+        text-align: left;
+        position: relative; }
+        .upgradeAcc.payMents .rowTable .blockPayments .blockRight .blockContent_title a {
+          font-family: 'Montserrat-Bold';
+          font-size: 16px;
+          display: inline-block;
+          border-bottom: 2px solid #fff;
+          line-height: 1.2;
+          z-index: 999;
+          position: relative;
+          padding: 0 13px 12px 0;
+          margin-right: 26px;
+          line-height: 1.2;
+          color: #000;
+          cursor: pointer; }
+          .upgradeAcc.payMents .rowTable .blockPayments .blockRight .blockContent_title a:hover, .upgradeAcc.payMents .rowTable .blockPayments .blockRight .blockContent_title a.active, .upgradeAcc.payMents .rowTable .blockPayments .blockRight .blockContent_title a:focus {
+            text-decoration: none;
+            border-bottom: 2px solid #139bd0; }
+          .upgradeAcc.payMents .rowTable .blockPayments .blockRight .blockContent_title a:last-child {
+            margin-right: 0;
+            margin-bottom: 0; }
+      .upgradeAcc.payMents .rowTable .blockPayments .blockRight .blockContent .innerRight {
+        max-width: 491px;
+        width: 80%;
+        margin: 48px auto 0;
+        display: table; }
+        .upgradeAcc.payMents .rowTable .blockPayments .blockRight .blockContent .innerRight .blockContent_inner .item {
+          display: table;
+          width: 100%;
+          margin-bottom: 30px; }
+          .upgradeAcc.payMents .rowTable .blockPayments .blockRight .blockContent .innerRight .blockContent_inner .item:first-child {
+            display: flex;
+            justify-content: space-between; }
+          .upgradeAcc.payMents .rowTable .blockPayments .blockRight .blockContent .innerRight .blockContent_inner .item:last-child {
+            margin-bottom: 0; }
+          .upgradeAcc.payMents .rowTable .blockPayments .blockRight .blockContent .innerRight .blockContent_inner .item span.fLeft {
+            width: 270px;
+            margin-right: 30px;
+            display: inline-block; }
+          .upgradeAcc.payMents .rowTable .blockPayments .blockRight .blockContent .innerRight .blockContent_inner .item img {
+            display: inline-block; }
+        .upgradeAcc.payMents .rowTable .blockPayments .blockRight .blockContent .innerRight .blockContent_inner .imgs {
+          margin-top: 30px;
+          text-align: center; }
+          .upgradeAcc.payMents .rowTable .blockPayments .blockRight .blockContent .innerRight .blockContent_inner .imgs img {
+            margin-right: 23px;
+            margin-bottom: 15px; }
+        .upgradeAcc.payMents .rowTable .blockPayments .blockRight .blockContent .innerRight .blockContent_btn {
+          width: 100%;
+          margin-top: 44px;
+          display: block;
+          padding: 15px 0;
+          background: #139bd0;
+          text-align: center;
+          color: #fff;
+          text-transform: uppercase;
+          font-family: 'Montserrat-Bold';
+          font-size: 14px;
+          border-radius: 2px; }
+  .upgradeAcc.payMents .rowTable .blockPayments.chooseMethod .blockLeft h5 {
+    padding-left: 0;
+    font-size: 18px;
+    margin-bottom: 40px; }
+    .upgradeAcc.payMents .rowTable .blockPayments.chooseMethod .blockLeft h5:before {
+      width: 0; }
+  .upgradeAcc.payMents .rowTable .blockPayments.chooseMethod .blockLeft p {
+    padding-left: 30px;
+    position: relative;
+    background: url("../images/free.png") left center no-repeat;
+    font-family: 'Montserrat-Regular';
+    font-size: 14px;
+    color: #2d2d2d;
+    margin-bottom: 25px; }
+  .upgradeAcc.payMents .rowTable .blockPayments.chooseMethod .blockRight__title {
+    margin-bottom: 40px; }
+    .upgradeAcc.payMents .rowTable .blockPayments.chooseMethod .blockRight__title h5 {
+      font-size: 18px;
+      text-transform: uppercase; }
+  .upgradeAcc.payMents .rowTable .blockPayments.chooseMethod .blockRight__upgradeLevel {
+    padding: 35px 46px 35px 38px;
+    border-top: 1px solid #f4f4f4;
+    border-bottom: 1px solid #f4f4f4;
+    margin-bottom: 35px; }
+    .upgradeAcc.payMents .rowTable .blockPayments.chooseMethod .blockRight__upgradeLevel span {
+      font-family: 'Montserrat-Regular';
+      font-size: 14px;
+      float: left; }
+      .upgradeAcc.payMents .rowTable .blockPayments.chooseMethod .blockRight__upgradeLevel span b {
+        font-family: 'Montserrat-Bold';
+        font-size: 18px; }
+      .upgradeAcc.payMents .rowTable .blockPayments.chooseMethod .blockRight__upgradeLevel span:last-child {
+        float: right; }
+  .upgradeAcc.payMents .rowTable .blockPayments.chooseMethod .blockRight__method {
+    padding: 0 46px 23px 38px; }
+    .upgradeAcc.payMents .rowTable .blockPayments.chooseMethod .blockRight__method .blockMethod {
+      display: table;
+      margin-bottom: 40px; }
+    .upgradeAcc.payMents .rowTable .blockPayments.chooseMethod .blockRight__method a {
+      padding: 15px 55px;
+      font-family: 'Montserrat-Bold';
+      font-size: 14px;
+      text-transform: uppercase;
+      color: #fff;
+      background: #139bd0;
+      border-radius: 2px; }
+    .upgradeAcc.payMents .rowTable .blockPayments.chooseMethod .blockRight__method h5 {
+      font-family: 'Montserrat-Bold';
+      font-size: 14px;
+      margin-bottom: 24px; }
+    .upgradeAcc.payMents .rowTable .blockPayments.chooseMethod .blockRight__method .method {
+      margin-bottom: 15px;
+      float: left;
+      margin-right: 37px; }
+      .upgradeAcc.payMents .rowTable .blockPayments.chooseMethod .blockRight__method .method.method2 img {
+        margin-right: 15px; }
+        .upgradeAcc.payMents .rowTable .blockPayments.chooseMethod .blockRight__method .method.method2 img:last-child {
+          margin-right: 0; }
+    .upgradeAcc.payMents .rowTable .blockPayments.chooseMethod .blockRight__method .blockItem {
+      padding: 17px 16px 17px 27px;
+      border: 1px solid #d9d9d9;
+      border-radius: 2px; }
+      .upgradeAcc.payMents .rowTable .blockPayments.chooseMethod .blockRight__method .blockItem input[type=radio].css-checkbox {
+        position: absolute;
+        z-index: -1000;
+        left: -1000px;
+        overflow: hidden;
+        clip: rect(0 0 0 0);
+        height: 1px;
+        width: 1px;
+        margin: -1px;
+        padding: 0;
+        border: 0; }
+      .upgradeAcc.payMents .rowTable .blockPayments.chooseMethod .blockRight__method .blockItem input[type=radio].css-checkbox + label.css-label {
+        padding-left: 42px;
+        height: 18px;
+        display: inline-block;
+        line-height: 18px;
+        background-repeat: no-repeat;
+        background-position: 0 0;
+        font-size: 18px;
+        margin-bottom: 0;
+        vertical-align: middle;
+        cursor: pointer; }
+        .upgradeAcc.payMents .rowTable .blockPayments.chooseMethod .blockRight__method .blockItem input[type=radio].css-checkbox + label.css-label img {
+          margin-top: -5px; }
+      .upgradeAcc.payMents .rowTable .blockPayments.chooseMethod .blockRight__method .blockItem input[type=radio].css-checkbox:checked + label.css-label {
+        background-position: 0 -18px; }
+      .upgradeAcc.payMents .rowTable .blockPayments.chooseMethod .blockRight__method .blockItem label.css-label {
+        background-image: url(http://csscheckbox.com/checkboxes/u/csscheckbox_8578317ca3846847c9208af249224bb6.png);
+        -webkit-touch-callout: none;
+        -webkit-user-select: none;
+        -khtml-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none; }
+.upgradeAcc.payMents .blockFAQ {
+  padding: 80px 0 150px; }
+  .upgradeAcc.payMents .blockFAQ h4 {
+    font-family: 'Montserrat-Bold';
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 80px;
+    text-transform: uppercase; }
+  .upgradeAcc.payMents .blockFAQ .blockItem {
+    margin-bottom: 70px; }
+    .upgradeAcc.payMents .blockFAQ .blockItem h5 {
+      font-family: 'Montserrat-Bold';
+      font-size: 24px;
+      margin-bottom: 15px; }
+    .upgradeAcc.payMents .blockFAQ .blockItem p {
+      font-size: 14px;
+      line-height: 1.4; }
 
 /*# sourceMappingURL=all.css.map */

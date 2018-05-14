@@ -765,7 +765,9 @@
             }
             .uploadCMND{
                 .pictureUpload {
-                    margin-bottom: 15px;
+                    .fileUpload {
+                        margin-bottom: 15px;
+                    }
                     &:after{
                         content: '';
                         display: block;

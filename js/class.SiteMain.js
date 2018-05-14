@@ -7,6 +7,7 @@ var SiteMain = (function() {
 		createRatingDefault('.rating', '#present-rating-', '#07a72d')
 		createParterSlider()
 		getIdCardFile()
+		switchPay()
 
 		//$('.homeSlider .video-js').width($(window).width())
 	}
@@ -112,7 +113,21 @@ var SiteMain = (function() {
 		$(idDiv).css('display','none');
 		$('.signin,.signup').css('display','none');
 	}
-
+	function tabPayment(tabname,id) {
+		$(tabname).click(function() {
+			console.log(tabname,id)
+			$('.blockContent_inner').hide();
+			$('#'+id).show()
+			$('.blockContent_title a').removeClass('active')
+			$(tabname).addClass('active')
+		})
+	}
+	function switchPay() {
+		$('#btn_choose').click(function() {
+			$('#chosen').hide()
+			$('#chooseMethod').show()
+		})
+	}
 	function readURL(input) {
 
 	  if (input.files && input.files[0]) {
@@ -132,11 +147,11 @@ var SiteMain = (function() {
 		  readURL(this);
 		});
 	}
-
 	return {
 		init:init,
 		openPopup:openPopup,
-		closePopup:closePopup
+		closePopup:closePopup,
+		tabPayment:tabPayment
 	}
 
 })();
