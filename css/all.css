@@ -9,7 +9,7 @@
 .form-check input[type="checkbox"], .form-check input[type="radio"] {
   position: absolute;
   right: 9000px; }
-.form-check input[type="radio"] + .label-text:after {
+.form-check input[type="radio"] + .label-text:after, .form-check input[type="checkbox"] + .label-text:after {
   content: "";
   background: url(../images/hoso/uncheck.png) no-repeat;
   speak: none;
@@ -23,23 +23,28 @@
   height: 32px;
   margin: 8px auto 0;
   display: table; }
-.form-check input[type="radio"]:checked + .label-text:after {
+.form-check input[type="radio"]:checked + .label-text:after, .form-check input[type="checkbox"]:checked + .label-text:after {
   content: "";
   background: url(../images/hoso/checked.png) no-repeat;
   animation: effect 250ms ease-in; }
-.form-check input[type="radio"]:disabled + .label-text {
+.form-check input[type="radio"]:disabled + .label-text, .form-check input[type="checkbox"]:disabled + .label-text {
   color: #aaa; }
-.form-check input[type="radio"]:disabled + .label-text:after {
+.form-check input[type="radio"]:disabled + .label-text:after, .form-check input[type="checkbox"]:disabled + .label-text:after {
   content: "";
   color: #ccc; }
-.form-check .toggle input[type="radio"]:checked + .label-text:before {
-  content: "\f205";
+.form-check .toggle input[type="checkbox"] + .label-text:after {
+  background: url(../images/hoso/toogleDefault.png) no-repeat;
+  width: 44px;
+  height: 26px; }
+.form-check .toggle input[type="checkbox"]:checked + .label-text:after {
+  content: "";
+  background: url(../images/hoso/toogleSelected.png) no-repeat;
   color: #16a085;
   animation: effect 250ms ease-in; }
-.form-check .toggle input[type="radio"]:disabled + .label-text {
+.form-check .toggle input[type="checkbox"]:disabled + .label-text {
   color: #aaa; }
-.form-check .toggle input[type="radio"]:disabled + .label-text:before {
-  content: "\f204";
+.form-check .toggle input[type="checkbox"]:disabled + .label-text:after {
+  content: "";
   color: #ccc; }
 
 /*UPLOAD BUTTON*/
@@ -9919,6 +9924,51 @@ footer {
       width: 141px;
       float: left;
       margin-right: 30px; }
+    .memberList .headerInformation.forUpdateProfile .memberRight .memberBottom .floatLeft {
+      margin-right: 44px; }
+      .memberList .headerInformation.forUpdateProfile .memberRight .memberBottom .floatLeft:last-child {
+        margin-right: 0;
+        padding-right: 0; }
+    .memberList .headerInformation.forUpdateProfile .memberRight .memberBottom .morderate {
+      margin-right: 20px; }
+      .memberList .headerInformation.forUpdateProfile .memberRight .memberBottom .morderate img {
+        width: 34px; }
+    .memberList .headerInformation.forUpdateProfile .memberRight .memberBottom .iconkeo {
+      background: transparent; }
+      .memberList .headerInformation.forUpdateProfile .memberRight .memberBottom .iconkeo b {
+        padding-right: 32px;
+        display: table;
+        background: url(../images/hoso/icon-medal.png) no-repeat right center; }
+    .memberList .headerInformation.forUpdateProfile .memberRight .memberBottom .iconkeothang {
+      background: transparent; }
+      .memberList .headerInformation.forUpdateProfile .memberRight .memberBottom .iconkeothang b {
+        padding-right: 32px;
+        display: table;
+        background: url(../images/hoso/icon-keothang.png) no-repeat right center; }
+    .memberList .headerInformation.forUpdateProfile .memberRight .memberBottom .iconkeothua {
+      background: transparent; }
+      .memberList .headerInformation.forUpdateProfile .memberRight .memberBottom .iconkeothua b {
+        padding-right: 32px;
+        display: table;
+        background: url(../images/hoso/icon-keothua.png) no-repeat right center; }
+    .memberList .headerInformation.forUpdateProfile .memberRight .memberBottom .iconlike {
+      background: transparent; }
+      .memberList .headerInformation.forUpdateProfile .memberRight .memberBottom .iconlike b {
+        padding-right: 32px;
+        display: table;
+        background: url(../images/icon-like.png) no-repeat right top; }
+    .memberList .headerInformation.forUpdateProfile .memberRight .memberBottom .icondislike {
+      background: transparent; }
+      .memberList .headerInformation.forUpdateProfile .memberRight .memberBottom .icondislike b {
+        padding-right: 32px;
+        display: table;
+        background: url(../images/icon-dislike.png) no-repeat right top; }
+    .memberList .headerInformation.forUpdateProfile .memberRight .memberBottom .iconview {
+      background: transparent; }
+      .memberList .headerInformation.forUpdateProfile .memberRight .memberBottom .iconview b {
+        padding-right: 32px;
+        display: table;
+        background: url(../images/icon-view.png) no-repeat right top; }
   .memberList .memberRight {
     float: left; }
     .memberList .memberRight .memberTop .nameBox {
@@ -10302,11 +10352,12 @@ footer {
   display: table;
   margin: 65px auto 55px; }
 .profileBox .borderBox {
-  -webkit-box-shadow: 1px 1px 4px 1px rgba(0, 1, 1, 0.1);
-  -moz-box-shadow: 1px 1px 4px 1px rgba(0, 1, 1, 0.1);
-  box-shadow: 1px 1px 4px 1px rgba(0, 1, 1, 0.1);
+  -webkit-box-shadow: 1px 1px 2px 1px rgba(0, 1, 1, 0.1);
+  -moz-box-shadow: 1px 1px 2px 1px rgba(0, 1, 1, 0.1);
+  box-shadow: 1px 1px 2px 1px rgba(0, 1, 1, 0.1);
   padding-bottom: 35px;
-  border-radius: 4px; }
+  border-radius: 4px;
+  margin-bottom: 30px; }
   .profileBox .borderBox h4 {
     color: #2d2d2d;
     font-family: "Montserrat-Bold";
@@ -10319,11 +10370,10 @@ footer {
     .profileBox .borderBox .chooseVerify::before {
       content: "";
       position: absolute;
-      width: 100%;
       height: 1px;
       background: #d9d9d9;
-      left: 50%;
-      margin-left: calc((72px - 100%)/2 );
+      width: 92%;
+      left: 4%;
       top: 47px; }
     .profileBox .borderBox .chooseVerify label {
       display: table;
@@ -10348,74 +10398,159 @@ footer {
   content: "";
   clear: both;
   display: block; }
-.profileBox .accountInformation .displayAccount .accountRow {
-  border-bottom: 1px solid #d9d9d9;
-  padding-bottom: 14px;
-  margin-bottom: 14px;
-  float: left;
-  width: 100%; }
-  .profileBox .accountInformation .displayAccount .accountRow .col {
-    float: left; }
-  .profileBox .accountInformation .displayAccount .accountRow .titleCol {
-    width: 265px; }
-    .profileBox .accountInformation .displayAccount .accountRow .titleCol b {
-      font-size: 14px;
-      font-family: "Montserrat-Bold";
-      text-transform: uppercase;
-      padding-left: 30px; }
-      .profileBox .accountInformation .displayAccount .accountRow .titleCol b.nickname {
-        background: url(../images/hoso/nickname.png) no-repeat left center; }
-      .profileBox .accountInformation .displayAccount .accountRow .titleCol b.youremail {
-        background: url(../images/hoso/email.png) no-repeat left center; }
-      .profileBox .accountInformation .displayAccount .accountRow .titleCol b.yourbank {
-        background: url(../images/hoso/icon-taikhoannganhang.png) no-repeat left center; }
-      .profileBox .accountInformation .displayAccount .accountRow .titleCol b.yourbtc {
-        background: url(../images/hoso/vibtc.png) no-repeat left center; }
-      .profileBox .accountInformation .displayAccount .accountRow .titleCol b.youreth {
-        background: url(../images/hoso/vieth.png) no-repeat left center; }
-  .profileBox .accountInformation .displayAccount .accountRow .nameCol {
-    width: 215px; }
-  .profileBox .accountInformation .displayAccount .accountRow .editCol a {
-    background: url(../images/hoso/edit.png) no-repeat;
-    width: 16px;
-    height: 16px;
-    display: inline-block; }
-.profileBox .accountInformation .displayAccount .uploadCMND .pictureUpload .fileUpload {
-  margin-bottom: 15px; }
-.profileBox .accountInformation .displayAccount .uploadCMND .pictureUpload:after {
-  content: '';
-  display: block;
-  clear: both; }
-.profileBox .accountInformation .displayAccount .uploadCMND .floatLeft {
-  width: 100%; }
-.profileBox .accountInformation .displayAccount .uploadCMND b {
-  padding-left: 30px;
-  background: url(../images/hoso/upload.png) no-repeat left center; }
-.profileBox .accountInformation .displayAccount .uploadCMND img {
-  width: 120px;
-  display: none; }
-.profileBox .accountInformation .displayAccount .uploadCMND i {
-  font-size: 12px;
-  font-style: normal;
-  float: left;
-  margin-top: 25px;
-  margin-left: 20px; }
+.profileBox .accountInformation .displayAccount {
+  padding-bottom: 0; }
+  .profileBox .accountInformation .displayAccount .accountRow {
+    border-bottom: 1px solid #d9d9d9;
+    padding-bottom: 14px;
+    margin-bottom: 14px;
+    float: left;
+    width: 100%; }
+    .profileBox .accountInformation .displayAccount .accountRow .col {
+      float: left; }
+    .profileBox .accountInformation .displayAccount .accountRow .titleCol {
+      width: 265px; }
+      .profileBox .accountInformation .displayAccount .accountRow .titleCol b {
+        font-size: 14px;
+        font-family: "Montserrat-Bold";
+        text-transform: uppercase;
+        padding-left: 30px; }
+        .profileBox .accountInformation .displayAccount .accountRow .titleCol b.nickname {
+          background: url(../images/hoso/nickname.png) no-repeat left center; }
+        .profileBox .accountInformation .displayAccount .accountRow .titleCol b.youremail {
+          background: url(../images/hoso/email.png) no-repeat left center; }
+        .profileBox .accountInformation .displayAccount .accountRow .titleCol b.yourbank {
+          background: url(../images/hoso/icon-taikhoannganhang.png) no-repeat left center; }
+        .profileBox .accountInformation .displayAccount .accountRow .titleCol b.yourbtc {
+          background: url(../images/hoso/vibtc.png) no-repeat left center; }
+        .profileBox .accountInformation .displayAccount .accountRow .titleCol b.youreth {
+          background: url(../images/hoso/vieth.png) no-repeat left center; }
+    .profileBox .accountInformation .displayAccount .accountRow .nameCol {
+      width: 215px; }
+    .profileBox .accountInformation .displayAccount .accountRow .editCol a {
+      background: url(../images/hoso/edit.png) no-repeat;
+      width: 16px;
+      height: 16px;
+      display: inline-block; }
+  .profileBox .accountInformation .displayAccount .uploadCMND .pictureUpload .fileUpload {
+    margin-bottom: 15px; }
+  .profileBox .accountInformation .displayAccount .uploadCMND .pictureUpload:after {
+    content: '';
+    display: block;
+    clear: both; }
+  .profileBox .accountInformation .displayAccount .uploadCMND .floatLeft {
+    width: 100%; }
+  .profileBox .accountInformation .displayAccount .uploadCMND b {
+    padding-left: 30px;
+    background: url(../images/hoso/upload.png) no-repeat left center; }
+  .profileBox .accountInformation .displayAccount .uploadCMND img {
+    width: 120px;
+    display: none; }
+  .profileBox .accountInformation .displayAccount .uploadCMND i {
+    font-size: 12px;
+    font-style: normal;
+    float: left;
+    margin-top: 25px;
+    margin-left: 20px; }
 .profileBox .accountInformation .subBox .subTitle {
   padding-left: 63px;
   padding-top: 15px;
-  padding-bottom: 15px; }
+  padding-bottom: 15px;
+  float: left;
+  width: 70%; }
+.profileBox .accountInformation .subBox .borderBtn {
+  min-width: 115px;
+  padding: 9px 22px;
+  border: 1px solid #d9d9d9;
+  border-radius: 5px;
+  float: right;
+  color: #313131;
+  margin-top: 5px; }
+.profileBox .accountInformation .subBox:after {
+  content: '';
+  display: block;
+  clear: both; }
 .profileBox .accountInformation .passWordBox {
   padding-left: 30px;
-  padding-top: 40px;
-  padding-bottom: 40px; }
+  padding-top: 22px;
+  padding-bottom: 22px;
+  margin-bottom: 30px; }
   .profileBox .accountInformation .passWordBox .subTitle {
     background: url(../images/hoso/matkhaudangnhap.png) no-repeat left center; }
 .profileBox .accountInformation .smsBox {
   padding-left: 30px;
-  padding-top: 40px;
-  padding-bottom: 40px; }
+  padding-top: 22px;
+  padding-bottom: 22px;
+  margin-bottom: 30px; }
   .profileBox .accountInformation .smsBox .subTitle {
     background: url(../images/hoso/xacthucsms.png) no-repeat left center; }
+.profileBox .accountInformation .googleAuthor {
+  padding-left: 30px;
+  padding-top: 23px;
+  padding-bottom: 23px; }
+  .profileBox .accountInformation .googleAuthor .subTitle {
+    width: 55%;
+    padding-top: 0;
+    padding-bottom: 0;
+    background: url(../images/hoso/googleauthorize.png) no-repeat left center; }
+    .profileBox .accountInformation .googleAuthor .subTitle b {
+      display: block; }
+.profileBox .notificationBox {
+  padding-bottom: 27px; }
+  .profileBox .notificationBox h5 {
+    color: #2d2d2d;
+    font-family: "Montserrat-Bold";
+    margin-bottom: 15px; }
+  .profileBox .notificationBox .settingRow {
+    border-top: 1px solid #d1d1d1;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    float: left;
+    width: 100%; }
+    .profileBox .notificationBox .settingRow .settingTitle {
+      float: left;
+      margin-top: 15px;
+      width: 40%; }
+    .profileBox .notificationBox .settingRow .settingRadio {
+      float: left; }
+      .profileBox .notificationBox .settingRow .settingRadio label {
+        margin-bottom: 0; }
+.profileBox .transactionList {
+  padding-bottom: 0; }
+
+.transactionTable .col {
+  float: left; }
+  .transactionTable .col.col1 {
+    padding-left: 25px;
+    width: 125px; }
+  .transactionTable .col.col2 {
+    width: 135px; }
+  .transactionTable .col.col3 {
+    width: 130px; }
+  .transactionTable .col.col4 {
+    width: 130px; }
+  .transactionTable .col.col5 {
+    width: 155px; }
+  .transactionTable .col.col6 {
+    width: 420px; }
+.transactionTable .tradeTitle {
+  background: #f8f8f8;
+  padding: 14px 0;
+  color: #2d2d2d;
+  float: left;
+  width: 100%; }
+  .transactionTable .tradeTitle .col {
+    float: left;
+    font-family: "Montserrat-Bold"; }
+.transactionTable .tradeContent {
+  float: left;
+  width: 100%; }
+  .transactionTable .tradeContent .tradeRow {
+    float: left;
+    width: 100%;
+    border-bottom: 1px solid #ccc;
+    padding-top: 20px;
+    padding-bottom: 20px; }
 
 .video-js .vjs-big-play-button .vjs-icon-placeholder:before, .video-js .vjs-modal-dialog, .vjs-button > .vjs-icon-placeholder:before, .vjs-modal-dialog .vjs-modal-dialog-content {
   position: absolute;
@@ -11795,6 +11930,9 @@ video::-webkit-media-text-track-display {
   .vjs-has-started.vjs-user-inactive.vjs-playing .vjs-control-bar {
     visibility: hidden; } }
 @media (min-width: 992px) and (max-width: 1199px) {
+  .transactionTable .col.col6 {
+    width: 235px; }
+
   .upgradeAcc .rowTable .container .col-md-12 .colTable {
     margin-bottom: 50px; }
     .upgradeAcc .rowTable .container .col-md-12 .colTable:nth-child(2n), .upgradeAcc .rowTable .container .col-md-12 .colTable:last-child {
@@ -11895,6 +12033,29 @@ video::-webkit-media-text-track-display {
   .commingSoon {
     margin-top: -17%; } }
 @media (min-width: 768px) and (max-width: 991px) {
+  .memberList .headerInformation.forUpdateProfile .memberRight .memberBottom .floatLeft {
+    margin-right: 20px;
+    padding-right: 0; }
+
+  .profileBox .borderBox .chooseVerify::before {
+    display: none; }
+  .profileBox .borderBox .chooseVerify .form-check {
+    margin-bottom: 30px; }
+  .profileBox .accountInformation .passWordBox {
+    margin-top: 30px; }
+
+  .transactionTable {
+    position: relative;
+    width: 100%;
+    overflow: auto; }
+    .transactionTable .tradeTitle, .transactionTable .tradeContent {
+      width: 1200px; }
+
+  .advertise .img {
+    margin-top: 11px; }
+    .advertise .img img {
+      width: 70%; }
+
   .upgradeAcc.payMents .rowTable .col-md-12 {
     text-align: left; }
     .upgradeAcc.payMents .rowTable .col-md-12 .blockPayments {
@@ -12142,6 +12303,63 @@ video::-webkit-media-text-track-display {
   .memberList {
     margin-bottom: 17%; } }
 @media (min-width: 0) and (max-width: 767px) {
+  .memberList .headerInformation.forUpdateProfile .memberRight .memberBottom .floatLeft {
+    margin-right: 20px;
+    padding-right: 10px;
+    min-height: 70px; }
+    .memberList .headerInformation.forUpdateProfile .memberRight .memberBottom .floatLeft.morderate {
+      margin-right: 0;
+      width: 25%; }
+    .memberList .headerInformation.forUpdateProfile .memberRight .memberBottom .floatLeft.iconview {
+      background: transparent; }
+      .memberList .headerInformation.forUpdateProfile .memberRight .memberBottom .floatLeft.iconview b {
+        display: table;
+        padding-right: 30px;
+        background: url(../images/icon-view.png) no-repeat right top; }
+
+  .profileBox .borderBox .chooseVerify::before {
+    display: none; }
+  .profileBox .borderBox .chooseVerify .form-check {
+    margin-bottom: 30px; }
+  .profileBox .accountInformation .passWordBox {
+    margin-top: 30px; }
+  .profileBox .accountInformation .displayAccount .accountRow .titleCol {
+    width: 100%; }
+  .profileBox .accountInformation .displayAccount .accountRow .nameCol {
+    margin-top: 10px; }
+  .profileBox .accountInformation .displayAccount .accountRow .nameCol {
+    margin-top: 10px; }
+  .profileBox .accountInformation .displayAccount .uploadCMND i {
+    margin-top: 0;
+    margin-left: 0;
+    margin-bottom: 20px; }
+  .profileBox .accountInformation .subBox .borderBtn {
+    float: left; }
+  .profileBox .accountInformation .googleAuthor .subTitle {
+    padding-bottom: 10px;
+    width: 100%; }
+  .profileBox .notificationBox .settingRow .settingTitle {
+    width: 70%; }
+  .profileBox .notificationBox .settingRow .settingRadio {
+    float: right; }
+
+  .transactionTable {
+    position: relative;
+    width: 100%;
+    overflow: auto; }
+    .transactionTable .tradeTitle, .transactionTable .tradeContent {
+      width: 1200px; }
+
+  .advertise {
+    height: auto; }
+    .advertise .img {
+      margin-top: 11px; }
+      .advertise .img img {
+        width: 100%; }
+      .advertise .img a {
+        display: table;
+        margin: 10px auto; }
+
   .upgradeAcc.payMents .rowTable .col-md-12 {
     text-align: left; }
     .upgradeAcc.payMents .rowTable .col-md-12 .blockPayments {
@@ -12316,7 +12534,8 @@ video::-webkit-media-text-track-display {
     margin-right: 0; }
 
   .memberHeader .buyBox {
-    width: 100%; }
+    width: 100%;
+    margin-left: 0; }
     .memberHeader .buyBox .buyCol {
       width: 100%; }
 

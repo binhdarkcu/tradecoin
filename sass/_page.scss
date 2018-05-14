@@ -124,6 +124,73 @@
             float: left;
             margin-right: 30px;
         }
+        &.forUpdateProfile {
+                .memberRight {
+                    .memberBottom {
+                        .floatLeft {
+                            margin-right: 44px;
+                            &:last-child {
+                                margin-right: 0;
+                                padding-right: 0;
+                            }
+                        }
+                        .morderate {
+                            margin-right: 20px;
+                            img {
+                                width: 34px;
+                            }
+                        }
+                        .iconkeo {
+                            background: transparent;
+                            b {
+                                padding-right: 32px;
+                                display: table;
+                                background: url(../images/hoso/icon-medal.png) no-repeat right center;
+                            }
+                        }
+                        .iconkeothang {
+                            background: transparent;
+                            b {
+                                padding-right: 32px;
+                                display: table;
+                                background: url(../images/hoso/icon-keothang.png) no-repeat right center;
+                            }
+                        }
+                        .iconkeothua {
+                            background: transparent;
+                            b {
+                                padding-right: 32px;
+                                display: table;
+                                background: url(../images/hoso/icon-keothua.png) no-repeat right center;
+                            }
+                        }
+                        .iconlike {
+                            background: transparent;
+                            b {
+                                padding-right: 32px;
+                                display: table;
+                                background: url(../images/icon-like.png) no-repeat right top;
+                            }
+                        }
+                        .icondislike {
+                            background: transparent;
+                            b {
+                                padding-right: 32px;
+                                display: table;
+                                background: url(../images/icon-dislike.png) no-repeat right top;
+                            }
+                        }
+                        .iconview {
+                            background: transparent;
+                            b {
+                                padding-right: 32px;
+                                display: table;
+                                background: url(../images/icon-view.png) no-repeat right top;
+                            }
+                        }
+                    }
+                }
+        }
     }
     .memberRight {
         float: left;
@@ -649,11 +716,12 @@
         margin: 65px auto 55px;
     }
     .borderBox {
-        -webkit-box-shadow: 1px 1px 4px 1px rgba(0,1,1,0.1);
-        -moz-box-shadow: 1px 1px 4px 1px rgba(0,1,1,0.1);
-        box-shadow: 1px 1px 4px 1px rgba(0,1,1,0.1);
+        -webkit-box-shadow: 1px 1px 2px 1px rgba(0,1,1,0.1);
+        -moz-box-shadow: 1px 1px 2px 1px rgba(0,1,1,0.1);
+        box-shadow: 1px 1px 2px 1px rgba(0,1,1,0.1);
         padding-bottom: 35px;
         border-radius: 4px;
+        margin-bottom: 30px;
         h4 {
             color: #2d2d2d;
             font-family: "Montserrat-Bold";
@@ -667,11 +735,10 @@
             &::before {
                 content: "";
                 position: absolute;
-                width: 100%;
                 height: 1px;
                 background: #d9d9d9;
-                left: 50%;
-                margin-left: calc((72px - 100%)/2 );
+                width: 92%;
+                left: 4%;
                 top: 47px;
             }
             label {
@@ -717,6 +784,7 @@
             display: block;
         }
         .displayAccount {
+            padding-bottom: 0;
             .accountRow {
                 border-bottom: 1px solid #d9d9d9;
                 padding-bottom: 14px;
@@ -799,24 +867,136 @@
                 padding-left: 63px;
                 padding-top: 15px;
                 padding-bottom: 15px;
+                float: left;
+                width: 70%;
+            }
+            .borderBtn {
+                min-width: 115px;
+                padding: 9px 22px;
+                border: 1px solid #d9d9d9;
+                border-radius: 5px;
+                float: right;
+                color: #313131;
+                margin-top: 5px;
+            }
+            &:after{
+                content: '';
+                display: block;
+                clear: both;
             }
         }
         .passWordBox {
             padding-left: 30px;
-            padding-top: 40px;
-            padding-bottom: 40px;
+            padding-top: 22px;
+            padding-bottom: 22px;
+            margin-bottom: 30px;
             .subTitle {
                 background: url(../images/hoso/matkhaudangnhap.png) no-repeat left center;
             }
         }
         .smsBox {
             padding-left: 30px;
-            padding-top: 40px;
-            padding-bottom: 40px;
+            padding-top: 22px;
+            padding-bottom: 22px;
+            margin-bottom: 30px;
             .subTitle  {
                 background: url(../images/hoso/xacthucsms.png) no-repeat left center;
             }
         }
+        .googleAuthor {
+            padding-left: 30px;
+            padding-top: 23px;
+            padding-bottom: 23px;
+            .subTitle  {
+                width: 55%;
+                padding-top: 0;
+                padding-bottom: 0;
+                background: url(../images/hoso/googleauthorize.png) no-repeat left center;
+                b {
+                    display: block;
+                }
+            }
+        }
+    }
+    .notificationBox {
+        padding-bottom: 27px;
+        h4 {
 
+        }
+        h5{
+            color: #2d2d2d;
+            font-family: "Montserrat-Bold";
+            margin-bottom: 15px;
+        }
+        .settingRow {
+            border-top: 1px solid #d1d1d1;
+            padding-top: 14px;
+            padding-bottom: 14px;
+            float: left;
+            width: 100%;
+            .settingTitle {
+                float: left;
+                margin-top: 15px;
+                width: 40%;
+            }
+            .settingRadio {
+                float: left;
+                label {
+                    margin-bottom: 0;
+                }
+            }
+        }
+    }
+    .transactionList  {
+        padding-bottom: 0;
+    }
+}
+
+.transactionTable {
+    .col {
+        float: left;
+
+        &.col1 {
+            padding-left: 25px;
+            width: 125px;
+        }
+        &.col2 {
+            width: 135px;
+        }
+        &.col3 {
+            width: 130px;
+        }
+        &.col4 {
+            width: 130px;
+        }
+        &.col5 {
+            width: 155px;
+        }
+        &.col6 {
+            width: 420px;
+        }
+    }
+    .tradeTitle {
+        background: #f8f8f8;
+        padding: 14px 0;
+        color: #2d2d2d;
+        float: left;
+        width: 100%;
+        .col {
+            float: left;
+            font-family: "Montserrat-Bold";
+
+        }
+    }
+    .tradeContent{
+        float: left;
+        width: 100%;
+        .tradeRow {
+            float: left;
+            width: 100%;
+            border-bottom: 1px solid #ccc;
+            padding-top: 20px;
+            padding-bottom: 20px;
+        }
     }
 }

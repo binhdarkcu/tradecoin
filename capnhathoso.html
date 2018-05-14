@@ -98,7 +98,7 @@
             <div class="memberHeaderGray">
                 <div class="container">
                     <div class="row">
-                        <div class="headerInformation">
+                        <div class="headerInformation forUpdateProfile">
                             <div class="memberAvatar">
                                 <a href="#"><img src="images/avatar-thanhvien.png"/></a>
                             </div>
@@ -151,15 +151,19 @@
                                     </div>
                                     <div class="floatLeft iconkeo">
                                         <b>452</b>
-                                        <span>KÈO</span>
+                                        <span>KÈO ĐÃ THAM GIA</span>
+                                    </div>
+                                    <div class="floatLeft iconkeothang">
+                                        <b>45213</b>
+                                        <span>KÈO THẮNG</span>
+                                    </div>
+                                    <div class="floatLeft iconkeothua">
+                                        <b>45213</b>
+                                        <span>KÈO THUA</span>
                                     </div>
                                     <div class="floatLeft iconview">
-                                        <b>45213</b>
+                                        <b>213</b>
                                         <span>VIEW</span>
-                                    </div>
-                                    <div class="floatLeft iconmment">
-                                        <b>45213</b>
-                                        <span>COMMENT</span>
                                     </div>
                                     <div class="floatLeft iconlike">
                                         <b>45213</b>
@@ -168,10 +172,6 @@
                                     <div class="floatLeft icondislike">
                                         <b>45213</b>
                                         <span>DISLIKE</span>
-                                    </div>
-                                    <div class="floatRight iconfollowers">
-                                        <b>45213</b>
-                                        <span>FOLLOWERS</span>
                                     </div>
                                 </div>
                             </div>
@@ -314,7 +314,7 @@
                                             <span class="subTitle">Xác thực SMS</span>
                                             <a href="#" class="borderBtn">Kích hoạt</a>
                                         </div>
-                                        <div class="passWordBox subBox">
+                                        <div class="googleAuthor subBox">
                                             <div class="subTitle"><b>Google Authenticator</b><span>Được sử dụng để rút tiền hoặc thay đổi bảo mật</span></div>
                                             <a href="#" class="borderBtn">Kích hoạt</a>
                                         </div>
@@ -323,33 +323,136 @@
                             </div>
 
                             <div class="notificationBox borderBox">
-                                <h4>Thông báo qua email</h4>
-                                <div class="settingRow">
-                                    <div class="settingTitle">
-                                        Khi có giao dịch mới
-                                    </div>
-                                    <div class="settingRadio">
-                                        <div class="form-check">
-                        					<label class="toggle">
-                        						<input type="radio" name="toggle" checked> <span class="label-text"></span>
-                        					</label>
-                        				</div>
-                                    </div>
-                                </div>
-                                <div class="settingRow">
-                                    <div class="settingTitle">
-                                        Khi có trạng thái giao dịch thay đổi
-                                    </div>
-                                    <div class="settingRadio">
-                                        <div class="form-check">
-                        					<label class="toggle">
-                        						<input type="radio" name="toggle"> <span class="label-text"></span>
-                        					</label>
-                        				</div>
+                                <h4>CÀI ĐẶT THÔNG BÁO</h4>
+                                <div class="container">
+                                    <div class="col-md-12">
+                                        <h5>Thông báo qua email</h5>
+                                        <div class="settingRow">
+                                            <div class="settingTitle">
+                                                Khi có giao dịch mới
+                                            </div>
+                                            <div class="settingRadio">
+                                                <div class="form-check">
+                                					<label class="toggle">
+                                						<input type="checkbox" name="toggleTransaction" checked> <span class="label-text"></span>
+                                					</label>
+                                				</div>
+                                            </div>
+                                        </div>
+                                        <div class="settingRow">
+                                            <div class="settingTitle">
+                                                Khi có trạng thái giao dịch thay đổi
+                                            </div>
+                                            <div class="settingRadio">
+                                                <div class="form-check">
+                                					<label class="toggle">
+                                						<input type="checkbox" name="toggleStatus"> <span class="label-text"></span>
+                                					</label>
+                                				</div>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
 
+                            <div class="transactionList borderBox">
+                                <h4>LỊCH SỬ GIAO DỊCH</h4>
+                                <div class="container">
+                                    <div class="col-md-12">
+                                        <div class="transactionTable">
+                                            <div class="tradeTitle">
+                        						<div class="col col1">ID</div>
+                        						<div class="col col2">Thời gian</div>
+                        						<div class="col col3">Tổng giá trị</div>
+                        						<div class="col col4">Thanh toán</div>
+                        						<div class="col col5">Trạng thái</div>
+                        						<div class="col col6">Chi tiết</div>
+                        					</div>
+                                            <div class="tradeContent">
+                        						<div class="tradeRow">
+                                                    <div class="col col1">123456789</div>
+                        							<div class="col col2">08/05/2018</div>
+                        							<div class="col col3">0.00002 BTC</div>
+                        							<div class="col col4">Visa</div>
+                        							<div class="col col5">Thành công</div>
+                        							<div class="col col6">Thanh toán nâng cấp level user cấp VIP</div>
+                                                </div>
+                                                <div class="tradeRow">
+                                                    <div class="col col1">123456789</div>
+                        							<div class="col col2">08/05/2018</div>
+                        							<div class="col col3">0.00002 BTC</div>
+                        							<div class="col col4">BTC</div>
+                        							<div class="col col5">Thành công</div>
+                        							<div class="col col6">Thanh toán nâng cấp level user cấp Thường</div>
+                                                </div>
+                                                <div class="tradeRow">
+                                                    <div class="col col1">123456789</div>
+                        							<div class="col col2">08/05/2018</div>
+                        							<div class="col col3">0.00002 BTC</div>
+                        							<div class="col col4">BTC</div>
+                        							<div class="col col5">Thành công</div>
+                        							<div class="col col6">Thanh toán nâng cấp level user cấp Thường</div>
+                                                </div>
+                                                <div class="tradeRow">
+                                                    <div class="col col1">123456789</div>
+                        							<div class="col col2">08/05/2018</div>
+                        							<div class="col col3">0.00002 BTC</div>
+                        							<div class="col col4">BTC</div>
+                        							<div class="col col5">Thành công</div>
+                        							<div class="col col6">Thanh toán nâng cấp level user cấp Thường</div>
+                                                </div>
+                                                <div class="tradeRow">
+                                                    <div class="col col1">123456789</div>
+                        							<div class="col col2">08/05/2018</div>
+                        							<div class="col col3">0.00002 BTC</div>
+                        							<div class="col col4">BTC</div>
+                        							<div class="col col5">Thành công</div>
+                        							<div class="col col6">Thanh toán nâng cấp level user cấp Thường</div>
+                                                </div>
+                                                <div class="tradeRow">
+                                                    <div class="col col1">123456789</div>
+                        							<div class="col col2">08/05/2018</div>
+                        							<div class="col col3">0.00002 BTC</div>
+                        							<div class="col col4">BTC</div>
+                        							<div class="col col5">Thành công</div>
+                        							<div class="col col6">Thanh toán nâng cấp level user cấp Thường</div>
+                                                </div>
+                                                <div class="tradeRow">
+                                                    <div class="col col1">123456789</div>
+                        							<div class="col col2">08/05/2018</div>
+                        							<div class="col col3">0.00002 BTC</div>
+                        							<div class="col col4">BTC</div>
+                        							<div class="col col5">Thành công</div>
+                        							<div class="col col6">Thanh toán nâng cấp level user cấp Thường</div>
+                                                </div>
+                                                <div class="tradeRow">
+                                                    <div class="col col1">123456789</div>
+                        							<div class="col col2">08/05/2018</div>
+                        							<div class="col col3">0.00002 BTC</div>
+                        							<div class="col col4">BTC</div>
+                        							<div class="col col5">Thành công</div>
+                        							<div class="col col6">Thanh toán nâng cấp level user cấp Thường</div>
+                                                </div>
+                                                <div class="clear"></div>
+                                            </div>
+                                        </div>
+                                        <div class="paging floatRight">
+                                          <a class="prev page-numbers" href="#">&laquo; Back</a>
+                                          <a class='page-numbers current' href='#1'>1</a>
+                                          <a class='page-numbers' href='#2'>2</a>
+                                          <a class='page-numbers' href='#3'>3</a>
+                                          <a class='page-numbers' href='#4'>4</a>
+                                          <a class='page-numbers' href='#1'>5</a>
+                                          <a class='page-numbers' href='#2'>6</a>
+                                          <a class='page-numbers' href='#3'>7</a>
+                                          <a class='page-numbers' href='#4'>8</a>
+                                          <a class='page-numbers' href='#4'>9</a>
+                                          <a class="next page-numbers" href="#">Next &raquo;</a>
+                                        </div>
+                                        <div class="clear"></div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>

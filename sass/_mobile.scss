@@ -20,6 +20,113 @@
 
 
 @media (min-width: 0) and (max-width: 767px) {
+
+    .memberList {
+        .headerInformation{
+            &.forUpdateProfile {
+                .memberRight {
+                    .memberBottom {
+                        .floatLeft {
+                            margin-right: 20px;
+                            padding-right: 10px;
+                            min-height: 70px;
+                            &.morderate {
+                                margin-right: 0;
+                                width: 25%;
+                            }
+                            &.iconview {
+                                background: transparent;
+                                b {
+                                    display: table;
+                                    padding-right: 30px;
+                                    background: url(../images/icon-view.png) no-repeat right top;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .profileBox {
+        .borderBox {
+            .chooseVerify{
+                &::before{
+                    display: none;
+                }
+                .form-check {
+                    margin-bottom: 30px;
+                }
+            }
+        }
+        .accountInformation {
+            .passWordBox {
+                margin-top: 30px;
+            }
+            .displayAccount  {
+                .accountRow {
+                    .titleCol {
+                        width: 100%;
+                    }
+                    .nameCol {
+                        margin-top: 10px;
+                    }
+                    .nameCol {
+                        margin-top: 10px;
+                    }
+                }
+                .uploadCMND {
+                    i {
+                        margin-top:0;
+                        margin-left: 0;
+                        margin-bottom: 20px;
+                    }
+                }
+            }
+            .subBox {
+                .borderBtn {
+                    float: left;
+                }
+            }
+            .googleAuthor {
+                .subTitle {
+                    padding-bottom: 10px;
+                    width: 100%;
+                }
+            }
+        }
+        .notificationBox {
+            .settingRow {
+                .settingTitle {
+                    width: 70%;
+                }
+                .settingRadio {
+                    float: right;
+                }
+            }
+        }
+    }
+    .transactionTable {
+        position: relative;
+        width: 100%;
+        overflow: auto;
+        .tradeTitle, .tradeContent {
+            width: 1200px;
+        }
+    }
+    .advertise {
+        height: auto;
+        .img {
+            margin-top: 11px;
+            img {
+                width: 100%;
+            }
+            a {
+                display: table;
+                margin: 10px auto;
+            }
+        }
+    }
   .upgradeAcc.payMents {
     .rowTable {
       .col-md-12 {
@@ -291,6 +398,7 @@
     .memberHeader {
         .buyBox {
             width: 100%;
+            margin-left: 0;
             .buyCol{
                 width: 100%;
             }

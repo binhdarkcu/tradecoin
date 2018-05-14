@@ -18,7 +18,7 @@ $colorBlack:#000;
     	right: 9000px;
     }
 
-    input[type="radio"] + .label-text:after{
+    input[type="radio"] + .label-text:after, input[type="checkbox"] + .label-text:after{
        content: "";
        background: url(../images/hoso/uncheck.png) no-repeat;
        speak: none;
@@ -34,35 +34,41 @@ $colorBlack:#000;
        display: table;
    }
 
-   input[type="radio"]:checked + .label-text:after{
+   input[type="radio"]:checked + .label-text:after, input[type="checkbox"]:checked + .label-text:after{
        content: "";
         background: url(../images/hoso/checked.png) no-repeat;
 
        animation: effect 250ms ease-in;
    }
 
-   input[type="radio"]:disabled + .label-text{
+   input[type="radio"]:disabled + .label-text, input[type="checkbox"]:disabled + .label-text{
        color: #aaa;
    }
 
-   input[type="radio"]:disabled + .label-text:after{
+   input[type="radio"]:disabled + .label-text:after, input[type="checkbox"]:disabled + .label-text:after{
        content: "";
        color: #ccc;
    }
-   .toggle input[type="radio"]:checked + .label-text:before{
-    	content: "\f205";
-    	color: #16a085;
-    	animation: effect 250ms ease-in;
-    }
-
-    .toggle input[type="radio"]:disabled + .label-text{
-    	color: #aaa;
-    }
-
-    .toggle input[type="radio"]:disabled + .label-text:before{
-    	content: "\f204";
-    	color: #ccc;
-    }
+   .toggle {
+       input[type="checkbox"] + .label-text:after {
+           background: url(../images/hoso/toogleDefault.png) no-repeat;
+           width: 44px;
+           height: 26px;
+       }
+       input[type="checkbox"]:checked + .label-text:after{
+        	content: "";
+             background: url(../images/hoso/toogleSelected.png) no-repeat;
+        	color: #16a085;
+        	animation: effect 250ms ease-in;
+        }
+        input[type="checkbox"]:disabled + .label-text{
+        	color: #aaa;
+        }
+        input[type="checkbox"]:disabled + .label-text:after{
+        	content: "";
+        	color: #ccc;
+        }
+   }
 }
 
 /*UPLOAD BUTTON*/
