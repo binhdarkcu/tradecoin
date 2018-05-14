@@ -558,3 +558,84 @@
     }
   }
 }
+
+.memberSearch {
+    padding: 73px 0 58px;
+    .noPaddingLeft {
+        padding-left: 0;
+    }
+    h3 {
+        background: url(../images/medal.png) no-repeat left center;
+        padding-left: 40px;
+        font-size: 30px;
+    }
+    .memberSearchForm {
+        &>div.col-md-5 {
+            span.dateTitle {
+                left: 8px;
+            }
+        }
+        span.dateTitle {
+            margin-top: 5px;
+            color: #2d2d2d;
+            font-size: 14px;
+            width: 35%;
+            float: left;
+            margin-top: 12px;
+        }
+        .input-group {
+            float: left;
+            width: 65%;
+            position: relative;
+            .form-control {
+                height: 41px;
+                padding-right: 35px;
+            }
+            &.date {
+                .input-group-addon {
+                    position: absolute;
+                    right: 8px;
+                    background: url(../images/calendar.png) no-repeat;
+                    width: 22px;
+                    height: 22px;
+                    z-index: 2;
+                    top: 9px;
+                    border: none;
+                }
+            }
+        }
+    }
+    .btnSearch {
+        background: #139bd0;
+        font-size: 14px;
+        font-family: "Montserrat-Bold";
+        color: #fff;
+        text-transform: uppercase;
+        height: 41px;
+        width: 100%;
+    }
+}
+
+.advertise {
+    background: url(../images/banner-adv.png) no-repeat;
+    height: 69px;
+    width: 100%;
+    background-size: cover;
+    .img {
+        width: auto;
+        display: table;
+        margin: 0 auto;
+        a {
+            font-size: 14px;
+            color: #fff;
+            border: 1px solid #fff;
+            padding: 10px 22px;
+            border-radius: 4px;
+            margin-left: 95px;
+
+        }
+    }
+}
+.updateProfiles {
+    min-height: 100vh;
+}
