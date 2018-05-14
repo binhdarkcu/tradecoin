@@ -639,3 +639,182 @@
 .updateProfiles {
     min-height: 100vh;
 }
+.profileBox {
+    h3.medalTitle {
+        color: #2d2d2d;
+        font-size: 36px;
+        background: url(../images/medal.png) no-repeat left center;
+        padding-left: 38px;
+        display: table;
+        margin: 65px auto 55px;
+    }
+    .borderBox {
+        -webkit-box-shadow: 1px 1px 4px 1px rgba(0,1,1,0.1);
+        -moz-box-shadow: 1px 1px 4px 1px rgba(0,1,1,0.1);
+        box-shadow: 1px 1px 4px 1px rgba(0,1,1,0.1);
+        padding-bottom: 35px;
+        border-radius: 4px;
+        h4 {
+            color: #2d2d2d;
+            font-family: "Montserrat-Bold";
+            font-size: 18px;
+            text-transform: uppercase;
+            text-align: center;
+            padding: 35px 0 25px;
+        }
+        .chooseVerify {
+            position: relative;
+            &::before {
+                content: "";
+                position: absolute;
+                width: 100%;
+                height: 1px;
+                background: #d9d9d9;
+                left: 50%;
+                margin-left: calc((72px - 100%)/2 );
+                top: 47px;
+            }
+            label {
+                display: table;
+                margin: 0 auto;
+            }
+            .label-text {
+                padding-top: 115px;
+                display: block;
+                min-width: 174px;
+                text-align: center;
+            }
+            .privacyInfo {
+                .label-text {
+                    background: url(../images/hoso/thongtincanhan.png) no-repeat top center;
+                }
+            }
+            .idCard {
+                .label-text {
+                    background: url(../images/hoso/xacminhsdt.png) no-repeat top center;
+                }
+            }
+            .accountBank {
+                .label-text {
+                    background: url(../images/hoso/taikhoannganhang.png) no-repeat top center;
+                }
+            }
+            .bagAddress {
+                .label-text {
+                    background: url(../images/hoso/diachivi.png) no-repeat top center;
+                }
+            }
+        }
+    }
+    .subBox {
+        border: 1px solid #d9d9d9;
+        padding: 18px 20px;
+    }
+    .accountInformation {
+        &:after {
+            content: "";
+            clear: both;
+            display: block;
+        }
+        .displayAccount {
+            .accountRow {
+                border-bottom: 1px solid #d9d9d9;
+                padding-bottom: 14px;
+                margin-bottom: 14px;
+                float: left;
+                width: 100%;
+                .col {
+                    float: left;
+                }
+                .titleCol {
+                    width: 265px;
+                    b {
+                        font-size: 14px;
+                        font-family: "Montserrat-Bold";
+                        text-transform: uppercase;
+                        padding-left: 30px;
+
+                        &.nickname {
+                            background: url(../images/hoso/nickname.png) no-repeat left center;
+                        }
+                        &.youremail {
+                            background: url(../images/hoso/email.png) no-repeat left center;
+                        }
+                        &.yourbank {
+                            background: url(../images/hoso/icon-taikhoannganhang.png) no-repeat left center;
+                        }
+                        &.yourbtc {
+                            background: url(../images/hoso/vibtc.png) no-repeat left center;
+                        }
+                        &.youreth {
+                            background: url(../images/hoso/vieth.png) no-repeat left center;
+                        }
+                    }
+                }
+                .nameCol {
+                    width: 215px;
+                }
+                .editCol {
+                    a{
+                        background: url(../images/hoso/edit.png) no-repeat;
+                        width: 16px;
+                        height: 16px;
+                        display: inline-block;
+                    }
+                }
+            }
+            .uploadCMND{
+                .pictureUpload {
+                    margin-bottom: 15px;
+                    &:after{
+                        content: '';
+                        display: block;
+                        clear: both;
+                    }
+                }
+                .floatLeft {
+                    width: 100%;
+                }
+                b{
+                    padding-left: 30px;
+                    background: url(../images/hoso/upload.png) no-repeat left center;
+                }
+                img {
+                    width: 120px;
+                    display: none;
+                }
+                i {
+                    font-size: 12px;
+                    font-style: normal;
+                    float: left;
+                    margin-top: 25px;
+                    margin-left: 20px;
+                }
+            }
+        }
+        .subBox {
+            .subTitle {
+                padding-left: 63px;
+                padding-top: 15px;
+                padding-bottom: 15px;
+            }
+        }
+        .passWordBox {
+            padding-left: 30px;
+            padding-top: 40px;
+            padding-bottom: 40px;
+            .subTitle {
+                background: url(../images/hoso/matkhaudangnhap.png) no-repeat left center;
+            }
+        }
+        .smsBox {
+            padding-left: 30px;
+            padding-top: 40px;
+            padding-bottom: 40px;
+            .subTitle  {
+                background: url(../images/hoso/xacthucsms.png) no-repeat left center;
+            }
+        }
+
+    }
+}

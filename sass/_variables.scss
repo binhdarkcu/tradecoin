@@ -2,3 +2,97 @@ $fontArial12: normal 14px/1.2 'Montserrat-Regular', sans-serif;
 
 /*COLOR*/
 $colorBlack:#000;
+
+/*Radio box*/
+
+.form-check {
+    label{
+    	position: relative;
+    	cursor: pointer;
+    	color: #666;
+    	font-size: 14px;
+    }
+
+    input[type="checkbox"], input[type="radio"]{
+    	position: absolute;
+    	right: 9000px;
+    }
+
+    input[type="radio"] + .label-text:after{
+       content: "";
+       background: url(../images/hoso/uncheck.png) no-repeat;
+       speak: none;
+       font-style: normal;
+       font-weight: normal;
+       font-variant: normal;
+       text-transform: none;
+       line-height: 1;
+       -webkit-font-smoothing:antialiased;
+       width: 32px;
+       height: 32px;
+       margin: 8px auto 0;
+       display: table;
+   }
+
+   input[type="radio"]:checked + .label-text:after{
+       content: "";
+        background: url(../images/hoso/checked.png) no-repeat;
+
+       animation: effect 250ms ease-in;
+   }
+
+   input[type="radio"]:disabled + .label-text{
+       color: #aaa;
+   }
+
+   input[type="radio"]:disabled + .label-text:after{
+       content: "";
+       color: #ccc;
+   }
+   .toggle input[type="radio"]:checked + .label-text:before{
+    	content: "\f205";
+    	color: #16a085;
+    	animation: effect 250ms ease-in;
+    }
+
+    .toggle input[type="radio"]:disabled + .label-text{
+    	color: #aaa;
+    }
+
+    .toggle input[type="radio"]:disabled + .label-text:before{
+    	content: "\f204";
+    	color: #ccc;
+    }
+}
+
+/*UPLOAD BUTTON*/
+.fileUpload {
+    position: relative;
+    overflow: hidden;
+    padding: 9px 24px;
+    background: #139bd0;
+    display: inline-block;
+    border-radius: 4px;
+    margin-top: 15px;
+    float:left;
+    span{
+        color: #fff;
+        font-size: 14px;
+        background: url(../images/hoso/fileupload.png) no-repeat left center;
+        padding-left: 22px;
+    }
+    &.error{
+      border-color: #ff0000;
+    }
+}
+.fileUpload input.upload {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    cursor: pointer;
+    opacity: 0;
+    filter: alpha(opacity=0);
+}

@@ -1,5 +1,76 @@
 @charset "UTF-8";
 /*COLOR*/
+/*Radio box*/
+.form-check label {
+  position: relative;
+  cursor: pointer;
+  color: #666;
+  font-size: 14px; }
+.form-check input[type="checkbox"], .form-check input[type="radio"] {
+  position: absolute;
+  right: 9000px; }
+.form-check input[type="radio"] + .label-text:after {
+  content: "";
+  background: url(../images/hoso/uncheck.png) no-repeat;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  width: 32px;
+  height: 32px;
+  margin: 8px auto 0;
+  display: table; }
+.form-check input[type="radio"]:checked + .label-text:after {
+  content: "";
+  background: url(../images/hoso/checked.png) no-repeat;
+  animation: effect 250ms ease-in; }
+.form-check input[type="radio"]:disabled + .label-text {
+  color: #aaa; }
+.form-check input[type="radio"]:disabled + .label-text:after {
+  content: "";
+  color: #ccc; }
+.form-check .toggle input[type="radio"]:checked + .label-text:before {
+  content: "\f205";
+  color: #16a085;
+  animation: effect 250ms ease-in; }
+.form-check .toggle input[type="radio"]:disabled + .label-text {
+  color: #aaa; }
+.form-check .toggle input[type="radio"]:disabled + .label-text:before {
+  content: "\f204";
+  color: #ccc; }
+
+/*UPLOAD BUTTON*/
+.fileUpload {
+  position: relative;
+  overflow: hidden;
+  padding: 9px 24px;
+  background: #139bd0;
+  display: inline-block;
+  border-radius: 4px;
+  margin-top: 15px;
+  float: left; }
+  .fileUpload span {
+    color: #fff;
+    font-size: 14px;
+    background: url(../images/hoso/fileupload.png) no-repeat left center;
+    padding-left: 22px; }
+  .fileUpload.error {
+    border-color: #ff0000; }
+
+.fileUpload input.upload {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 0;
+  padding: 0;
+  font-size: 20px;
+  cursor: pointer;
+  opacity: 0;
+  filter: alpha(opacity=0); }
+
 h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
   margin: 0;
   padding: 0;
@@ -8256,7 +8327,7 @@ html, body {
 
 body {
   font: normal 14px/1.2 "Montserrat-Regular", sans-serif;
-  color: #303030;
+  color: #2d2d2d;
   background: #fff;
   font-smooth: always;
   -webkit-font-smoothing: antialiased;
@@ -10222,6 +10293,129 @@ footer {
 
 .updateProfiles {
   min-height: 100vh; }
+
+.profileBox h3.medalTitle {
+  color: #2d2d2d;
+  font-size: 36px;
+  background: url(../images/medal.png) no-repeat left center;
+  padding-left: 38px;
+  display: table;
+  margin: 65px auto 55px; }
+.profileBox .borderBox {
+  -webkit-box-shadow: 1px 1px 4px 1px rgba(0, 1, 1, 0.1);
+  -moz-box-shadow: 1px 1px 4px 1px rgba(0, 1, 1, 0.1);
+  box-shadow: 1px 1px 4px 1px rgba(0, 1, 1, 0.1);
+  padding-bottom: 35px;
+  border-radius: 4px; }
+  .profileBox .borderBox h4 {
+    color: #2d2d2d;
+    font-family: "Montserrat-Bold";
+    font-size: 18px;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 35px 0 25px; }
+  .profileBox .borderBox .chooseVerify {
+    position: relative; }
+    .profileBox .borderBox .chooseVerify::before {
+      content: "";
+      position: absolute;
+      width: 100%;
+      height: 1px;
+      background: #d9d9d9;
+      left: 50%;
+      margin-left: calc((72px - 100%)/2 );
+      top: 47px; }
+    .profileBox .borderBox .chooseVerify label {
+      display: table;
+      margin: 0 auto; }
+    .profileBox .borderBox .chooseVerify .label-text {
+      padding-top: 115px;
+      display: block;
+      min-width: 174px;
+      text-align: center; }
+    .profileBox .borderBox .chooseVerify .privacyInfo .label-text {
+      background: url(../images/hoso/thongtincanhan.png) no-repeat top center; }
+    .profileBox .borderBox .chooseVerify .idCard .label-text {
+      background: url(../images/hoso/xacminhsdt.png) no-repeat top center; }
+    .profileBox .borderBox .chooseVerify .accountBank .label-text {
+      background: url(../images/hoso/taikhoannganhang.png) no-repeat top center; }
+    .profileBox .borderBox .chooseVerify .bagAddress .label-text {
+      background: url(../images/hoso/diachivi.png) no-repeat top center; }
+.profileBox .subBox {
+  border: 1px solid #d9d9d9;
+  padding: 18px 20px; }
+.profileBox .accountInformation:after {
+  content: "";
+  clear: both;
+  display: block; }
+.profileBox .accountInformation .displayAccount .accountRow {
+  border-bottom: 1px solid #d9d9d9;
+  padding-bottom: 14px;
+  margin-bottom: 14px;
+  float: left;
+  width: 100%; }
+  .profileBox .accountInformation .displayAccount .accountRow .col {
+    float: left; }
+  .profileBox .accountInformation .displayAccount .accountRow .titleCol {
+    width: 265px; }
+    .profileBox .accountInformation .displayAccount .accountRow .titleCol b {
+      font-size: 14px;
+      font-family: "Montserrat-Bold";
+      text-transform: uppercase;
+      padding-left: 30px; }
+      .profileBox .accountInformation .displayAccount .accountRow .titleCol b.nickname {
+        background: url(../images/hoso/nickname.png) no-repeat left center; }
+      .profileBox .accountInformation .displayAccount .accountRow .titleCol b.youremail {
+        background: url(../images/hoso/email.png) no-repeat left center; }
+      .profileBox .accountInformation .displayAccount .accountRow .titleCol b.yourbank {
+        background: url(../images/hoso/icon-taikhoannganhang.png) no-repeat left center; }
+      .profileBox .accountInformation .displayAccount .accountRow .titleCol b.yourbtc {
+        background: url(../images/hoso/vibtc.png) no-repeat left center; }
+      .profileBox .accountInformation .displayAccount .accountRow .titleCol b.youreth {
+        background: url(../images/hoso/vieth.png) no-repeat left center; }
+  .profileBox .accountInformation .displayAccount .accountRow .nameCol {
+    width: 215px; }
+  .profileBox .accountInformation .displayAccount .accountRow .editCol a {
+    background: url(../images/hoso/edit.png) no-repeat;
+    width: 16px;
+    height: 16px;
+    display: inline-block; }
+.profileBox .accountInformation .displayAccount .uploadCMND .pictureUpload {
+  margin-bottom: 15px; }
+  .profileBox .accountInformation .displayAccount .uploadCMND .pictureUpload:after {
+    content: '';
+    display: block;
+    clear: both; }
+.profileBox .accountInformation .displayAccount .uploadCMND .floatLeft {
+  width: 100%; }
+.profileBox .accountInformation .displayAccount .uploadCMND b {
+  padding-left: 30px;
+  background: url(../images/hoso/upload.png) no-repeat left center; }
+.profileBox .accountInformation .displayAccount .uploadCMND img {
+  width: 120px;
+  display: none; }
+.profileBox .accountInformation .displayAccount .uploadCMND i {
+  font-size: 12px;
+  font-style: normal;
+  float: left;
+  margin-top: 25px;
+  margin-left: 20px; }
+.profileBox .accountInformation .subBox .subTitle {
+  padding-left: 63px;
+  padding-top: 15px;
+  padding-bottom: 15px; }
+.profileBox .accountInformation .passWordBox {
+  padding-left: 30px;
+  padding-top: 40px;
+  padding-bottom: 40px; }
+  .profileBox .accountInformation .passWordBox .subTitle {
+    background: url(../images/hoso/matkhaudangnhap.png) no-repeat left center; }
+.profileBox .accountInformation .smsBox {
+  padding-left: 30px;
+  padding-top: 40px;
+  padding-bottom: 40px; }
+  .profileBox .accountInformation .smsBox .subTitle {
+    background: url(../images/hoso/xacthucsms.png) no-repeat left center; }
 
 .video-js .vjs-big-play-button .vjs-icon-placeholder:before, .video-js .vjs-modal-dialog, .vjs-button > .vjs-icon-placeholder:before, .vjs-modal-dialog .vjs-modal-dialog-content {
   position: absolute;
