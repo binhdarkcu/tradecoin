@@ -10203,6 +10203,26 @@ footer {
     height: 41px;
     width: 100%; }
 
+.advertise {
+  background: url(../images/banner-adv.png) no-repeat;
+  height: 69px;
+  width: 100%;
+  background-size: cover; }
+  .advertise .img {
+    width: auto;
+    display: table;
+    margin: 0 auto; }
+    .advertise .img a {
+      font-size: 14px;
+      color: #fff;
+      border: 1px solid #fff;
+      padding: 10px 22px;
+      border-radius: 4px;
+      margin-left: 95px; }
+
+.updateProfiles {
+  min-height: 100vh; }
+
 .video-js .vjs-big-play-button .vjs-icon-placeholder:before, .video-js .vjs-modal-dialog, .vjs-button > .vjs-icon-placeholder:before, .vjs-modal-dialog .vjs-modal-dialog-content {
   position: absolute;
   top: 0;

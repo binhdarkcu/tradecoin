@@ -615,3 +615,27 @@
         width: 100%;
     }
 }
+
+.advertise {
+    background: url(../images/banner-adv.png) no-repeat;
+    height: 69px;
+    width: 100%;
+    background-size: cover;
+    .img {
+        width: auto;
+        display: table;
+        margin: 0 auto;
+        a {
+            font-size: 14px;
+            color: #fff;
+            border: 1px solid #fff;
+            padding: 10px 22px;
+            border-radius: 4px;
+            margin-left: 95px;
+
+        }
+    }
+}
+.updateProfiles {
+    min-height: 100vh;
+}
