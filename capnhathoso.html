@@ -194,9 +194,162 @@
                     <div class="container">
                         <div class="row">
                             <h3 class="medalTitle">Cập nhật hồ sơ</h3>
-                            <div class="completeBox">
+                            <div class="completeBox borderBox">
                                 <h4>HOÀN THÀNH XÁC THỰC TÀI KHOẢN CỦA BẠN</h4>
+                                <div class="chooseVerify">
+                                    <div class="col-md-3">
+                                        <div class="form-check privacyInfo">
+                        					<label>
+                        						<input type="radio" name="profileRadio" checked> <span class="label-text">THÔNG TIN CÁ NHÂN</span>
+                        					</label>
+                        				</div>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <div class="form-check idCard">
+                        					<label>
+                        						<input type="radio" name="profileRadio"> <span class="label-text">XÁC MINH SỐ ĐIỆN THOẠI</span>
+                        					</label>
+                        				</div>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <div class="form-check accountBank">
+                        					<label>
+                        						<input type="radio" name="profileRadio"> <span class="label-text">TÀI KHOẢN NGÂN HÀNG</span>
+                        					</label>
+                        				</div>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <div class="form-check bagAddress">
+                        					<label>
+                        						<input type="radio" name="profileRadio"> <span class="label-text">ĐỊA CHÍ VÍ</span>
+                        					</label>
+                        				</div>
+                                    </div>
+                                    <div class="clear"></div>
+                                </div>
                             </div>
+
+                            <div class="accountInformation borderBox">
+                                <h4>THÔNG TIN TÀI KHOẢN</h4>
+                                <div class="col-md-12">
+                                    <div class="col-md-6">
+                                        <div class="subBox displayAccount">
+                                            <div class="accountRow">
+                                                <div class="titleCol col">
+                                                    <b class="nickname">NICKNAME</b>
+                                                </div>
+                                                <div class="nameCol col">
+                                                    <span>Binpro</span>
+                                                </div>
+                                                <div class="editCol col">
+                                                    <a href="#"></a>
+                                                </div>
+                                            </div>
+                                            <div class="accountRow">
+                                                <div class="titleCol col">
+                                                    <b class="youremail">EMAIL CỦA BẠN</b>
+                                                </div>
+                                                <div class="nameCol col">
+                                                    <span>youremail@gmail.com</span>
+                                                </div>
+                                                <div class="editCol col">
+                                                    <a href="#"></a>
+                                                </div>
+                                            </div>
+                                            <div class="accountRow">
+                                                <div class="titleCol col">
+                                                    <b class="yourbank">TÀI KHOẢN NGÂN HÀNG</b>
+                                                </div>
+                                                <div class="nameCol col">
+                                                    <span>(Chưa có)</span>
+                                                </div>
+                                                <div class="editCol col">
+                                                    <a href="#"></a>
+                                                </div>
+                                            </div>
+                                            <div class="accountRow">
+                                                <div class="titleCol col">
+                                                    <b class="yourbtc">VÍ BTC</b>
+                                                </div>
+                                                <div class="nameCol col">
+                                                    <span>(Chưa có)</span>
+                                                </div>
+                                                <div class="editCol col">
+                                                    <a href="#"></a>
+                                                </div>
+                                            </div>
+                                            <div class="accountRow">
+                                                <div class="titleCol col">
+                                                    <b class="youreth">VÍ ETH</b>
+                                                </div>
+                                                <div class="nameCol col">
+                                                    <span>(Chưa có)</span>
+                                                </div>
+                                                <div class="editCol col">
+                                                    <a href="#"></a>
+                                                </div>
+                                            </div>
+                                            <div class="uploadCMND">
+                                                <b>UPLOAD ẢNH CMND / PASSPORT</b>
+                                                <div class="pictureUpload">
+    												<div class="floatLeft">
+                                                        <div class="fileUpload ">
+        													<span>Upload</span>
+        													<input type="file" class="upload" name="p_picture_temp" id="uploadIdCard"/>
+        												</div>
+                                                        <i>(Dung lượng dưới 5MB)</i>
+                                                    </div>
+                                                    <img src="" id="idCardImage"/>
+    											</div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-6">
+                                        <div class="passWordBox subBox">
+                                            <span class="subTitle">Mật khẩu đăng nhập</span>
+                                            <a href="#" class="borderBtn">Thay đổi</a>
+                                        </div>
+                                        <div class="smsBox subBox">
+                                            <span class="subTitle">Xác thực SMS</span>
+                                            <a href="#" class="borderBtn">Kích hoạt</a>
+                                        </div>
+                                        <div class="passWordBox subBox">
+                                            <div class="subTitle"><b>Google Authenticator</b><span>Được sử dụng để rút tiền hoặc thay đổi bảo mật</span></div>
+                                            <a href="#" class="borderBtn">Kích hoạt</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="notificationBox borderBox">
+                                <h4>Thông báo qua email</h4>
+                                <div class="settingRow">
+                                    <div class="settingTitle">
+                                        Khi có giao dịch mới
+                                    </div>
+                                    <div class="settingRadio">
+                                        <div class="form-check">
+                        					<label class="toggle">
+                        						<input type="radio" name="toggle" checked> <span class="label-text"></span>
+                        					</label>
+                        				</div>
+                                    </div>
+                                </div>
+                                <div class="settingRow">
+                                    <div class="settingTitle">
+                                        Khi có trạng thái giao dịch thay đổi
+                                    </div>
+                                    <div class="settingRadio">
+                                        <div class="form-check">
+                        					<label class="toggle">
+                        						<input type="radio" name="toggle"> <span class="label-text"></span>
+                        					</label>
+                        				</div>
+                                    </div>
+                                </div>
+                            </div>
+
                         </div>
                     </div>
                 </div>

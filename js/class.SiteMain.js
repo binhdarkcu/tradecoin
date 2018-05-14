@@ -6,6 +6,7 @@ var SiteMain = (function() {
 		createRatingDefault('.rating', '#rating-', '#7fcd45')
 		createRatingDefault('.rating', '#present-rating-', '#07a72d')
 		createParterSlider()
+		getIdCardFile()
 		switchPay()
 
 		//$('.homeSlider .video-js').width($(window).width())
@@ -126,6 +127,25 @@ var SiteMain = (function() {
 			$('#chosen').hide()
 			$('#chooseMethod').show()
 		})
+	}
+	function readURL(input) {
+
+	  if (input.files && input.files[0]) {
+	    var reader = new FileReader();
+
+	    reader.onload = function(e) {
+	      $('#idCardImage').attr('src', e.target.result);
+		  $('#idCardImage').css('display','block')
+	    }
+
+	    reader.readAsDataURL(input.files[0]);
+	  }
+	}
+
+	function getIdCardFile(){
+		$("#uploadIdCard").change(function() {
+		  readURL(this);
+		});
 	}
 	return {
 		init:init,
