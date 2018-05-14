@@ -8,8 +8,19 @@ var SiteMain = (function() {
 		createParterSlider()
 		getIdCardFile()
 		switchPay()
+		copyEvent()
 
 		//$('.homeSlider .video-js').width($(window).width())
+	}
+
+	function copyEvent(){
+		$('a.copy').click(function(){
+			var $temp = $("<input>");
+		  $("body").append($temp);
+		  $temp.val($(this).parent().find('input').val()).select();
+		  document.execCommand("copy");
+		  $temp.remove();
+		})
 	}
 
 	function createRadio(){

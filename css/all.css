@@ -8326,6 +8326,128 @@ button.close {
   clip: rect(0, 0, 0, 0);
   border: 0; }
 
+/** Easy Tree style */
+.easy-tree {
+  min-height: 20px;
+  margin-bottom: 20px;
+  color: #fff;
+  border: none;
+  border-top: none;
+  padding-bottom: 15px; }
+
+.easy-tree > ul {
+  padding-left: 15px; }
+
+.easy-tree li {
+  list-style-type: none;
+  margin: 0;
+  padding: 10px 5px 0 5px;
+  position: relative; }
+  .easy-tree li ul {
+    padding-left: 40px; }
+
+.easy-tree li::before, .easy-tree li::after {
+  content: '';
+  left: -30px;
+  position: absolute;
+  right: auto; }
+
+.easy-tree li::before {
+  border-left: 1px solid #2494f2;
+  bottom: 50px;
+  height: 100%;
+  top: 0;
+  width: 1px; }
+
+.easy-tree li::after {
+  border-top: 1px solid #2494f2;
+  height: 20px;
+  top: 30px;
+  width: 35px; }
+
+.easy-tree li > span {
+  display: inline-block;
+  padding: 5px;
+  text-decoration: none; }
+
+.easy-tree li.parent_li > span {
+  cursor: pointer; }
+
+.easy-tree .glyphicon {
+  top: 3px;
+  margin-right: 5px; }
+
+.easy-tree li > span .glyphicon:before {
+  content: "";
+  width: 16px;
+  height: 16px;
+  display: inline-block;
+  background: url(../images/refferal/account-1.png) no-repeat; }
+.easy-tree li ul li > span .glyphicon:before {
+  content: "";
+  width: 16px;
+  height: 16px;
+  display: inline-block;
+  background: url(../images/refferal/account-2.png) no-repeat; }
+.easy-tree li ul li ul li > span .glyphicon:before {
+  content: "";
+  width: 16px;
+  height: 16px;
+  display: inline-block;
+  background: url(../images/refferal/account-3.png) no-repeat; }
+.easy-tree li ul li ul li ul li > span .glyphicon:before {
+  content: "";
+  width: 16px;
+  height: 16px;
+  display: inline-block;
+  background: url(../images/refferal/account-4.png) no-repeat; }
+
+.easy-tree > ul > li::before, .easy-tree > ul > li::after {
+  border: 0; }
+
+.easy-tree li:last-child::before {
+  height: 30px; }
+
+.easy-tree li.parent_li > span:hover + ul li.li_selected span {
+  background: #e5e2e1;
+  color: #e56155; }
+
+.easy-tree li > span > a {
+  color: #1e282c;
+  text-decoration: none; }
+
+.easy-tree li > span > span.glyphicon-folder-close, .easy-tree li > span > span.glyphicon-folder-open {
+  margin-right: 5px; }
+
+.easy-tree li.li_selected > span, .easy-tree li.li_selected > span > a {
+  background: #e5e2e1;
+  color: #e56155; }
+
+.easy-tree li.li_selected > span:hover, .easy-tree li.li_selected > span:hover > a {
+  background: #fafafa;
+  color: #ff6c60; }
+
+.easy-tree .easy-tree-toolbar {
+  background-color: #fff; }
+
+.easy-tree .easy-tree-toolbar > div {
+  display: inline-block; }
+
+.easy-tree .easy-tree-toolbar > div > button {
+  border-radius: 0;
+  margin: 20px 5px; }
+
+.easy-tree .easy-tree-toolbar .create .input-group {
+  top: -15px;
+  margin-left: 5px;
+  margin-right: 5px; }
+
+.easy-tree .easy-tree-toolbar .create .input-group input {
+  border-radius: 0; }
+
+.easy-tree .easy-tree-toolbar .create .input-group button {
+  border-radius: 0; }
+
 /* ! PRIMARY STYLES */
 html, body {
   width: 100%; }
@@ -8371,7 +8493,7 @@ a {
 .align-center {
   text-align: center; }
 
-.btn {
+.btn-tradeclub {
   float: left;
   color: #171920;
   font-size: 18px;
@@ -9925,7 +10047,7 @@ footer {
       float: left;
       margin-right: 30px; }
     .memberList .headerInformation.forUpdateProfile .memberRight .memberBottom .floatLeft {
-      margin-right: 44px; }
+      margin-right: 38px; }
       .memberList .headerInformation.forUpdateProfile .memberRight .memberBottom .floatLeft:last-child {
         margin-right: 0;
         padding-right: 0; }
@@ -10340,6 +10462,23 @@ footer {
       padding: 10px 22px;
       border-radius: 4px;
       margin-left: 95px; }
+  .advertise.type2 {
+    background: url(../images/refferal/bg-referral.jpg) no-repeat;
+    min-height: 264px;
+    height: auto; }
+    .advertise.type2 .img {
+      margin-top: 50px;
+      margin-bottom: 38px; }
+    .advertise.type2 .advCol img {
+      float: left;
+      margin-right: 28px; }
+    .advertise.type2 .advCol .info {
+      color: #fff; }
+      .advertise.type2 .advCol .info h4 {
+        font-size: 14px;
+        padding-bottom: 10px; }
+      .advertise.type2 .advCol .info p {
+        font-size: 12px; }
 
 .updateProfiles {
   min-height: 100vh; }
@@ -10551,6 +10690,167 @@ footer {
     border-bottom: 1px solid #ccc;
     padding-top: 20px;
     padding-bottom: 20px; }
+.transactionTable.type3 {
+  border: 1px solid #ccc;
+  float: left; }
+  .transactionTable.type3 .tradeContent .tradeRow:last-child {
+    border-bottom: none; }
+  .transactionTable.type3 .col {
+    width: 16.6% !important; }
+    .transactionTable.type3 .col.col4 {
+      width: 23% !important; }
+    .transactionTable.type3 .col.col6 {
+      width: 10% !important; }
+
+.changePwd {
+  margin-bottom: 50%; }
+  .changePwd h2 {
+    padding: 60px 0;
+    text-align: center;
+    font-family: 'Montserrat-Regular';
+    font-size: 36px; }
+  .changePwd .boxInfo {
+    border: 2px solid #f5f5f5;
+    border-radius: 3px;
+    padding: 77px 0 150px; }
+    .changePwd .boxInfo_inner {
+      max-width: 400px;
+      width: 80%;
+      margin: auto;
+      display: table; }
+      .changePwd .boxInfo_inner .info {
+        margin-bottom: 17px; }
+        .changePwd .boxInfo_inner .info label {
+          text-align: right;
+          margin-right: 19px;
+          float: left;
+          font-family: 'Montserrat-Regular';
+          font-size: 14px;
+          max-width: 150px;
+          width: 100%;
+          margin-top: 12px; }
+        .changePwd .boxInfo_inner .info input {
+          max-width: 230px;
+          width: 100%;
+          height: 40px;
+          border: 1px solid #d9d9d9;
+          border-radius: 0; }
+      .changePwd .boxInfo_inner a {
+        width: 230px;
+        float: right;
+        padding: 12px 0;
+        background: #139bd0;
+        font-family: 'Montserrat-Regular';
+        font-size: 14px;
+        text-transform: uppercase;
+        color: #fff;
+        text-align: center; }
+
+.referralLink {
+  margin-top: 48px;
+  padding-top: 42px; }
+  .referralLink .thumb {
+    float: left; }
+  .referralLink .referalInfo {
+    width: 80%;
+    float: left; }
+    .referralLink .referalInfo .referalRow {
+      float: left;
+      width: 100%;
+      padding-bottom: 15px;
+      padding-left: 18px; }
+      .referralLink .referalInfo .referalRow:nth-child(2) .title {
+        margin-top: 10px; }
+      .referralLink .referalInfo .referalRow .title {
+        float: left;
+        min-width: 117px;
+        margin-right: 15px;
+        text-align: right; }
+      .referralLink .referalInfo .referalRow .desc {
+        float: left;
+        width: 68%; }
+      .referralLink .referalInfo .referalRow .sharing a {
+        background: url(../images/fb.png) no-repeat;
+        width: 28px;
+        height: 28px;
+        background-size: 28px;
+        float: left;
+        margin-right: 10px; }
+        .referralLink .referalInfo .referalRow .sharing a.tw {
+          background: url(../images/tw.png) no-repeat;
+          background-size: 28px; }
+        .referralLink .referalInfo .referalRow .sharing a.fly {
+          background: url(../images/fly.png) no-repeat;
+          background-size: 28px; }
+      .referralLink .referalInfo .referalRow input[type="text"] {
+        height: 34px;
+        width: 80%;
+        float: left;
+        border: 1px solid #cccccc;
+        padding-left: 15px;
+        padding-right: 15px; }
+      .referralLink .referalInfo .referalRow a.copy {
+        background: url(../images/refferal/copy.png) no-repeat center;
+        width: 43px;
+        height: 34px;
+        float: right;
+        border: 1px solid #cccccc; }
+  .referralLink:after {
+    content: "";
+    clear: both;
+    display: block; }
+  .referralLink .borderLeft {
+    border-left: 1px solid #ccc;
+    text-align: center;
+    min-height: 130px; }
+    .referralLink .borderLeft b {
+      font-size: 30px;
+      color: #f99e30; }
+
+.profileBox .borderBox.invitationBox {
+  padding-bottom: 30px; }
+  .profileBox .borderBox.invitationBox h4 {
+    font-size: 14px;
+    padding: 18px 0;
+    text-transform: capitalize; }
+  .profileBox .borderBox.invitationBox .transactionList.hasGiff {
+    float: left;
+    width: 100%; }
+    .profileBox .borderBox.invitationBox .transactionList.hasGiff h4 {
+      margin-top: 35px; }
+
+.invitationBox {
+  float: left;
+  width: 100%; }
+  .invitationBox h4 {
+    text-align: left !important;
+    font-size: 14px; }
+  .invitationBox .subBox {
+    float: left;
+    width: 100%;
+    padding: 0; }
+  .invitationBox h5 {
+    font-family: "Montserrat-Bold";
+    font-size: 14px;
+    background: #f8f8f8;
+    padding: 15px 24px; }
+  .invitationBox .easy-tree {
+    margin-left: 15px;
+    margin-top: 10px; }
+
+.eventDetail {
+  float: left;
+  width: 100%; }
+  .eventDetail h4 {
+    text-transform: capitalize !important; }
+  .eventDetail ul {
+    width: 80%;
+    display: table;
+    margin: 0 auto; }
+    .eventDetail ul li {
+      margin-bottom: 15px;
+      background: url(../images/refferal/list-type.png) no-repeat left 2px;
+      padding-left: 17px; }
 
 .video-js .vjs-big-play-button .vjs-icon-placeholder:before, .video-js .vjs-modal-dialog, .vjs-button > .vjs-icon-placeholder:before, .vjs-modal-dialog .vjs-modal-dialog-content {
   position: absolute;
@@ -12033,6 +12333,24 @@ video::-webkit-media-text-track-display {
   .commingSoon {
     margin-top: -17%; } }
 @media (min-width: 768px) and (max-width: 991px) {
+  .advertise.type2 {
+    background-size: cover;
+    padding-bottom: 38px; }
+    .advertise.type2 .advCol {
+      margin-bottom: 20px;
+      float: left;
+      width: 100%; }
+      .advertise.type2 .advCol .info {
+        padding-top: 10px; }
+
+  .referralLink .col-md-6:after {
+    content: "";
+    clear: both;
+    display: block; }
+  .referralLink .col-md-6.borderLeft {
+    border-left: none;
+    margin-top: 20px; }
+
   .memberList .headerInformation.forUpdateProfile .memberRight .memberBottom .floatLeft {
     margin-right: 20px;
     padding-right: 0; }
@@ -12303,6 +12621,45 @@ video::-webkit-media-text-track-display {
   .memberList {
     margin-bottom: 17%; } }
 @media (min-width: 0) and (max-width: 767px) {
+  .advertise.type2 {
+    background-size: cover;
+    padding-bottom: 38px; }
+    .advertise.type2 .advCol {
+      margin-bottom: 20px;
+      float: left;
+      width: 100%; }
+      .advertise.type2 .advCol .info {
+        padding-top: 10px; }
+
+  .referralLink .referalInfo {
+    width: 100%;
+    margin-top: 20px; }
+    .referralLink .referalInfo .referalRow {
+      padding-left: 0; }
+      .referralLink .referalInfo .referalRow .title {
+        text-align: left; }
+      .referralLink .referalInfo .referalRow .desc {
+        width: 50%; }
+      .referralLink .referalInfo .referalRow input[type="text"] {
+        width: 100%; }
+      .referralLink .referalInfo .referalRow a.copy {
+        float: left;
+        margin-top: 5px; }
+  .referralLink .col-md-6:after {
+    content: "";
+    clear: both;
+    display: block; }
+  .referralLink .col-md-6.borderLeft {
+    border-left: none;
+    margin-top: 20px;
+    margin-bottom: 15px; }
+
+  .invitationBox .easy-tree {
+    margin-left: 0; }
+
+  .eventDetail ul {
+    width: 100%; }
+
   .memberList .headerInformation.forUpdateProfile .memberRight .memberBottom .floatLeft {
     margin-right: 20px;
     padding-right: 10px;
@@ -12809,6 +13166,20 @@ video::-webkit-media-text-track-display {
 
   .upgradeAcc.payMents .rowTable .blockPayments.chooseMethod .blockRight__method .blockItem input[type=radio].css-checkbox + label.css-label img {
     margin-bottom: 10px; } }
+@media screen and (max-width: 580px) {
+  body .changePwd .boxInfo_inner .info label {
+    margin-right: 0;
+    width: 100%;
+    text-align: center;
+    max-width: none; }
+  body .changePwd .boxInfo_inner .info input {
+    width: 100%;
+    max-width: none; }
+  body .changePwd .boxInfo_inner a {
+    display: table;
+    margin: auto;
+    width: 80%;
+    float: none; } }
 .tradeDetail {
   margin-bottom: 26%; }
   .tradeDetail .memberDescription {
@@ -13341,7 +13712,8 @@ video::-webkit-media-text-track-display {
           text-transform: uppercase;
           font-family: 'Montserrat-Bold';
           font-size: 14px;
-          border-radius: 2px; }
+          border-radius: 2px;
+          cursor: pointer; }
   .upgradeAcc.payMents .rowTable .blockPayments.chooseMethod .blockLeft h5 {
     padding-left: 0;
     font-size: 18px;

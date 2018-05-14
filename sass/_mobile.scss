@@ -20,7 +20,63 @@
 
 
 @media (min-width: 0) and (max-width: 767px) {
+    .advertise.type2 {
+        background-size: cover;
+            padding-bottom: 38px;
+        .advCol {
+            margin-bottom: 20px;
+            float: left;
+            width: 100%;
+            .info {
+                padding-top: 10px;
+            }
+            img {
 
+            }
+        }
+    }
+    .referralLink {
+        .referalInfo {
+            width: 100%;
+            margin-top: 20px;
+            .referalRow {
+                padding-left: 0;
+                .title {
+                    text-align: left;
+                }
+                .desc {
+                    width: 50%;
+                }
+                input[type="text"] {
+                    width: 100%;
+                }
+                a.copy {
+                    float: left;
+                    margin-top: 5px;
+                }
+            }
+        }
+        .col-md-6 {
+            &:after{
+                content: "";
+                clear: both;
+                display: block;
+            }
+            &.borderLeft {
+                border-left: none;
+                margin-top: 20px;
+                margin-bottom: 15px;
+            }
+        }
+    }
+    .invitationBox {
+        .easy-tree {
+            margin-left: 0;
+        }
+    }
+    .eventDetail ul {
+        width: 100%;
+    }
     .memberList {
         .headerInformation{
             &.forUpdateProfile {
@@ -395,6 +451,7 @@
         margin-left: 0;
         margin-right: 0;
     }
+
     .memberHeader {
         .buyBox {
             width: 100%;
@@ -812,5 +869,27 @@
   }
   .upgradeAcc.payMents .rowTable .blockPayments.chooseMethod .blockRight__method .blockItem input[type=radio].css-checkbox+label.css-label img {
     margin-bottom: 10px;
+  }
+}
+@media screen and (max-width: 580px) {
+  body .changePwd .boxInfo_inner {
+    .info {
+      label {
+        margin-right: 0;
+        width: 100%;
+        text-align: center;
+        max-width: none;
+      }
+      input {
+        width: 100%;
+        max-width: none;
+      }
+    }
+    a {
+      display: table;
+      margin: auto;
+      width: 80%;
+      float: none;
+    }
   }
 }

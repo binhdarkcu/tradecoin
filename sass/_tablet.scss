@@ -213,6 +213,34 @@
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
+    .advertise.type2 {
+        background-size: cover;
+            padding-bottom: 38px;
+        .advCol {
+            margin-bottom: 20px;
+            float: left;
+            width: 100%;
+            .info {
+                padding-top: 10px;
+            }
+            img {
+
+            }
+        }
+    }
+    .referralLink {
+        .col-md-6 {
+            &:after{
+                content: "";
+                clear: both;
+                display: block;
+            }
+            &.borderLeft {
+                border-left: none;
+                margin-top: 20px;
+            }
+        }
+    }
     .memberList {
         .headerInformation{
             &.forUpdateProfile {
