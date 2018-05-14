@@ -706,3 +706,25 @@
     margin-bottom: 10px;
   }
 }
+@media screen and (max-width: 580px) {
+  body .changePwd .boxInfo_inner {
+    .info {
+      label {
+        margin-right: 0;
+        width: 100%;
+        text-align: center;
+        max-width: none;
+      }
+      input {
+        width: 100%;
+        max-width: none;
+      }
+    }
+    a {
+      display: table;
+      margin: auto;
+      width: 80%;
+      float: none;
+    }
+  }
+}
