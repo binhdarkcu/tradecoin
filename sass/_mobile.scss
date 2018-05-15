@@ -936,3 +936,14 @@
     margin-top: 10px;
   }
 }
+@media screen and (max-width: 393px) {
+  .memberList .memberRight .memberTop a.upgradeProfile {
+    display: inline-block;
+    margin-top: 15px;
+  }
+}
+@media screen and (max-width: 375px) {
+  .tradeCoinHeader .userLogin .userBox a {
+    display: none;
+  }
+}
