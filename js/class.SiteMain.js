@@ -9,6 +9,8 @@ var SiteMain = (function() {
 		getIdCardFile()
 		switchPay()
 		copyEvent()
+		open_popup_vaokeo()
+		close_popup_vaokeo()
 
 		//$('.homeSlider .video-js').width($(window).width())
 	}
@@ -165,6 +167,19 @@ var SiteMain = (function() {
         scrollTop: $('#'+sectionName).offset().top
     }, 500);
 		return false;
+		})
+	}
+	function open_popup_vaokeo() {
+		$('#vaokeo').click(function() {
+			$('body').addClass('popup-opening');
+			$('.popup-vaokeo').show()
+		})
+	}
+
+	function close_popup_vaokeo() {
+		$('.popup-vaokeo .close').click(function() {
+			$('body').removeClass('popup-opening');
+			$('.popup-vaokeo').hide()
 		})
 	}
 	return {

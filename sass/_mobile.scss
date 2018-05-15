@@ -20,6 +20,44 @@
 
 
 @media (min-width: 0) and (max-width: 767px) {
+  body.popup-opening {
+    header, footer, .tradeDetail {
+      display: none;
+    }
+    .wrapper {
+      padding: 20px 0;
+    }
+    &:after {
+      opacity: 1;
+    }
+    .popup-vaokeo {
+      position: relative;
+      margin: auto;
+      left: 0;
+      top: 0;
+      transform: translate(0,0);
+      .inner {
+        &-content {
+          width: 100%;
+          label {
+            float: none;
+            width: 100%;
+            padding-right: 0;
+            text-align: left;
+          }
+          .col-9 {
+            width: 100%;
+            float: none;
+            &.col-6 {
+              width: 79%;
+              float: left;
+              margin-right: 0;
+            }
+          }
+        }
+      }
+    }
+  }
     .advertise.type2 {
         background-size: cover;
             padding-bottom: 38px;
@@ -891,5 +929,10 @@
       width: 80%;
       float: none;
     }
+  }
+}
+@media screen and (max-width: 366px) {
+  .memberHeader .buyBox .buyCol a.btnBuy {
+    margin-top: 10px;
   }
 }
