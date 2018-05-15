@@ -32,7 +32,7 @@ a{text-decoration: none;}
 .align-center{
 	text-align: center;
 }
-.btn-tradeclub {
+.btn {
     float: left;
     color: #171920;
     font-size: 18px;
@@ -59,6 +59,9 @@ a{text-decoration: none;}
     -o-transition: all 0.3s;
     -ms-transition: all 0.3s;
     transition: all 0.3s;
+		&-tradeclub {
+			@extend .btn;
+		}
 }
 a:hover {
 	text-decoration: none;
