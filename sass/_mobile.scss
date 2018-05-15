@@ -20,6 +20,17 @@
 
 
 @media (min-width: 0) and (max-width: 767px) {
+    footer {
+      .subscribeForm {
+        width: 100%;
+        input {
+          width: 100% !important;
+        }
+      }
+    }
+    body {
+        min-width: 375px;
+    }
   body.popup-opening {
     header, footer, .tradeDetail {
       display: none;
@@ -79,7 +90,7 @@
             margin-top: 20px;
             .referalRow {
                 padding-left: 0;
-                .title {
+                .title { 
                     text-align: left;
                 }
                 .desc {
@@ -588,7 +599,7 @@
         min-height: 1057px;
         background-position: top center;
         .navigation {
-            .btn {
+            .btn, .btn-tradecoin {
                 margin-bottom: 2%;
                 width: 47%;
                 margin-left: 1%;
@@ -604,7 +615,7 @@
             ul {
                 li{
                     margin: 0 8px;
-                    a.btn {
+                    a.btn, a.btn-tradecoin {
                         width: 110px;
                     }
                 }
@@ -817,7 +828,7 @@
         .navigation {
             width: auto;
 
-            .btn {
+            .btn, .btn-tradecoin {
                 display: table;
                 margin: 0 auto 2%;
                 float: none;
@@ -949,6 +960,5 @@
 }
 @media screen and (max-width: 375px) {
   .luotsong .tradeCoinHeader .userLogin .userBox a {
-    display: none;
   }
 }

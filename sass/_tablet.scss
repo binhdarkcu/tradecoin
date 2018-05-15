@@ -81,7 +81,7 @@
     }
     .homeTask {
         .navigation {
-            .btn {
+            .btn, .btn-tradecoin {
                 min-width: 180px;
             }
         }
@@ -465,7 +465,7 @@
         margin-top: -180px;
         .navigation {
             text-align: center;
-            .btn {
+            .btn, .btn-tradecoin {
                 float: none;
                 margin-bottom: 15px;
                 display: inline-block;
