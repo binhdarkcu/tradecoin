@@ -20,6 +20,14 @@
 
 
 @media (min-width: 0) and (max-width: 767px) {
+    footer {
+      .subscribeForm {
+        width: 100%;
+        input {
+          width: 100% !important;
+        }
+      }
+    }
     body {
         min-width: 375px;
     }
@@ -591,7 +599,7 @@
         min-height: 1057px;
         background-position: top center;
         .navigation {
-            .btn {
+            .btn, .btn-tradecoin {
                 margin-bottom: 2%;
                 width: 47%;
                 margin-left: 1%;
@@ -607,7 +615,7 @@
             ul {
                 li{
                     margin: 0 8px;
-                    a.btn {
+                    a.btn, a.btn-tradecoin {
                         width: 110px;
                     }
                 }
@@ -820,7 +828,7 @@
         .navigation {
             width: auto;
 
-            .btn {
+            .btn, .btn-tradecoin {
                 display: table;
                 margin: 0 auto 2%;
                 float: none;

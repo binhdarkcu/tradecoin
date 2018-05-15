@@ -9487,7 +9487,7 @@ footer {
       font-size: 15px;
       font-family: 'Open Sans', sans-serif;
       font-weight: 400; }
-    footer .subscribeForm .btn {
+    footer .subscribeForm .btn-tradecoin {
       font-family: 'Open Sans', sans-serif;
       font-weight: 700;
       height: 49px; }
@@ -12271,7 +12271,7 @@ video::-webkit-media-text-track-display {
   .container {
     width: 992px; }
 
-  .homeTask .navigation .btn {
+  .homeTask .navigation .btn, .homeTask .navigation .btn-tradecoin {
     min-width: 180px; }
 
   .advantage .threeBlock .blockCol {
@@ -12480,7 +12480,7 @@ video::-webkit-media-text-track-display {
     margin-top: -180px; }
     .homeTask .navigation {
       text-align: center; }
-      .homeTask .navigation .btn {
+      .homeTask .navigation .btn, .homeTask .navigation .btn-tradecoin {
         float: none;
         margin-bottom: 15px;
         display: inline-block;
@@ -12624,6 +12624,11 @@ video::-webkit-media-text-track-display {
   .memberList {
     margin-bottom: 17%; } }
 @media (min-width: 0) and (max-width: 767px) {
+  footer .subscribeForm {
+    width: 100%; }
+    footer .subscribeForm input {
+      width: 100% !important; }
+
   body {
     min-width: 375px; }
 
@@ -12995,7 +13000,7 @@ video::-webkit-media-text-track-display {
     margin-top: -26%;
     min-height: 1057px;
     background-position: top center; }
-    .homeTask .navigation .btn {
+    .homeTask .navigation .btn, .homeTask .navigation .btn-tradecoin {
       margin-bottom: 2%;
       width: 47%;
       margin-left: 1%;
@@ -13007,7 +13012,7 @@ video::-webkit-media-text-track-display {
     margin: 15px auto 0; }
     header nav ul li {
       margin: 0 8px; }
-      header nav ul li a.btn {
+      header nav ul li a.btn, header nav ul li a.btn-tradecoin {
         width: 110px; }
 
   .memberBox .memberCol {
@@ -13139,7 +13144,7 @@ video::-webkit-media-text-track-display {
     margin-top: -38%; }
     .homeTask .navigation {
       width: auto; }
-      .homeTask .navigation .btn {
+      .homeTask .navigation .btn, .homeTask .navigation .btn-tradecoin {
         display: table;
         margin: 0 auto 2%;
         float: none;
