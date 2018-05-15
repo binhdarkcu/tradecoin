@@ -20,6 +20,9 @@
 
 
 @media (min-width: 0) and (max-width: 767px) {
+    body {
+        min-width: 375px;
+    }
   body.popup-opening {
     header, footer, .tradeDetail {
       display: none;
@@ -944,6 +947,5 @@
 }
 @media screen and (max-width: 375px) {
   .tradeCoinHeader .userLogin .userBox a {
-    display: none;
   }
 }
