@@ -4,6 +4,9 @@ $green: #65bd89;
 /* Nâng cấp thành viên */
 .upgradeAcc {
   margin-bottom: 17%;
+  .scrollDown {
+    cursor: pointer;
+  }
   .rowTitle {
     background: #2b2c3a;
     padding: 55px 15px;
@@ -288,6 +291,26 @@ $green: #65bd89;
       margin: auto;
       padding-right: 27px;
       background: url('../images/arrow-down16.png') right center no-repeat;
+    }
+    select {
+      background: transparent;
+      border: none;
+      display: table;
+      margin: auto;
+      font-family: 'Montserrat-Bold';
+      font-size: 36px;
+      padding-right: 27px;
+      background: url('../images/arrow-down16.png') right center no-repeat;
+      -webkit-appearance: none;
+      -moz-appearance: none;
+      appearance: none;
+      color: #fff;
+      option {
+        color: #000;
+      }
+      &:focus {
+        outline: none;
+      }
     }
   }
   .rowTable {

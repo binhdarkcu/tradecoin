@@ -126,7 +126,7 @@ var SiteMain = (function() {
 	}
 	function tabPayment(tabname,id) {
 		$(tabname).click(function() {
-			console.log(tabname,id)
+			//console.log(tabname,id)
 			$('.blockContent_inner').hide();
 			$('#'+id).show()
 			$('.blockContent_title a').removeClass('active')
@@ -158,11 +158,21 @@ var SiteMain = (function() {
 		  readURL(this);
 		});
 	}
+	function scrollDown(id,sectionName) {
+		$('#'+id).click(function(e) {
+			e.preventDefault();
+			$('html, body').animate({
+        scrollTop: $('#'+sectionName).offset().top
+    }, 500);
+		return false;
+		})
+	}
 	return {
 		init:init,
 		openPopup:openPopup,
 		closePopup:closePopup,
-		tabPayment:tabPayment
+		tabPayment:tabPayment,
+		scrollDown:scrollDown
 	}
 
 })();
