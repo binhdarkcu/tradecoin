@@ -942,8 +942,13 @@
     margin-top: 15px;
   }
 }
+@media screen and (max-width: 495px) {
+  .homeTask {
+    min-height: 1200px;
+  }
+}
 @media screen and (max-width: 375px) {
-  .tradeCoinHeader .userLogin .userBox a {
+  .luotsong .tradeCoinHeader .userLogin .userBox a {
     display: none;
   }
 }
