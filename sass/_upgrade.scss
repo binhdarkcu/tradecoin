@@ -32,6 +32,8 @@ $green: #65bd89;
     padding: 83px 0 65px;
     .col-md-12 {
       text-align: center;
+      display: flex;
+      justify-content: space-between;
       .colTable {
         background: #fff;
         min-height: 516px;
@@ -46,6 +48,7 @@ $green: #65bd89;
         max-width: 350px;
         width: 100%;
         margin-right: 31px;
+        transition: all .3s;
         img {
           margin-bottom: 29px;
         }
@@ -119,9 +122,8 @@ $green: #65bd89;
             }
           }
         }
-        &.active {
-          max-width: 400px;
-          min-height: 582px;
+        &:hover {
+          transform: scale(1.1);
           &.normal a {
             background: $yellow;
             color: #fff;
