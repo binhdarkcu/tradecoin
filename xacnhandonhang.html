@@ -105,50 +105,53 @@
         <div class="container">
           <div class="row">
             <div class="col-md-12">
-              <div class="blockPayments" id="chosen">
+              <div class="blockPayments chooseMethod" id="chooseMethod">
                 <div class="blockLeft">
-                  <h5>Đơn hàng</h5>
-                  <div class="level">
-                    <span>Cấp độ thường (Normal)</span>
-                    <span><b>$22</b>/tháng</span>
-                  </div>
-                  <div class="level total">
-                    <span>Tổng cộng</span>
-                    <span><b>$22</b>/tháng</span>
-                  </div>
+                  <h5>QUYỀN LỢI ĐƯỢC HƯỞNG</h5>
+                  <p>Ultricies nascetur eros mauris a habitasse est et</p>
+                  <p>Ultricies nascetur eros mauris a habitasse est et</p>
+                  <p>Ultricies nascetur eros mauris a habitasse est et</p>
+                  <p>Ultricies nascetur eros mauris a habitasse est et</p>
+                  <p>Ultricies nascetur eros mauris a habitasse est et</p>
                 </div>
                 <div class="blockRight">
                   <div class="blockRight__title">
-                    <h5>Thông tin thanh toán</h5>
+                    <h5>Đơn hàng</h5>
                     <span>Hủy đơn hàng</span>
                   </div>
-                  <div class="blockContent">
-                    <div class="blockContent_title">
-                      <a class="visa_master active" onClick="SiteMain.tabPayment('.visa_master','master')">Thẻ Visa/Master</a>
-                      <a class="coin" onClick="SiteMain.tabPayment('.coin','coinpayment')">Coinpayments</a>
-                    </div>
-                    <div class="innerRight">
-                      <div class="blockContent_inner" id="master">
-                        <img src="images/card_number.png" class="center-block card_number" alt="">
-                      </div>
-                      <div class="blockContent_inner" id="coinpayment" style="display: none">
-                        <div class="item">
-                          <span class="fLeft">Sit nascetur enim cum placerat lectus ultrices nunc, cras elementum. Sit nisi nec lacus! Turpis elementum eu nunc</span>
-                          <img src="images/coinpayment.png" alt="">
-                        </div>
-                        <p>Sit nascetur enim cum placerat lectus ultrices nunc, cras elementum. Sit nisi nec lacus! Turpis elementum eu nunc egestas, scelerisque? Ridiculus rhoncus, mattis cursus ac vel pulvinar ac, ac ac magnis ac lacus, dapibus dignissim lacus egestas placerat tristique ultricies? Egestas eu eu aliquet, natoque rhoncus! Vut pulvinar sociis, in! Aenean ridiculus nec pid, diam porta? Nec, ut lacus facilisis, integer hac adipiscing et nunc nisi nisi! Integer turpis in? Quis adipiscing ultricies ut nunc, ut a non, rhoncus diam quis lacus adipiscing turpis, sociis phasellus dolor enim etiam nisi enim</p>
-                        <div class="imgs">
-                          <img src="images/payments/small_icons/1.png" alt="">
-                          <img src="images/payments/small_icons/2.png" alt="">
-                          <img src="images/payments/small_icons/3.png" alt="">
-                          <img src="images/payments/small_icons/4.png" alt="">
-                          <img src="images/payments/small_icons/5.png" alt="">
-                          <img src="images/payments/small_icons/6.png" alt="">
-                          <img src="images/payments/small_icons/7.png" alt="">
+                  <div class="blockRight__upgradeLevel">
+                    <span>Nâng cấp thành viên cấp độ Thường (Normal)</span>
+                    <span><b>$22</b>/ tháng</span>
+                  </div>
+                  <div class="blockRight__method">
+                    <h5>Chọn hình thức thanh toán</h5>
+                    <div class="blockMethod">
+                      <div class="method1 method">
+                        <p>Thẻ Visa, Master Card:</p>
+                        <div class="blockItem">
+                          <input type="radio" name="radiog_lite" id="radio1" class="css-checkbox" />
+                          <label for="radio1" class="css-label radGroup1">
+                            <img src="images/payments/method/1.png" alt="">
+                          </label>
                         </div>
                       </div>
-                      <a class="blockContent_btn">Thanh toán</a>
+                      <div class="method2 method">
+                        <p>Thanh toán qua Coinbase:</p>
+                        <div class="blockItem">
+                          <input type="radio" name="radiog_lite" id="radio2" class="css-checkbox" />
+                          <label for="radio2" class="css-label radGroup2">
+                            <img src="images/payments/small_icons/small_1.png" alt="">
+                            <img src="images/payments/small_icons/small_2.png" alt="">
+                            <img src="images/payments/small_icons/small_3.png" alt="">
+                            <img src="images/payments/small_icons/small_4.png" alt="">
+                            <img src="images/payments/small_icons/small_5.png" alt="">
+                            <img src="images/payments/small_icons/small_6.png" alt="">
+                            <img src="images/payments/small_icons/small_7.png" alt="">
+                          </label>
+                        </div>
+                      </div>
                     </div>
+                    <a href="#">Thanh toán</a>
                   </div>
                 </div>
               </div>
@@ -232,7 +235,7 @@
                   <div class="subscribeForm">
                       <form action="" method="">
                           <input type="text" value="" placeholder="Your Email"/>
-                          <input type="submit" value="Submit" class="btn"/>
+                          <input type="submit" value="Submit" class="btn-tradecoin"/>
                       </form>
                   </div>
               </div>
