@@ -127,13 +127,11 @@ var SiteMain = (function() {
 		$('.signin,.signup').css('display','none');
 	}
 	function tabPayment(tabname,id) {
-		$(tabname).click(function() {
-			//console.log(tabname,id)
-			$('.blockContent_inner').hide();
-			$('#'+id).show()
-			$('.blockContent_title a').removeClass('active')
-			$(tabname).addClass('active')
-		})
+		//console.log(tabname,id)
+		$('.blockContent_inner').hide();
+		$('#'+id).show()
+		$('.blockContent_title a').removeClass('active')
+		$(tabname).addClass('active')
 	}
 	function switchPay() {
 		$('#btn_choose').click(function() {
