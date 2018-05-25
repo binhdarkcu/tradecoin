@@ -1,6 +1,9 @@
 
 /* ! PRIMARY STYLES */
 html, body{width:100%; }
+body.backgroundGray {
+	background: #f8f8f8;
+}
 body {
 	font: $fontArial12; color:#2d2d2d;
 	background: #fff;

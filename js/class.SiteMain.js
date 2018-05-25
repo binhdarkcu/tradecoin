@@ -176,12 +176,19 @@ var SiteMain = (function() {
 			$('.popup-vaokeo').hide()
 		})
 	}
+	function switch_tabs_holdcoin(cls,id) {
+		$('.colRight__tabs--navs a').removeClass('active')
+		$('.'+cls).addClass('active')
+		$('.colRight__tabs--content .tabs').hide();
+		$('#'+id).show()
+	}
 	return {
 		init:init,
 		openPopup:openPopup,
 		closePopup:closePopup,
 		tabPayment:tabPayment,
-		scrollDown:scrollDown
+		scrollDown:scrollDown,
+		switch_tabs_holdcoin:switch_tabs_holdcoin
 	}
 
 })();

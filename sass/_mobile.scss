@@ -20,6 +20,25 @@
 
 
 @media (min-width: 0) and (max-width: 767px) {
+  .holdCoinDetail .bgWhite .colRight__tabs--content .tabs.tab_events .article {
+    img {
+      margin-bottom: 5px;
+    }
+    .title-box {
+      width: 100% !important;
+    }
+  }
+  .holdCoinDetail {
+    .bgWhite.row {
+      padding: 33px 0;
+      .colLeft {
+        padding-left: 15px;
+        .joinGroup__members img:nth-child(4n) {
+          margin-right: 16px !important;
+        }
+      }
+    }
+  }
     footer {
       .subscribeForm {
         width: 100%;
