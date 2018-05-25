@@ -1,0 +1,182 @@
+.holdCoin {
+    &__content {
+      .commonTitle {
+        position: relative;
+        background: url('../images/holdcoin_icon.png') left center no-repeat;
+        padding-left: 45px;
+        display: table;
+        margin: 55px auto 40px;
+        padding-bottom: 0;
+      }
+      &--type {
+        margin-bottom: 35px;
+        .navs {
+          overflow: auto;
+          &-scroll {
+            width: 600px;
+          }
+          a {
+            display: inline-block;
+            padding: 10px 25px;
+            text-transform: uppercase;
+            font-weight: bold;
+            font-family: 'Montserrat-Bold';
+            border-radius: 3px;
+            color: #2b2b2b;
+            margin-left: 12px;
+            border-top: 1px solid #eeeeee;
+            border-left: 1px solid #eeeeee;
+            border-right: 1px solid #eeeeee;
+            -webkit-box-shadow: 0px 1px 8px -1px rgba(0,0,0,0.75);
+            -moz-box-shadow: 0px 1px 8px -1px rgba(0,0,0,0.75);
+            box-shadow: 0px 1px 8px -1px rgba(0,0,0,0.75);
+            background: #e6e4e4;
+            position: relative;
+            z-index: 1;
+            &.active {
+              background: #fff;
+              color: #d5d5d5;
+            }
+            &:first-child {
+              margin-left: 33px;
+            }
+          }
+        }
+        .decsription {
+          border: 1px solid #eeeeee;
+          -webkit-box-shadow: 1px 5px 15px -11px rgba(0,0,0,0.75);
+          -moz-box-shadow: 1px 5px 15px -11px rgba(0,0,0,0.75);
+          box-shadow: 1px 5px 15px -11px rgba(0,0,0,0.75);
+          padding: 25px 22px;
+          position: relative;
+          border-radius: 3px;
+          z-index: 2;
+          background: #fff;
+          .input_type {
+            width: 242px;
+            margin-right: 20px;
+            display: inline-block;
+            position: relative;
+            margin-bottom: 10px;
+            &:after {
+              content: '';
+              position: absolute;
+              width: 16px;
+              height: 10px;
+              top: 16px;
+              right: 7px;
+              background: url('../images/arrow-down-gray1.jpg') no-repeat;
+            }
+            input, select {
+              height: 40px;
+              line-height: 40px;
+            }
+            select {
+              text-transform: uppercase;
+            }
+            &.date {
+              &:after {
+                content: '';
+                position: absolute;
+                width: 15px;
+                height: 15px;
+                top: 13px;
+                background: url('../images/icon-calendar1.png') no-repeat;
+              }
+            }
+            &.list {
+              width: 200px;
+            }
+          }
+          a {
+            color: #fff;
+            font-weight: bold;
+            text-transform: uppercase;
+            background: #295395;
+            padding: 13px 50px;
+            display: inline-block;
+          }
+        }
+      }
+      &--article {
+        margin-bottom: 70px;
+        .col {
+          margin-bottom: 30px;
+          &-inner {
+            border-radius: 2px;
+            -webkit-box-shadow: 0px 1px 15px -5px rgba(0,0,0,0.75);
+            -moz-box-shadow: 0px 1px 15px -5px rgba(0,0,0,0.75);
+            box-shadow: 0px 1px 15px -5px rgba(0,0,0,0.75);
+          }
+          &-heading {
+            background: #1d2131;
+            padding: 19px 0 15px;
+            text-align: center;
+            color: #fff;
+            h5 {
+              font-weight: bold;
+              font-size: 18px;
+              margin-bottom: 7px;
+            }
+            p {
+              display: table;
+              margin: 0 auto 10px;
+              padding-right: 16px;
+              background: url('../images/fire.png') right center no-repeat;
+              margin-bottom: 5px;
+              &:last-child {
+                margin-bottom: 0;
+                padding-right: 25px;
+                background: url('../images/icon-clock.png') right center no-repeat;
+              }
+            }
+          }
+          &-content {
+            padding: 22px 0;
+            text-align: center;
+            max-width: 230px;
+            width: 90%;
+            margin: auto;
+            p {
+              margin-bottom: 20px;
+            }
+            .group-btn {
+              text-align: center;
+              a {
+                padding: 8px 20px 8px 36px;
+                color: #fff;
+                border-radius: 2px;
+                display: inline-block;
+                &:first-child {
+                  background: #ffae00 url('../images/icon-nguon.png') 15px center no-repeat;
+                }
+                &:last-child {
+                  margin-right: 0;
+                  background: #7fcd45 url('../images/icon-plus.png') 15px center no-repeat;
+                }
+              }
+            }
+          }
+          &-last {
+            border-top: 1px solid #ececec;
+            display: table;
+            width: 100%;
+            .col-last-inner {
+              padding: 13px 0;
+              text-align: center;
+              border-right: 1px solid #ececec;
+              width: 50%;
+              display: inline-block;
+              float: left;
+              p {
+                margin: 6px 0 0;
+              }
+            }
+            .col-last-inner:last-child {
+              border: 0;
+            }
+          }
+        }
+      }
+    }
+}

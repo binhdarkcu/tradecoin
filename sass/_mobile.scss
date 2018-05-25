@@ -970,3 +970,8 @@
   .luotsong .tradeCoinHeader .userLogin .userBox a {
   }
 }
+@media screen and (max-width: 640px) {
+  .holdCoin__content--article .col {
+    width: 100%;
+  }
+}
