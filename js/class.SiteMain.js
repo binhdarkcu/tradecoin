@@ -161,13 +161,9 @@ var SiteMain = (function() {
 		});
 	}
 	function scrollDown(id,sectionName) {
-		$('#'+id).click(function(e) {
-			e.preventDefault();
-			$('html, body').animate({
-        scrollTop: $('#'+sectionName).offset().top
-    }, 500);
-		return false;
-		})
+		$('html, body').animate({
+			scrollTop: $('#'+sectionName).offset().top
+		}, 500);
 	}
 	function open_popup_vaokeo() {
 		$('#vaokeo').click(function() {
