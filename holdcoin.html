@@ -30,7 +30,8 @@
 <script src="js/slick.min.js"></script>
 <script type="text/javascript" src="js/jquery-rate-picker.js"></script>
 <script src="js/moment.js"></script>
-<script type="text/javascript" src="js/bootstrap-datetimepicker.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.min.js"></script>
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.css" />
 <script src="js/class.SiteMain.js"></script>
 <!--[if lt IE 9]><script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
 </head>
@@ -510,12 +511,21 @@
 </body>
 </html>
 <script type="text/javascript">
+
   $(function () {
-    $('#fromto').datetimepicker({format: 'DD/MM/YYYY', allowInputToggle: true})
-    var date = '', date1 ='';
-    $('#fromto').on('dp.change',function(){
-      date = $('#fromto input').val()
-      console.log(date)
-    })
+    $('#fromto .form-control').daterangepicker({
+      autoUpdateInput: false,
+      locale: {
+          cancelLabel: 'Clear',
+          format: 'DD/MM/YYYY'
+      }
+    });
+    $('#fromto .form-control').on('apply.daterangepicker', function(ev, picker) {
+      $(this).val(picker.startDate.format('DD/MM/YYYY') + ' - ' + picker.endDate.format('DD/MM/YYYY'));
+    });
+
+    $('#fromto .form-control').on('cancel.daterangepicker', function(ev, picker) {
+        $(this).val('');
+    });
   });
 </script>

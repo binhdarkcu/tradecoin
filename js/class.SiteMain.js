@@ -11,6 +11,7 @@ var SiteMain = (function() {
 		copyEvent()
 		open_popup_vaokeo()
 		close_popup_vaokeo()
+		collapse_coin()
 
 		//$('.homeSlider .video-js').width($(window).width())
 	}
@@ -181,6 +182,11 @@ var SiteMain = (function() {
 		$('.'+cls).addClass('active')
 		$('.colRight__tabs--content .tabs').hide();
 		$('#'+id).show()
+	}
+	function collapse_coin() {
+		$('.theSame_common').click(function() {
+			$(this).toggleClass('active').find('.theSame--toggle').toggle()
+		})
 	}
 	return {
 		init:init,

@@ -325,6 +325,20 @@
           p {
             display: inline-block;
           }
+          &.active:after {
+            background: url('../images/icon-subtract.png') no-repeat;
+          }
+        }
+        &--toggle {
+          margin-left: 60px;
+          padding-top: 6px;
+          display: none;
+          p {
+            display: block;
+            &:last-child {
+              margin-bottom: 0;
+            }
+          }
         }
       }
     }
