@@ -99,7 +99,7 @@
               <div class="decsription">
                 <div class="tabs-content" id="for_nganhan">
                   <div class="date input_type" id="fromto">
-                    <input type="text" class="form-control" name="" value="" placeholder="From day to day">
+                    <input type="text" class="form-control" name="" value="" placeholder="25/11/2017 đến 12/05/2018">
                   </div>
                   <div class="list input_type">
                     <select class="form-control" name="">
@@ -511,8 +511,11 @@
 </html>
 <script type="text/javascript">
   $(function () {
-    $('#fromto').datetimepicker({format: 'DD/MM/YYYY', allowInputToggle: true});
-    $("#fromto").on("dp.change", function (e) {
-    });
+    $('#fromto').datetimepicker({format: 'DD/MM/YYYY', allowInputToggle: true})
+    var date = '', date1 ='';
+    $('#fromto').on('dp.change',function(){
+      date = $('#fromto input').val()
+      console.log(date)
+    })
   });
 </script>
